@@ -24,6 +24,8 @@ body { padding-top: 160px; }
 
 header { padding: 64px; display: grid; grid-template-columns: 1fr 1fr 1fr; animation: 1s ease-out 0s 1 slideInFromTop; line-height: 0.8; background-color: var(--background-color); color: var(--light-text-color); position: fixed; top: 0; transition: top 0.3s ease-in-out; left: 0px; right: 0px; z-index: 1; }
 
+header a { color: inherit; }
+
 .nav-up { top: -160px; }
 
 .title { font-weight: bold; line-height: 0.8rem; }
@@ -48,10 +50,10 @@ ul { display: flex; justify-content: space-between; list-style-type: none; margi
 
 @media only screen and (max-width: 728px) { header { padding: 32px 16px 32px 16px; grid-template-columns: 1fr 1fr; }
   .nav { display: none; }
-  .overlay .closebtn { position: absolute; top: 32px; right: 16px; } }
+  .overlay-content { grid-template-columns: 1fr 1fr; padding: 32px 16px 32px 16px; left: 0; right: 0; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { header { padding: 32px; grid-template-columns: 1fr 1fr 1fr; }
-  .overlay .closebtn { position: absolute; top: 32px; right: 32px; } }
+  .overlay-content { grid-template-columns: 1fr 1fr 1fr; padding: 32px; left: 0; right: 0; } }
 
 .nav a { display: inline; position: relative; overflow: hidden; }
 
@@ -155,5 +157,11 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; }
 .FooterLinks { text-align: right; font-size: .9rem; }
 
 @media only screen and (max-width: 728px) { footer { padding: 16px; } }
+
+.postTitle { padding: 64px; width: 40%; text-transform: uppercase; }
+
+.contentBody { margin-top: 64px; margin-left: auto; margin-right: 0; text-align: left; width: 50%; padding: 64px; }
+
+.contentBody h2 { position: absolute; right: auto; left: 64px; text-align: left; padding-right: 64px; width: 30%; }
 
 /*# sourceMappingURL=main.css.map */

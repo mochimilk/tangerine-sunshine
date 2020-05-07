@@ -31,6 +31,9 @@ header {
     left: 0px;
     right: 0px;
     z-index: 1;
+    a {
+        color: inherit;
+    }
 }
 
 .nav-up {
@@ -92,9 +95,6 @@ ul {
     right: 0;
 }
 
-
-
-
 .closebtn {
     margin-left: auto;
     margin-right: 0;
@@ -117,10 +117,12 @@ ul {
     .nav {
         display: none;
     }
-    .overlay .closebtn {
-        position: absolute;
-        top: $blockThree;
-        right: $blockTwo;
+
+    .overlay-content {
+        grid-template-columns: 1fr 1fr;
+        padding: $blockThree $blockTwo $blockThree $blockTwo;
+        left: 0;
+        right: 0;
     }
 }
 
@@ -129,9 +131,10 @@ ul {
         padding: $blockThree;
         grid-template-columns: 1fr 1fr 1fr;
     }
-    .overlay .closebtn {
-        position: absolute;
-        top: $blockThree;
-        right: $blockThree;
+    .overlay-content {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: $blockThree;
+        left: 0;
+        right: 0;
     }
 }
