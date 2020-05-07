@@ -7,6 +7,11 @@ fields:
   config:
     required: false
   label: Title
+- name: thumb
+  type: file
+  config:
+    maxSize: 64
+  label: Thumb
 - name: role
   type: text
   config:
