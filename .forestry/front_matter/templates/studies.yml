@@ -17,3 +17,5 @@ fields:
   config:
     required: false
   label: Category
+pages:
+- _posts/other-people-literary-magazine.md
