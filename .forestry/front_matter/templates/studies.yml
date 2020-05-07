@@ -22,6 +22,15 @@ fields:
   config:
     required: false
   label: Category
+- name: date
+  type: datetime
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  label: Date
 pages:
 - _posts/2020-05-07-other-people-literary-magazine.md
 - _posts/2020-05-07-winter-triton-fest-2020.md
