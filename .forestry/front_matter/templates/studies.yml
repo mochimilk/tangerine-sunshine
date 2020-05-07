@@ -31,6 +31,13 @@ fields:
     time_format: 
     display_utc: false
   label: Date
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  default: study
+  hidden: true
 pages:
 - _posts/2020-05-07-other-people-literary-magazine.md
 - _posts/2020-05-07-winter-triton-fest-2020.md
