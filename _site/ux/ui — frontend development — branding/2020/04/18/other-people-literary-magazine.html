@@ -1,1 +1,337 @@
+<!DOCTYPE html>
+<html lang="en-US">
 
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Other People Literary Magazine - eunsoo lee</title>
+  <link rel="stylesheet" href="/tangerine-sunshine/assets/css/main.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+  <header class="nav-down">
+
+    <div class="title">
+        eunsoo lee
+    </div>
+
+    <ul class="nav">
+        <li>
+            <h4>
+                <a class="first" type="button" onclick="smoothScroll(document.getElementById('second'))">Studies</a>
+            </h4>
+        </li>
+        <li>
+            <h4>
+                <a>About</a>
+            </h4>
+        </li>
+        <li>
+            <a>
+                <h4>
+                    <a id="theme-toggle" onclick="modeSwitcher()"></a>
+                </h4>
+            </a>
+        </li>
+
+    </ul>
+
+    <div class="menu" onclick="openNav()">
+
+        <?xml version="1.0" encoding="utf-8"?>
+        <!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="preserve">
+            <circle cx="240" cy="240" r="120"/>
+            <circle cx="960" cy="240" r="120"/>
+            <circle cx="240" cy="960" r="120"/>
+            <circle cx="960" cy="960" r="120"/>
+        </svg>
+
+    </div>
+
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="myNav" class="overlay">
+<div class= "overlay-content">
+    <div class="title">
+        eunsoo lee
+    </div>
+
+    <ul class="nav">
+        <li>
+            <h4>
+                <a class="first" type="button" onclick="smoothScroll(document.getElementById('second'))">Studies</a>
+            </h4>
+        </li>
+        <li>
+            <h4>
+                <a>About</a>
+            </h4>
+        </li>
+        <li>
+            <a>
+                <h4>
+                    <a id="theme-toggle" onclick="modeSwitcher()"></a>
+                </h4>
+            </a>
+        </li>
+
+    </ul>
+
+    <div href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+        <?xml version="1.0" encoding="utf-8"?>
+        <!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="preserve">
+            <circle cx="240" cy="240" r="120"/>
+            <circle cx="960" cy="240" r="120"/>
+            <circle cx="240" cy="960" r="120"/>
+            <circle cx="960" cy="960" r="120"/>
+        </svg>
+    </div>
+
+
+
+
+
+
+
+</div>
+  </div>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  // this checks whether system dark mode is set 
+let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
+// this checks for session storage telling to override
+// the system preferences 
+let theme = sessionStorage.getItem('theme');
+
+
+if (systemInitiatedDark.matches) {
+	document.getElementById("theme-toggle").innerHTML = "light mode";
+} else {
+	document.getElementById("theme-toggle").innerHTML = "dark mode";
+}
+
+
+function prefersColorTest(systemInitiatedDark) {
+  if (systemInitiatedDark.matches) {
+  	document.documentElement.setAttribute('data-theme', 'dark');		
+   	document.getElementById("theme-toggle").innerHTML = "light mode";
+   	// this clears the session storage 
+   	sessionStorage.setItem('theme', '');
+  } else {
+  	document.documentElement.setAttribute('data-theme', 'light');
+    document.getElementById("theme-toggle").innerHTML = "dark mode";
+    sessionStorage.setItem('theme', '');
+  }
+}
+systemInitiatedDark.addListener(prefersColorTest);
+
+
+function modeSwitcher() {
+// it's important to check for overrides again 
+	let theme = sessionStorage.getItem('theme');
+	// checks if reader selected dark mode 
+	if (theme === "dark") {
+		document.documentElement.setAttribute('data-theme', 'light');
+		sessionStorage.setItem('theme', 'light');
+		document.getElementById("theme-toggle").innerHTML = "dark mode";
+		// checks if reader selected light mode 
+	}	else if (theme === "light") {
+		document.documentElement.setAttribute('data-theme', 'dark');
+		sessionStorage.setItem('theme', 'dark');
+		document.getElementById("theme-toggle").innerHTML = "light mode";
+		// checks if system set dark mode 
+	} else if (systemInitiatedDark.matches) {	
+		document.documentElement.setAttribute('data-theme', 'light');
+		sessionStorage.setItem('theme', 'light');
+		document.getElementById("theme-toggle").innerHTML = "dark mode";
+		// the only option left is system set light mode
+	} else {
+		document.documentElement.setAttribute('data-theme', 'dark');
+		sessionStorage.setItem('theme', 'dark');
+		document.getElementById("theme-toggle").innerHTML = "light mode";
+	}
+}
+
+if (theme === "dark") {
+	document.documentElement.setAttribute('data-theme', 'dark');
+	sessionStorage.setItem('theme', 'dark');
+	document.getElementById("theme-toggle").innerHTML = "light mode";
+} else if (theme === "light") {
+	document.documentElement.setAttribute('data-theme', 'light');
+	sessionStorage.setItem('theme', 'light');
+	document.getElementById("theme-toggle").innerHTML = "dark mode";
+}
+</script>
+
+
+
+<script>
+    // Hide Header on on scroll down
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+var navbarHeight = $('header').outerHeight();
+
+$(window).scroll(function(event){
+    didScroll = true;
+});
+
+setInterval(function() {
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
+    }
+}, 250);
+
+function hasScrolled() {
+    var st = $(this).scrollTop();
+    
+    // Make sure they scroll more than delta
+    if(Math.abs(lastScrollTop - st) <= delta)
+        return;
+    
+    // If they scrolled down and are past the navbar, add class .nav-up.
+    // This is necessary so you never see what is "behind" the navbar.
+    if (st > lastScrollTop && st > navbarHeight){
+        // Scroll Down
+        $('header').removeClass('nav-down').addClass('nav-up');
+    } else {
+        // Scroll Up
+        if(st + $(window).height() < $(document).height()) {
+            $('header').removeClass('nav-up').addClass('nav-down');
+        }
+    }
+    
+    lastScrollTop = st;
+}
+</script>
+
+
+
+
+
+<script>
+    function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+    }
+    </script>
+
+
+
+      <script>
+    window.smoothScroll = function (target) {
+        var scrollContainer = target;
+        do { //find scroll container
+            scrollContainer = scrollContainer.parentNode;
+            if (!scrollContainer) 
+                return;
+            scrollContainer.scrollTop += 1;
+        } while (scrollContainer.scrollTop == 0);
+
+        var targetY = 0;
+        do { //find the top of target relatively to the container
+            if (target == scrollContainer) 
+                break;
+            targetY += target.offsetTop;
+        } while (target = target.offsetParent);
+
+        scroll = function (c, a, b, i) {
+            i++;
+            if (i > 10) 
+                return;
+            c.scrollTop = a + (b - a) / 10 * i;
+            setTimeout(function () {
+                scroll(c, a, b, i);
+            }, 20);
+        }
+        // start scrolling
+        scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+    }
+</script>
+
+<script>
+    $(window).scroll(function () {
+        var wScroll = $(this).scrollTop();
+        if (wScroll >= $('.StudiesModule').offset().top - ($(window).height() / 1.2)) {
+            $("body").css("background-color", "var(--light-text-color)");
+            $("body").css("color", "var(--background-color)");
+            $(".st0").css("stroke", "var(--background-color)");
+            $("svg").css("fill", "var(--background-color)");
+            $("header").css("background-color", "var(--light-text-color)");
+            $("header").css("color", "var(--background-color)");
+
+        } else {
+            $("body").css("background-color", "var(--background-color)");
+            $("body").css("color", "var(--light-text-color)");
+            $(".st0").css("stroke", "var(--light-text-color)");
+            $("svg").css("fill", "var(--light-text-color)");
+            $("header").css("background-color", "var(--background-color)");
+            $("header").css("color", "var(--light-text-color)");
+        }
+    });
+</script>
+
+
+
+
+
+
+  <p>hi</p>
+
+
+
+
+
+
+  <footer>
+    <h4>much love by eunsoo lee  © 2020</h4>
+<div class="FooterLinks">
+    <h4>
+  <a>  LinkedIn</a> —
+
+  <a>  Resume</a>
+</h4>
+</div>
+</footer>
+
+</body>
+
+</html>

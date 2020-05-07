@@ -65,25 +65,73 @@ ul {
     }
 }
 
-// here
+// MOBILENAV
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: $bodyColor;
+    color: $backgroundColor;
+    overflow-x: hidden;
+    transition: 0.3s;
+}
+
+.overlay-content {
+    position: absolute;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    line-height: 0.8;
+    padding: $blockFour;
+    left: 0;
+    right: 0;
+}
 
 
+
+
+.closebtn {
+    margin-left: auto;
+    margin-right: 0;
+    svg {
+        width: 20px;
+
+        transform: rotate(45deg);
+    }
+    circle {
+        fill: $backgroundColor;
+    }
+}
+
+// SCREENS
 @media only screen and (max-width: 728px) {
-    header{
-        padding:  $blockThree $blockTwo $blockThree $blockTwo;
+    header {
+        padding: $blockThree $blockTwo $blockThree $blockTwo;
         grid-template-columns: 1fr 1fr;
     }
-    .nav{
-        
-            display: none;
-        
+    .nav {
+        display: none;
+    }
+    .overlay .closebtn {
+        position: absolute;
+        top: $blockThree;
+        right: $blockTwo;
     }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
-    header{
-        padding:  $blockThree;
+    header {
+        padding: $blockThree;
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .overlay .closebtn {
+        position: absolute;
+        top: $blockThree;
+        right: $blockThree;
+    }
 }
-

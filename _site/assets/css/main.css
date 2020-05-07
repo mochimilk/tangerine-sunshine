@@ -36,10 +36,22 @@ ul { display: flex; justify-content: space-between; list-style-type: none; margi
 
 .menu svg:hover { transform: rotate(135deg); transition-duration: 0.3s; }
 
-@media only screen and (max-width: 728px) { header { padding: 32px 16px 32px 16px; grid-template-columns: 1fr 1fr; }
-  .nav { display: none; } }
+.overlay { height: 0%; width: 100%; position: fixed; z-index: 1; top: 0; left: 0; background-color: var(--light-text-color); color: var(--background-color); overflow-x: hidden; transition: 0.3s; }
 
-@media only screen and (max-width: 1024px) and (min-width: 729px) { header { padding: 32px; grid-template-columns: 1fr 1fr 1fr; } }
+.overlay-content { position: absolute; display: grid; grid-template-columns: 1fr 1fr 1fr; line-height: 0.8; padding: 64px; left: 0; right: 0; }
+
+.closebtn { margin-left: auto; margin-right: 0; }
+
+.closebtn svg { width: 20px; transform: rotate(45deg); }
+
+.closebtn circle { fill: var(--background-color); }
+
+@media only screen and (max-width: 728px) { header { padding: 32px 16px 32px 16px; grid-template-columns: 1fr 1fr; }
+  .nav { display: none; }
+  .overlay .closebtn { position: absolute; top: 32px; right: 16px; } }
+
+@media only screen and (max-width: 1024px) and (min-width: 729px) { header { padding: 32px; grid-template-columns: 1fr 1fr 1fr; }
+  .overlay .closebtn { position: absolute; top: 32px; right: 32px; } }
 
 .nav a { display: inline; position: relative; overflow: hidden; }
 
