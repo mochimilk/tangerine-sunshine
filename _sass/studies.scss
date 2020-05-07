@@ -1,37 +1,64 @@
-
-
 .StudiesContainer {
-    margin-top: $blockFive;
-    padding: 0 $blockFour 0 $blockFour ;
-    h2{
+
+    padding: 0 $blockFour 0 $blockFour;
+
+    h2 {
+        padding-top: $blockFour;
         margin-bottom: $blockFour;
-   
     }
 }
 
+a:visited,
+a:link {
+    text-decoration: none;
+}
 
 .StudiesModule {
     display: grid;
-    grid-template-columns: 30% 40% 30%;
+    grid-template-columns: 30% 50% 20%;
     border-style: solid;
-    border-width:   1px 0 0 0;
-
+    border-width: 1px 0 0 0;
     padding-top: $blockThree;
     padding-bottom: $blockFour;
+    color: $backgroundColor;
+    :nth-child(3) {
+        margin-left: auto;
+        margin-right: 0;
+    }
+    h1 {
+        text-decoration: none;
+    }
+}
+svg {
+    width: 30px;
+    .st0 {
+        fill: none;
 
+        stroke-width: 10rem;
+        stroke-miterlimit: 100;
+    }
 }
 
 .StudiesModule:hover {
-h1 {
-    text-decoration: underline;
+    h1 {
+        text-decoration: underline;
+    }
+    svg {
+        transform: rotate(45deg);
+        transition-duration: 0.1s;
+    }
+    img {
+        transform: scale(0.95);
+        transition-duration: 0.5s;
+    }
 }
-}
-
 
 .square {
-    height: $blockSix;
-    width: 100%;
-    background-color: rgb(110, 110, 110);
+    img {
+        width: 100%; /* width of container */
+        height: $blockSix; /* height of container */
+        object-fit: cover;
+    }
 }
 
 .StudiesInfo {
@@ -40,5 +67,69 @@ h1 {
     h4 {
         position: absolute;
         bottom: 0;
+        :nth-child(1) {
+            font-weight: bold;
+        }
+        div {
+            margin: 0;
+            padding: 0;
+            line-height: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 728px) {
+    .StudiesContainer {
+        padding: 0 $blockTwo 0 $blockTwo;
+    }
+
+    .StudiesModule {
+        display: grid;
+        grid-template-columns: 1fr;
+        svg {
+            margin-bottom: -$blockThree;
+        }
+    }
+
+    .StudiesInfo {
+        margin-top: $blockTwo;
+        position: relative;
+        margin-left: 0;
+        h4 {
+            position: relative;
+            padding: $blockThree 0 $blockThree 0;
+        }
+    }
+
+
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 729px) {
+    .StudiesContainer {
+        padding: 0 $blockThree 0 $blockThree;
+    }
+
+    .StudiesModule {
+        display: grid;
+        grid-template-columns: 1fr;
+        svg {
+            margin-bottom: -$blockThree;
+        }
+    }
+
+    .StudiesInfo {
+        margin-top: $blockTwo;
+        position: relative;
+        margin-left: 0;
+        h4 {
+            position: relative;
+            padding: $blockThree 0 $blockThree 0;
+        }
+    }
+
+    .square {
+        img {
+            height: $blockSeven; /* height of container */
+        }
     }
 }

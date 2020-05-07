@@ -6,7 +6,9 @@ h1 { padding: 0; margin: 0; font-size: 3.5rem; }
 
 h2 { padding: 0; margin: 0; font-size: 2rem; text-transform: uppercase; }
 
-h4 { padding: 0; margin: 0; margin-top: 0px; font-size: .8rem; line-height: .8rem; font-weight: normal; text-transform: uppercase; }
+h4 { padding: 0; margin: 0; margin-top: 0px; font-size: 0.8rem; line-height: 0.8rem; font-weight: normal; text-transform: uppercase; }
+
+@media only screen and (max-width: 728px) { h1 { font-size: 3rem; } }
 
 html, html[data-theme="light"] { --background-color: #efedea; --light-text-color: #151515; --link-color: rgb(0, 112, 201); --main-background-color: rgb(255, 255, 255); --main-text-color: rgb(51, 51, 51); }
 
@@ -18,7 +20,11 @@ html[data-theme="dark"] { --background-color: #151515; --light-text-color: #efed
 @keyframes slideInFromTop { 0% { transform: translateY(-100%); }
   100% { transform: translateY(0); } }
 
-header { padding: 64px; display: grid; grid-template-columns: 1fr 1fr 1fr; animation: 1s ease-out 0s 1 slideInFromTop; line-height: 0.8; }
+body { padding-top: 160px; }
+
+header { padding: 64px; display: grid; grid-template-columns: 1fr 1fr 1fr; animation: 1s ease-out 0s 1 slideInFromTop; line-height: 0.8; background-color: var(--background-color); color: var(--light-text-color); position: fixed; top: 0; transition: top 0.3s ease-in-out; left: 0px; right: 0px; z-index: 1; }
+
+.nav-up { top: -160px; }
 
 .title { font-weight: bold; line-height: 0.8rem; }
 
@@ -26,9 +32,18 @@ ul { display: flex; justify-content: space-between; list-style-type: none; margi
 
 .menu { margin-left: auto; margin-right: 0; }
 
+.menu svg { width: 20px; cursor: pointer; fill: var(--light-text-color); }
+
+.menu svg:hover { transform: rotate(135deg); transition-duration: 0.3s; }
+
+@media only screen and (max-width: 728px) { header { padding: 32px 16px 32px 16px; grid-template-columns: 1fr 1fr; }
+  .nav { display: none; } }
+
+@media only screen and (max-width: 1024px) and (min-width: 729px) { header { padding: 32px; grid-template-columns: 1fr 1fr 1fr; } }
+
 .nav a { display: inline; position: relative; overflow: hidden; }
 
-.nav a:after { content: ""; position: absolute; z-index: -1; right: 0; width: 0; bottom: -3px; background: black; height: 1px; transition-property: width; transition-duration: 0.3s; transition-timing-function: ease-out; }
+.nav a:after { content: ""; position: absolute; z-index: -1; right: 0; width: 0; bottom: -3px; background: var(--light-text-color); height: 1px; transition-property: width; transition-duration: 0.3s; transition-timing-function: ease-out; }
 
 .nav a:hover:after, .nav a:focus:after, .nav a:active:after { left: 0; right: auto; width: 100%; }
 
@@ -43,7 +58,13 @@ ul { display: flex; justify-content: space-between; list-style-type: none; margi
     transform: translateY(100%); }
   to { opacity: 1; } }
 
-.IndexIntro { margin-top: 256px; padding: 0 64px 0 64px; }
+.IndexContainer { height: 100vh; margin-bottom: -160px; }
+
+.IndexIntro { position: absolute; bottom: 64px; padding: 0 64px 0 64px; left: 0; right: 0; }
+
+.IndexIntro svg { width: 30px; }
+
+.IndexIntro svg .st0 { fill: none; stroke: var(--light-text-color); stroke-width: 10rem; stroke-miterlimit: 100; }
 
 .IndexIntro a { display: inline; position: relative; overflow: hidden; cursor: pointer; }
 
@@ -51,20 +72,76 @@ ul { display: flex; justify-content: space-between; list-style-type: none; margi
 
 .IndexIntro a:hover:after, .IndexIntro a:focus:after, .IndexIntro a:active:after { right: 0; left: auto; width: 0%; }
 
-.ExploreStudies { margin-top: 64px; text-align: right; }
+.IndexIntro a:hover svg { transform: rotate(45deg); transition-duration: 0.1s; }
 
-.StudiesContainer { margin-top: 128px; padding: 0 64px 0 64px; }
+.ExploreStudies { margin-top: 64px; display: inline-flex; align-self: center; cursor: pointer; float: right; }
 
-.StudiesContainer h2 { margin-bottom: 64px; }
+@media only screen and (max-width: 728px) { .IndexIntro { margin-top: 256px; padding: 0 16px 0 16px; bottom: 32px; }
+  .IndexIntro a { text-decoration: underline; }
+  .IndexIntro a:after { display: none; } }
 
-.StudiesModule { display: grid; grid-template-columns: 30% 40% 30%; border-style: solid; border-width: 1px 0 0 0; padding-top: 32px; padding-bottom: 64px; }
+@media only screen and (max-width: 1024px) and (min-width: 729px) { .IndexIntro { margin-top: 256px; padding: 0 32px 0 32px; bottom: 32px; }
+  .IndexIntro a { text-decoration: underline; }
+  .IndexIntro a:after { display: none; } }
+
+@media screen and (min-width: 2400px) { .IndexIntro { width: 65%; margin: auto; }
+  body { margin: auto; width: 70%; } }
+
+.StudiesContainer { padding: 0 64px 0 64px; }
+
+.StudiesContainer h2 { padding-top: 64px; margin-bottom: 64px; }
+
+a:visited, a:link { text-decoration: none; }
+
+.StudiesModule { display: grid; grid-template-columns: 30% 50% 20%; border-style: solid; border-width: 1px 0 0 0; padding-top: 32px; padding-bottom: 64px; color: var(--background-color); }
+
+.StudiesModule :nth-child(3) { margin-left: auto; margin-right: 0; }
+
+.StudiesModule h1 { text-decoration: none; }
+
+svg { width: 30px; }
+
+svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 
 .StudiesModule:hover h1 { text-decoration: underline; }
 
-.square { height: 256px; width: 100%; background-color: #6e6e6e; }
+.StudiesModule:hover svg { transform: rotate(45deg); transition-duration: 0.1s; }
+
+.StudiesModule:hover img { transform: scale(0.95); transition-duration: 0.5s; }
+
+.square img { width: 100%; /* width of container */ height: 256px; /* height of container */ object-fit: cover; }
 
 .StudiesInfo { position: relative; margin-left: 64px; }
 
 .StudiesInfo h4 { position: absolute; bottom: 0; }
+
+.StudiesInfo h4 :nth-child(1) { font-weight: bold; }
+
+.StudiesInfo h4 div { margin: 0; padding: 0; line-height: 0; }
+
+@media only screen and (max-width: 728px) { .StudiesContainer { padding: 0 16px 0 16px; }
+  .StudiesModule { display: grid; grid-template-columns: 1fr; }
+  .StudiesModule svg { margin-bottom: -32px; }
+  .StudiesInfo { margin-top: 16px; position: relative; margin-left: 0; }
+  .StudiesInfo h4 { position: relative; padding: 32px 0 32px 0; } }
+
+@media only screen and (max-width: 1024px) and (min-width: 729px) { .StudiesContainer { padding: 0 32px 0 32px; }
+  .StudiesModule { display: grid; grid-template-columns: 1fr; }
+  .StudiesModule svg { margin-bottom: -32px; }
+  .StudiesInfo { margin-top: 16px; position: relative; margin-left: 0; }
+  .StudiesInfo h4 { position: relative; padding: 32px 0 32px 0; }
+  .square img { height: 512px; /* height of container */ } }
+
+.AboutContainer { margin-top: 128px; padding: 0 64px 0 64px; }
+
+.AboutContainer h2 { padding-top: 64px; margin-bottom: 64px; }
+
+a:visited, a:link { text-decoration: none; }
+
+footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; }
+
+.FooterLinks { text-align: right; font-size: .9rem; }
+
+@media only screen and (max-width: 728px) { footer { padding: 16px; } }
 
 /*# sourceMappingURL=main.css.map */

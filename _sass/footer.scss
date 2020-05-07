@@ -1,0 +1,21 @@
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+  
+padding: $blockFour;
+
+}
+
+.FooterLinks {
+    text-align: right;
+    font-size: .9rem;
+}
+
+
+@media only screen and (max-width: 728px) {
+    footer {
+        padding: $blockTwo;   
+    }
+}

@@ -1,31 +1,87 @@
-<header>
-
+<header class="nav-down">
 
     <div class="title">
         eunsoo lee
     </div>
 
-
     <ul class="nav">
         <li>
-            <h4><a>Studies</a></h4>
+            <h4>
+                <a class="first" type="button" onclick="smoothScroll(document.getElementById('second'))">Studies</a>
+            </h4>
         </li>
         <li>
-            <h4><a>About</a></h4>
+            <h4>
+                <a>About</a>
+            </h4>
         </li>
-        <li><a>
-                <h4><a id="theme-toggle" onclick="modeSwitcher()"></a></h4>
-            </a></li>
-    
+        <li>
+            <a>
+                <h4>
+                    <a id="theme-toggle" onclick="modeSwitcher()"></a>
+                </h4>
+            </a>
+        </li>
+
     </ul>
 
-
     <div class="menu">
-        menu
+
+        <?xml version="1.0" encoding="utf-8"?>
+        <!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="preserve">
+            <circle cx="240" cy="240" r="120"/>
+            <circle cx="960" cy="240" r="120"/>
+            <circle cx="240" cy="960" r="120"/>
+            <circle cx="960" cy="960" r="120"/>
+        </svg>
+
     </div>
 
 </header>
 
-
-
 {% include darkmode.html %}
+
+
+
+<script>
+    // Hide Header on on scroll down
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+var navbarHeight = $('header').outerHeight();
+
+$(window).scroll(function(event){
+    didScroll = true;
+});
+
+setInterval(function() {
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
+    }
+}, 250);
+
+function hasScrolled() {
+    var st = $(this).scrollTop();
+    
+    // Make sure they scroll more than delta
+    if(Math.abs(lastScrollTop - st) <= delta)
+        return;
+    
+    // If they scrolled down and are past the navbar, add class .nav-up.
+    // This is necessary so you never see what is "behind" the navbar.
+    if (st > lastScrollTop && st > navbarHeight){
+        // Scroll Down
+        $('header').removeClass('nav-down').addClass('nav-up');
+    } else {
+        // Scroll Up
+        if(st + $(window).height() < $(document).height()) {
+            $('header').removeClass('nav-up').addClass('nav-down');
+        }
+    }
+    
+    lastScrollTop = st;
+}
+</script>

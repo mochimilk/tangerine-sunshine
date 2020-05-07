@@ -1,8 +1,24 @@
+.IndexContainer {
+    height: 100vh;
+margin-bottom: -160px;
+}
+
 .IndexIntro {
-    margin-top: $blockSix;
+    position: absolute;
+    bottom: $blockFour;
     padding: 0 $blockFour 0 $blockFour;
+    left: 0;
+    right: 0;
 
-
+    svg {
+        width: 30px;
+        .st0 {
+            fill: none;
+            stroke: $bodyColor;
+            stroke-width: 10rem;
+            stroke-miterlimit: 100;
+        }
+    }
     a {
         display: inline;
         position: relative;
@@ -31,9 +47,62 @@
         left: auto;
         width: 0%;
     }
+
+    a:hover {
+        svg {
+            transform: rotate(45deg);
+            transition-duration: 0.1s;
+        }
+    }
 }
 
 .ExploreStudies {
     margin-top: $blockFour;
-    text-align: right;
+    display: inline-flex;
+    align-self: center;
+    cursor: pointer;
+float: right;
+}
+
+
+@media only screen and (max-width: 728px) {
+    .IndexIntro {
+        margin-top: $blockSix;
+        padding: 0 $blockTwo 0 $blockTwo;
+        bottom: $blockThree;
+        a {text-decoration: underline;}
+        a:after {
+            display: none ;
+        }
+}
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 729px) {
+
+    .IndexIntro {
+        margin-top: $blockSix;
+        padding: 0 $blockThree 0 $blockThree;
+        bottom: $blockThree;
+        a {text-decoration: underline;}
+        a:after {
+            display: none ;
+        }
+}
+}
+
+
+
+
+
+@media screen and (min-width: 2400px) {
+
+    .IndexIntro {
+        width: 65%;
+        margin: auto;
+  
+    }
+    body {
+        margin: auto;
+        width: 70%;
+    }
 }

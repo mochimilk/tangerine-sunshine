@@ -1,0 +1,13 @@
+.AboutContainer {
+    margin-top: $blockFive;
+    padding: 0 $blockFour 0 $blockFour;
+    h2 {
+        padding-top: $blockFour;
+        margin-bottom: $blockFour;
+    }
+}
+
+a:visited,
+a:link {
+    text-decoration: none;
+}

@@ -12,12 +12,29 @@
     }
 }
 
+body {
+    padding-top: 160px;
+}
+
 header {
     padding: $blockFour;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     animation: 1s ease-out 0s 1 slideInFromTop;
     line-height: 0.8;
+    background-color: $backgroundColor;
+    color: $bodyColor;
+
+    position: fixed;
+    top: 0;
+    transition: top 0.3s ease-in-out;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+.nav-up {
+    top: -160px;
 }
 
 .title {
@@ -37,4 +54,36 @@ ul {
 .menu {
     margin-left: auto;
     margin-right: 0;
+    svg {
+        width: 20px;
+        cursor: pointer;
+        fill: $bodyColor;
+    }
+    svg:hover {
+        transform: rotate(135deg);
+        transition-duration: 0.3s;
+    }
 }
+
+// here
+
+
+@media only screen and (max-width: 728px) {
+    header{
+        padding:  $blockThree $blockTwo $blockThree $blockTwo;
+        grid-template-columns: 1fr 1fr;
+    }
+    .nav{
+        
+            display: none;
+        
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 729px) {
+    header{
+        padding:  $blockThree;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
