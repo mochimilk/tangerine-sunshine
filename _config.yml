@@ -1,0 +1,3 @@
+url: "https://leeunsu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/tangerine-sunshine" # the subpath of your site, e.g. /blog
+title: "eunsoo lee" # the name of your site, e.g. ACME Corp.

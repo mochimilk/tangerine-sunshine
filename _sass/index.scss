@@ -1,0 +1,39 @@
+.IndexIntro {
+    margin-top: $blockSix;
+    padding: 0 $blockFour 0 $blockFour;
+
+
+    a {
+        display: inline;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    a:after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        width: 100%;
+        bottom: -3px;
+        // background: linear-gradient(90deg, rgba(255,0,243,1) 0%, rgba(121,9,118,1) 50%, rgba(0,212,255,1) 100%);
+        background-color: $bodyColor;
+        height: 4px;
+        transition-property: width;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-out;
+        border-radius: 25px;
+    }
+    a:hover:after,
+    a:focus:after,
+    a:active:after {
+        right: 0;
+        left: auto;
+        width: 0%;
+    }
+}
+
+.ExploreStudies {
+    margin-top: $blockFour;
+    text-align: right;
+}

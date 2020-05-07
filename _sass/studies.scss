@@ -1,0 +1,44 @@
+
+
+.StudiesContainer {
+    margin-top: $blockFive;
+    padding: 0 $blockFour 0 $blockFour ;
+    h2{
+        margin-bottom: $blockFour;
+   
+    }
+}
+
+
+.StudiesModule {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    border-style: solid;
+    border-width:   1px 0 0 0;
+
+    padding-top: $blockThree;
+    padding-bottom: $blockFour;
+
+}
+
+.StudiesModule:hover {
+h1 {
+    text-decoration: underline;
+}
+}
+
+
+.square {
+    height: $blockSix;
+    width: 100%;
+    background-color: rgb(110, 110, 110);
+}
+
+.StudiesInfo {
+    position: relative;
+    margin-left: $blockFour;
+    h4 {
+        position: absolute;
+        bottom: 0;
+    }
+}

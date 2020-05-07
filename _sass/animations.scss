@@ -1,0 +1,68 @@
+.nav {
+    a {
+        display: inline;
+        position: relative;
+        overflow: hidden;
+    }
+    a:after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        right: 0;
+        width: 0;
+        bottom: -3px;
+        // background: linear-gradient(90deg, rgba(255,0,243,1) 0%, rgba(121,9,118,1) 50%, rgba(0,212,255,1) 100%);
+
+        background: black;
+        height: 1px;
+        transition-property: width;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-out;
+    }
+    a:hover:after,
+    a:focus:after,
+    a:active:after {
+        left: 0;
+        right: auto;
+        width: 100%;
+    }
+}
+
+
+
+
+
+/**
+ * cssanimation.css
+ * https://www.cssanimatio.io
+ * Created and maintained by: Pavel
+ * Find me at: https://www.linkedin.com/in/yesiamrocks/
+ * Email: hello@cssanimation.io
+ * Github: https://github.com/yesiamrocks/cssanimation.io
+ * Title: A CSS Animation Library for Developers and Ninjas
+ * Copyright (c) 2017 Pavel
+ * License: cssanimation.io is licensed under the MIT license
+ **/
+
+
+
+
+
+
+
+.cssanimation, .cssanimation span {
+
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.cssanimation span { display: inline-block }
+
+.fadeInBottom { animation-name: fadeInBottom }
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
+}

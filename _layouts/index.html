@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  {% include header.html %}
+
+
+  <div class="IndexIntro">
+    <h1 class="cssanimation sequence fadeInBottom">
+      Product Designer from La Jolla, CA.
+      <br>
+      Currently at <a>Other People</a>
+      <br>
+      Previously at <a>A.S. Graphic Studio</a>
+
+    </h1>
+
+
+
+    <div class="ExploreStudies">
+      <h4 class= "cssanimation sequence fadeInBottom">Explore Studies</h4>
+    </div>
+  </div>
+
+
+
+  {% include studies.html %}
+
+
+  {{ content}}
+
+
+
+
+
+
+   <script>
+     $(window).scroll(function(){
+  var wScroll = $(this).scrollTop();
+
+if(wScroll >= $('.StudiesModule').offset().top - ($(window).height() / 1.2 ) ){
+  $("body").css("background-color", "var(--light-text-color)");
+  $("body").css("color", "var(--background-color)");
+
+}else{
+  $("body").css("background-color", "var(--background-color)");
+  $("body").css("color", "var(--light-text-color)");
+
+}
+
+});
+   </script>
+</body>
+
+</html>

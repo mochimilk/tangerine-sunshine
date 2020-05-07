@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Home - </title>
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <header>
+
+
+    <div class="title">
+        eunsoo lee
+    </div>
+
+
+    <ul class="nav">
+        <li>
+            <h4><a>Studies</a></h4>
+        </li>
+        <li>
+            <h4><a>About</a></h4>
+        </li>
+        <li><a>
+                <h4><a id="theme-toggle" onclick="modeSwitcher()"></a></h4>
+            </a></li>
+    
+    </ul>
+
+
+    <div class="menu">
+        menu
+    </div>
+
+</header>
+
+
+
+<script>
+  // this checks whether system dark mode is set 
+let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
+// this checks for session storage telling to override
+// the system preferences 
+let theme = sessionStorage.getItem('theme');
+
+
+if (systemInitiatedDark.matches) {
+	document.getElementById("theme-toggle").innerHTML = "light mode";
+} else {
+	document.getElementById("theme-toggle").innerHTML = "dark mode";
+}
+
+
+function prefersColorTest(systemInitiatedDark) {
+  if (systemInitiatedDark.matches) {
+  	document.documentElement.setAttribute('data-theme', 'dark');		
+   	document.getElementById("theme-toggle").innerHTML = "light mode";
+   	// this clears the session storage 
+   	sessionStorage.setItem('theme', '');
+  } else {
+  	document.documentElement.setAttribute('data-theme', 'light');
+    document.getElementById("theme-toggle").innerHTML = "dark mode";
+    sessionStorage.setItem('theme', '');
+  }
+}
+systemInitiatedDark.addListener(prefersColorTest);
+
+
+function modeSwitcher() {
+// it's important to check for overrides again 
+	let theme = sessionStorage.getItem('theme');
+	// checks if reader selected dark mode 
+	if (theme === "dark") {
+		document.documentElement.setAttribute('data-theme', 'light');
+		sessionStorage.setItem('theme', 'light');
+		document.getElementById("theme-toggle").innerHTML = "dark mode";
+		// checks if reader selected light mode 
+	}	else if (theme === "light") {
+		document.documentElement.setAttribute('data-theme', 'dark');
+		sessionStorage.setItem('theme', 'dark');
+		document.getElementById("theme-toggle").innerHTML = "light mode";
+		// checks if system set dark mode 
+	} else if (systemInitiatedDark.matches) {	
+		document.documentElement.setAttribute('data-theme', 'light');
+		sessionStorage.setItem('theme', 'light');
+		document.getElementById("theme-toggle").innerHTML = "dark mode";
+		// the only option left is system set light mode
+	} else {
+		document.documentElement.setAttribute('data-theme', 'dark');
+		sessionStorage.setItem('theme', 'dark');
+		document.getElementById("theme-toggle").innerHTML = "light mode";
+	}
+}
+
+if (theme === "dark") {
+	document.documentElement.setAttribute('data-theme', 'dark');
+	sessionStorage.setItem('theme', 'dark');
+	document.getElementById("theme-toggle").innerHTML = "light mode";
+} else if (theme === "light") {
+	document.documentElement.setAttribute('data-theme', 'light');
+	sessionStorage.setItem('theme', 'light');
+	document.getElementById("theme-toggle").innerHTML = "dark mode";
+}
+</script>
+
+
+  <div class="IndexIntro">
+    <h1 class="cssanimation sequence fadeInBottom">
+      Product Designer from La Jolla, CA.
+      <br>
+      Currently at <a>Other People</a>
+      <br>
+      Previously at <a>A.S. Graphic Studio</a>
+
+    </h1>
+
+
+
+    <div class="ExploreStudies">
+      <h4 class= "cssanimation sequence fadeInBottom">Explore Studies</h4>
+    </div>
+  </div>
+
+
+
+  <div class="StudiesContainer">
+    <h2>Studies</h2>
+    <div class="StudiesModule">
+        <div class="square"></div>
+        <div class="StudiesInfo">
+            <h1>LOREM TITLE</h1>
+            <h4>
+                Role List — Role List<br><br>
+                Helloo
+            </h4>
+        </div>
+    </div>
+</div>
+
+
+  
+
+
+
+
+
+
+
+   <script>
+     $(window).scroll(function(){
+  var wScroll = $(this).scrollTop();
+
+if(wScroll >= $('.StudiesModule').offset().top - ($(window).height() / 1.2 ) ){
+  $("body").css("background-color", "var(--light-text-color)");
+  $("body").css("color", "var(--background-color)");
+
+}else{
+  $("body").css("background-color", "var(--background-color)");
+  $("body").css("color", "var(--light-text-color)");
+
+}
+
+});
+   </script>
+</body>
+
+</html>
