@@ -8,6 +8,8 @@ h2 { padding: 0; margin: 0; font-size: 2rem; text-transform: uppercase; }
 
 h4 { padding: 0; margin: 0; margin-top: 0px; font-size: 0.8rem; line-height: 0.8rem; font-weight: normal; text-transform: uppercase; }
 
+p { line-height: 1.5rem; }
+
 @media only screen and (max-width: 728px) { h1 { font-size: 3rem; } }
 
 html, html[data-theme="light"] { --background-color: #efedea; --light-text-color: #151515; --link-color: rgb(0, 112, 201); --main-background-color: rgb(255, 255, 255); --main-text-color: rgb(51, 51, 51); }
@@ -158,10 +160,35 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; }
 
 @media only screen and (max-width: 728px) { footer { padding: 16px; } }
 
-.postTitle { padding: 64px; width: 40%; text-transform: uppercase; }
+@media only screen and (max-width: 1024px) and (min-width: 729px) { footer { padding: 32px; } }
 
-.contentBody { margin-top: 64px; margin-left: auto; margin-right: 0; text-align: left; width: 50%; padding: 64px; }
+.studyIntro { height: 100vh; margin-top: -160px; }
+
+.postTitle { display: grid; grid-template-columns: 1fr 1fr; position: absolute; bottom: 64px; border-style: solid; border-width: 0 0 1px 0; padding-bottom: 32px; left: 64px; right: 64px; }
+
+.postTitle h4 { padding-top: 16px; bottom: 0; }
+
+.postDate { text-align: right; position: absolute; bottom: 32px; margin-bottom: 8px; right: 0; }
+
+.contentBody { margin-left: auto; margin-right: 0; text-align: left; width: 50%; padding: 64px; }
 
 .contentBody h2 { position: absolute; right: auto; left: 64px; text-align: left; padding-right: 64px; width: 30%; }
+
+.contentBody h2, .contentBody h3, .contentBody h4, .contentBody p { margin-top: 64px; }
+
+.studyImage { width: 100%; position: absolute; }
+
+.studyImage img { width: 100%; }
+
+@media only screen and (max-width: 728px) { .postTitle { display: grid; grid-template-columns: 1fr; left: 16px; right: 16px; bottom: 32px; }
+  .postDate { text-align: left; margin-top: 32px; position: relative; right: 0; bottom: 0; }
+  .contentBody { margin-left: 0; margin-right: 0; left: 0; right: 0; width: initial; padding: 16px; }
+  .contentBody h2 { position: relative; right: 0; left: 0; text-align: left; padding-right: 0; width: 100%; }
+  .contentBody h2, .contentBody h3, .contentBody h4, .contentBody p { margin-top: 16px; } }
+
+@media only screen and (max-width: 1024px) and (min-width: 729px) { .postTitle { left: 32px; right: 32px; bottom: 32px; }
+  .contentBody { margin-left: 0; margin-right: 0; left: 0; right: 0; width: initial; padding: 32px; }
+  .contentBody h2 { position: relative; right: 0; left: 0; text-align: left; padding-right: 0; width: 100%; }
+  .contentBody h2, .contentBody h3, .contentBody h4, .contentBody p { margin-top: 32px; } }
 
 /*# sourceMappingURL=main.css.map */

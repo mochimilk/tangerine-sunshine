@@ -3,19 +3,45 @@
 //     border-width: 1px;
 // }
 
-
-.postTitle {
-    padding: $blockFour;
-    width: 40%;
-    text-transform: uppercase;
+.studyIntro {
+    height: 100vh;
+    margin-top: -160px;
 }
 
-.contentBody {margin-top: $blockFour;
+.postTitle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    position: absolute;
+    bottom: $blockFour;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    padding-bottom: $blockThree;
+    left: $blockFour;
+    right: $blockFour;
+    h1 {
+    }
+    h4 {
+        padding-top: $blockTwo;
+        bottom: 0;
+    }
+}
+
+.postDate {
+    text-align: right;
+    position: absolute;
+    bottom: $blockThree;
+    margin-bottom: $blockOne;
+    right: 0;
+}
+
+.contentBody {
     margin-left: auto;
     margin-right: 0;
     text-align: left;
     width: 50%;
     padding: $blockFour;
+
     h2 {
         position: absolute;
         right: auto;
@@ -24,4 +50,99 @@
         padding-right: $blockFour;
         width: 30%;
     }
+    h2,
+    h3,
+    h4,
+    p {
+        margin-top: $blockFour;
+    }
+}
+
+.studyImage {
+    width: 100%;
+    position: absolute;
+
+    img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 728px) {
+    .postTitle {
+        display: grid;
+        grid-template-columns: 1fr;
+        left: $blockTwo;
+        right: $blockTwo;
+        bottom: $blockThree;
+    }
+
+    .postDate {
+        text-align: left;
+        margin-top: $blockThree;
+        position: relative;
+        right: 0;
+        bottom: 0;
+    }
+
+    .contentBody {
+        margin-left: 0;
+        margin-right: 0;
+        left: 0;
+        right: 0;
+        width: initial;
+        padding: $blockTwo;
+
+        h2 {
+            position: relative;
+            right: 0;
+            left: 0;
+            text-align: left;
+            padding-right: 0;
+            width: 100%;
+        }
+        h2,
+        h3,
+        h4,
+        p {
+            margin-top: $blockTwo;
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 729px) {
+    .postTitle {
+
+        left: $blockThree;
+        right: $blockThree;
+        bottom: $blockThree;
+    }
+
+
+
+    .contentBody {
+        margin-left: 0;
+        margin-right: 0;
+        left: 0;
+        right: 0;
+        width: initial;
+        padding: $blockThree;
+
+        h2 {
+            position: relative;
+            right: 0;
+            left: 0;
+            text-align: left;
+            padding-right: 0;
+            width: 100%;
+        }
+        h2,
+        h3,
+        h4,
+        p {
+            margin-top: $blockThree;
+        }
+    }
+
+
+
 }

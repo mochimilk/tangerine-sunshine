@@ -14,29 +14,74 @@
 
 <body>
 
+
+
   {% include header.html %}
 
 
 
-      {% include javaScroll.html %}
+
+<div class="cssanimation sequence fadeInBottom">
+  <div class="studyIntro">
+    <div class="postTitle">
+      <div >
+        <h1>{{ page.title | escape }}</h1>
+        <h4><b> {{ page.role }}</b><br><br>{{ page.category }}
+          <br><br> </h4>
+      </div>
+
+
+
+      <div class="postDate">
+        <h2>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {{ page.date | date: date_format }}
+        </time>
+        {%- if page.modified_date -%}
+        ~
+        {%- assign mdate = page.modified_date | date_to_xmlschema -%}
+        <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
+          {{ mdate | date: date_format }}
+        </time>
+        {%- endif -%}
+
+
+<h4>
+        {% include minsread.html %}</h4>
+
+      </div>
+
+    </h2>
+ 
+    </div>
 
 
 
 
-<div class="postTitle" ><h1>{{ page.title | escape }}</h1></div>
-<div class="contentBody">
+  </div>
+</div>
 
+<div class="hello"></div>
 
+  <div class="contentBody">
 
-  {{ content}}
+    {{ content }}
 
   </div>
 
-
-
-
+  {% include javaScrollStudy.html %}
 
   {% include footer.html %}
+
+
+
+
+
+
+
+  
+
 
 </body>
 

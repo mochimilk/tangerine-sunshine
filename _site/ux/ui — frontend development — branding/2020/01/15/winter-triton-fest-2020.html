@@ -14,6 +14,8 @@
 
 <body>
 
+
+
   <header class="nav-down">
 
     <div class="title">
@@ -257,7 +259,83 @@ function hasScrolled() {
 
 
 
-      <script>
+
+<div class="cssanimation sequence fadeInBottom">
+  <div class="studyIntro">
+    <div class="postTitle">
+      <div >
+        <h1>Winter Triton Fest 2020</h1>
+        <h4><b> Visual Designer — Web Developer</b><br><br>UX/UI — Frontend Development — Branding
+          <br><br> </h4>
+      </div>
+
+
+
+      <div class="postDate">
+        <h2><time class="dt-published" datetime="2020-01-15T20:00:00-08:00" itemprop="datePublished">
+          Jan 15, 2020
+        </time><h4>
+                    
+            
+              1 min
+             read
+</h4>
+
+      </div>
+
+    </h2>
+ 
+    </div>
+
+
+
+
+  </div>
+</div>
+
+<div class="hello"></div>
+
+  <div class="contentBody">
+
+    <p>Hi</p>
+
+
+  </div>
+
+  
+
+<script>
+    $(window).scroll(function () {
+        var wScroll = $(this).scrollTop();
+        if (wScroll >= $('.hello').offset().top - ($(window).height() / 1.2)) {
+
+
+
+
+                        $("body").css("background-color", "var(--light-text-color)");
+            $("body").css("color", "var(--background-color)");
+            $(".st0").css("stroke", "var(--background-color)");
+            $("svg").css("fill", "var(--background-color)");
+            $("header").css("background-color", "var(--light-text-color)");
+            $("header").css("color", "var(--background-color)");
+     
+        } else {
+       $("body").css("background-color", "var(--background-color)");
+            $("body").css("color", "var(--light-text-color)");
+            $(".st0").css("stroke", "var(--light-text-color)");
+            $("svg").css("fill", "var(--light-text-color)");
+            $("header").css("background-color", "var(--background-color)");
+            $("header").css("color", "var(--light-text-color)");
+
+        }
+    });
+</script>
+
+
+
+
+
+<script>
     window.smoothScroll = function (target) {
         var scrollContainer = target;
         do { //find scroll container
@@ -288,45 +366,6 @@ function hasScrolled() {
     }
 </script>
 
-<script>
-    $(window).scroll(function () {
-        var wScroll = $(this).scrollTop();
-        if (wScroll >= $('.StudiesModule').offset().top - ($(window).height() / 1.2)) {
-            $("body").css("background-color", "var(--light-text-color)");
-            $("body").css("color", "var(--background-color)");
-            $(".st0").css("stroke", "var(--background-color)");
-            $("svg").css("fill", "var(--background-color)");
-            $("header").css("background-color", "var(--light-text-color)");
-            $("header").css("color", "var(--background-color)");
-
-        } else {
-            $("body").css("background-color", "var(--background-color)");
-            $("body").css("color", "var(--light-text-color)");
-            $(".st0").css("stroke", "var(--light-text-color)");
-            $("svg").css("fill", "var(--light-text-color)");
-            $("header").css("background-color", "var(--background-color)");
-            $("header").css("color", "var(--light-text-color)");
-        }
-    });
-</script>
-
-
-
-
-<div class="postTitle" ><h1>Winter Triton Fest 2020</h1></div>
-<div class="contentBody">
-
-
-
-  <p>Hi</p>
-
-
-  </div>
-
-
-
-
-
   <footer>
     <h4>much love by eunsoo lee  © 2020</h4>
 <div class="FooterLinks">
@@ -337,6 +376,15 @@ function hasScrolled() {
 </h4>
 </div>
 </footer>
+
+
+
+
+
+
+
+  
+
 
 </body>
 
