@@ -69,15 +69,20 @@ float: right;
     .IndexIntro {
         margin-top: $blockSix;
         padding: 0 $blockTwo 0 $blockTwo;
-        bottom: $blockThree;
+        bottom: $blockTwo;
         a {text-decoration: underline;}
         a:after {
             display: none ;
         }
 }
+
+.ExploreStudies {
+    margin-top: $blockThree;}
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
+
+
 
     .IndexIntro {
         margin-top: $blockSix;
@@ -88,6 +93,11 @@ float: right;
             display: none ;
         }
 }
+
+
+.ExploreStudies {
+    margin-top: $blockThree;}
+
 }
 
 

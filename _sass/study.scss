@@ -66,6 +66,10 @@
 }
 
 @media only screen and (max-width: 728px) {
+    .studyIntro {
+        margin-top: $blockFour;
+    }
+    
     .postTitle {
         display: grid;
         grid-template-columns: 1fr;

@@ -2,15 +2,16 @@ body { background: var(--background-color); color: var(--light-text-color); font
 
 html, body { margin: 0; padding: 0; }
 
-h1 { padding: 0; margin: 0; font-size: 3.5rem; }
+h1 { padding: 0; margin: 0; font-size: 3.5rem; font-weight: normal; }
 
-h2 { padding: 0; margin: 0; font-size: 2rem; text-transform: uppercase; }
+h2 { padding: 0; margin: 0; font-size: 2rem; text-transform: uppercase; font-weight: normal; }
 
 h4 { padding: 0; margin: 0; margin-top: 0px; font-size: 0.8rem; line-height: 1.2rem; font-weight: normal; text-transform: uppercase; }
 
-p { line-height: 1.5rem; }
+p { line-height: 1.5rem; font-weight: normal; }
 
-@media only screen and (max-width: 728px) { h1 { font-size: 3rem; } }
+@media only screen and (max-width: 728px) { h1 { font-size: 2.8rem; }
+  h2 { font-size: 1.8rem; } }
 
 html, html[data-theme="light"] { --background-color: #efedea; --light-text-color: #151515; --link-color: rgb(0, 112, 201); --main-background-color: rgb(255, 255, 255); --main-text-color: rgb(51, 51, 51); }
 
@@ -56,9 +57,9 @@ headerTwo a { color: inherit; }
 
 .closebtn circle { fill: var(--background-color); }
 
-@media only screen and (max-width: 728px) { header, headerTwo { padding: 32px 16px 32px 16px; grid-template-columns: 1fr 1fr; }
+@media only screen and (max-width: 728px) { header, headerTwo { padding: 16px; grid-template-columns: 1fr 1fr; }
   .nav { display: none; }
-  .overlay-content { grid-template-columns: 1fr 1fr; padding: 32px 16px 32px 16px; left: 0; right: 0; } }
+  .overlay-content { grid-template-columns: 1fr 1fr; padding: 16px; left: 0; right: 0; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { header, headerTwo { padding: 32px; grid-template-columns: 1fr 1fr 1fr; }
   .overlay-content { grid-template-columns: 1fr 1fr 1fr; padding: 32px; left: 0; right: 0; } }
@@ -98,13 +99,15 @@ headerTwo a { color: inherit; }
 
 .ExploreStudies { margin-top: 64px; display: inline-flex; align-self: center; cursor: pointer; float: right; }
 
-@media only screen and (max-width: 728px) { .IndexIntro { margin-top: 256px; padding: 0 16px 0 16px; bottom: 32px; }
+@media only screen and (max-width: 728px) { .IndexIntro { margin-top: 256px; padding: 0 16px 0 16px; bottom: 16px; }
   .IndexIntro a { text-decoration: underline; }
-  .IndexIntro a:after { display: none; } }
+  .IndexIntro a:after { display: none; }
+  .ExploreStudies { margin-top: 32px; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .IndexIntro { margin-top: 256px; padding: 0 32px 0 32px; bottom: 32px; }
   .IndexIntro a { text-decoration: underline; }
-  .IndexIntro a:after { display: none; } }
+  .IndexIntro a:after { display: none; }
+  .ExploreStudies { margin-top: 32px; } }
 
 @media screen and (min-width: 2400px) { .IndexIntro { width: 65%; margin: auto; }
   body { margin: auto; width: 70%; } }
@@ -121,7 +124,7 @@ a:visited, a:link { text-decoration: none; }
 
 .StudiesModule h1 { text-decoration: none; }
 
-.StudiesModuleTwo { display: grid; grid-template-columns: 30% 50% 20%; border-style: solid; border-width: 1px 0 0 0; padding-top: 32px; padding-bottom: 64px; color: var(--background-color); }
+.StudiesModuleTwo { display: grid; grid-template-columns: 30% 50% 20%; border-style: solid; border-width: 1px 0 0 0; padding-top: 32px; padding-bottom: 32px; color: var(--background-color); }
 
 .StudiesModuleTwo :nth-child(3) { margin-left: auto; margin-right: 0; }
 
@@ -153,20 +156,33 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 
 .StudiesInfo h4 div { margin: 0; padding: 0; line-height: 0; }
 
-.studiesMenu { margin-top: 256px; }
+.studiesMenu { margin-top: 128px; }
+
+.studiesMenu h2 { margin: 0; }
+
+.mobileNav { display: none; }
+
+.mobileNav h1 { margin: 0; padding-top: 16px; }
+
+.mobileNav a { color: var(--background-color); }
 
 @media only screen and (max-width: 728px) { .StudiesContainer { padding: 0 16px 0 16px; }
-  .StudiesModule, .StudiesModuleTwo { display: grid; grid-template-columns: 1fr; }
-  .StudiesModule svg, .StudiesModuleTwo svg { margin-bottom: -32px; }
-  .StudiesInfo { margin-top: 16px; position: relative; margin-left: 0; }
-  .StudiesInfo h4 { position: relative; padding: 32px 0 32px 0; } }
-
-@media only screen and (max-width: 1024px) and (min-width: 729px) { .StudiesContainer { padding: 0 32px 0 32px; }
+  .StudiesContainer h2 { margin-bottom: 32px; }
   .StudiesModule, .StudiesModuleTwo { display: grid; grid-template-columns: 1fr; }
   .StudiesModule svg, .StudiesModuleTwo svg { margin-bottom: -32px; }
   .StudiesInfo { margin-top: 16px; position: relative; margin-left: 0; }
   .StudiesInfo h4 { position: relative; padding: 32px 0 32px 0; }
-  .square img { height: 512px; /* height of container */ } }
+  .studiesMenu { margin-top: 64px; }
+  .mobileNav { display: initial; } }
+
+@media only screen and (max-width: 1024px) and (min-width: 729px) { .StudiesContainer { padding: 0 32px 0 32px; }
+  .StudiesContainer h2 { margin-bottom: 32px; }
+  .StudiesModule, .StudiesModuleTwo { display: grid; grid-template-columns: 1fr; }
+  .StudiesModule svg, .StudiesModuleTwo svg { margin-bottom: -32px; }
+  .StudiesInfo { margin-top: 16px; position: relative; margin-left: 0; }
+  .StudiesInfo h4 { position: relative; padding: 32px 0 32px 0; }
+  .square img { height: 512px; /* height of container */ }
+  .studiesMenu { margin-top: 64px; } }
 
 .aboutContainer { display: grid; grid-template-columns: 1fr 1fr; margin-top: 128px; padding: 0 64px 0 64px; }
 
@@ -202,7 +218,8 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 
 .studyImage img { width: 100%; }
 
-@media only screen and (max-width: 728px) { .postTitle { display: grid; grid-template-columns: 1fr; margin: 0 16px 0 16px; bottom: 32px; }
+@media only screen and (max-width: 728px) { .studyIntro { margin-top: 64px; }
+  .postTitle { display: grid; grid-template-columns: 1fr; margin: 0 16px 0 16px; bottom: 32px; }
   .postDate { text-align: left; margin-top: 32px; position: relative; right: 0; bottom: 0; }
   .contentBody { margin-left: 0; margin-right: 0; left: 0; right: 0; width: initial; padding: 16px; }
   .contentBody h2 { position: relative; right: 0; left: 0; text-align: left; padding-right: 0; width: 100%; }
@@ -212,5 +229,3 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
   .contentBody { margin-left: 0; margin-right: 0; left: 0; right: 0; width: initial; padding: 32px; }
   .contentBody h2 { position: relative; right: 0; left: 0; text-align: left; padding-right: 0; width: 100%; }
   .contentBody h2, .contentBody h3, .contentBody h4, .contentBody p { margin-top: 32px; } }
-
-/*# sourceMappingURL=main.css.map */
