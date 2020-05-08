@@ -13,11 +13,11 @@ The objective of this project was to design and develop a website for Winter Tri
 
 ## Role
 
-I wore many hats in this project as a lot of staff were out for winter break 😭. However, it really challenged me to build alone (with the benefit of total creative freedom). For this project, I built the UX/UI, the brand design, and the social media assets.
+I wore many hats in this project as a lot of the staff was out for winter break 😭. However, it challenged me to build a project independently. For this project, I built the UX/UI, the brand design, and the social media assets.
 
 ## Brainstorming
 
-When first thinking of building the site, I took into consideration why students would visit it in the first place — what would necessitate the site? Looking at prior Triton Fest sites, I saw that it consisted of a list of events, each linking to a separate facebook event page. Though the site was functional, it wasn't so much practical as it took the viewer out of the site and into facebook. <br><br> I also considered that many of these students would be looking at these events not only on their laptops, but on their phone.
+When first thinking of building the site, I took into consideration why students would visit it in the first place — what would necessitate the site? Looking at prior Triton Fest sites, I saw that it consisted of a list of events, each linking to a separate facebook event page. Though the site was functional, it wasn't so much practical as it took the viewer out of the site and into facebook.<br><br>I also considered that many of these students would be looking at these events not only on their laptops, but on their phone.
 
 ## Proposal
 
