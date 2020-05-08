@@ -3,7 +3,7 @@
 
     h2 {
         padding-top: $blockFour;
-        margin-bottom: $blockFour;
+        margin-bottom: $blockThree;
     }
 }
 
@@ -112,20 +112,26 @@ svg {
 .studiesMenu {
     margin-top: $blockFive;
 
-
-
+h2 {
+    margin-top: $blockThree;
+}
+    a {
+        cursor: pointer;
+    }
+    h4 {
+        margin-top: $blockOne;
+    }
 }
 
 .mobileNav {
-    display:none;
+    display: none;
     h1 {
         margin: 0;
-        padding-top: $blockTwo;
+        padding-top: $blockOne;
     }
     a {
         color: $backgroundColor;
     }
-
 }
 
 @media only screen and (max-width: 728px) {
@@ -159,14 +165,11 @@ svg {
         margin-top: $blockFour;
         h2 {
             margin-bottom: $blockThree;
-         
         }
-
     }
 
     .mobileNav {
-        display:initial;
-
+        display: initial;
     }
 }
 

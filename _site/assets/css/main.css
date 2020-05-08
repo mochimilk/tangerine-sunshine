@@ -66,7 +66,7 @@ headerTwo a { color: inherit; }
 
 .nav a { display: inline; position: relative; overflow: hidden; }
 
-.nav a:after { content: ""; position: absolute; z-index: -1; right: 0; width: 0; bottom: -3px; background: var(--light-text-color); height: 1px; transition-property: width; transition-duration: 0.3s; transition-timing-function: ease-out; }
+.nav a:after { content: ""; position: absolute; z-index: -1; right: 0; width: 0; bottom: -3px; border-style: solid; border-width: 0 0  1px 0; height: 1px; transition-property: width; transition-duration: 0.3s; transition-timing-function: ease-out; }
 
 .nav a:hover:after, .nav a:focus:after, .nav a:active:after { left: 0; right: auto; width: 100%; }
 
@@ -114,7 +114,7 @@ headerTwo a { color: inherit; }
 
 .StudiesContainer { padding: 0 64px 0 64px; }
 
-.StudiesContainer h2 { padding-top: 64px; margin-bottom: 64px; }
+.StudiesContainer h2 { padding-top: 64px; margin-bottom: 32px; }
 
 a:visited, a:link { text-decoration: none; }
 
@@ -158,9 +158,15 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 
 .studiesMenu { margin-top: 128px; }
 
+.studiesMenu h2 { margin-top: 32px; }
+
+.studiesMenu a { cursor: pointer; }
+
+.studiesMenu h4 { margin-top: 8px; }
+
 .mobileNav { display: none; }
 
-.mobileNav h1 { margin: 0; padding-top: 16px; }
+.mobileNav h1 { margin: 0; padding-top: 8px; }
 
 .mobileNav a { color: var(--background-color); }
 
@@ -204,6 +210,14 @@ a:visited, a:link { text-decoration: none; }
 footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-top: 64px; }
 
 .FooterLinks { text-align: right; font-size: 0.9rem; }
+
+.FooterLinks a { color: inherit; }
+
+.FooterLinks a { display: inline; position: relative; overflow: hidden; }
+
+.FooterLinks a:after { content: ""; position: absolute; z-index: -1; right: 0; width: 0; bottom: -3px; border-style: solid; border-width: 0 0  1px 0; height: 1px; transition-property: width; transition-duration: 0.3s; transition-timing-function: ease-out; }
+
+.FooterLinks a:hover:after, .FooterLinks a:focus:after, .FooterLinks a:active:after { left: 0; right: auto; width: 100%; }
 
 @media only screen and (max-width: 728px) { footer { padding: 16px; } }
 
