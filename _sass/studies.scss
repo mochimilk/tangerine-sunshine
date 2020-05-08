@@ -112,10 +112,7 @@ svg {
 .studiesMenu {
     margin-top: $blockFive;
 
-    h2 {
-        margin: 0;
-     
-    }
+
 }
 
 .mobileNav {
@@ -158,6 +155,10 @@ svg {
 
     .studiesMenu {
         margin-top: $blockFour;
+        h2 {
+            margin-bottom: $blockThree;
+         
+        }
     }
 
     .mobileNav {

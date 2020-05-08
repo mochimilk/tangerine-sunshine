@@ -158,8 +158,6 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 
 .studiesMenu { margin-top: 128px; }
 
-.studiesMenu h2 { margin: 0; }
-
 .mobileNav { display: none; }
 
 .mobileNav h1 { margin: 0; padding-top: 16px; }
@@ -173,6 +171,7 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
   .StudiesInfo { margin-top: 16px; position: relative; margin-left: 0; }
   .StudiesInfo h4 { position: relative; padding: 32px 0 32px 0; }
   .studiesMenu { margin-top: 64px; }
+  .studiesMenu h2 { margin-bottom: 32px; }
   .mobileNav { display: initial; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .StudiesContainer { padding: 0 32px 0 32px; }
@@ -208,11 +207,13 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 
 .postDate { text-align: right; position: absolute; bottom: 32px; right: 0; }
 
-.contentBody { margin-left: auto; margin-right: 0; text-align: left; width: 50%; padding: 64px; }
+.contentBody { margin-left: auto; margin-right: 0; text-align: justify; width: 50%; padding: 64px; }
 
 .contentBody h2 { position: absolute; right: auto; left: 64px; text-align: left; padding-right: 64px; width: 30%; }
 
 .contentBody h2, .contentBody h3, .contentBody h4, .contentBody p { margin-top: 64px; }
+
+.contentBody h2:nth-child(1) { padding-top: 0; }
 
 .studyImage { width: 100%; }
 
@@ -222,10 +223,14 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
   .postTitle { display: grid; grid-template-columns: 1fr; margin: 0 16px 0 16px; bottom: 32px; }
   .postDate { text-align: left; margin-top: 32px; position: relative; right: 0; bottom: 0; }
   .contentBody { margin-left: 0; margin-right: 0; left: 0; right: 0; width: initial; padding: 16px; }
-  .contentBody h2 { position: relative; right: 0; left: 0; text-align: left; padding-right: 0; width: 100%; }
-  .contentBody h2, .contentBody h3, .contentBody h4, .contentBody p { margin-top: 16px; } }
+  .contentBody h2 { position: relative; right: 0; left: 0; text-align: left; padding-right: 0; width: 100%; padding-top: 32px; }
+  .contentBody h2, .contentBody h3, .contentBody h4, .contentBody p { margin-top: 16px; }
+  .contentBody h2:nth-child(1) { padding-top: 0; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .postTitle { margin: 0 32px 0 32px; bottom: 32px; }
   .contentBody { margin-left: 0; margin-right: 0; left: 0; right: 0; width: initial; padding: 32px; }
-  .contentBody h2 { position: relative; right: 0; left: 0; text-align: left; padding-right: 0; width: 100%; }
-  .contentBody h2, .contentBody h3, .contentBody h4, .contentBody p { margin-top: 32px; } }
+  .contentBody h2 { position: relative; right: 0; left: 0; text-align: left; padding-right: 0; width: 100%; padding-top: 32px; }
+  .contentBody h2, .contentBody h3, .contentBody h4, .contentBody p { margin-top: 32px; }
+  .contentBody h2:nth-child(1) { padding-top: 0; } }
+
+/*# sourceMappingURL=main.css.map */

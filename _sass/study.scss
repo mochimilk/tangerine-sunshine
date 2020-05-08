@@ -35,9 +35,10 @@
 }
 
 .contentBody {
+    
     margin-left: auto;
     margin-right: 0;
-    text-align: left;
+    text-align: justify;
     width: 50%;
     padding: $blockFour;
 
@@ -48,12 +49,16 @@
         text-align: left;
         padding-right: $blockFour;
         width: 30%;
+  
     }
     h2,
     h3,
     h4,
     p {
         margin-top: $blockFour;
+    }
+    h2:nth-child(1) {
+        padding-top: 0;
     }
 }
 
@@ -100,12 +105,16 @@
             text-align: left;
             padding-right: 0;
             width: 100%;
+            padding-top: $blockThree;
         }
         h2,
         h3,
         h4,
         p {
             margin-top: $blockTwo;
+        }
+        h2:nth-child(1) {
+            padding-top: 0;
         }
     }
 }
@@ -131,12 +140,18 @@
             text-align: left;
             padding-right: 0;
             width: 100%;
+       
+            padding-top: $blockThree;
+      
         }
         h2,
         h3,
         h4,
         p {
             margin-top: $blockThree;
+        }
+        h2:nth-child(1) {
+            padding-top: 0;
         }
     }
 }
