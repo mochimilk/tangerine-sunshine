@@ -31,11 +31,11 @@ I wanted to create a site that would allow students to explore and share all the
 
 ### Research
 
-I wanted to create a site that would allow students to explore and share all the events offered at Triton Fest without having to leave the site itself. To do this, I kept three things in mind:
+For this project, I was inspired by similar sites that focused on marketing their individual events. My mood boards stretched from festival websites to facebook and yelp event listings.
 
 ### Personas
 
-I wanted to create a site that would allow students to explore and share all the events offered at Triton Fest without having to leave the site itself. To do this, I kept three things in mind:
+I drew up three personas to help with my user experience flow: the library sulker, the commuter, and the sharer.
 
 ### Wireframes
 
