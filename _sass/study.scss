@@ -36,9 +36,12 @@
 .contentBody {
     margin-left: auto;
     margin-right: 0;
+
     text-align: justify;
     width: 50%;
     padding: $blockFour;
+
+
 
     h2 {
         position: absolute;
@@ -54,7 +57,12 @@
         margin-top: 48px !important;
     }
 
-    h3,
+    h3{
+        margin-bottom: -$blockThree;
+        margin-top: 52px;
+    }
+
+    
     h4,
     p {
         margin-top: $blockFour;
@@ -124,8 +132,13 @@
             width: 100%;
             padding-top: $blockTwo;
         }
+
+        h3{
+            margin-bottom: 0;
+            margin-top: $blockTwo;
+        }
         h2,
-        h3,
+   
         h4,
         p {
             margin-top: $blockTwo;
@@ -160,8 +173,13 @@
 
             padding-top: $blockThree;
         }
+
+        h3{
+            margin-bottom: -$blockTwo;
+            margin-top: $blockThree;
+        }
         h2,
-        h3,
+        
         h4,
         p {
             margin-top: $blockThree;
