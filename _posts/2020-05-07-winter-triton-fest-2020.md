@@ -38,3 +38,5 @@ I wanted to create a site that would allow students to explore and share all the
 I wanted to create a site that would allow students to explore and share all the events offered at Triton Fest without having to leave the site itself. To do this, I kept three things in mind:
 
 ## Hello
+
+I wanted to create a site that would allow students to explore and share all the events offered at Triton Fest without having to leave the site itself. To do this, I kept three things in mind:
