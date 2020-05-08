@@ -11,7 +11,7 @@ h4 { padding: 0; margin: 0; margin-top: 0px; font-size: 0.8rem; line-height: 1.2
 p { line-height: 1.5rem; font-weight: normal; }
 
 @media only screen and (max-width: 728px) { h1 { font-size: 2.8rem; }
-  h2 { font-size: 1.8rem; } }
+  h2 { font-size: 1.5rem; } }
 
 html, html[data-theme="light"] { --background-color: #efedea; --light-text-color: #151515; --link-color: rgb(0, 112, 201); --main-background-color: rgb(255, 255, 255); --main-text-color: rgb(51, 51, 51); }
 
@@ -49,7 +49,7 @@ headerTwo a { color: inherit; }
 
 .overlay-content { position: absolute; display: grid; grid-template-columns: 1fr 1fr 1fr; line-height: 0.8; padding: 64px; left: 0; right: 0; }
 
-.overlay-content a { color: initial; }
+.overlay-content a { color: var(--background-color); }
 
 .closebtn { margin-left: auto; margin-right: 0; }
 
@@ -187,9 +187,19 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 
 .aboutContainer h2 { padding-top: 64px; margin-bottom: 64px; }
 
+.aboutImage { padding-right: 64px; }
+
+.aboutImage img { width: 100%; }
+
 a:visited, a:link { text-decoration: none; }
 
-@media only screen and (max-width: 728px) { .aboutContainer { padding: 0 16px 0 16px; display: grid; grid-template-columns: 1fr; } }
+@media only screen and (max-width: 728px) { .aboutImage { padding-right: 0; }
+  .aboutContainer { margin-top: 16px; padding: 0 16px 0 16px; grid-template-columns: 1fr; }
+  .aboutContainer h1 { margin-top: 32px; } }
+
+@media only screen and (max-width: 1024px) and (min-width: 729px) { .aboutImage { padding-right: 0; }
+  .aboutContainer { margin-top: 32px; padding: 0 32px 0 32px; grid-template-columns: 1fr; }
+  .aboutContainer h1 { margin-top: 32px; } }
 
 footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-top: 64px; }
 

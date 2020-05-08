@@ -121,6 +121,7 @@ headerTwo {
 
 .overlay-content {
 
+
     position: absolute;
 
     display: grid;
@@ -133,7 +134,7 @@ headerTwo {
 
 
     a {
-        color: initial;
+        color: $backgroundColor;
     }
 
 }

@@ -4,7 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>About - eunsoo lee</title>
+    <title>Hello There - eunsoo lee</title>
     <link rel="stylesheet" href="/tangerine-sunshine/assets/css/main.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -109,11 +109,10 @@
 
 
 
-     
-<div class="studiesMenu">
+     <div class="studiesMenu">
     <div class="StudiesContainer">
 
-  
+
         <div class="mobileNav">
             <h2>Hello</h2>
             <h1> <a class="first" href="http://localhost:4000/tangerine-sunshine/#second"
@@ -122,7 +121,12 @@
             </h1>
             <h1> <a href="http://localhost:4000/tangerine-sunshine/about">About</a></h1>
             <h1><a>Resume</a></h1>
+
+
         </div>
+
+        <h2>Reader Settings</h2>
+        <h1> <a id="theme-toggle" onclick="modeSwitcher()"></a></h1>
 
         <h2>Studies</h2>
         
@@ -136,7 +140,7 @@
                         <div>UX/UI — Frontend Development — Branding</div>
                     </h4>
                 </div>
-    
+
             </div>
         </a>
         
@@ -150,16 +154,13 @@
                         <div>UX/UI — Frontend Development — Branding</div>
                     </h4>
                 </div>
-    
+
             </div>
         </a>
         
     </div>
 
 </div>
-
-
-
 </div>
 
 <script>
@@ -171,21 +172,21 @@ let theme = sessionStorage.getItem('theme');
 
 
 if (systemInitiatedDark.matches) {
-	document.getElementById("theme-toggle").innerHTML = "light mode";
+	document.getElementById("theme-toggle").innerHTML = "dark text";
 } else {
-	document.getElementById("theme-toggle").innerHTML = "dark mode";
+	document.getElementById("theme-toggle").innerHTML = "light text";
 }
 
 
 function prefersColorTest(systemInitiatedDark) {
   if (systemInitiatedDark.matches) {
   	document.documentElement.setAttribute('data-theme', 'dark');		
-   	document.getElementById("theme-toggle").innerHTML = "light mode";
+   	document.getElementById("theme-toggle").innerHTML = "dark text";
    	// this clears the session storage 
    	sessionStorage.setItem('theme', '');
   } else {
   	document.documentElement.setAttribute('data-theme', 'light');
-    document.getElementById("theme-toggle").innerHTML = "dark mode";
+    document.getElementById("theme-toggle").innerHTML = "light text";
     sessionStorage.setItem('theme', '');
   }
 }
@@ -199,33 +200,33 @@ function modeSwitcher() {
 	if (theme === "dark") {
 		document.documentElement.setAttribute('data-theme', 'light');
 		sessionStorage.setItem('theme', 'light');
-		document.getElementById("theme-toggle").innerHTML = "dark mode";
+		document.getElementById("theme-toggle").innerHTML = "light text";
 		// checks if reader selected light mode 
 	}	else if (theme === "light") {
 		document.documentElement.setAttribute('data-theme', 'dark');
 		sessionStorage.setItem('theme', 'dark');
-		document.getElementById("theme-toggle").innerHTML = "light mode";
+		document.getElementById("theme-toggle").innerHTML = "dark text";
 		// checks if system set dark mode 
 	} else if (systemInitiatedDark.matches) {	
 		document.documentElement.setAttribute('data-theme', 'light');
 		sessionStorage.setItem('theme', 'light');
-		document.getElementById("theme-toggle").innerHTML = "dark mode";
+		document.getElementById("theme-toggle").innerHTML = "light text";
 		// the only option left is system set light mode
 	} else {
 		document.documentElement.setAttribute('data-theme', 'dark');
 		sessionStorage.setItem('theme', 'dark');
-		document.getElementById("theme-toggle").innerHTML = "light mode";
+		document.getElementById("theme-toggle").innerHTML = "dark text";
 	}
 }
 
 if (theme === "dark") {
 	document.documentElement.setAttribute('data-theme', 'dark');
 	sessionStorage.setItem('theme', 'dark');
-	document.getElementById("theme-toggle").innerHTML = "light mode";
+	document.getElementById("theme-toggle").innerHTML = "dark text";
 } else if (theme === "light") {
 	document.documentElement.setAttribute('data-theme', 'light');
 	sessionStorage.setItem('theme', 'light');
-	document.getElementById("theme-toggle").innerHTML = "dark mode";
+	document.getElementById("theme-toggle").innerHTML = "light text";
 }
 </script>
 
@@ -299,20 +300,19 @@ if (theme === "dark") {
 
     <div class="cssanimation sequence fadeInBottom">
         <div class="aboutContainer">
-            <div>Hello</div>
+            <div class="aboutImage">
+                <img src="/tangerine-sunshine/uploads/E3E69682-BA83-4B21-A356-F25F06899A19.jpg">
+              </div>
             <div>
-            <h1>Hello</h1>
-            <p>Hello! I am a writer/designer that currently lives in La Jolla, CA. Much of my development as an artist
-                has come from weaving together good principles and practices of literature and visual art. During my
-                experiences, I have had the opportunity to design for festivals, magazines, and companies. Much of my
-                work strives to be human-centered and locally-focused, designed to bring out the best of what surrounds
-                it.
-                <br>  <br>
-                I am currently the Co-Director of Design at Other People, working with a team of amazing people to
-                create UC San Diego's first literary magazine.
-                <br>  <br>
-                In my free time I like to write, hike, go to farmer’s markets, or go out with my friends. I am also a
-                dog person and a tea lover. 🐶🍵</p>
+            <h1>Hello There</h1>
+      <p>I am a writer/designer that currently lives in La Jolla, CA. Much of my development as an artist has come from weaving together good principles and practices of literature and visual art. During my experiences, I have had the opportunity to design for festivals, magazines, and companies. Much of my work strives to be human-centered and locally-focused, designed to bring out the best of what surrounds it.</p>
+
+<p>I am currently the Co-Director of Design at Other People, working with a team of amazing people to create UC San Diego’s first literary magazine.</p>
+
+<p>In my free time I like to write, hike, go to farmer’s markets, or go out with my friends. I am also a dog person and a tea lover. 🐶🍵</p>
+
+<p>(They/Them/Theirs)</p>
+
         </div>
   
     </div>
@@ -326,78 +326,12 @@ if (theme === "dark") {
     <h4>
   <a>  LinkedIn</a> —
 
-  <a>     <a id="theme-toggle" onclick="modeSwitcher()"></a></a>
+
 </h4>
 </div>
 </footer>
 
 
-<script>
-  // this checks whether system dark mode is set 
-let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
-// this checks for session storage telling to override
-// the system preferences 
-let theme = sessionStorage.getItem('theme');
-
-
-if (systemInitiatedDark.matches) {
-	document.getElementById("theme-toggle").innerHTML = "light mode";
-} else {
-	document.getElementById("theme-toggle").innerHTML = "dark mode";
-}
-
-
-function prefersColorTest(systemInitiatedDark) {
-  if (systemInitiatedDark.matches) {
-  	document.documentElement.setAttribute('data-theme', 'dark');		
-   	document.getElementById("theme-toggle").innerHTML = "light mode";
-   	// this clears the session storage 
-   	sessionStorage.setItem('theme', '');
-  } else {
-  	document.documentElement.setAttribute('data-theme', 'light');
-    document.getElementById("theme-toggle").innerHTML = "dark mode";
-    sessionStorage.setItem('theme', '');
-  }
-}
-systemInitiatedDark.addListener(prefersColorTest);
-
-
-function modeSwitcher() {
-// it's important to check for overrides again 
-	let theme = sessionStorage.getItem('theme');
-	// checks if reader selected dark mode 
-	if (theme === "dark") {
-		document.documentElement.setAttribute('data-theme', 'light');
-		sessionStorage.setItem('theme', 'light');
-		document.getElementById("theme-toggle").innerHTML = "dark mode";
-		// checks if reader selected light mode 
-	}	else if (theme === "light") {
-		document.documentElement.setAttribute('data-theme', 'dark');
-		sessionStorage.setItem('theme', 'dark');
-		document.getElementById("theme-toggle").innerHTML = "light mode";
-		// checks if system set dark mode 
-	} else if (systemInitiatedDark.matches) {	
-		document.documentElement.setAttribute('data-theme', 'light');
-		sessionStorage.setItem('theme', 'light');
-		document.getElementById("theme-toggle").innerHTML = "dark mode";
-		// the only option left is system set light mode
-	} else {
-		document.documentElement.setAttribute('data-theme', 'dark');
-		sessionStorage.setItem('theme', 'dark');
-		document.getElementById("theme-toggle").innerHTML = "light mode";
-	}
-}
-
-if (theme === "dark") {
-	document.documentElement.setAttribute('data-theme', 'dark');
-	sessionStorage.setItem('theme', 'dark');
-	document.getElementById("theme-toggle").innerHTML = "light mode";
-} else if (theme === "light") {
-	document.documentElement.setAttribute('data-theme', 'light');
-	sessionStorage.setItem('theme', 'light');
-	document.getElementById("theme-toggle").innerHTML = "dark mode";
-}
-</script>
 </body>
 
 </head>

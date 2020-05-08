@@ -111,11 +111,10 @@
 
 
 
-     
-<div class="studiesMenu">
+     <div class="studiesMenu">
     <div class="StudiesContainer">
 
-  
+
         <div class="mobileNav">
             <h2>Hello</h2>
             <h1> <a class="first" href="http://localhost:4000/tangerine-sunshine/#second"
@@ -124,7 +123,12 @@
             </h1>
             <h1> <a href="http://localhost:4000/tangerine-sunshine/about">About</a></h1>
             <h1><a>Resume</a></h1>
+
+
         </div>
+
+        <h2>Reader Settings</h2>
+        <h1> <a id="theme-toggle" onclick="modeSwitcher()"></a></h1>
 
         <h2>Studies</h2>
         
@@ -138,7 +142,7 @@
                         <div>UX/UI — Frontend Development — Branding</div>
                     </h4>
                 </div>
-    
+
             </div>
         </a>
         
@@ -152,16 +156,13 @@
                         <div>UX/UI — Frontend Development — Branding</div>
                     </h4>
                 </div>
-    
+
             </div>
         </a>
         
     </div>
 
 </div>
-
-
-
 </div>
 
 <script>
@@ -173,21 +174,21 @@ let theme = sessionStorage.getItem('theme');
 
 
 if (systemInitiatedDark.matches) {
-	document.getElementById("theme-toggle").innerHTML = "light mode";
+	document.getElementById("theme-toggle").innerHTML = "dark text";
 } else {
-	document.getElementById("theme-toggle").innerHTML = "dark mode";
+	document.getElementById("theme-toggle").innerHTML = "light text";
 }
 
 
 function prefersColorTest(systemInitiatedDark) {
   if (systemInitiatedDark.matches) {
   	document.documentElement.setAttribute('data-theme', 'dark');		
-   	document.getElementById("theme-toggle").innerHTML = "light mode";
+   	document.getElementById("theme-toggle").innerHTML = "dark text";
    	// this clears the session storage 
    	sessionStorage.setItem('theme', '');
   } else {
   	document.documentElement.setAttribute('data-theme', 'light');
-    document.getElementById("theme-toggle").innerHTML = "dark mode";
+    document.getElementById("theme-toggle").innerHTML = "light text";
     sessionStorage.setItem('theme', '');
   }
 }
@@ -201,33 +202,33 @@ function modeSwitcher() {
 	if (theme === "dark") {
 		document.documentElement.setAttribute('data-theme', 'light');
 		sessionStorage.setItem('theme', 'light');
-		document.getElementById("theme-toggle").innerHTML = "dark mode";
+		document.getElementById("theme-toggle").innerHTML = "light text";
 		// checks if reader selected light mode 
 	}	else if (theme === "light") {
 		document.documentElement.setAttribute('data-theme', 'dark');
 		sessionStorage.setItem('theme', 'dark');
-		document.getElementById("theme-toggle").innerHTML = "light mode";
+		document.getElementById("theme-toggle").innerHTML = "dark text";
 		// checks if system set dark mode 
 	} else if (systemInitiatedDark.matches) {	
 		document.documentElement.setAttribute('data-theme', 'light');
 		sessionStorage.setItem('theme', 'light');
-		document.getElementById("theme-toggle").innerHTML = "dark mode";
+		document.getElementById("theme-toggle").innerHTML = "light text";
 		// the only option left is system set light mode
 	} else {
 		document.documentElement.setAttribute('data-theme', 'dark');
 		sessionStorage.setItem('theme', 'dark');
-		document.getElementById("theme-toggle").innerHTML = "light mode";
+		document.getElementById("theme-toggle").innerHTML = "dark text";
 	}
 }
 
 if (theme === "dark") {
 	document.documentElement.setAttribute('data-theme', 'dark');
 	sessionStorage.setItem('theme', 'dark');
-	document.getElementById("theme-toggle").innerHTML = "light mode";
+	document.getElementById("theme-toggle").innerHTML = "dark text";
 } else if (theme === "light") {
 	document.documentElement.setAttribute('data-theme', 'light');
 	sessionStorage.setItem('theme', 'light');
-	document.getElementById("theme-toggle").innerHTML = "dark mode";
+	document.getElementById("theme-toggle").innerHTML = "light text";
 }
 </script>
 
@@ -432,78 +433,12 @@ if (theme === "dark") {
     <h4>
   <a>  LinkedIn</a> —
 
-  <a>     <a id="theme-toggle" onclick="modeSwitcher()"></a></a>
+
 </h4>
 </div>
 </footer>
 
 
-<script>
-  // this checks whether system dark mode is set 
-let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
-// this checks for session storage telling to override
-// the system preferences 
-let theme = sessionStorage.getItem('theme');
-
-
-if (systemInitiatedDark.matches) {
-	document.getElementById("theme-toggle").innerHTML = "light mode";
-} else {
-	document.getElementById("theme-toggle").innerHTML = "dark mode";
-}
-
-
-function prefersColorTest(systemInitiatedDark) {
-  if (systemInitiatedDark.matches) {
-  	document.documentElement.setAttribute('data-theme', 'dark');		
-   	document.getElementById("theme-toggle").innerHTML = "light mode";
-   	// this clears the session storage 
-   	sessionStorage.setItem('theme', '');
-  } else {
-  	document.documentElement.setAttribute('data-theme', 'light');
-    document.getElementById("theme-toggle").innerHTML = "dark mode";
-    sessionStorage.setItem('theme', '');
-  }
-}
-systemInitiatedDark.addListener(prefersColorTest);
-
-
-function modeSwitcher() {
-// it's important to check for overrides again 
-	let theme = sessionStorage.getItem('theme');
-	// checks if reader selected dark mode 
-	if (theme === "dark") {
-		document.documentElement.setAttribute('data-theme', 'light');
-		sessionStorage.setItem('theme', 'light');
-		document.getElementById("theme-toggle").innerHTML = "dark mode";
-		// checks if reader selected light mode 
-	}	else if (theme === "light") {
-		document.documentElement.setAttribute('data-theme', 'dark');
-		sessionStorage.setItem('theme', 'dark');
-		document.getElementById("theme-toggle").innerHTML = "light mode";
-		// checks if system set dark mode 
-	} else if (systemInitiatedDark.matches) {	
-		document.documentElement.setAttribute('data-theme', 'light');
-		sessionStorage.setItem('theme', 'light');
-		document.getElementById("theme-toggle").innerHTML = "dark mode";
-		// the only option left is system set light mode
-	} else {
-		document.documentElement.setAttribute('data-theme', 'dark');
-		sessionStorage.setItem('theme', 'dark');
-		document.getElementById("theme-toggle").innerHTML = "light mode";
-	}
-}
-
-if (theme === "dark") {
-	document.documentElement.setAttribute('data-theme', 'dark');
-	sessionStorage.setItem('theme', 'dark');
-	document.getElementById("theme-toggle").innerHTML = "light mode";
-} else if (theme === "light") {
-	document.documentElement.setAttribute('data-theme', 'light');
-	sessionStorage.setItem('theme', 'light');
-	document.getElementById("theme-toggle").innerHTML = "dark mode";
-}
-</script>
 
 
 
