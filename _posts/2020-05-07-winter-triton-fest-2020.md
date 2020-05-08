@@ -29,14 +29,18 @@ I wanted to create a site that would allow students to explore and share all the
 
 ## Process
 
-### Lorem Ipsum
+### Research
 
 I wanted to create a site that would allow students to explore and share all the events offered at Triton Fest without having to leave the site itself. To do this, I kept three things in mind:
 
-### Lorem Ipsum
+### Personas
 
 I wanted to create a site that would allow students to explore and share all the events offered at Triton Fest without having to leave the site itself. To do this, I kept three things in mind:
 
-## Hello
+### Wireframes
+
+I wanted to create a site that would allow students to explore and share all the events offered at Triton Fest without having to leave the site itself. To do this, I kept three things in mind:
+
+## Final Product
 
 I wanted to create a site that would allow students to explore and share all the events offered at Triton Fest without having to leave the site itself. To do this, I kept three things in mind:
