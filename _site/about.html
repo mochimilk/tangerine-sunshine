@@ -2,21 +2,19 @@
 <html lang="en-US">
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="utf-8">
-  <title>Winter Triton Fest 2020 - eunsoo lee</title>
-  <link rel="stylesheet" href="/tangerine-sunshine/assets/css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>About - eunsoo lee</title>
+    <link rel="stylesheet" href="/tangerine-sunshine/assets/css/main.css">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 </head>
 
 <body>
 
-
-
-  <headerTwo class="nav-down">
+    <headerTwo class="nav-down">
 
     <div class="title">
         <a href="http://localhost:4000/tangerine-sunshine/">
@@ -243,124 +241,30 @@ if (theme === "dark") {
 
 
 
-
-  <div class="studyIntro">
     <div class="cssanimation sequence fadeInBottom">
-    <div class="postTitle">
-      <div >
-        <h1>Winter Triton Fest 2020</h1><br>
-        <h4><b> Visual Designer — Web Developer</b><br>UX/UI — Frontend Development — Branding
-          <br>
-         </h4>
-      </div>
-
-
-
-      <div class="postDate">
-        <h2><time class="dt-published" datetime="2020-01-15T20:00:00-08:00" itemprop="datePublished">
-          Jan 15, 2020
-        </time><h4>
-                    
-            
-              1 min
-             read
-</h4>
-
-      </div>
-
-    </h2>
- 
+        <div class="aboutContainer">
+            <div>Hello</div>
+            <div>
+            <h1>Hello</h1>
+            <p>Hello! I am a writer/designer that currently lives in La Jolla, CA. Much of my development as an artist
+                has come from weaving together good principles and practices of literature and visual art. During my
+                experiences, I have had the opportunity to design for festivals, magazines, and companies. Much of my
+                work strives to be human-centered and locally-focused, designed to bring out the best of what surrounds
+                it.
+                <br>  <br>
+                I am currently the Co-Director of Design at Other People, working with a team of amazing people to
+                create UC San Diego's first literary magazine.
+                <br>  <br>
+                In my free time I like to write, hike, go to farmer’s markets, or go out with my friends. I am also a
+                dog person and a tea lover. 🐶🍵</p>
+        </div>
+  
     </div>
 
 
 
 
-  </div>
-
-
-  <div class="studyImage">
-    <img src="/tangerine-sunshine/uploads/WebUX-01.png">
-  </div>
-
-  <div class="hello"></div>
-
-  <div class="contentBody">
-
-    <p>Hi</p>
-
-
-  </div>
-
-
-
-
-</div>
-
-  
-
-<script>
-    $(window).scroll(function () {
-        var wScroll = $(this).scrollTop();
-        if (wScroll >= $('.hello').offset().top - ($(window).height() / 1.2)) {
-
-
-
-
-                        $("body").css("background-color", "var(--light-text-color)");
-            $("body").css("color", "var(--background-color)");
-            $(".st0").css("stroke", "var(--background-color)");
-            $("svg").css("fill", "var(--background-color)");
-            $("headerTwo").css("background-color", "var(--light-text-color)");
-            $("headerTwo").css("color", "var(--background-color)");
-     
-        } else {
-       $("body").css("background-color", "var(--background-color)");
-            $("body").css("color", "var(--light-text-color)");
-            $(".st0").css("stroke", "var(--light-text-color)");
-            $("svg").css("fill", "var(--light-text-color)");
-            $("headerTwo").css("background-color", "var(--background-color)");
-            $("headerTwo").css("color", "var(--light-text-color)");
-
-        }
-    });
-</script>
-
-
-
-
-
-<script>
-    window.smoothScroll = function (target) {
-        var scrollContainer = target;
-        do { //find scroll container
-            scrollContainer = scrollContainer.parentNode;
-            if (!scrollContainer) 
-                return;
-            scrollContainer.scrollTop += 1;
-        } while (scrollContainer.scrollTop == 0);
-
-        var targetY = 0;
-        do { //find the top of target relatively to the container
-            if (target == scrollContainer) 
-                break;
-            targetY += target.offsetTop;
-        } while (target = target.offsetParent);
-
-        scroll = function (c, a, b, i) {
-            i++;
-            if (i > 10) 
-                return;
-            c.scrollTop = a + (b - a) / 10 * i;
-            setTimeout(function () {
-                scroll(c, a, b, i);
-            }, 20);
-        }
-        // start scrolling
-        scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
-    }
-</script>
-
-  <footer>
+    <footer>
     <h4>much love by eunsoo lee  © 2020</h4>
 <div class="FooterLinks">
     <h4>
@@ -370,16 +274,6 @@ if (theme === "dark") {
 </h4>
 </div>
 </footer>
-
-
-
-
-
-
-
-  
-
-
 </body>
 
-</html>
+</head>

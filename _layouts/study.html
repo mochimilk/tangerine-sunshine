@@ -16,18 +16,20 @@
 
 
 
-  {% include header.html %}
+  {% include headerTwo.html %}
 
 
 
 
-<div class="cssanimation sequence fadeInBottom">
+
   <div class="studyIntro">
+    <div class="cssanimation sequence fadeInBottom">
     <div class="postTitle">
       <div >
-        <h1>{{ page.title | escape }}</h1>
-        <h4><b> {{ page.role }}</b><br><br>{{ page.category }}
-          <br><br> </h4>
+        <h1>{{ page.title | escape }}</h1><br>
+        <h4><b> {{ page.role }}</b><br>{{ page.category }}
+          <br>
+         </h4>
       </div>
 
 
@@ -60,15 +62,24 @@
 
 
   </div>
-</div>
 
-<div class="hello"></div>
+
+  <div class="studyImage">
+    <img src="{{site.baseurl}}{{ page.thumb }}">
+  </div>
+
+  <div class="hello"></div>
 
   <div class="contentBody">
 
     {{ content }}
 
   </div>
+
+
+
+
+</div>
 
   {% include javaScrollStudy.html %}
 
