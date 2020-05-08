@@ -13,7 +13,7 @@ The objective of this project was to design and develop a website for Winter Tri
 
 ## Role
 
-I wore many hats in this project as a lot of the staff was out for winter break 😭. However, it challenged me to build a project independently. For this project, I built the UX/UI, the brand design, and the social media assets.
+I wore many hats in this project as a lot of the staff was out for winter break 😭. However, it challenged me to build a project independently. For this project, I built the **UX/UI, the brand design, and the social media assets**.
 
 ## Brainstorming
 
