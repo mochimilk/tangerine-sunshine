@@ -120,6 +120,7 @@ headerTwo {
 }
 
 .overlay-content {
+
     position: absolute;
 
     display: grid;
@@ -129,6 +130,12 @@ headerTwo {
     padding: $blockFour;
     left: 0;
     right: 0;
+
+
+    a {
+        color: initial;
+    }
+
 }
 
 .closebtn {
@@ -143,6 +150,10 @@ headerTwo {
         fill: $backgroundColor;
     }
 }
+
+
+
+
 
 // SCREENS
 @media only screen and (max-width: 728px) {

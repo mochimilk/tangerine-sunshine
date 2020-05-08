@@ -48,6 +48,8 @@ headerTwo a { color: inherit; }
 
 .overlay-content { position: absolute; display: grid; grid-template-columns: 1fr 1fr 1fr; line-height: 0.8; padding: 64px; left: 0; right: 0; }
 
+.overlay-content a { color: initial; }
+
 .closebtn { margin-left: auto; margin-right: 0; }
 
 .closebtn svg { width: 20px; transform: rotate(45deg); }
@@ -119,6 +121,12 @@ a:visited, a:link { text-decoration: none; }
 
 .StudiesModule h1 { text-decoration: none; }
 
+.StudiesModuleTwo { display: grid; grid-template-columns: 30% 50% 20%; border-style: solid; border-width: 1px 0 0 0; padding-top: 32px; padding-bottom: 64px; color: var(--background-color); }
+
+.StudiesModuleTwo :nth-child(3) { margin-left: auto; margin-right: 0; }
+
+.StudiesModuleTwo h1 { text-decoration: none; }
+
 svg { width: 30px; }
 
 svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
@@ -128,6 +136,12 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 .StudiesModule:hover svg { transform: rotate(45deg); transition-duration: 0.1s; }
 
 .StudiesModule:hover img { transform: scale(0.95); transition-duration: 0.5s; }
+
+.StudiesModuleTwo:hover h1 { text-decoration: underline; }
+
+.StudiesModuleTwo:hover svg { transform: rotate(45deg); transition-duration: 0.1s; }
+
+.StudiesModuleTwo:hover img { transform: scale(0.95); transition-duration: 0.5s; }
 
 .square img { width: 100%; /* width of container */ height: 256px; /* height of container */ object-fit: cover; }
 
@@ -139,15 +153,17 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 
 .StudiesInfo h4 div { margin: 0; padding: 0; line-height: 0; }
 
+.studiesMenu { margin-top: 256px; }
+
 @media only screen and (max-width: 728px) { .StudiesContainer { padding: 0 16px 0 16px; }
-  .StudiesModule { display: grid; grid-template-columns: 1fr; }
-  .StudiesModule svg { margin-bottom: -32px; }
+  .StudiesModule, .StudiesModuleTwo { display: grid; grid-template-columns: 1fr; }
+  .StudiesModule svg, .StudiesModuleTwo svg { margin-bottom: -32px; }
   .StudiesInfo { margin-top: 16px; position: relative; margin-left: 0; }
   .StudiesInfo h4 { position: relative; padding: 32px 0 32px 0; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .StudiesContainer { padding: 0 32px 0 32px; }
-  .StudiesModule { display: grid; grid-template-columns: 1fr; }
-  .StudiesModule svg { margin-bottom: -32px; }
+  .StudiesModule, .StudiesModuleTwo { display: grid; grid-template-columns: 1fr; }
+  .StudiesModule svg, .StudiesModuleTwo svg { margin-bottom: -32px; }
   .StudiesInfo { margin-top: 16px; position: relative; margin-left: 0; }
   .StudiesInfo h4 { position: relative; padding: 32px 0 32px 0; }
   .square img { height: 512px; /* height of container */ } }
@@ -158,9 +174,11 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 
 a:visited, a:link { text-decoration: none; }
 
-footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; }
+@media only screen and (max-width: 728px) { .aboutContainer { padding: 0 16px 0 16px; display: grid; grid-template-columns: 1fr; } }
 
-.FooterLinks { text-align: right; font-size: .9rem; }
+footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-top: 64px; }
+
+.FooterLinks { text-align: right; font-size: 0.9rem; }
 
 @media only screen and (max-width: 728px) { footer { padding: 16px; } }
 

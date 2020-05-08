@@ -8,7 +8,7 @@
     <ul class="nav">
         <li>
             <h4>
-                <a class="first" type="button" onclick="smoothScroll(document.getElementById('second'))">Studies</a>
+    <a class="first" href="{{ site.url }}{{ site.baseurl }}/#second">Studies</a>
             </h4>
         </li>
         <li>
@@ -19,7 +19,7 @@
         <li>
             <a>
                 <h4>
-                    <a id="theme-toggle" onclick="modeSwitcher()"></a>
+                   <a>Resume</a>
                 </h4>
             </a>
         </li>
@@ -51,13 +51,15 @@
 <div id="myNav" class="overlay">
     <div class= "overlay-content">
         <div class="title">
+              <a href="{{ site.url }}{{ site.baseurl }}/">
         eunsoo lee
+        </a>
     </div>
 
         <ul class="nav">
             <li>
                 <h4>
-                    <a class="first" type="button" onclick="smoothScroll(document.getElementById('second'))">Studies</a>
+           <a class="first" href="{{ site.url }}{{ site.baseurl }}/#second">Studies</a>
                 </h4>
             </li>
             <li>
@@ -68,7 +70,7 @@
             <li>
                 <a>
                     <h4>
-                        <a id="theme-toggle" onclick="modeSwitcher()"></a>
+                       <a>Resume</a>
                     </h4>
                 </a>
             </li>
@@ -88,6 +90,10 @@
         </div>
 
     </div>
+
+
+
+     {% include studiesMenu.html %}
 </div>
 
 {% include darkmode.html %}

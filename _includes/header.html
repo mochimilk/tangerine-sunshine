@@ -19,16 +19,12 @@
         <li>
             <a>
                 <h4>
-                    <a id="theme-toggle" onclick="modeSwitcher()"></a>
+                                  <a href="">Resume</a>
                 </h4>
             </a>
         </li>
 
     </ul>
-
-
-
-
 
     <div class="menu" onclick="openNav()">
 
@@ -49,7 +45,9 @@
 <div id="myNav" class="overlay">
     <div class= "overlay-content">
         <div class="title">
+              <a href="{{ site.url }}{{ site.baseurl }}/">
         eunsoo lee
+        </a>
     </div>
 
         <ul class="nav">
@@ -60,14 +58,14 @@
             </li>
             <li>
                 <h4>
-                 <a href="{{ site.url }}{{ site.baseurl }}/about">About</a>
+                    <a href="{{ site.url }}{{ site.baseurl }}/about">About</a>
                 </h4>
             </li>
             <li>
                 <a>
                     <h4>
-                        <a id="theme-toggle" onclick="modeSwitcher()"></a>
-                    </h4>
+                        <a href="">Resume</a>
+                    </h4> 
                 </a>
             </li>
 
@@ -86,6 +84,10 @@
         </div>
 
     </div>
+
+
+
+    {% include studiesMenu.html %}
 </div>
 
 {% include darkmode.html %}

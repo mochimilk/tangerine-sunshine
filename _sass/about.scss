@@ -13,3 +13,14 @@ a:visited,
 a:link {
     text-decoration: none;
 }
+
+
+@media only screen and (max-width: 728px) {
+
+    .aboutContainer {
+     
+        padding: 0 $blockTwo 0 $blockTwo;
+        display: grid;
+        grid-template-columns: 1fr;
+}
+}
