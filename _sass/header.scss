@@ -35,6 +35,16 @@ header {
     a {
         color: inherit;
     }
+
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+    }
 }
 
 .nav-up {
@@ -46,14 +56,7 @@ header {
     line-height: 0.8rem;
 }
 
-ul {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    cursor: pointer;
-}
+
 
 .menu {
     margin-left: auto;
@@ -101,6 +104,15 @@ headerTwo {
     a {
         color: inherit;
     }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+    }
 }
 
 
@@ -117,6 +129,15 @@ headerTwo {
     color: $backgroundColor;
     overflow-x: hidden;
     transition: 0.3s;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+    }
 }
 
 .overlay-content {

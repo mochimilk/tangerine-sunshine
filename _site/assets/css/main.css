@@ -29,11 +29,11 @@ header { padding: 64px; display: grid; grid-template-columns: 1fr 1fr 1fr; anima
 
 header a { color: inherit; }
 
+header ul { display: flex; justify-content: space-between; list-style-type: none; margin: 0; padding: 0; cursor: pointer; }
+
 .nav-up { top: -160px; }
 
 .title { font-weight: bold; line-height: 0.8rem; }
-
-ul { display: flex; justify-content: space-between; list-style-type: none; margin: 0; padding: 0; cursor: pointer; }
 
 .menu { margin-left: auto; margin-right: 0; }
 
@@ -45,7 +45,11 @@ headerTwo { padding: 64px; display: grid; grid-template-columns: 1fr 1fr 1fr; li
 
 headerTwo a { color: inherit; }
 
+headerTwo ul { display: flex; justify-content: space-between; list-style-type: none; margin: 0; padding: 0; cursor: pointer; }
+
 .overlay { height: 0%; width: 100%; position: fixed; z-index: 1; top: 0; left: 0; background-color: var(--light-text-color); color: var(--background-color); overflow-x: hidden; transition: 0.3s; }
+
+.overlay ul { display: flex; justify-content: space-between; list-style-type: none; margin: 0; padding: 0; cursor: pointer; }
 
 .overlay-content { position: absolute; display: grid; grid-template-columns: 1fr 1fr 1fr; line-height: 0.8; padding: 64px; left: 0; right: 0; }
 
@@ -233,11 +237,15 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 
 .contentBody { margin-left: auto; margin-right: 0; text-align: justify; width: 50%; padding: 64px; }
 
-.contentBody h2 { position: absolute; right: auto; left: 64px; text-align: left; padding-right: 64px; width: 30%; }
+.contentBody h2 { position: absolute; right: auto; left: 64px; text-align: left; padding-right: 64px; width: 30%; margin-top: 64px; }
 
-.contentBody h2, .contentBody h3, .contentBody h4, .contentBody p { margin-top: 64px; }
+.contentBody h2:not(:first-child) { margin-top: 48px !important; }
 
-.contentBody h2:nth-child(1) { padding-top: 0; }
+.contentBody h3, .contentBody h4, .contentBody p { margin-top: 64px; }
+
+.contentBody ul { list-style-position: outside; line-height: 1.5; display: initial; justify-content: none; list-style-type: initial; margin: 0; padding: 0; cursor: pointer; }
+
+.contentBody li { margin-left: 32px; }
 
 .studyImage { width: 100%; }
 
@@ -247,9 +255,8 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
   .postTitle { display: grid; grid-template-columns: 1fr; margin: 0 16px 0 16px; bottom: 32px; }
   .postDate { text-align: left; margin-top: 32px; position: relative; right: 0; bottom: 0; }
   .contentBody { margin-left: 0; margin-right: 0; left: 0; right: 0; width: initial; padding: 16px; }
-  .contentBody h2 { position: relative; right: 0; left: 0; text-align: left; padding-right: 0; width: 100%; padding-top: 32px; }
-  .contentBody h2, .contentBody h3, .contentBody h4, .contentBody p { margin-top: 16px; }
-  .contentBody h2:nth-child(1) { padding-top: 0; } }
+  .contentBody h2 { position: relative; right: 0; left: 0; text-align: left; padding-right: 0; width: 100%; padding-top: 16px; }
+  .contentBody h2, .contentBody h3, .contentBody h4, .contentBody p { margin-top: 16px; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .postTitle { margin: 0 32px 0 32px; bottom: 32px; }
   .contentBody { margin-left: 0; margin-right: 0; left: 0; right: 0; width: initial; padding: 32px; }

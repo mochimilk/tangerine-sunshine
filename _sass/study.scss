@@ -18,8 +18,7 @@
     border-width: 0 0 1px 0;
     padding-bottom: $blockThree;
 
-    h1 {
-    }
+
     h4 {
         padding-top: $blockTwo;
         bottom: 0;
@@ -35,7 +34,6 @@
 }
 
 .contentBody {
-    
     margin-left: auto;
     margin-right: 0;
     text-align: justify;
@@ -49,16 +47,35 @@
         text-align: left;
         padding-right: $blockFour;
         width: 30%;
-  
+        margin-top: $blockFour;
+
     }
-    h2,
+    h2:not(:first-child) {
+        margin-top: 48px !important;
+    }
+
     h3,
     h4,
     p {
         margin-top: $blockFour;
     }
-    h2:nth-child(1) {
-        padding-top: 0;
+
+    ul {
+        list-style-position: outside;
+
+        line-height: 1.5;
+
+        display: initial;
+        justify-content: none;
+        list-style-type: initial;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    li {
+        margin-left: $blockThree;
+  
     }
 }
 
@@ -74,7 +91,7 @@
     .studyIntro {
         margin-top: $blockFour;
     }
-    
+
     .postTitle {
         display: grid;
         grid-template-columns: 1fr;
@@ -105,7 +122,7 @@
             text-align: left;
             padding-right: 0;
             width: 100%;
-            padding-top: $blockThree;
+            padding-top: $blockTwo;
         }
         h2,
         h3,
@@ -113,10 +130,10 @@
         p {
             margin-top: $blockTwo;
         }
-        h2:nth-child(1) {
-            padding-top: 0;
-        }
+
     }
+
+
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
@@ -140,9 +157,8 @@
             text-align: left;
             padding-right: 0;
             width: 100%;
-       
+
             padding-top: $blockThree;
-      
         }
         h2,
         h3,
