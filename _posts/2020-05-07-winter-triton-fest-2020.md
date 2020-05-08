@@ -23,7 +23,7 @@ I also considered that many of these students would be looking at these events n
 
 ## Proposal
 
-I wanted to create a site that would allow students to explore and share all the events offered at Triton Fest without having to leave the site. To do this, I kept three things in mind.
+I wanted to create a site that would allow students to explore and share all the events offered at Triton Fest without having to leave the site. To do this, I kept three things in mind:
 
 * Create an experience that makes it easy for students to explore all the events without having to leave the site.
 * Make "location" and "date" easily "screen-shotable" so that students can share the event.
