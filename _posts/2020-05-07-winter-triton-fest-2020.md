@@ -28,3 +28,7 @@ I wanted to create a site that would allow students to explore and share all the
 * Make a site that is responsive so that students will be able to utilize it regardless of how they are viewing it.
 
 ## Process
+
+### Lorem Ipsum
+
+I wanted to create a site that would allow students to explore and share all the events offered at Triton Fest without having to leave the site itself. To do this, I kept three things in mind:
