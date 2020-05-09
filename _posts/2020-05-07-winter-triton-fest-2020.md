@@ -43,6 +43,8 @@ I wanted to make the entirety of the Triton Fest website as informationally mini
 
 ![Landing page with events, dates, and times listed for quick viewership](/uploads/TritonFestWireframe-01.png)_Landing page with events, dates, and times listed for quick viewership_
 
+![](/uploads/Screen Shot 2020-05-09 at 1.43.45 PM.png)
+
 ## Branding
 
 For the branding, I settled on using bold colors that would be easily recognized across all mediums (web, posters, social media). This particular color palette was chosen to convey a "winter" vibe. The main font used for the project was **AO Mono**.
