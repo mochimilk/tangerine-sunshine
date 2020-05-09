@@ -39,7 +39,7 @@ I drew up three personas to help with my user experience flow: the library sulke
 
 ### Wireframes
 
-![](/uploads/TritonFestWireFrame1-01.png)
+![](/uploads/TritonFestWireFrame1.png)
 
 Landing page with events, dates, and times listed so students don't have to click in.
 
