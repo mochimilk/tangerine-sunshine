@@ -1,8 +1,6 @@
-I"Ö	<h2 id="objective">Objective</h2>
+I"ç	<h2 id="objective">Objective</h2>
 
 <p>The objective of this project was to design and develop a website for Winter Triton Fest 2020. Winter Triton Fest is an annual late night, weekend event series held at the beginning of winter quarters at UC San Diego. They host a number of events, including talks from Josh Peck, Stephanie Soo, Anne Phung, and more.</p>
-
-<p><img src="/uploads/WebUX-01.png" alt="" /></p>
 
 <h2 id="role">Role</h2>
 
@@ -34,9 +32,8 @@
 
 <h3 id="wireframes">Wireframes</h3>
 
-<p><img src="/uploads/TritonFestWireFrame1.png" alt="" /></p>
-
-<p>Landing page with events, dates, and times listed so students donâ€™t have to click in.</p>
+<p><img src="/uploads/TritonFestWireframe-01.png" alt="Landing page with events, dates, and times listed for quick viewership" />
+<em>Fig. 01 â€” Landing page with events, dates, and times listed for quick viewership</em></p>
 
 <h2 id="final-product">Final Product</h2>
 
