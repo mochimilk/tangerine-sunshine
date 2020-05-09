@@ -35,6 +35,8 @@ For this project, I was inspired by similar sites that focused on marketing thei
 
 ![](/uploads/Screen Shot 2020-05-08 at 11.30.03 PM.png)
 
+_Event component mood boards_
+
 ### Personas
 
 I drew up three personas to help with my user experience flow: the library sulker, the commuter, and the enthused.
