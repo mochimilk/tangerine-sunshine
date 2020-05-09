@@ -31,6 +31,16 @@ fields:
     time_format: 
     display_utc: false
   label: Date
+- name: medium
+  type: text
+  config:
+    required: false
+  label: Medium
+- name: link
+  type: text
+  config:
+    required: false
+  label: Link
 - name: layout
   type: text
   config:
