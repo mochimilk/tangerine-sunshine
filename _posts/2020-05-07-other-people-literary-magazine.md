@@ -43,7 +43,7 @@ One of the things that drew us into creating a brutalist design for Other People
 
 Another thing that drew us to a brutalist design was that stray away from a corporate look to a more liberal and human design.
 
-![](/uploads/Screen Shot 2020-05-09 at 4.17.31 PM.png)
+![](/uploads/Screen Shot 2020-05-09 at 4.17.31 PM.png)_Brutalist web design mood boards_
 
     <body>
     	{% include header.html %}
