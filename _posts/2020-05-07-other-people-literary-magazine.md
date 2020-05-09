@@ -11,33 +11,31 @@ link: https://otherpeoplesd.com/
 ---
 ## Objective
 
-One objective of this design was to **create a modular design system**. In doing so would pave way for succeeding developers to carry on the work fluidly. Another objective of this design was to **create an experience focused on readership**.
-
-The idea of the minimal/brutalist design was to create a space that would spotlight attention to the contributions (the literature and art). It allows for minimal distractions and focuses on readership and viewership. As a perk, at the bottom right of the screen is a fixed toggle for light and dark mode. This is also defaulted to the user’s default device setting (in case they already have a preference).
+The objective of this project was to create a website for Other People Literary Magazine. As the creative co-director, I also had the task of leading a team of designers and developers to build it. In having a team of students that would eventually graduate and go off start adulting, we needed to be mindful of making a site that could easily be passed onto others.
 
 ## Role
 
-As the creative co-director, I oversaw and built the **UX/UI design**, **frontend development**, as well as designed the overall **brand/identity** of Other People.
+As the creative co-director, I oversaw and developed the **UX/UI design**, **frontend development**, as well as designed the overall **brand/identity** of Other People.
 
 ## Brainstorming
 
-On building the site, I first considered the modularity of the design system. This design system had to be 
+When first brainstorming this project, we wanted to **create an experience focused on readership/viewership**. We also wanted to **create a modular design system**; In doing so would pave way for succeeding developers to carry on the work fluidly. The third objective was to **create a site on a content management system** so that the editorial team can easily update the front matter.
 
 ## Proposal
 
-I wanted to create a site that would allow students to explore and share all the events offered at Triton Fest without having to leave the site itself. To do this, I kept three things in mind:
+Our proposal was to, first, create a **minimalist/brutalist design** for the site that would place focus on the contributions (literature and art). It allows for minimal distractions and focuses on readership and viewership.
 
-* Create an experience that makes it easy for students to delve into all the events.
-* Make "location" and "date" easily "screen-shotable" so that students can share.
-* Make a site that is responsive so that students will be able to utilize it regardless of where they are viewing it.
+Our second proposal was to use a coding language that could not only be modular, but easily learned/recognized. For this, we decided to use a **Jekyll/Sass** combo.
+
+Our third proposal was to use a headless content management system, so that — in the case of a system falling off trend — the designers could easily chop the head off and replace it. For this, we decided to use **Forestry.io**.
+
+* Use a minimalist/brutalist design for max readability.
+* Make an easy/modular coding design system
+* Use a headless CMS
 
 ## Process
 
 ### Research
-
-For this project, I was inspired by similar sites that focused on marketing their individual events. My mood boards stretched from festival websites to facebook and yelp event listings.
-
-I wanted to make the entirety of the Triton Fest website as informationally minimalistic as possible — just like the cards I used for my mood board — displaying only event, time, date, and location. In doing so would make the site a brief, yet informative and enjoyable experience.
 
 ### Wireframes
 
