@@ -39,6 +39,11 @@ Our third proposal was to use a headless content management system, so that — 
 
 ### Research
 
+One of the things that drew us into creating a brutalist design for Other People was the capacity to make an easy design system. Further, having these modules/components enabled the designers and developers to work more closely together as it acted like a sort of buffer between the two. We utilized Figma to translate design into development.
+
+Another thing that drew us to a brutalist design was that stray away from a corporate look to a more liberal and human design.
+
+![](/uploads/Screen Shot 2020-05-09 at 4.17.31 PM.png)_Brutalist web design mood boards_
 
     <body>
     	{ include header.html }
