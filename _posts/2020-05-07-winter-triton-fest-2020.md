@@ -53,7 +53,7 @@ For the branding, I settled on using bold colors that would be easily recognized
 
 The finalized website took a couple days of work (including branding), moving from brainstorming through process development quickly. The result was a site that checked all my initial proposals. Each event page was simple and informative, and scrolled down to a list of the other events so that the user would be able to keep exploring within the ecosystem of the website. It was also built to be responsive, enabling users to view it anywhere. As a bonus — being both the brand designer as well as the developer — I was able to create a site that corresponded with print assets
 
-![](/uploads/TritonFestFinalized.png)
+![](/uploads/TritonFest-Finalized copy.png)
 
 ![](/uploads/MobileUI.png)
 
