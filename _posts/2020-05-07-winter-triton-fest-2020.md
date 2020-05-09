@@ -33,9 +33,7 @@ I wanted to create a site that would allow students to explore and share all the
 
 For this project, I was inspired by similar sites that focused on marketing their individual events. My mood boards stretched from festival websites to facebook and yelp event listings.
 
-![](/uploads/Screen Shot 2020-05-08 at 11.30.03 PM.png)
-
-_Event component mood boards_
+![](/uploads/Screen Shot 2020-05-08 at 11.30.03 PM.png)_Event component mood boards_
 
 ### Personas
 
