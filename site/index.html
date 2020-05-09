@@ -4,7 +4,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
-  <title>Winter Triton Fest 2020 - eunsoo lee</title>
+  <title>Home - eunsoo lee</title>
   <link rel="stylesheet" href="/tangerine-sunshine/assets/css/main.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -13,28 +13,29 @@
 </head>
 
 <body>
-  <headerTwo class="nav-down">
+
+  <header class="nav-down">
 
     <div class="title">
-        <a href="http://localhost:4000/tangerine-sunshine//">
+        <a href="http://localhost:4000/tangerine-sunshine/">
         eunsoo lee</a>
     </div>
 
     <ul class="nav">
         <li>
             <h4>
-    <a class="first" href="http://localhost:4000/tangerine-sunshine//#second">Studies</a>
+                <a class="first" type="button" onclick="smoothScroll(document.getElementById('second'))" >Studies</a>
             </h4>
         </li>
         <li>
             <h4>
-                <a href="http://localhost:4000/tangerine-sunshine//about">About</a>
+                <a href="http://localhost:4000/tangerine-sunshine/about">About</a>
             </h4>
         </li>
         <li>
             <a>
                 <h4>
-                   <a>Resume</a>
+                                  <a href="">Resume</a>
                 </h4>
             </a>
         </li>
@@ -55,18 +56,12 @@
 
     </div>
 
-</headerTwo>
-
-
-
-
-
-
+</header>
 
 <div id="myNav" class="overlay">
     <div class= "overlay-content">
         <div class="title">
-              <a href="http://localhost:4000/tangerine-sunshine//">
+              <a href="http://localhost:4000/tangerine-sunshine/">
         eunsoo lee
         </a>
     </div>
@@ -74,19 +69,19 @@
         <ul class="nav">
             <li>
                 <h4>
-           <a class="first" href="http://localhost:4000/tangerine-sunshine//#second">Studies</a>
+                    <a class="first" type="button" onclick="smoothScroll(document.getElementById('second')); closeNav()">Studies</a>
                 </h4>
             </li>
             <li>
                 <h4>
-                        <a href="http://localhost:4000/tangerine-sunshine//about">About</a>
+                    <a href="http://localhost:4000/tangerine-sunshine/about">About</a>
                 </h4>
             </li>
             <li>
                 <a>
                     <h4>
-                       <a>Resume</a>
-                    </h4>
+                        <a href="">Resume</a>
+                    </h4> 
                 </a>
             </li>
 
@@ -108,14 +103,14 @@
 
 
 
-     <div class="studiesMenu">
+    <div class="studiesMenu">
     <div class="StudiesContainer">
         <div class="mobileNav">
             <h2>Hello</h2>
-            <h1> <a class="first" href="http://localhost:4000/tangerine-sunshine//#second"
+            <h1> <a class="first" href="http://localhost:4000/tangerine-sunshine/#second"
                     onclick="smoothScroll(document.getElementById('second')); closeNav()">Studies</a>
             </h1>
-            <h1> <a href="http://localhost:4000/tangerine-sunshine//about">About</a></h1>
+            <h1> <a href="http://localhost:4000/tangerine-sunshine/about">About</a></h1>
             <h1><a>Resume</a></h1>
         </div>
 
@@ -126,9 +121,9 @@
 
         <h2>Studies</h2>
         
-        <a href="/tangerine-sunshine//ux/ui%20%E2%80%94%20frontend%20development%20%E2%80%94%20branding/2020/04/18/other-people-literary-magazine.html">
+        <a href="/tangerine-sunshine/ux/ui%20%E2%80%94%20frontend%20development%20%E2%80%94%20branding/2020/04/18/other-people-literary-magazine.html">
             <div class="StudiesModuleTwo">
-                <div class="square"> <img src="/tangerine-sunshine//uploads/730014EB-2EB9-44B0-96F8-D8D80489FCA9.JPG" class="image"></div>
+                <div class="square"> <img src="/tangerine-sunshine/uploads/730014EB-2EB9-44B0-96F8-D8D80489FCA9.JPG" class="image"></div>
                 <div class="StudiesInfo">
                     <h1>Other People Literary Magazine</h1>
                     <h4>
@@ -140,9 +135,9 @@
             </div>
         </a>
         
-        <a href="/tangerine-sunshine//ux/ui%20%E2%80%94%20frontend%20development%20%E2%80%94%20branding/2020/01/15/winter-triton-fest-2020.html">
+        <a href="/tangerine-sunshine/ux/ui%20%E2%80%94%20frontend%20development%20%E2%80%94%20branding/2020/01/15/winter-triton-fest-2020.html">
             <div class="StudiesModuleTwo">
-                <div class="square"> <img src="/tangerine-sunshine//uploads/WebUX-01.png" class="image"></div>
+                <div class="square"> <img src="/tangerine-sunshine/uploads/WebUX-01.png" class="image"></div>
                 <div class="StudiesInfo">
                     <h1>Winter Triton Fest 2020</h1>
                     <h4>
@@ -158,7 +153,8 @@
 
 </div>
 
-         <footer>
+
+        <footer>
   <h4>much love by eunsoo lee  © 2020</h4>
   <div class="FooterLinks">
     <h4>
@@ -236,16 +232,12 @@ if (theme === "dark") {
 }
 </script>
 
-
-
-
-
 <script>
     // Hide Header on on scroll down
     var didScroll;
     var lastScrollTop = 0;
     var delta = 5;
-    var navbarHeight = $('headerTwo').outerHeight();
+    var navbarHeight = $('header').outerHeight();
 
     $(window).scroll(function (event) {
         didScroll = true;
@@ -269,13 +261,13 @@ if (theme === "dark") {
         // This is necessary so you never see what is "behind" the navbar.
         if (st > lastScrollTop && st > navbarHeight) {
             // Scroll Down
-            $('headerTwo')
+            $('header')
                 .removeClass('nav-down')
                 .addClass('nav-up');
         } else {
             // Scroll Up
             if (st + $(window).height() < $(document).height()) {
-                $('headerTwo')
+                $('header')
                     .removeClass('nav-up')
                     .addClass('nav-down');
             }
@@ -300,120 +292,118 @@ if (theme === "dark") {
             .height = "0%";
     }
 </script>
-  <div class="studyIntro">
-    <div class="cssanimation sequence fadeInBottom">
-      <div class="postTitle">
-        <div>
-          <h1>Winter Triton Fest 2020</h1><br>
-          <h4><b> Visual Designer — Web Developer</b><br>UX/UI — Frontend Development — Branding
-            <br>
-          </h4>
+
+  <div class="IndexContainer">
+    <div class="IndexIntro">
+      <h1 class="cssanimation sequence fadeInBottom">
+        Product Designer from La Jolla, CA.
+        <br>
+        Currently at <a>Other People
+
+
+          <?xml version="1.0" encoding="utf-8"?>
+          <!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="preserve">
+            <style type="text/css"></style>
+            <polyline class="st0" points="116.7,116.7 1083.3,116.7 1083.3,1083.3 " />
+            <line class="st0" x1="1083.3" y1="116.7" x2="116.7" y2="1083.3" />
+          </svg>
+        </a>
+
+        <br>
+        Previously at <a>A.S. Graphic Studio
+
+
+          <?xml version="1.0" encoding="utf-8"?>
+          <!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="preserve">
+            <style type="text/css"></style>
+            <polyline class="st0" points="116.7,116.7 1083.3,116.7 1083.3,1083.3 " />
+            <line class="st0" x1="1083.3" y1="116.7" x2="116.7" y2="1083.3" />
+          </svg>
+        </a>
+      </h1>
+
+      <div class="first" type="button" onclick="smoothScroll(document.getElementById('second'))">
+        <div class="ExploreStudies">
+          <h4 class="cssanimation sequence fadeInBottom">Explore Studies </h4>
         </div>
-        <div class="postDate">
-          <h2><time class="dt-published" datetime="2020-01-15T20:00:00-08:00" itemprop="datePublished">
-              Jan 15, 2020
-            </time><h4>
-                          
-            
-              2 mins
-             read
-</h4>
-        </div>
-        </h2>
       </div>
 
-
-
-
     </div>
-
-
-    <div class="studyImage">
-      <img src="/tangerine-sunshine//uploads/WebUX-01.png">
-    </div>
-
-    <div class="hello"></div>
-
-    <div class="contentBody">
-
-      <h2 id="objective">Objective</h2>
-
-<p>The objective of this project was to design and develop a website for Winter Triton Fest 2020. Winter Triton Fest is an annual late night, weekend event series held at the beginning of winter quarters at UC San Diego. They host a number of events, including talks from Josh Peck, Stephanie Soo, Anne Phung, and more.</p>
-
-<h2 id="role">Role</h2>
-
-<p>I wore many hats in this project as a lot of the staff was out for winter break 😭. However, it challenged me to build a project independently. For this project, I built the <strong>UX/UI, the brand design, and social media assets</strong>.</p>
-
-<h2 id="brainstorming">Brainstorming</h2>
-
-<p>When first thinking of building the site, I took into consideration what students would use the site for. Looking at prior Triton Fest sites, I saw that it consisted of a list of events, each linking to a corresponding facebook event page. Though the site was functional, it wasn’t so much practical as it took the viewer out of the site and into Facebook.</p>
-
-<h2 id="proposal">Proposal</h2>
-
-<p>I wanted to create a site that would allow students to explore and share all the events offered at Triton Fest without having to leave the site itself. To do this, I kept three things in mind:</p>
-
-<ul>
-  <li>Create an experience that makes it easy for students to delve into all the events.</li>
-  <li>Make “location” and “date” easily “screen-shotable” so that students can share.</li>
-  <li>Make a site that is responsive so that students will be able to utilize it regardless of how they are viewing it.</li>
-</ul>
-
-<h2 id="process">Process</h2>
-
-<h3 id="research">Research</h3>
-
-<p>For this project, I was inspired by similar sites that focused on marketing their individual events. My mood boards stretched from festival websites to facebook and yelp event listings.</p>
-
-<h3 id="personas">Personas</h3>
-
-<p>I drew up three personas to help with my user experience flow: the library sulker, the commuter, and the enthused.</p>
-
-<h3 id="wireframes">Wireframes</h3>
-
-<p>Landing page with events, dates, and times listed so students don’t have to click in.</p>
-
-<h2 id="final-product">Final Product</h2>
-
-<p>I wanted to create a site that would allow students to explore and share all the events offered at Triton Fest without having to leave the site itself. To do this, I kept three things in mind:</p>
-
-
-    </div>
-
-
-
-
   </div>
 
   
+<div class="StudiesContainer">
+    <div class="second" id="second"></div>
+    
+    <h2>Studies</h2>
+    
+    <a href="/tangerine-sunshine/ux/ui%20%E2%80%94%20frontend%20development%20%E2%80%94%20branding/2020/04/18/other-people-literary-magazine.html">
+        <div class="StudiesModule">
+            <div class="square"> <img src="/tangerine-sunshine/uploads/730014EB-2EB9-44B0-96F8-D8D80489FCA9.JPG" class="image"></div>
+            <div class="StudiesInfo">
+                <h1>Other People Literary Magazine</h1>
+                <h4>
+                    <div>Creative Co-Director</div><br>
+                    <div>UX/UI — Frontend Development — Branding</div>
+                </h4>
+            </div>
+            <div>      <?xml version="1.0" encoding="utf-8"?>
+                <!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="preserve">
+                <style type="text/css">
+                
+                </style>
+                <polyline class="st0" points="116.7,116.7 1083.3,116.7 1083.3,1083.3 "/>
+                <line class="st0" x1="1083.3" y1="116.7" x2="116.7" y2="1083.3"/>
+                </svg></div>
+        </div>
+    </a>
+    
+    <a href="/tangerine-sunshine/ux/ui%20%E2%80%94%20frontend%20development%20%E2%80%94%20branding/2020/01/15/winter-triton-fest-2020.html">
+        <div class="StudiesModule">
+            <div class="square"> <img src="/tangerine-sunshine/uploads/WebUX-01.png" class="image"></div>
+            <div class="StudiesInfo">
+                <h1>Winter Triton Fest 2020</h1>
+                <h4>
+                    <div>Visual Designer — Web Developer</div><br>
+                    <div>UX/UI — Frontend Development — Branding</div>
+                </h4>
+            </div>
+            <div>      <?xml version="1.0" encoding="utf-8"?>
+                <!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="preserve">
+                <style type="text/css">
+                
+                </style>
+                <polyline class="st0" points="116.7,116.7 1083.3,116.7 1083.3,1083.3 "/>
+                <line class="st0" x1="1083.3" y1="116.7" x2="116.7" y2="1083.3"/>
+                </svg></div>
+        </div>
+    </a>
+    
+</div>
 
-<script>
-    $(window).scroll(function () {
-        var wScroll = $(this).scrollTop();
-        if (wScroll >= $('.hello').offset().top - ($(window).height() / 1.2)) {
 
 
+  
 
 
-                        $("body").css("background-color", "var(--light-text-color)");
-            $("body").css("color", "var(--background-color)");
-            $(".st0").css("stroke", "var(--background-color)");
-            $("svg").css("fill", "var(--background-color)");
-            $("headerTwo").css("background-color", "var(--light-text-color)");
-            $("headerTwo").css("color", "var(--background-color)");
-     
-        } else {
-       $("body").css("background-color", "var(--background-color)");
-            $("body").css("color", "var(--light-text-color)");
-            $(".st0").css("stroke", "var(--light-text-color)");
-            $("svg").css("fill", "var(--light-text-color)");
-            $("headerTwo").css("background-color", "var(--background-color)");
-            $("headerTwo").css("color", "var(--light-text-color)");
+  <footer>
+  <h4>much love by eunsoo lee  © 2020</h4>
+  <div class="FooterLinks">
+    <h4>
+      <a href="https://www.linkedin.com/in/leeunsu/" target="_blank">  LinkedIn</a> — <a href="https://github.com/leeunsu" target="_blank">GitHub</a>
 
-        }
-    });
-</script>
-
-
+    </h4>
+  </div>
+</footer>
+  
 
 
 
@@ -448,22 +438,27 @@ if (theme === "dark") {
     }
 </script>
 
-  <footer>
-  <h4>much love by eunsoo lee  © 2020</h4>
-  <div class="FooterLinks">
-    <h4>
-      <a href="https://www.linkedin.com/in/leeunsu/" target="_blank">  LinkedIn</a> — <a href="https://github.com/leeunsu" target="_blank">GitHub</a>
+<script>
+    $(window).scroll(function () {
+        var wScroll = $(this).scrollTop();
+        if (wScroll >= $('.StudiesModule').offset().top - ($(window).height() / 1.2)) {
+            $("body").css("background-color", "var(--light-text-color)");
+            $("body").css("color", "var(--background-color)");
+            $(".st0").css("stroke", "var(--background-color)");
+            $("svg").css("fill", "var(--background-color)");
+            $("header").css("background-color", "var(--light-text-color)");
+            $("header").css("color", "var(--background-color)");
 
-    </h4>
-  </div>
-</footer>
-
-
-
-
-
-
-
+        } else {
+            $("body").css("background-color", "var(--background-color)");
+            $("body").css("color", "var(--light-text-color)");
+            $(".st0").css("stroke", "var(--light-text-color)");
+            $("svg").css("fill", "var(--light-text-color)");
+            $("header").css("background-color", "var(--background-color)");
+            $("header").css("color", "var(--light-text-color)");
+        }
+    });
+</script>
 
 
 

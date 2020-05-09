@@ -13,73 +13,57 @@
 </head>
 
 <body>
-
-
-
   {% include headerTwo.html %}
-
-
-
-
-
   <div class="studyIntro">
     <div class="cssanimation sequence fadeInBottom">
-    <div class="postTitle">
-      <div >
-        <h1>{{ page.title | escape }}</h1><br>
-        <h4><b> {{ page.role }}</b><br>{{ page.category }}
-          <br>
-         </h4>
+      <div class="postTitle">
+        <div>
+          <h1>{{ page.title | escape }}</h1><br>
+          <h4><b> {{ page.role }}</b><br>{{ page.category }}
+            <br>
+          </h4>
+        </div>
+        <div class="postDate">
+          <h2>
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+              {{ page.date | date: date_format }}
+            </time>
+            {%- if page.modified_date -%}
+            ~
+            {%- assign mdate = page.modified_date | date_to_xmlschema -%}
+            <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
+              {{ mdate | date: date_format }}
+            </time>
+            {%- endif -%}
+            <h4>
+              {% include minsread.html %}</h4>
+        </div>
+        </h2>
       </div>
 
 
 
-      <div class="postDate">
-        <h2>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-          {{ page.date | date: date_format }}
-        </time>
-        {%- if page.modified_date -%}
-        ~
-        {%- assign mdate = page.modified_date | date_to_xmlschema -%}
-        <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
-          {{ mdate | date: date_format }}
-        </time>
-        {%- endif -%}
+
+    </div>
 
 
-<h4>
-        {% include minsread.html %}</h4>
+    <div class="studyImage">
+      <img src="{{site.baseurl}}{{ page.thumb }}">
+    </div>
 
-      </div>
+    <div class="hello"></div>
 
-    </h2>
- 
+    <div class="contentBody">
+
+      {{ content }}
+
     </div>
 
 
 
 
   </div>
-
-
-  <div class="studyImage">
-    <img src="{{site.baseurl}}{{ page.thumb }}">
-  </div>
-
-  <div class="hello"></div>
-
-  <div class="contentBody">
-
-    {{ content }}
-
-  </div>
-
-
-
-
-</div>
 
   {% include javaScrollStudy.html %}
 
@@ -91,7 +75,7 @@
 
 
 
-  
+
 
 
 </body>

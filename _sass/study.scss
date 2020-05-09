@@ -18,7 +18,6 @@
     border-width: 0 0 1px 0;
     padding-bottom: $blockThree;
 
-
     h4 {
         padding-top: $blockTwo;
         bottom: 0;
@@ -41,8 +40,6 @@
     width: 50%;
     padding: $blockFour;
 
-
-
     h2 {
         position: absolute;
         right: auto;
@@ -51,18 +48,16 @@
         padding-right: $blockFour;
         width: 30%;
         margin-top: $blockFour;
-
     }
     h2:not(:first-child) {
         margin-top: 48px !important;
     }
 
-    h3{
+    h3 {
         margin-bottom: -$blockThree;
         margin-top: 52px;
     }
 
-    
     h4,
     p {
         margin-top: $blockFour;
@@ -83,8 +78,8 @@
 
     li {
         margin-left: $blockThree;
-  
     }
+
 }
 
 .studyImage {
@@ -133,20 +128,16 @@
             padding-top: $blockTwo;
         }
 
-        h3{
+        h3 {
             margin-bottom: 0;
             margin-top: $blockTwo;
         }
         h2,
-   
         h4,
         p {
             margin-top: $blockTwo;
         }
-
     }
-
-
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
@@ -174,12 +165,11 @@
             padding-top: $blockThree;
         }
 
-        h3{
+        h3 {
             margin-bottom: -$blockTwo;
             margin-top: $blockThree;
         }
         h2,
-        
         h4,
         p {
             margin-top: $blockThree;

@@ -1,0 +1,272 @@
+body { background: var(--background-color); color: var(--light-text-color); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; transition: background-color 0.3s ease-in-out; }
+
+html, body { margin: 0; padding: 0; }
+
+h1 { padding: 0; margin: 0; font-size: 3.5rem; font-weight: normal; }
+
+h2 { padding: 0; margin: 0; font-size: 2rem; text-transform: uppercase; font-weight: normal; }
+
+h4 { padding: 0; margin: 0; margin-top: 0px; font-size: 0.8rem; line-height: 1.2rem; font-weight: normal; text-transform: uppercase; }
+
+p { line-height: 1.5rem; font-weight: normal; }
+
+@media only screen and (max-width: 728px) { h1 { font-size: 2.8rem; }
+  h2 { font-size: 1.5rem; } }
+
+html, html[data-theme="light"] { --background-color: #efedea; --light-text-color: #151515; --link-color: rgb(0, 112, 201); --main-background-color: rgb(255, 255, 255); --main-text-color: rgb(51, 51, 51); }
+
+html[data-theme="dark"] { --background-color: #151515; --light-text-color: #efedea; --link-color: rgb(100, 210, 255); --main-background-color: rgb(28, 28, 30); --main-text-color: rgb(229, 229, 234); }
+
+@media (prefers-color-scheme: dark) { html, html[data-theme="dark"] { --background-color: #151515; --light-text-color: #efedea; --link-color: rgb(100, 210, 255); --main-background-color: rgb(28, 28, 30); --main-text-color: rgb(229, 229, 234); }
+  html[data-theme="light"] { --background-color: #efedea; --light-text-color: #151515; --link-color: rgb(0, 112, 201); --main-background-color: rgb(255, 255, 255); --main-text-color: rgb(51, 51, 51); } }
+
+@keyframes slideInFromTop { 0% { transform: translateY(-100%); }
+  100% { transform: translateY(0); } }
+
+body { padding-top: 160px; }
+
+header { padding: 64px; display: grid; grid-template-columns: 1fr 1fr 1fr; animation: 1s ease-out 0s 1 slideInFromTop; line-height: 0.8; background-color: var(--background-color); color: var(--light-text-color); position: fixed; top: 0; transition: top 0.3s ease-in-out; left: 0px; right: 0px; z-index: 1; }
+
+header a { color: inherit; }
+
+header ul { display: flex; justify-content: space-between; list-style-type: none; margin: 0; padding: 0; cursor: pointer; }
+
+.nav-up { top: -160px; }
+
+.title { font-weight: bold; line-height: 0.8rem; }
+
+.menu { margin-left: auto; margin-right: 0; }
+
+.menu svg { width: 20px; cursor: pointer; fill: var(--light-text-color); }
+
+.menu svg:hover { transform: rotate(135deg); transition-duration: 0.3s; }
+
+headerTwo { padding: 64px; display: grid; grid-template-columns: 1fr 1fr 1fr; line-height: 0.8; background-color: var(--background-color); color: var(--light-text-color); position: fixed; top: 0; transition: top 0.3s ease-in-out; left: 0px; right: 0px; z-index: 1; }
+
+headerTwo a { color: inherit; }
+
+headerTwo ul { display: flex; justify-content: space-between; list-style-type: none; margin: 0; padding: 0; cursor: pointer; }
+
+.overlay { height: 0%; width: 100%; position: fixed; z-index: 1; top: 0; left: 0; background-color: var(--light-text-color); color: var(--background-color); overflow-x: hidden; transition: 0.3s; }
+
+.overlay ul { display: flex; justify-content: space-between; list-style-type: none; margin: 0; padding: 0; cursor: pointer; }
+
+.overlay-content { position: absolute; display: grid; grid-template-columns: 1fr 1fr 1fr; line-height: 0.8; padding: 64px; left: 0; right: 0; }
+
+.overlay-content a { color: var(--background-color); }
+
+.closebtn { margin-left: auto; margin-right: 0; }
+
+.closebtn svg { width: 20px; transform: rotate(45deg); }
+
+.closebtn circle { fill: var(--background-color); }
+
+@media only screen and (max-width: 728px) { header, headerTwo { padding: 16px; grid-template-columns: 1fr 1fr; }
+  .nav { display: none; }
+  .overlay-content { grid-template-columns: 1fr 1fr; padding: 16px; left: 0; right: 0; } }
+
+@media only screen and (max-width: 1024px) and (min-width: 729px) { header, headerTwo { padding: 32px; grid-template-columns: 1fr 1fr 1fr; }
+  .overlay-content { grid-template-columns: 1fr 1fr 1fr; padding: 32px; left: 0; right: 0; } }
+
+.nav a { display: inline; position: relative; overflow: hidden; }
+
+.nav a:after { content: ""; position: absolute; z-index: -1; right: 0; width: 0; bottom: -3px; border-style: solid; border-width: 0 0  1px 0; height: 1px; transition-property: width; transition-duration: 0.3s; transition-timing-function: ease-out; }
+
+.nav a:hover:after, .nav a:focus:after, .nav a:active:after { left: 0; right: auto; width: 100%; }
+
+/** cssanimation.css https://www.cssanimatio.io Created and maintained by: Pavel Find me at: https://www.linkedin.com/in/yesiamrocks/ Email: hello@cssanimation.io Github: https://github.com/yesiamrocks/cssanimation.io Title: A CSS Animation Library for Developers and Ninjas Copyright (c) 2017 Pavel License: cssanimation.io is licensed under the MIT license */
+.cssanimation, .cssanimation span { animation-duration: 1s; animation-fill-mode: both; }
+
+.cssanimation span { display: inline-block; }
+
+.fadeInBottom { animation-name: fadeInBottom; }
+
+@keyframes fadeInBottom { from { opacity: 0;
+    transform: translateY(100%); }
+  to { opacity: 1; } }
+
+.IndexContainer { height: 100vh; margin-bottom: -160px; }
+
+.IndexIntro { position: absolute; bottom: 64px; padding: 0 64px 0 64px; left: 0; right: 0; }
+
+.IndexIntro svg { width: 30px; }
+
+.IndexIntro svg .st0 { fill: none; stroke: var(--light-text-color); stroke-width: 10rem; stroke-miterlimit: 100; }
+
+.IndexIntro a { display: inline; position: relative; overflow: hidden; cursor: pointer; }
+
+.IndexIntro a:after { content: ""; position: absolute; z-index: -1; left: 0; width: 100%; bottom: -3px; background-color: var(--light-text-color); height: 4px; transition-property: width; transition-duration: 0.3s; transition-timing-function: ease-out; border-radius: 25px; }
+
+.IndexIntro a:hover:after, .IndexIntro a:focus:after, .IndexIntro a:active:after { right: 0; left: auto; width: 0%; }
+
+.IndexIntro a:hover svg { transform: rotate(45deg); transition-duration: 0.1s; }
+
+.ExploreStudies { margin-top: 64px; display: inline-flex; align-self: center; cursor: pointer; float: right; }
+
+@media only screen and (max-width: 728px) { .IndexIntro { margin-top: 256px; padding: 0 16px 0 16px; bottom: 16px; }
+  .IndexIntro a { text-decoration: underline; }
+  .IndexIntro a:after { display: none; }
+  .ExploreStudies { margin-top: 32px; } }
+
+@media only screen and (max-width: 1024px) and (min-width: 729px) { .IndexIntro { margin-top: 256px; padding: 0 32px 0 32px; bottom: 32px; }
+  .IndexIntro a { text-decoration: underline; }
+  .IndexIntro a:after { display: none; }
+  .ExploreStudies { margin-top: 32px; } }
+
+@media screen and (min-width: 2400px) { .IndexIntro { width: 65%; margin: auto; }
+  body { margin: auto; width: 70%; } }
+
+.StudiesContainer { padding: 0 64px 0 64px; }
+
+.StudiesContainer h2 { padding-top: 64px; margin-bottom: 32px; }
+
+a:visited, a:link { text-decoration: none; }
+
+.StudiesModule { display: grid; grid-template-columns: 30% 50% 20%; border-style: solid; border-width: 1px 0 0 0; padding-top: 32px; padding-bottom: 64px; color: var(--background-color); }
+
+.StudiesModule :nth-child(3) { margin-left: auto; margin-right: 0; }
+
+.StudiesModule h1 { text-decoration: none; }
+
+.StudiesModuleTwo { display: grid; grid-template-columns: 30% 50% 20%; border-style: solid; border-width: 1px 0 0 0; padding-top: 32px; padding-bottom: 32px; color: var(--background-color); }
+
+.StudiesModuleTwo :nth-child(3) { margin-left: auto; margin-right: 0; }
+
+.StudiesModuleTwo h1 { text-decoration: none; }
+
+svg { width: 30px; }
+
+svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
+
+.StudiesModule:hover h1 { text-decoration: underline; }
+
+.StudiesModule:hover svg { transform: rotate(45deg); transition-duration: 0.1s; }
+
+.StudiesModule:hover img { transform: scale(0.95); transition-duration: 0.5s; }
+
+.StudiesModuleTwo:hover h1 { text-decoration: underline; }
+
+.StudiesModuleTwo:hover svg { transform: rotate(45deg); transition-duration: 0.1s; }
+
+.StudiesModuleTwo:hover img { transform: scale(0.95); transition-duration: 0.5s; }
+
+.square img { width: 100%; /* width of container */ height: 256px; /* height of container */ object-fit: cover; }
+
+.StudiesInfo { position: relative; margin-left: 64px; }
+
+.StudiesInfo h4 { position: absolute; bottom: 8px; }
+
+.StudiesInfo h4 :nth-child(1) { font-weight: bold; }
+
+.StudiesInfo h4 div { margin: 0; padding: 0; line-height: 0; }
+
+.studiesMenu { margin-top: 128px; }
+
+.studiesMenu h2 { margin-top: 32px; }
+
+.studiesMenu a { cursor: pointer; }
+
+.studiesMenu h4 { margin-top: 8px; }
+
+.mobileNav { display: none; }
+
+.mobileNav h1 { margin: 0; padding-top: 8px; }
+
+.mobileNav a { color: var(--background-color); }
+
+@media only screen and (max-width: 728px) { .StudiesContainer { padding: 0 16px 0 16px; }
+  .StudiesContainer h2 { margin-bottom: 32px; }
+  .StudiesModule, .StudiesModuleTwo { display: grid; grid-template-columns: 1fr; }
+  .StudiesModule svg, .StudiesModuleTwo svg { margin-bottom: -32px; }
+  .StudiesInfo { margin-top: 16px; position: relative; margin-left: 0; }
+  .StudiesInfo h4 { position: relative; padding: 32px 0 32px 0; }
+  .studiesMenu { margin-top: 64px; }
+  .studiesMenu h2 { margin-bottom: 32px; }
+  .mobileNav { display: initial; }
+  ul.nav { display: none; } }
+
+@media only screen and (max-width: 1024px) and (min-width: 729px) { .StudiesContainer { padding: 0 32px 0 32px; }
+  .StudiesContainer h2 { margin-bottom: 32px; }
+  .StudiesModule, .StudiesModuleTwo { display: grid; grid-template-columns: 1fr; }
+  .StudiesModule svg, .StudiesModuleTwo svg { margin-bottom: -32px; }
+  .StudiesInfo { margin-top: 16px; position: relative; margin-left: 0; }
+  .StudiesInfo h4 { position: relative; padding: 32px 0 32px 0; }
+  .square img { height: 512px; /* height of container */ }
+  .studiesMenu { margin-top: 64px; } }
+
+.aboutContainer { display: grid; grid-template-columns: 1fr 1fr; margin-top: 128px; padding: 0 64px 0 64px; }
+
+.aboutContainer h2 { padding-top: 64px; margin-bottom: 64px; }
+
+.aboutImage { padding-right: 64px; }
+
+.aboutImage img { width: 100%; }
+
+a:visited, a:link { text-decoration: none; }
+
+@media only screen and (max-width: 728px) { .aboutImage { padding-right: 0; }
+  .aboutContainer { margin-top: 16px; padding: 0 16px 0 16px; grid-template-columns: 1fr; }
+  .aboutContainer h1 { margin-top: 32px; } }
+
+@media only screen and (max-width: 1024px) and (min-width: 729px) { .aboutImage { padding-right: 0; }
+  .aboutContainer { margin-top: 32px; padding: 0 32px 0 32px; grid-template-columns: 1fr; }
+  .aboutContainer h1 { margin-top: 32px; } }
+
+footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-top: 64px; }
+
+.FooterLinks { text-align: right; font-size: 0.9rem; }
+
+.FooterLinks a { color: inherit; }
+
+.FooterLinks a { display: inline; position: relative; overflow: hidden; }
+
+.FooterLinks a:after { content: ""; position: absolute; z-index: -1; right: 0; width: 0; bottom: -3px; border-style: solid; border-width: 0 0  1px 0; height: 1px; transition-property: width; transition-duration: 0.3s; transition-timing-function: ease-out; }
+
+.FooterLinks a:hover:after, .FooterLinks a:focus:after, .FooterLinks a:active:after { left: 0; right: auto; width: 100%; }
+
+@media only screen and (max-width: 728px) { footer { padding: 16px; } }
+
+@media only screen and (max-width: 1024px) and (min-width: 729px) { footer { padding: 32px; } }
+
+.studyIntro { margin-top: 256px; }
+
+.postTitle { position: relative; display: grid; grid-template-columns: 1fr 1fr; margin: 0 64px 0 64px; bottom: 64px; border-style: solid; border-width: 0 0 1px 0; padding-bottom: 32px; }
+
+.postTitle h4 { padding-top: 16px; bottom: 0; }
+
+.postDate { text-align: right; position: absolute; bottom: 32px; right: 0; }
+
+.contentBody { margin-left: auto; margin-right: 0; text-align: justify; width: 50%; padding: 64px; }
+
+.contentBody h2 { position: absolute; right: auto; left: 64px; text-align: left; padding-right: 64px; width: 30%; margin-top: 64px; }
+
+.contentBody h2:not(:first-child) { margin-top: 48px !important; }
+
+.contentBody h3 { margin-bottom: -32px; margin-top: 52px; }
+
+.contentBody h4, .contentBody p { margin-top: 64px; }
+
+.contentBody ul { list-style-position: outside; line-height: 1.5; display: initial; justify-content: none; list-style-type: initial; margin: 0; padding: 0; cursor: pointer; }
+
+.contentBody li { margin-left: 32px; }
+
+.studyImage { width: 100%; }
+
+.studyImage img { width: 100%; }
+
+@media only screen and (max-width: 728px) { .studyIntro { margin-top: 64px; }
+  .postTitle { display: grid; grid-template-columns: 1fr; margin: 0 16px 0 16px; bottom: 32px; }
+  .postDate { text-align: left; margin-top: 32px; position: relative; right: 0; bottom: 0; }
+  .contentBody { margin-left: 0; margin-right: 0; left: 0; right: 0; width: initial; padding: 16px; }
+  .contentBody h2 { position: relative; right: 0; left: 0; text-align: left; padding-right: 0; width: 100%; padding-top: 16px; }
+  .contentBody h3 { margin-bottom: 0; margin-top: 16px; }
+  .contentBody h2, .contentBody h4, .contentBody p { margin-top: 16px; } }
+
+@media only screen and (max-width: 1024px) and (min-width: 729px) { .postTitle { margin: 0 32px 0 32px; bottom: 32px; }
+  .contentBody { margin-left: 0; margin-right: 0; left: 0; right: 0; width: initial; padding: 32px; }
+  .contentBody h2 { position: relative; right: 0; left: 0; text-align: left; padding-right: 0; width: 100%; padding-top: 32px; }
+  .contentBody h3 { margin-bottom: -16px; margin-top: 32px; }
+  .contentBody h2, .contentBody h4, .contentBody p { margin-top: 32px; }
+  .contentBody h2:nth-child(1) { padding-top: 0; } }
+
+/*# sourceMappingURL=main.css.map */

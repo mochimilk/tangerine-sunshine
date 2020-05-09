@@ -36,7 +36,6 @@ header {
         color: inherit;
     }
 
-
     ul {
         display: flex;
         justify-content: space-between;
@@ -56,8 +55,6 @@ header {
     line-height: 0.8rem;
 }
 
-
-
 .menu {
     margin-left: auto;
     margin-right: 0;
@@ -72,18 +69,7 @@ header {
     }
 }
 
-
-
-
-
-
-
-
 // HEADER2
-
-
-
-
 
 headerTwo {
     padding: $blockFour;
@@ -115,7 +101,6 @@ headerTwo {
     }
 }
 
-
 // MOBILENAV
 
 .overlay {
@@ -141,8 +126,6 @@ headerTwo {
 }
 
 .overlay-content {
-
-
     position: absolute;
 
     display: grid;
@@ -153,11 +136,9 @@ headerTwo {
     left: 0;
     right: 0;
 
-
     a {
         color: $backgroundColor;
     }
-
 }
 
 .closebtn {
@@ -172,10 +153,6 @@ headerTwo {
         fill: $backgroundColor;
     }
 }
-
-
-
-
 
 // SCREENS
 @media only screen and (max-width: 728px) {
