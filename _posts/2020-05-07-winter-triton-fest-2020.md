@@ -59,4 +59,6 @@ The finalized website took a couple days of work (including branding), moving fr
 
 ![](/uploads/TritonFestFinalized.png)
 
-![](/uploads/MobileUI.png)![](/uploads/TritonFestComponent-01.png)_Finalized event component in page_
+![](/uploads/MobileUI.png)
+
+![](/uploads/TritonFestComponent-01.png)_Finalized event component in page_
