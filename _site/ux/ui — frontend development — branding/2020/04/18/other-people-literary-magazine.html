@@ -336,9 +336,6 @@ if (theme === "dark") {
 
     <div class="contentBody">
 
-
-
-
       <h2 id="objective">Objective</h2>
 
 <p>I’m baby lomo VHS migas bicycle rights. Vaporware umami aesthetic artisan single-origin coffee everyday carry. Cold-pressed cred chia mustache godard kale chips put a bird on it typewriter blog celiac kogi master cleanse poke shabby chic. Vinyl kale chips shaman pour-over. Taxidermy snackwave tote bag, bushwick artisan ethical iPhone neutra shabby chic.</p>
@@ -436,6 +433,24 @@ if (theme === "dark") {
 
 
 
+<script>
+$(document).ready(function() {
+    $(window).scroll(function() {
+        var distanceFromTop = $(document).scrollTop();
+
+
+          
+        if (distanceFromTop >= $('.hello').offset().top - ($(window).height() / 1.8))
+        {
+            $('ul:first-child ').fadeIn(400).addClass('fixed');
+        }
+        else
+        {
+            $('ul:first-child ').fadeOut(400).removeClass('fixed');
+        }
+    });
+});
+</script>
 
 
 

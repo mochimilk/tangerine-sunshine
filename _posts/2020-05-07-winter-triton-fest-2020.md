@@ -7,6 +7,7 @@ date: 2020-01-16T04:00:00.000+00:00
 layout: study
 
 ---
+{% include toc.html %}
 ## Objective
 
 The objective of this project was to design and develop a website for Winter Triton Fest 2020. Winter Triton Fest is an annual late night, weekend event series held at the beginning of winter quarters at UC San Diego. They host a number of events, including talks from Josh Peck, Stephanie Soo, Anne Phung, and more.
