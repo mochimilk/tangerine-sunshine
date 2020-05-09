@@ -5,10 +5,10 @@ category: UX/UI — Frontend Development — Branding
 thumb: "/uploads/730014EB-2EB9-44B0-96F8-D8D80489FCA9.JPG"
 date: 2020-04-19T00:00:00.000+00:00
 layout: study
+medium: ''
+link: ''
 
 ---
-{% include toc.html %}
-
 ## Intro
 
 As both a writer and a designer, a project in co-directing design for a newfound literary magazine meant a lot to me. It gave me an opportunity to be a part of something that I truly loved doing in all its facets. Also, having that binary of literature and design enabled me to extrapolate and expand both fields in parallel while finding new ways to weave them together.
