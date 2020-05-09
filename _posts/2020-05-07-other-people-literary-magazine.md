@@ -41,6 +41,8 @@ Our third proposal was to use a headless content management system, so that — 
 
 ### Wireframes
 
+![](/uploads/Screen Shot 2020-05-09 at 3.54.52 PM.png)
+
 ## Branding
 
 ## Final Product
