@@ -33,14 +33,15 @@ I wanted to create a site that would allow students to explore and share all the
 
 For this project, I was inspired by similar sites that focused on marketing their individual events. My mood boards stretched from festival websites to facebook and yelp event listings.
 
+![](/uploads/Screen Shot 2020-05-08 at 11.30.03 PM.png)
+
 ### Personas
 
 I drew up three personas to help with my user experience flow: the library sulker, the commuter, and the enthused.
 
 ### Wireframes
 
-![Landing page with events, dates, and times listed for quick viewership](/uploads/TritonFestWireframe-01.png)
-*Fig. 01 — Landing page with events, dates, and times listed for quick viewership*
+![Landing page with events, dates, and times listed for quick viewership](/uploads/TritonFestWireframe-01.png)_Landing page with events, dates, and times listed for quick viewership_
 
 ## Final Product
 
