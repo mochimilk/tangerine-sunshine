@@ -1,3 +1,6 @@
-url: "https://leeunsu.github.io/tangerine-sunshine" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" 
+url: "https://leeunsu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /tangerine-sunshine/ 
 title: "eunsoo lee" # the name of your site, e.g. ACME Corp.
+
+include:
+  - static
