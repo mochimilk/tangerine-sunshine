@@ -41,6 +41,8 @@ I drew up three personas to help with my user experience flow: the library sulke
 
 ![Landing page with events, dates, and times listed for quick viewership](/uploads/TritonFestWireframe-01.png)
 
+_*Landing page with events, dates, and times listed for quick viewership*_
+
 ## Final Product
 
 I wanted to create a site that would allow students to explore and share all the events offered at Triton Fest without having to leave the site itself. To do this, I kept three things in mind:
