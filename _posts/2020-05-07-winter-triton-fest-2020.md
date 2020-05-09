@@ -35,17 +35,22 @@ For this project, I was inspired by similar sites that focused on marketing thei
 
 ![](/uploads/Screen Shot 2020-05-08 at 11.30.03 PM.png)_Event component mood boards_
 
+I wanted to make the entirety of the Triton Fest website as informationally minimalistic as possible — just like the cards I used for my mood board — displaying only event, time, date, and location. In doing so would make the site a brief, yet informative and enjoyable experience.
+
 ### Personas
 
 I drew up three personas to help with my user experience flow: the library sulker, the commuter, and the enthused.
 
 ### Wireframes
 
-  
 ![Landing page with events, dates, and times listed for quick viewership](/uploads/TritonFestWireframe-01.png)_Landing page with events, dates, and times listed for quick viewership_
+
+## Branding
+
+For the branding, I settled on using bold colors that would be easily recognized across all mediums (web, posters, social media). This particular color palette was chosen to convey a "winter" vibe. The main font used for the project was **AO Mono**.
+
+![](/uploads/Tfest001.png)![](/uploads/Tfest002.png)
 
 ## Final Product
 
-![](/uploads/TritonFestComponent-01.png)_Finalized event component in page_
-
-I wanted to create a site that would allow students to explore and share all the events offered at Triton Fest without having to leave the site itself. To do this, I kept three things in mind:
+![](/uploads/TritonFestFinalized.png)![](/uploads/TritonFestComponent-01.png)_Finalized event component in page_
