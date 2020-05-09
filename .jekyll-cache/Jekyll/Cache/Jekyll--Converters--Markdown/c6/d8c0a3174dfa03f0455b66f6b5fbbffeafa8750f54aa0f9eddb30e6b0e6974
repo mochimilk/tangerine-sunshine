@@ -1,0 +1,30 @@
+I"Ú	
+<ul id="markdown-toc">
+  <li><a href="#intro" id="markdown-toc-intro">Intro</a></li>
+  <li><a href="#logo" id="markdown-toc-logo">Logo</a></li>
+  <li><a href="#typography" id="markdown-toc-typography">Typography</a></li>
+  <li><a href="#uxui" id="markdown-toc-uxui">UX/UI</a></li>
+</ul>
+
+<h2 id="intro">Intro</h2>
+
+<p>As both a writer and a designer, a project in co-directing design for a newfound literary magazine meant a lot to me. It gave me an opportunity to be a part of something that I truly loved doing in all its facets. Also, having that binary of literature and design enabled me to extrapolate and expand both fields in parallel while finding new ways to weave them together.</p>
+
+<h2 id="logo">Logo</h2>
+
+<p>The initial logo was sketched out by the Editor-in-Chief, Nicole Lopez. With this sketch, it was simple to create a clean, balanced logo that would translate well into different sizes and forms. A total of four were finalized into the final branding.</p>
+
+<h2 id="typography">Typography</h2>
+
+<p>The main type used throughout the branding is the Baiser family by Apito Foundry. Its diverse collection of fonts has been used as both H1 headers as well as H3 and H4. The clean design paved the way for a bolder, more flourishing text: Ogg Italic. Ogg Italic fills the space of the H2 header, coupling with Basier Regular to evoke a more literary-forward design.</p>
+
+<h2 id="uxui">UX/UI</h2>
+
+<p><a href="https://otherpeoplesd.com/">Visit website</a></p>
+
+<p>One objective of this design was for the code environment to be modular. In doing so would pave way for succeeding developers to carry on the work fluidly. It is built on jekyll and SASS, implementing <a href="https://forestry.io/">Forestry.io</a> for extended customization in the CMS.</p>
+
+<p>Another objective of this design was for the usability to be focused on readers. The idea of the minimal/brutalist design was to create a space that would spotlight attention to the contributions (the literature and art). It allows for minimal distractions and focuses on readership and viewership. As a perk, at the bottom right of the screen is a fixed toggle for light and dark mode. This is also defaulted to the userâ€™s default device setting (in case they already have a preference).</p>
+
+<p>Though the frontend was design to be barebones, the code for the blog was written from the ground up, creating a website that groups and categorizes the contributions into its respective poetry, fiction, nonfiction, and visual art containers.</p>
+:ET

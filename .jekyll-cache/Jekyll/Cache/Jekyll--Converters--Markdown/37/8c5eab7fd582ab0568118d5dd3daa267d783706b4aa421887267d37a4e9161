@@ -1,0 +1,38 @@
+I"7	<h2 id="objective">Objective</h2>
+
+<p>One objective of this design was to <strong>create a modular design system</strong>. In doing so would pave way for succeeding developers to carry on the work fluidly. Another objective of this design was to <strong>create an experience focused on readership</strong>.</p>
+
+<p>The idea of the minimal/brutalist design was to create a space that would spotlight attention to the contributions (the literature and art). It allows for minimal distractions and focuses on readership and viewership. As a perk, at the bottom right of the screen is a fixed toggle for light and dark mode. This is also defaulted to the user’s default device setting (in case they already have a preference).</p>
+
+<h2 id="role">Role</h2>
+
+<p>As the creative co-director, I oversaw and built the <strong>UX/UI design</strong>, <strong>frontend development</strong>, as well as designed the overall <strong>brand/identity</strong> of Other People.</p>
+
+<h2 id="brainstorming">Brainstorming</h2>
+
+<p>On building the site, I first considered the modularity of the design system. This design system had to be</p>
+
+<h2 id="proposal">Proposal</h2>
+
+<p>I wanted to create a site that would allow students to explore and share all the events offered at Triton Fest without having to leave the site itself. To do this, I kept three things in mind:</p>
+
+<ul>
+  <li>Create an experience that makes it easy for students to delve into all the events.</li>
+  <li>Make “location” and “date” easily “screen-shotable” so that students can share.</li>
+  <li>Make a site that is responsive so that students will be able to utilize it regardless of where they are viewing it.</li>
+</ul>
+
+<h2 id="process">Process</h2>
+
+<h3 id="research">Research</h3>
+
+<p>For this project, I was inspired by similar sites that focused on marketing their individual events. My mood boards stretched from festival websites to facebook and yelp event listings.</p>
+
+<p>I wanted to make the entirety of the Triton Fest website as informationally minimalistic as possible — just like the cards I used for my mood board — displaying only event, time, date, and location. In doing so would make the site a brief, yet informative and enjoyable experience.</p>
+
+<h3 id="wireframes">Wireframes</h3>
+
+<h2 id="branding">Branding</h2>
+
+<h2 id="final-product">Final Product</h2>
+:ET

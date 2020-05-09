@@ -146,7 +146,7 @@
                 <div class="StudiesInfo">
                     <h1>Winter Triton Fest 2020</h1>
                     <h4>
-                        <div>Visual Designer — Web Developer</div><br>
+                        <div>Visual Designer</div><br>
                         <div>UX/UI — Frontend Development — Branding</div>
                     </h4>
                 </div>
@@ -159,7 +159,7 @@
 </div>
 
          <footer>
-  <h4>much love by eunsoo lee  © 2020</h4>
+  <h4>Made with love by eunsoo lee  © 2020</h4>
   <div class="FooterLinks">
     <h4>
       <a href="https://www.linkedin.com/in/leeunsu/" target="_blank">  LinkedIn</a> — <a href="https://github.com/leeunsu" target="_blank">GitHub</a>
@@ -336,27 +336,74 @@ if (theme === "dark") {
 
     <div class="contentBody">
 
+      <div class="sideInfo">
+
+
+  <h3>Tools</h3>
+  Jekyll/Sass, Photoshop, Illustrator
+  <br><br>
+
+  
+  <a href="https://otherpeoplesd.com/" target="_blank">
+    <button class="button">
+      <h4>link</h4>
+    </button>
+  </a>
+  
+</div>
+
       <h2 id="objective">Objective</h2>
 
-<p>I’m baby lomo VHS migas bicycle rights. Vaporware umami aesthetic artisan single-origin coffee everyday carry. Cold-pressed cred chia mustache godard kale chips put a bird on it typewriter blog celiac kogi master cleanse poke shabby chic. Vinyl kale chips shaman pour-over. Taxidermy snackwave tote bag, bushwick artisan ethical iPhone neutra shabby chic.</p>
+<p>The objective of this project was to create a website for Other People Literary Magazine. As the creative co-director, I also had the task of leading a team of designers and developers to build it. In having a team of students that would eventually graduate and go off start adulting, we needed to be mindful of making a site that could easily be passed onto others.</p>
 
-<h2 id="planning">Planning</h2>
+<h2 id="role">Role</h2>
 
-<p>I’m baby lomo VHS migas bicycle rights. Vaporware umami aesthetic artisan single-origin coffee everyday carry. Cold-pressed cred chia mustache godard kale chips put a bird on it typewriter blog celiac kogi master cleanse poke shabby chic. Vinyl kale chips shaman pour-over. Taxidermy snackwave tote bag, bushwick artisan ethical iPhone neutra shabby chic.</p>
+<p>As the creative co-director, I oversaw and developed the <strong>UX/UI design</strong>, <strong>frontend development</strong>, as well as designed the overall <strong>brand/identity</strong> of Other People.</p>
 
-<h2 id="wireframing">Wireframing</h2>
+<h2 id="brainstorming">Brainstorming</h2>
 
-<p>I’m baby lomo VHS migas bicycle rights. Vaporware umami aesthetic artisan single-origin coffee everyday carry. Cold-pressed cred chia mustache godard kale chips put a bird on it typewriter blog celiac kogi master cleanse poke shabby chic. Vinyl kale chips shaman pour-over. Taxidermy snackwave tote bag, bushwick artisan ethical iPhone neutra shabby chic.</p>
+<p>When first brainstorming this project, we wanted to <strong>create an experience focused on readership/viewership</strong>. We also wanted to <strong>create a modular design system</strong>; In doing so would pave way for succeeding developers to carry on the work fluidly. The third objective was to <strong>create a site on a content management system</strong> so that the editorial team can easily update the front matter.</p>
+
+<p>And, of course, it had to be responsive on mobile, tablet, and desktop.</p>
+
+<h2 id="proposal">Proposal</h2>
+
+<p>Our proposal was to, first, create a <strong>minimalist/brutalist design</strong> for the site that would place focus on the contributions (literature and art). It allowed for minimal distractions and focuses on readership and viewership.</p>
+
+<p>Our second proposal was to use a coding language that could not only be modular, but easily learned/recognized. For this, we decided to use a <strong>Jekyll/Sass</strong> combo.</p>
+
+<p>Our third proposal was to use a headless content management system, so that — in the case of a system falling off trend — the designers could easily chop the head off and replace it. For this, we decided to use <strong>Forestry.io</strong>.</p>
+
+<ul>
+  <li>Use a minimalist/brutalist design for max readability.</li>
+  <li>Make an easy/modular coding design system</li>
+  <li>Use a headless CMS</li>
+</ul>
+
+<h2 id="process">Process</h2>
+
+<h3 id="research">Research</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;body&gt;
+	{ include header.html }
+	{ include literaturemodule.html }
+	{ include visualartsmodule.html }
+	{ include footer.html }
+&lt;/body&gt;
+</code></pre></div></div>
+
+<h3 id="wireframes">Wireframes</h3>
+
+<p><img src="/uploads/Screen Shot 2020-05-09 at 3.54.52 PM.png" alt="" /></p>
+
+<h2 id="branding">Branding</h2>
+
+<h2 id="final-product">Final Product</h2>
 
 
     </div>
 
-
-
-
-  </div>
-
-  
+    
 
 <script>
     $(window).scroll(function () {
@@ -420,8 +467,8 @@ if (theme === "dark") {
     }
 </script>
 
-  <footer>
-  <h4>much love by eunsoo lee  © 2020</h4>
+    <footer>
+  <h4>Made with love by eunsoo lee  © 2020</h4>
   <div class="FooterLinks">
     <h4>
       <a href="https://www.linkedin.com/in/leeunsu/" target="_blank">  LinkedIn</a> — <a href="https://github.com/leeunsu" target="_blank">GitHub</a>
@@ -433,24 +480,19 @@ if (theme === "dark") {
 
 
 
-<script>
-$(document).ready(function() {
-    $(window).scroll(function() {
-        var distanceFromTop = $(document).scrollTop();
-
-
-          
-        if (distanceFromTop >= $('.hello').offset().top - ($(window).height() / 1.8))
-        {
-            $('ul:first-child ').fadeIn(400).addClass('fixed');
-        }
-        else
-        {
-            $('ul:first-child ').fadeOut(400).removeClass('fixed');
-        }
-    });
-});
-</script>
+    <script>
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          var distanceFromTop = $(document).scrollTop();
+          if (distanceFromTop >= $('.hello').offset().top - ($(window).height() / 2.8)) {
+            $('.sideInfo').fadeIn(400).addClass('fixed');
+          }
+          else {
+            $('.sideInfo').fadeOut(400).removeClass('fixed');
+          }
+        });
+      });
+    </script>
 
 
 

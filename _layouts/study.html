@@ -56,40 +56,32 @@
 
     <div class="contentBody">
 
+      {% include sideInfo.html %}
+
       {{ content }}
 
     </div>
 
+    {% include javaScrollStudy.html %}
 
-
-
-  </div>
-
-  {% include javaScrollStudy.html %}
-
-  {% include footer.html %}
+    {% include footer.html %}
 
 
 
 
-<script>
-$(document).ready(function() {
-    $(window).scroll(function() {
-        var distanceFromTop = $(document).scrollTop();
-
-
-          
-        if (distanceFromTop >= $('.hello').offset().top - ($(window).height() / 1.8))
-        {
-            $('ul:first-child ').fadeIn(400).addClass('fixed');
-        }
-        else
-        {
-            $('ul:first-child ').fadeOut(400).removeClass('fixed');
-        }
-    });
-});
-</script>
+    <script>
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          var distanceFromTop = $(document).scrollTop();
+          if (distanceFromTop >= $('.hello').offset().top - ($(window).height() / 2.8)) {
+            $('.sideInfo').fadeIn(400).addClass('fixed');
+          }
+          else {
+            $('.sideInfo').fadeOut(400).removeClass('fixed');
+          }
+        });
+      });
+    </script>
 
 
 

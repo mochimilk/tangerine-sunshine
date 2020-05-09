@@ -39,12 +39,14 @@ Our third proposal was to use a headless content management system, so that — 
 
 ### Research
 
+
     <body>
-    	{% include header.html %}
-    	{% include literaturemodule.html %}
-    	{% include visualartsmodule.html %}
-    	{% include footer.html %}
+    	{ include header.html }
+    	{ include literaturemodule.html }
+    	{ include visualartsmodule.html }
+    	{ include footer.html }
     </body>
+
 
 ### Wireframes
 

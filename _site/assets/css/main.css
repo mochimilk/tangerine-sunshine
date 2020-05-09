@@ -236,7 +236,7 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 
 .postDate { text-align: right; position: absolute; bottom: 32px; right: 0; }
 
-.contentBody { margin-left: auto; margin-right: 64px; text-align: justify; width: 65%; padding: 64px; }
+.contentBody { margin-left: auto; margin-right: 64px; text-align: justify; width: 60%; padding: 64px; }
 
 .contentBody h2:not(:first-child) { margin-top: 64px; }
 
@@ -244,13 +244,17 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 
 .contentBody ul:not(:first-child) { list-style-position: outside; line-height: 1.5; display: initial; justify-content: none; list-style-type: initial; margin: 0; padding: 0; cursor: pointer; }
 
-.contentBody ul:first-child { font-size: 0.8rem; font-weight: normal; text-transform: uppercase; display: none; position: absolute; left: 64px; line-height: 1.5; display: initial; justify-content: none; list-style-type: none; margin-left: -32px; margin-bottom: 0; padding: 0; cursor: pointer; }
+.contentBody .sideInfo { text-align: left; z-index: 0; width: 256px; font-size: 0.8rem; font-weight: normal; text-transform: uppercase; display: none; position: absolute; left: 64px; line-height: 1.5; display: initial; justify-content: none; list-style-type: none; margin-bottom: 0; padding: 0; }
 
-.contentBody ul:first-child li { line-height: 1.5; list-style-type: none; padding: 0; }
+.contentBody .sideInfo li { line-height: 1.5; list-style-type: none; padding: 0; }
 
-.contentBody ul:first-child a { color: initial; }
+.contentBody .sideInfo a { color: inherit; }
 
-.contentBody ul:first-child.fixed { display: block; position: fixed; bottom: 64px; width: 100%; }
+.contentBody .sideInfo.fixed { display: block; position: fixed; bottom: 256px; }
+
+.contentBody button { background-color: transparent; border: none; border-radius: 25px; border-style: solid; border-width: 1px; padding: 5px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; cursor: pointer; color: var(--background-color); }
+
+.contentBody button:hover { background-color: var(--background-color); color: var(--light-text-color); transition-duration: 0.3s; }
 
 .contentBody li { margin-left: 32px; }
 
@@ -266,7 +270,7 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
   .postTitle { display: grid; grid-template-columns: 1fr; margin: 0 16px 0 16px; bottom: 32px; }
   .postDate { text-align: left; margin-top: 32px; position: relative; right: 0; bottom: 0; }
   .contentBody { margin-left: 0; margin-right: 0; left: 0; right: 0; width: initial; padding: 16px; }
-  ul:first-child, ul:first-child.fixed { display: none; opacity: 0; z-index: -5; } }
+  .sideInfo { display: none; opacity: 0; z-index: -5; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .postTitle { margin: 0 32px 0 32px; bottom: 32px; }
   .contentBody { margin-left: 0; margin-right: 0; left: 0; right: 0; width: initial; padding: 32px; }
@@ -275,6 +279,6 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
   .contentBody h2, .contentBody h4, .contentBody p { margin-top: 32px; }
   .contentBody h2:nth-child(1) { padding-top: 0; }
   .contentBody img { margin-top: 0; }
-  ul:first-child, ul:first-child.fixed { display: none; opacity: 0; z-index: -5; } }
+  .sideInfo { display: none; opacity: 0; z-index: -5; } }
 
 /*# sourceMappingURL=main.css.map */

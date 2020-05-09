@@ -1,0 +1,17 @@
+<div class="sideInfo">
+
+
+  <h3>Tools</h3>
+  {{ page.medium }}
+  <br><br>
+
+  {% if page.link %}
+  <a href="{{ page.link}}" target="_blank">
+    <button class="button">
+      <h4>link</h4>
+    </button>
+  </a>
+  {% else %}
+  hello
+  {% endif %}
+</div>

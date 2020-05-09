@@ -146,7 +146,7 @@
                 <div class="StudiesInfo">
                     <h1>Winter Triton Fest 2020</h1>
                     <h4>
-                        <div>Visual Designer — Web Developer</div><br>
+                        <div>Visual Designer</div><br>
                         <div>UX/UI — Frontend Development — Branding</div>
                     </h4>
                 </div>
@@ -159,7 +159,7 @@
 </div>
 
          <footer>
-  <h4>much love by eunsoo lee  © 2020</h4>
+  <h4>Made with love by eunsoo lee  © 2020</h4>
   <div class="FooterLinks">
     <h4>
       <a href="https://www.linkedin.com/in/leeunsu/" target="_blank">  LinkedIn</a> — <a href="https://github.com/leeunsu" target="_blank">GitHub</a>
@@ -305,7 +305,7 @@ if (theme === "dark") {
       <div class="postTitle">
         <div>
           <h1>Winter Triton Fest 2020</h1><br>
-          <h4><b> Visual Designer — Web Developer</b><br>UX/UI — Frontend Development — Branding
+          <h4><b> Visual Designer</b><br>UX/UI — Frontend Development — Branding
             <br>
           </h4>
         </div>
@@ -336,21 +336,23 @@ if (theme === "dark") {
 
     <div class="contentBody">
 
-      
-<ul id="markdown-toc">
-  <li><a href="#objective" id="markdown-toc-objective">Objective</a></li>
-  <li><a href="#role" id="markdown-toc-role">Role</a></li>
-  <li><a href="#brainstorming" id="markdown-toc-brainstorming">Brainstorming</a></li>
-  <li><a href="#proposal" id="markdown-toc-proposal">Proposal</a></li>
-  <li><a href="#process" id="markdown-toc-process">Process</a>    <ul>
-      <li><a href="#research" id="markdown-toc-research">Research</a></li>
-      <li><a href="#wireframes" id="markdown-toc-wireframes">Wireframes</a></li>
-    </ul>
-  </li>
-  <li><a href="#branding" id="markdown-toc-branding">Branding</a></li>
-  <li><a href="#final-product" id="markdown-toc-final-product">Final Product</a></li>
-</ul>
-<h2 id="objective">Objective</h2>
+      <div class="sideInfo">
+
+
+  <h3>Tools</h3>
+  Illustrator, Photoshop, Figma, HTML/CSS
+  <br><br>
+
+  
+  <a href="http://tritonfest.ucsd.edu/" target="_blank">
+    <button class="button">
+      <h4>link</h4>
+    </button>
+  </a>
+  
+</div>
+
+      <h2 id="objective">Objective</h2>
 
 <p>The objective of this project was to design and develop a website for Winter Triton Fest 2020. Winter Triton Fest is an annual late night, weekend event series held at the beginning of winter quarters at UC San Diego. They host a number of events, including talks from Josh Peck, Stephanie Soo, Anne Phung, and more.</p>
 
@@ -386,6 +388,8 @@ if (theme === "dark") {
 
 <p><img src="/uploads/TritonFestWireframe-01.png" alt="Landing page with events, dates, and times listed for quick viewership" /><em>Landing page with events, dates, and times listed for quick viewership</em></p>
 
+<p><img src="/uploads/Screen Shot 2020-05-09 at 1.43.45 PM.png" alt="" /></p>
+
 <h2 id="branding">Branding</h2>
 
 <p>For the branding, I settled on using bold colors that would be easily recognized across all mediums (web, posters, social media). This particular color palette was chosen to convey a “winter” vibe. The main font used for the project was <strong>AO Mono</strong>.</p>
@@ -405,12 +409,7 @@ if (theme === "dark") {
 
     </div>
 
-
-
-
-  </div>
-
-  
+    
 
 <script>
     $(window).scroll(function () {
@@ -474,8 +473,8 @@ if (theme === "dark") {
     }
 </script>
 
-  <footer>
-  <h4>much love by eunsoo lee  © 2020</h4>
+    <footer>
+  <h4>Made with love by eunsoo lee  © 2020</h4>
   <div class="FooterLinks">
     <h4>
       <a href="https://www.linkedin.com/in/leeunsu/" target="_blank">  LinkedIn</a> — <a href="https://github.com/leeunsu" target="_blank">GitHub</a>
@@ -487,24 +486,19 @@ if (theme === "dark") {
 
 
 
-<script>
-$(document).ready(function() {
-    $(window).scroll(function() {
-        var distanceFromTop = $(document).scrollTop();
-
-
-          
-        if (distanceFromTop >= $('.hello').offset().top - ($(window).height() / 1.8))
-        {
-            $('ul:first-child ').fadeIn(400).addClass('fixed');
-        }
-        else
-        {
-            $('ul:first-child ').fadeOut(400).removeClass('fixed');
-        }
-    });
-});
-</script>
+    <script>
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          var distanceFromTop = $(document).scrollTop();
+          if (distanceFromTop >= $('.hello').offset().top - ($(window).height() / 2.8)) {
+            $('.sideInfo').fadeIn(400).addClass('fixed');
+          }
+          else {
+            $('.sideInfo').fadeOut(400).removeClass('fixed');
+          }
+        });
+      });
+    </script>
 
 
 

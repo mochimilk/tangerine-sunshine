@@ -37,7 +37,7 @@
     margin-left: auto;
     margin-right: $blockFour;
     text-align: justify;
-    width: 65%;
+    width: 60%;
     padding: $blockFour;
 
     h2 {
@@ -73,7 +73,10 @@
         padding: 0;
         cursor: pointer;
     }
-    ul:first-child {
+    .sideInfo {
+        text-align: left;
+        z-index: 0;
+        width: $blockSix;
         font-size: 0.8rem;
         font-weight: normal;
         text-transform: uppercase;
@@ -84,26 +87,45 @@
         display: initial;
         justify-content: none;
         list-style-type: none;
-        margin-left: -$blockThree;
+
         margin-bottom: 0;
         padding: 0;
-        cursor: pointer;
+
         li {
             line-height: 1.5;
             list-style-type: none;
             padding: 0;
         }
         a {
-            color: initial;
+            color: inherit;
         }
     }
 
-    ul:first-child.fixed {
+    .sideInfo.fixed {
         display: block;
         position: fixed;
-        bottom: $blockFour;
+        bottom: $blockSix;
+    }
 
-        width: 100%;
+    button {
+        background-color: transparent;
+        border: none;
+        border-radius: 25px;
+        border-style: solid;
+        border-width: 1px;
+        padding: 5px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        color: $backgroundColor;
+    }
+
+    button:hover {
+        background-color: $backgroundColor;
+        color: $bodyColor;
+        transition-duration: 0.3s;
     }
 
     li {
@@ -186,8 +208,7 @@
         //     }
     }
 
-    ul:first-child,
-    ul:first-child.fixed {
+    .sideInfo {
         display: none;
         opacity: 0;
         z-index: -5;
@@ -235,8 +256,7 @@
             margin-top: 0;
         }
     }
-    ul:first-child,
-    ul:first-child.fixed {
+    .sideInfo {
         display: none;
         opacity: 0;
         z-index: -5;
