@@ -17,7 +17,7 @@ I wore many hats in this project as a lot of the staff was out for winter break 
 
 ## Brainstorming
 
-When first thinking of building the site, I took into consideration why students would visit it in the first place — what would necessitate the site? Looking at prior Triton Fest sites, I saw that it consisted of a list of events, each linking to a separate facebook event page. Though the site was functional, it wasn't so much practical as it took the viewer out of the site and into Facebook.<br><br>I also considered that many of these students would be looking at these events not only on their laptops, but on their phone.
+When first thinking of building the site, I took into consideration what students would use the site for. Looking at prior Triton Fest sites, I saw that it consisted of a list of events, each linking to a corresponding facebook event page. Though the site was functional, it wasn't so much practical as it took the viewer out of the site and into Facebook.
 
 ## Proposal
 
@@ -35,11 +35,13 @@ For this project, I was inspired by similar sites that focused on marketing thei
 
 ### Personas
 
-I drew up three personas to help with my user experience flow: the library sulker, the commuter, and the sharer.
+I drew up three personas to help with my user experience flow: the library sulker, the commuter, and the enthused.
 
 ### Wireframes
 
-I wanted to create a site that would allow students to explore and share all the events offered at Triton Fest without having to leave the site itself. To do this, I kept three things in mind:
+![](/uploads/TritonFestWireFrame1-01.png)
+
+Landing page with events, dates, and times listed so students don't have to click in.
 
 ## Final Product
 
