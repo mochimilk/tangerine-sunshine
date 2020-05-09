@@ -49,10 +49,6 @@ I drew up three personas to help with my user experience flow: the library sulke
 
 For the branding, I settled on using bold colors that would be easily recognized across all mediums (web, posters, social media). This particular color palette was chosen to convey a "winter" vibe. The main font used for the project was **AO Mono**.
 
-![](/uploads/Tfest001.png)
-
-![](/uploads/Tfest002.png)
-
 ## Final Product
 
 The finalized website took a couple days of work (including branding), moving from brainstorming through process development quickly. The result was a site that checked all my initial proposals. Each event page was simple and informative, and scrolled down to a list of the other events so that the user would be able to keep exploring within the ecosystem of the website. It was also built to be responsive, enabling users to view it anywhere. As a bonus — being both the brand designer as well as the developer — I was able to create a site that corresponded with print assets
@@ -62,3 +58,5 @@ The finalized website took a couple days of work (including branding), moving fr
 ![](/uploads/MobileUI.png)
 
 ![](/uploads/TritonFestComponent-01.png)_Finalized event component in page_
+
+![](/uploads/Tfest001.png)
