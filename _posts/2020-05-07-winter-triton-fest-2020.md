@@ -37,9 +37,7 @@ For this project, I was inspired by similar sites that focused on marketing thei
 
 I drew up three personas to help with my user experience flow: the library sulker, the commuter, and the enthused.
 
-### Wireframes
-
-![Landing page with events, dates, and times listed for quick viewership](/uploads/TritonFestWireframe-01.png)_Landing page with events, dates, and times listed for quick viewership_
+### Wireframes![Landing page with events, dates, and times listed for quick viewership](/uploads/TritonFestWireframe-01.png)_Landing page with events, dates, and times listed for quick viewership_
 
 ## Final Product
 
