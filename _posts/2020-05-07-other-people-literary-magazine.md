@@ -23,7 +23,7 @@ When first brainstorming this project, we wanted to **create an experience focus
 
 ## Proposal
 
-Our proposal was to, first, create a **minimalist/brutalist design** for the site that would place focus on the contributions (literature and art). It allows for minimal distractions and focuses on readership and viewership.
+Our proposal was to, first, create a **minimalist/brutalist design** for the site that would place focus on the contributions (literature and art). It allowed for minimal distractions and focuses on readership and viewership.
 
 Our second proposal was to use a coding language that could not only be modular, but easily learned/recognized. For this, we decided to use a **Jekyll/Sass** combo.
 
