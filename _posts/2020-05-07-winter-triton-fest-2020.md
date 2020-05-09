@@ -55,4 +55,4 @@ The finalized website took a couple days of work (including branding), moving fr
 
 ![](/uploads/TritonFestComponent-01.png)_Finalized event component in page_
 
-![](/uploads/Tfest001.png)
+![](/uploads/Tfest001.png)_(Extra) The poster design!_
