@@ -46,4 +46,6 @@ I drew up three personas to help with my user experience flow: the library sulke
 
 ## Final Product
 
+![](/uploads/TritonFestComponent-01.png)_Finalized event component in page_
+
 I wanted to create a site that would allow students to explore and share all the events offered at Triton Fest without having to leave the site itself. To do this, I kept three things in mind:
