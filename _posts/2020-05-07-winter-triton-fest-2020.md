@@ -11,8 +11,6 @@ layout: study
 
 The objective of this project was to design and develop a website for Winter Triton Fest 2020. Winter Triton Fest is an annual late night, weekend event series held at the beginning of winter quarters at UC San Diego. They host a number of events, including talks from Josh Peck, Stephanie Soo, Anne Phung, and more.
 
-![](/uploads/WebUX-01.png)
-
 ## Role
 
 I wore many hats in this project as a lot of the staff was out for winter break 😭. However, it challenged me to build a project independently. For this project, I built the **UX/UI, the brand design, and social media assets**.
@@ -40,8 +38,6 @@ For this project, I was inspired by similar sites that focused on marketing thei
 I drew up three personas to help with my user experience flow: the library sulker, the commuter, and the enthused.
 
 ### Wireframes
-
-![](/uploads/TritonFestWireFrame1.png)
 
 Landing page with events, dates, and times listed so students don't have to click in.
 
