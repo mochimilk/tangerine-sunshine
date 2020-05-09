@@ -13,7 +13,7 @@ The objective of this project was to design and develop a website for Winter Tri
 
 ## Role
 
-I wore many hats in this project as a lot of the staff was out for winter break 😭. However, it challenged me to build a project independently. For this project, I built the **UX/UI, the brand design, and social media assets**.
+I wore many hats in this project as a lot of the staff was out for winter break 😭. However, it challenged me to build a project independently. For this project, I took the role in **UX/UI, frontend, and branding**.
 
 ## Brainstorming
 
@@ -36,10 +36,6 @@ For this project, I was inspired by similar sites that focused on marketing thei
 ![](/uploads/Screen Shot 2020-05-08 at 11.30.03 PM.png)_Event component mood boards_
 
 I wanted to make the entirety of the Triton Fest website as informationally minimalistic as possible — just like the cards I used for my mood board — displaying only event, time, date, and location. In doing so would make the site a brief, yet informative and enjoyable experience.
-
-### Personas
-
-I drew up three personas to help with my user experience flow: the library sulker, the commuter, and the enthused.
 
 ### Wireframes
 
