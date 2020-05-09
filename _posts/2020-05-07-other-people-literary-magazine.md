@@ -21,6 +21,8 @@ As the creative co-director, I oversaw and developed the **UX/UI design**, **fro
 
 When first brainstorming this project, we wanted to **create an experience focused on readership/viewership**. We also wanted to **create a modular design system**; In doing so would pave way for succeeding developers to carry on the work fluidly. The third objective was to **create a site on a content management system** so that the editorial team can easily update the front matter.
 
+And, of course, it had to be responsive on mobile, tablet, and desktop.
+
 ## Proposal
 
 Our proposal was to, first, create a **minimalist/brutalist design** for the site that would place focus on the contributions (literature and art). It allowed for minimal distractions and focuses on readership and viewership.
