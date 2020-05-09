@@ -9,24 +9,38 @@ medium: Jekyll/Sass, Photoshop, Illustrator
 link: https://otherpeoplesd.com/
 
 ---
-## Intro
+## Objective
 
-As both a writer and a designer, a project in co-directing design for a newfound literary magazine meant a lot to me. It gave me an opportunity to be a part of something that I truly loved doing in all its facets. Also, having that binary of literature and design enabled me to extrapolate and expand both fields in parallel while finding new ways to weave them together.
+One objective of this design was to **create a modular design system**. In doing so would pave way for succeeding developers to carry on the work fluidly. Another objective of this design was to **create an experience focused on readership**.
 
-## Logo
+The idea of the minimal/brutalist design was to create a space that would spotlight attention to the contributions (the literature and art). It allows for minimal distractions and focuses on readership and viewership. As a perk, at the bottom right of the screen is a fixed toggle for light and dark mode. This is also defaulted to the user’s default device setting (in case they already have a preference).
 
-The initial logo was sketched out by the Editor-in-Chief, Nicole Lopez. With this sketch, it was simple to create a clean, balanced logo that would translate well into different sizes and forms. A total of four were finalized into the final branding.
+## Role
 
-## Typography
+As the creative co-director, I oversaw and built the **UX/UI design**, **frontend development**, as well as designed the overall **brand/identity** of Other People.
 
-The main type used throughout the branding is the Baiser family by Apito Foundry. Its diverse collection of fonts has been used as both H1 headers as well as H3 and H4. The clean design paved the way for a bolder, more flourishing text: Ogg Italic. Ogg Italic fills the space of the H2 header, coupling with Basier Regular to evoke a more literary-forward design.
+## Brainstorming
 
-## UX/UI
+On building the site, I first considered the modularity of the design system. This design system had to be 
 
-[Visit website](https://otherpeoplesd.com/)
+## Proposal
 
-One objective of this design was for the code environment to be modular. In doing so would pave way for succeeding developers to carry on the work fluidly. It is built on jekyll and SASS, implementing [Forestry.io](https://forestry.io/) for extended customization in the CMS.
+I wanted to create a site that would allow students to explore and share all the events offered at Triton Fest without having to leave the site itself. To do this, I kept three things in mind:
 
-Another objective of this design was for the usability to be focused on readers. The idea of the minimal/brutalist design was to create a space that would spotlight attention to the contributions (the literature and art). It allows for minimal distractions and focuses on readership and viewership. As a perk, at the bottom right of the screen is a fixed toggle for light and dark mode. This is also defaulted to the user’s default device setting (in case they already have a preference).
+* Create an experience that makes it easy for students to delve into all the events.
+* Make "location" and "date" easily "screen-shotable" so that students can share.
+* Make a site that is responsive so that students will be able to utilize it regardless of where they are viewing it.
 
-Though the frontend was design to be barebones, the code for the blog was written from the ground up, creating a website that groups and categorizes the contributions into its respective poetry, fiction, nonfiction, and visual art containers.
+## Process
+
+### Research
+
+For this project, I was inspired by similar sites that focused on marketing their individual events. My mood boards stretched from festival websites to facebook and yelp event listings.
+
+I wanted to make the entirety of the Triton Fest website as informationally minimalistic as possible — just like the cards I used for my mood board — displaying only event, time, date, and location. In doing so would make the site a brief, yet informative and enjoyable experience.
+
+### Wireframes
+
+## Branding
+
+## Final Product
