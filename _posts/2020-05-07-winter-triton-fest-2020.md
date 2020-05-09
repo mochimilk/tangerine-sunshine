@@ -39,9 +39,7 @@ I drew up three personas to help with my user experience flow: the library sulke
 
 ### Wireframes
 
-![Landing page with events, dates, and times listed for quick viewership](/uploads/TritonFestWireframe-01.png)
-
-_*Landing page with events, dates, and times listed for quick viewership*_
+![Landing page with events, dates, and times listed for quick viewership](/uploads/TritonFestWireframe-01.png)_*Landing page with events, dates, and times listed for quick viewership*_
 
 ## Final Product
 
