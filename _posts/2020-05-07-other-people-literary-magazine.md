@@ -39,6 +39,25 @@ Our third proposal was to use a headless content management system, so that — 
 
 ### Research
 
+                <!-- VISUAL ARTS -->
+                {% for post in site.categories['Visual Arts']  limit:2 %}
+                <div class="recent_works_art">
+                  <a href="{{site.baseurl}}{{ post.url }}">
+                    <div class="thumb">
+                      <img src="{{site.baseurl}}{{ post.thumb }}">
+                    </div>
+                    <h1>{{ post.title }}</h1>
+                  </a>
+                  <h3> by {{ post.contributor }}</h3>
+        
+                  <h3>
+                    <b>{{ post.category }}</b> —
+                    <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+                  </h3>
+                </div>
+                {% endfor %}
+              </div>
+
 ### Wireframes
 
 ![](/uploads/Screen Shot 2020-05-09 at 3.54.52 PM.png)
