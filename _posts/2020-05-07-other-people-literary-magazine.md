@@ -64,20 +64,20 @@ We also used Jekyll to build modules through "includes", making each component o
 
 The initial logo was sketched out by the Editor-in-Chief, Nicole Lopez. With this sketch, it was simple to create a clean, balanced logo that would translate well into different sizes and forms. A total of four were finalized into the final branding.
 
-![](https://eunsoolee.co/uploads/56E20A87-FC33-4B52-9B77-0669479E46D3.JPG)
+![](/uploads/56E20A87-FC33-4B52-9B77-0669479E46D3.JPG)
 
 ### Typography
 
 The main type used throughout the branding is the Baiser family by Apito Foundry. Its diverse collection of fonts has been used as both H1 headers as well as H3 and H4. The clean design paved the way for a bolder, more flourishing text: Ogg Italic. Ogg Italic fills the space of the H2 header, coupling with Basier Regular to evoke a more literary-forward design.
 
-![](https://eunsoolee.co/uploads/015BD80F-A81F-4928-AB9C-19369B0E2D6F.JPG)
+![](/uploads/015BD80F-A81F-4928-AB9C-19369B0E2D6F.JPG)
 
 ## Final Product
 
 ![](/uploads/4D3B4888-3605-4C02-A66A-5ADEB1A42142.JPG)_Modular build_
 
-![](https://eunsoolee.co/uploads/OtherPeopleDarkMode.png)
+![](/uploads/OtherPeopleDarkMode.png)
 
-![](https://eunsoolee.co/uploads/C987B3A2-FBF4-4183-B067-B7CC1D956B87%202.jpg)
+![](/uploads/C987B3A2-FBF4-4183-B067-B7CC1D956B87 2.jpg)
 
-![](https://eunsoolee.co/uploads/A3D1F817-B3DB-4B34-831A-18020155E577%202.JPG)
+![](/uploads/A3D1F817-B3DB-4B34-831A-18020155E577 2.JPG)
