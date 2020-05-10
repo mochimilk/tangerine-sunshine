@@ -93,7 +93,7 @@ headerTwo ul { display: flex; justify-content: space-between; list-style-type: n
 
 .IndexIntro svg .st0 { fill: none; stroke: var(--light-text-color); stroke-width: 10rem; stroke-miterlimit: 100; }
 
-.IndexIntro a { display: inline; position: relative; overflow: hidden; cursor: pointer; }
+.IndexIntro a { color: inherit; display: inline; position: relative; overflow: hidden; cursor: pointer; }
 
 .IndexIntro a:after { content: ""; position: absolute; z-index: -1; left: 0; width: 100%; bottom: -3px; background-color: var(--light-text-color); height: 4px; transition-property: width; transition-duration: 0.3s; transition-timing-function: ease-out; border-radius: 25px; }
 
@@ -104,12 +104,14 @@ headerTwo ul { display: flex; justify-content: space-between; list-style-type: n
 .ExploreStudies { margin-top: 64px; display: inline-flex; align-self: center; cursor: pointer; float: right; }
 
 @media only screen and (max-width: 728px) { .IndexIntro { margin-top: 256px; padding: 0 16px 0 16px; bottom: 16px; }
-  .IndexIntro a { text-decoration: underline; }
+  .IndexIntro a { text-decoration: underline !important; }
+  .IndexIntro a:hover { text-decoration: none !important; }
   .IndexIntro a:after { display: none; }
   .ExploreStudies { margin-top: 32px; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .IndexIntro { margin-top: 256px; padding: 0 32px 0 32px; bottom: 32px; }
-  .IndexIntro a { text-decoration: underline; }
+  .IndexIntro a { text-decoration: underline !important; }
+  .IndexIntro a:hover { text-decoration: none !important; }
   .IndexIntro a:after { display: none; }
   .ExploreStudies { margin-top: 32px; } }
 

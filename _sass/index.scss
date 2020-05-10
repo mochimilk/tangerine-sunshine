@@ -1,6 +1,6 @@
 .IndexContainer {
     height: 100vh;
-margin-bottom: -160px;
+    margin-bottom: -160px;
 }
 
 .IndexIntro {
@@ -20,6 +20,7 @@ margin-bottom: -160px;
         }
     }
     a {
+        color: inherit;
         display: inline;
         position: relative;
         overflow: hidden;
@@ -61,55 +62,55 @@ margin-bottom: -160px;
     display: inline-flex;
     align-self: center;
     cursor: pointer;
-float: right;
+    float: right;
 }
-
 
 @media only screen and (max-width: 728px) {
     .IndexIntro {
         margin-top: $blockSix;
         padding: 0 $blockTwo 0 $blockTwo;
         bottom: $blockTwo;
-        a {text-decoration: underline;}
-        a:after {
-            display: none ;
+        a {
+            text-decoration: underline !important;
         }
-}
+        a:hover {
+            text-decoration: none !important;
+        }
+        a:after {
+            display: none;
+        }
+    }
 
-.ExploreStudies {
-    margin-top: $blockThree;}
+    .ExploreStudies {
+        margin-top: $blockThree;
+    }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
-
-
-
     .IndexIntro {
         margin-top: $blockSix;
         padding: 0 $blockThree 0 $blockThree;
         bottom: $blockThree;
-        a {text-decoration: underline;}
-        a:after {
-            display: none ;
+        a {
+            text-decoration: underline !important;
         }
+        a:hover {
+            text-decoration: none !important;
+        }
+        a:after {
+            display: none;
+        }
+    }
+
+    .ExploreStudies {
+        margin-top: $blockThree;
+    }
 }
-
-
-.ExploreStudies {
-    margin-top: $blockThree;}
-
-}
-
-
-
-
 
 @media screen and (min-width: 2400px) {
-
     .IndexIntro {
         width: 65%;
         margin: auto;
-  
     }
     body {
         margin: auto;
