@@ -154,11 +154,11 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 
 .StudiesInfo { position: relative; margin-left: 64px; }
 
-.StudiesInfo h4 { position: absolute; bottom: 8px; }
+.StudiesInfo h4 { position: absolute; bottom: 0; }
 
 .StudiesInfo h4 :nth-child(1) { font-weight: bold; }
 
-.StudiesInfo h4 div { margin: 0; padding: 0; line-height: 0; }
+.StudiesInfo h4 div { margin: 0; padding: 0; line-height: 1.2rem; }
 
 .studiesMenu { margin-top: 128px; }
 

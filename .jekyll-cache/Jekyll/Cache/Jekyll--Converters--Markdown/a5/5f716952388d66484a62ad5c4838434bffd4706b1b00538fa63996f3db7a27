@@ -1,0 +1,54 @@
+I"�<h2 id="objective">Objective</h2>
+
+<p>The objective of this project was to create a website for Other People Literary Magazine. As the creative co-director, I also had the task of leading a team of designers and developers to build it. In having a team of students that would eventually graduate and go off start adulting, we needed to be mindful of making a site that could easily be passed onto others.</p>
+
+<h2 id="role">Role</h2>
+
+<p>As the creative co-director, I oversaw and developed the <strong>UX/UI design</strong>, <strong>frontend development</strong>, as well as designed the overall <strong>brand/identity</strong> of Other People.</p>
+
+<h2 id="brainstorming">Brainstorming</h2>
+
+<p>When first brainstorming this project, we wanted to <strong>create an experience focused on readership/viewership</strong>. We also wanted to <strong>create a modular design system</strong>; In doing so would pave way for succeeding developers to carry on the work fluidly. The third objective was to <strong>create a site on a content management system</strong> so that the editorial team can easily update the front matter.</p>
+
+<p>And, of course, it had to be responsive on mobile, tablet, and desktop.</p>
+
+<h2 id="proposal">Proposal</h2>
+
+<p>Our proposal was to, first, create a <strong>minimalist/brutalist design</strong> for the site that would place focus on the contributions (literature and art). It allowed for minimal distractions and focuses on readership and viewership.</p>
+
+<p>Our second proposal was to use a coding language that could not only be modular, but easily learned/recognized. For this, we decided to use a <strong>Jekyll/Sass</strong> combo.</p>
+
+<p>Our third proposal was to use a headless content management system, so that — in the case of a system falling off trend — the designers could easily chop the head off and replace it. For this, we decided to use <strong>Forestry.io</strong>.</p>
+
+<ul>
+  <li>Use a minimalist/brutalist design for max readability.</li>
+  <li>Make an easy/modular coding design system</li>
+  <li>Use a headless CMS</li>
+</ul>
+
+<h2 id="process">Process</h2>
+
+<h3 id="research">Research</h3>
+
+<p>One of the things that drew us into creating a brutalist design for Other People was the capacity to make an easy design system. Further, having these modules/components enabled the designers and developers to work more closely together as it acted like a sort of buffer between the two. We utilized Figma to translate design into development.</p>
+
+<p>Another thing that drew us to a brutalist design was that stray away from a corporate look to a more liberal and human design.</p>
+
+<p><img src="/uploads/Screen Shot 2020-05-09 at 4.17.31 PM.png" alt="" /><em>Brutalist web design mood boards</em></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;body&gt;
+	{ include header.html }
+	{ include literaturemodule.html }
+	{ include visualartsmodule.html }
+	{ include footer.html }
+&lt;/body&gt;
+</code></pre></div></div>
+
+<h3 id="wireframes">Wireframes</h3>
+
+<p><img src="/uploads/Screen Shot 2020-05-09 at 3.54.52 PM.png" alt="" /></p>
+
+<h2 id="branding">Branding</h2>
+
+<h2 id="final-product">Final Product</h2>
+:ET

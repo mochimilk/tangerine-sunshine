@@ -97,14 +97,14 @@ svg {
     margin-left: $blockFour;
     h4 {
         position: absolute;
-        bottom: $blockOne;
+        bottom: 0;
         :nth-child(1) {
             font-weight: bold;
         }
         div {
             margin: 0;
             padding: 0;
-            line-height: 0;
+            line-height: 1.2rem;
         }
     }
 }

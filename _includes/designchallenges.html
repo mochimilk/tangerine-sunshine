@@ -2,9 +2,8 @@
 <div class="StudiesContainer">
     <div class="second" id="second"></div>
     
-    <h2>Studies</h2>
-    {% for post in site.posts %}
-    {% unless post.category == "Design Challenge"%}
+    <h2>Design Challenges</h2>
+            {% for post in site.categories['Design Challenge']  limit:3 %}
     <a href="{{site.baseurl}}{{ post.url }}">
         <div class="StudiesModule">
             <div class="square"> <img src="{{site.baseurl}}{{ post.thumb }}" class="image"></div>
@@ -27,6 +26,5 @@
                 </svg></div>
         </div>
     </a>
-    {% endunless %}
     {% endfor %}
 </div>
