@@ -13,11 +13,11 @@ excerpt: Building and developing a design system predicated on readership, modul
 ---
 ## Objective
 
-The objective of this project was to create a website for Other People Literary Magazine. As the creative co-director, I also had the task of leading a team of designers and developers to build it. In having a team of students that would eventually graduate and go off start adulting, we needed to be mindful of making a site that could easily be passed onto others.
+The objective of this project was to create a website for Other People Literary Magazine. I also had the task of leading a team of designers and developers to build it. In having a team of students that would eventually graduate and go off start adulting, we needed to be mindful of making a site that could easily be passed onto others.
 
 ## Role
 
-As the creative co-director, I oversaw and developed the **UX/UI design**, **frontend development**, as well as designed the overall **brand/identity** of Other People.
+I oversaw and developed the **UX/UI design**, **frontend development**, as well as designed the overall **brand/identity** of Other People.
 
 ## Brainstorming
 
@@ -49,12 +49,14 @@ Another thing that drew us to a brutalist design was that stray away from a corp
 
 We also used Jekyll to build modules through "includes", making each component of the site easily modified/replaceable.
 
+Example:
+
     <body>
     	{ include header.html }
     	{ include literaturemodule.html }
     	{ include visualartsmodule.html }
     	{ include footer.html }
-    </body>   
+    </body>
 
 ### Wireframes
 
