@@ -6,13 +6,12 @@
   <meta charset="utf-8">
   <title>Winter Triton Fest 2020 - eunsoo lee</title>
   <link rel="stylesheet" href="/assets/css/main.css">
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
 </head>
 
 <body>
+
   <headerTwo class="nav-down">
 
     <div class="title">
@@ -335,12 +334,18 @@ if (theme === "dark") {
             .height = "0%";
     }
 </script>
+
   <div class="studyIntro">
+
     <div class="cssanimation sequence fadeInBottom">
+
+      <!-- POST TITLE -->
       <div class="postTitle">
         <div>
           <h1>Winter Triton Fest 2020</h1><br>
-          <h4><b> Visual Designer</b><br>UX/UI — Frontend Development — Branding
+          <h4>
+            <b>
+              Visual Designer</b><br>UX/UI — Frontend Development — Branding
             <br>
           </h4>
         </div>
@@ -357,23 +362,18 @@ if (theme === "dark") {
         </h2>
       </div>
 
-
-
-
     </div>
 
-
+    <!-- POST BODY -->
     <div class="studyImage">
       <img src="/uploads/WebUX-01.png">
     </div>
-
     <div class="hello"></div>
-
     <div class="contentBody">
 
       <div class="sideInfo">
 
-  
+ 
     <h3>Creating a familiar, exciting experience/brand for UC San Diego's Triton Fest</h3>
   
   <br>
@@ -383,6 +383,7 @@ if (theme === "dark") {
   <br><br>
 
   
+ 
     <a href="http://tritonfest.ucsd.edu/" target="_blank">
       <button class="button">
         <h4>link</h4>
@@ -391,6 +392,8 @@ if (theme === "dark") {
   
 </div>
 
+
+      <br><br>
       <h2 id="objective">Objective</h2>
 
 <p>The objective of this project was to design and develop a website for Winter Triton Fest 2020. Winter Triton Fest is an annual late night, weekend event series held at the beginning of winter quarters at UC San Diego. They host a number of events, including talks from Josh Peck, Stephanie Soo, Anne Phung, and more.</p>
@@ -445,9 +448,36 @@ if (theme === "dark") {
 
 <p><img src="/uploads/Tfest001.png" alt="" /><em>(Extra) The poster design!</em></p>
 
-
     </div>
 
+    <!-- MISC -->
+    <script>
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          var distanceFromTop = $(document).scrollTop();
+          if (distanceFromTop >= $('.hello').offset().top - ($(window).height() / 4.5)) {
+            $('.sideInfo')
+              .fadeIn(400)
+              .addClass('fixed');
+          } else {
+            $('.sideInfo')
+              .fadeOut(400)
+              .removeClass('fixed');
+          }
+        });
+      });
+    </script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157510729-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-157510729-1');
+    </script>
     
 
 <script>
@@ -511,7 +541,6 @@ if (theme === "dark") {
         scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
     }
 </script>
-
     <footer>
   <h4>Made with love by eunsoo lee  © 2020</h4>
   <div class="FooterLinks">
@@ -521,28 +550,6 @@ if (theme === "dark") {
     </h4>
   </div>
 </footer>
-
-
-
-
-    <script>
-      $(document).ready(function () {
-        $(window).scroll(function () {
-          var distanceFromTop = $(document).scrollTop();
-          if (distanceFromTop >= $('.hello').offset().top - ($(window).height() / 4.5)) {
-            $('.sideInfo').fadeIn(400).addClass('fixed');
-          }
-          else {
-            $('.sideInfo').fadeOut(400).removeClass('fixed');
-          }
-        });
-      });
-    </script>
-
-
-
-
-
 
 </body>
 

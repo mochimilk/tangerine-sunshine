@@ -6,13 +6,12 @@
   <meta charset="utf-8">
   <title>Other People Literary Magazine - eunsoo lee</title>
   <link rel="stylesheet" href="/assets/css/main.css">
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
 </head>
 
 <body>
+
   <headerTwo class="nav-down">
 
     <div class="title">
@@ -335,12 +334,18 @@ if (theme === "dark") {
             .height = "0%";
     }
 </script>
+
   <div class="studyIntro">
+
     <div class="cssanimation sequence fadeInBottom">
+
+      <!-- POST TITLE -->
       <div class="postTitle">
         <div>
           <h1>Other People Literary Magazine</h1><br>
-          <h4><b> Creative Co-Director</b><br>UX/UI — Frontend Development — Design Systems — Branding
+          <h4>
+            <b>
+              Creative Co-Director</b><br>UX/UI — Frontend Development — Design Systems — Branding
             <br>
           </h4>
         </div>
@@ -357,23 +362,18 @@ if (theme === "dark") {
         </h2>
       </div>
 
-
-
-
     </div>
 
-
+    <!-- POST BODY -->
     <div class="studyImage">
       <img src="/uploads/730014EB-2EB9-44B0-96F8-D8D80489FCA9.JPG">
     </div>
-
     <div class="hello"></div>
-
     <div class="contentBody">
 
       <div class="sideInfo">
 
-  
+ 
     <h3>Building and developing a design system predicated on readership, modularity, and management</h3>
   
   <br>
@@ -383,6 +383,7 @@ if (theme === "dark") {
   <br><br>
 
   
+ 
     <a href="https://otherpeoplesd.com/" target="_blank">
       <button class="button">
         <h4>link</h4>
@@ -391,13 +392,15 @@ if (theme === "dark") {
   
 </div>
 
+
+      <br><br>
       <h2 id="objective">Objective</h2>
 
 <p>The objective of this project was to create a website for Other People Literary Magazine. I also had the task of leading a team of designers and developers to build it. In having a team of students that would eventually graduate and go off start adulting, we needed to be mindful of making a site that could easily be passed onto others.</p>
 
 <h2 id="role">Role</h2>
 
-<p>I oversaw and developed the <strong>UX/UI design</strong>, <strong>frontend development</strong>, as well as designed the overall <strong>brand/identity</strong> of Other People.</p>
+<p>The team consisted of the other creative co-director and a product designer.  I was responsible for overseeing and developing the <strong>UX/UI design</strong>, <strong>frontend development</strong>, as well as designing the overall <strong>brand/identity</strong> of Other People. The team worked in conjunction during our ideation.</p>
 
 <h2 id="brainstorming">Brainstorming</h2>
 
@@ -469,9 +472,36 @@ if (theme === "dark") {
 
 <p><img src="/uploads/A3D1F817-B3DB-4B34-831A-18020155E577 2.JPG" alt="" /></p>
 
-
     </div>
 
+    <!-- MISC -->
+    <script>
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          var distanceFromTop = $(document).scrollTop();
+          if (distanceFromTop >= $('.hello').offset().top - ($(window).height() / 4.5)) {
+            $('.sideInfo')
+              .fadeIn(400)
+              .addClass('fixed');
+          } else {
+            $('.sideInfo')
+              .fadeOut(400)
+              .removeClass('fixed');
+          }
+        });
+      });
+    </script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157510729-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-157510729-1');
+    </script>
     
 
 <script>
@@ -535,7 +565,6 @@ if (theme === "dark") {
         scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
     }
 </script>
-
     <footer>
   <h4>Made with love by eunsoo lee  © 2020</h4>
   <div class="FooterLinks">
@@ -545,28 +574,6 @@ if (theme === "dark") {
     </h4>
   </div>
 </footer>
-
-
-
-
-    <script>
-      $(document).ready(function () {
-        $(window).scroll(function () {
-          var distanceFromTop = $(document).scrollTop();
-          if (distanceFromTop >= $('.hello').offset().top - ($(window).height() / 4.5)) {
-            $('.sideInfo').fadeIn(400).addClass('fixed');
-          }
-          else {
-            $('.sideInfo').fadeOut(400).removeClass('fixed');
-          }
-        });
-      });
-    </script>
-
-
-
-
-
 
 </body>
 

@@ -246,6 +246,8 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 
 .contentBody h3 { margin-top: 32px; }
 
+.contentBody ul { display: block; }
+
 .contentBody ul:not(:first-child) { list-style-position: outside; line-height: 1.5; display: initial; justify-content: none; list-style-type: initial; margin: 0; padding: 0; cursor: pointer; }
 
 .contentBody .sideInfo { text-align: left; z-index: 0; width: 256px; font-size: 0.8rem; font-weight: normal; text-transform: uppercase; display: none; position: absolute; left: 64px; line-height: 1.5; display: initial; justify-content: none; list-style-type: none; margin-bottom: 0; }

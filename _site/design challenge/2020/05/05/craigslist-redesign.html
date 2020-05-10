@@ -6,13 +6,12 @@
   <meta charset="utf-8">
   <title>Craigslist Redesign - eunsoo lee</title>
   <link rel="stylesheet" href="/assets/css/main.css">
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
 </head>
 
 <body>
+
   <headerTwo class="nav-down">
 
     <div class="title">
@@ -335,12 +334,18 @@ if (theme === "dark") {
             .height = "0%";
     }
 </script>
+
   <div class="studyIntro">
+
     <div class="cssanimation sequence fadeInBottom">
+
+      <!-- POST TITLE -->
       <div class="postTitle">
         <div>
           <h1>Craigslist Redesign</h1><br>
-          <h4><b> Visual Designer</b><br>Design Challenge
+          <h4>
+            <b>
+              Visual Designer</b><br>Design Challenge
             <br>
           </h4>
         </div>
@@ -357,23 +362,18 @@ if (theme === "dark") {
         </h2>
       </div>
 
-
-
-
     </div>
 
-
+    <!-- POST BODY -->
     <div class="studyImage">
       <img src="/uploads/Thumb-01.png">
     </div>
-
     <div class="hello"></div>
-
     <div class="contentBody">
 
       <div class="sideInfo">
 
-  
+ 
     <h3>Redesigning for a familiar, more community friendly user experience.</h3>
   
   <br>
@@ -383,8 +383,11 @@ if (theme === "dark") {
   <br><br>
 
   
+ 
 </div>
 
+
+      <br><br>
       <h2 id="objectiveswireframes">Objectives/Wireframes</h2>
 
 <p>The objective of this project was to create a more user-friendly and approachable homepage experience for Craigslist. When first doing my research, I found that the categories being front and center of the homepage was refreshing and practical, and wanted to retain that element. However, the search bar felt a little too tucked into the corner for a site where the search function held a lot of significance. This made it difficult to discern how the elements on either side of the sidebar were being prioritized. I also noticed, when making a new listing, the current UX shuffled through 5 pages — I wanted to narrow this down to 1. I set off with these in mind:</p>
@@ -417,9 +420,36 @@ if (theme === "dark") {
 
 <p><img src="https://eunsoolee.co/uploads/Branding-01.png" alt="" /><img src="https://eunsoolee.co/uploads/Branding-02.png" alt="" /></p>
 
-
     </div>
 
+    <!-- MISC -->
+    <script>
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          var distanceFromTop = $(document).scrollTop();
+          if (distanceFromTop >= $('.hello').offset().top - ($(window).height() / 4.5)) {
+            $('.sideInfo')
+              .fadeIn(400)
+              .addClass('fixed');
+          } else {
+            $('.sideInfo')
+              .fadeOut(400)
+              .removeClass('fixed');
+          }
+        });
+      });
+    </script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157510729-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-157510729-1');
+    </script>
     
 
 <script>
@@ -483,7 +513,6 @@ if (theme === "dark") {
         scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
     }
 </script>
-
     <footer>
   <h4>Made with love by eunsoo lee  © 2020</h4>
   <div class="FooterLinks">
@@ -493,28 +522,6 @@ if (theme === "dark") {
     </h4>
   </div>
 </footer>
-
-
-
-
-    <script>
-      $(document).ready(function () {
-        $(window).scroll(function () {
-          var distanceFromTop = $(document).scrollTop();
-          if (distanceFromTop >= $('.hello').offset().top - ($(window).height() / 4.5)) {
-            $('.sideInfo').fadeIn(400).addClass('fixed');
-          }
-          else {
-            $('.sideInfo').fadeOut(400).removeClass('fixed');
-          }
-        });
-      });
-    </script>
-
-
-
-
-
 
 </body>
 

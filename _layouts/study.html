@@ -6,20 +6,25 @@
   <meta charset="utf-8">
   <title>{{ page.title }} - {{ site.title }}</title>
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
 </head>
 
 <body>
+
   {% include headerTwo.html %}
+
   <div class="studyIntro">
+
     <div class="cssanimation sequence fadeInBottom">
+
+      <!-- POST TITLE -->
       <div class="postTitle">
         <div>
           <h1>{{ page.title | escape }}</h1><br>
-          <h4><b> {{ page.role }}</b><br>{{ page.category }}
+          <h4>
+            <b>
+              {{ page.role }}</b><br>{{ page.category }}
             <br>
           </h4>
         </div>
@@ -42,51 +47,43 @@
         </h2>
       </div>
 
-
-
-
     </div>
 
-
+    <!-- POST BODY -->
     <div class="studyImage">
       <img src="{{site.baseurl}}{{ page.thumb }}">
     </div>
-
     <div class="hello"></div>
-
     <div class="contentBody">
 
       {% include sideInfo.html %}
 
-      {{ content }}
 
+      <br><br>
+      {{ content }}
     </div>
 
-    {% include javaScrollStudy.html %}
-
-    {% include footer.html %}
-
-
-
-
+    <!-- MISC -->
     <script>
       $(document).ready(function () {
         $(window).scroll(function () {
           var distanceFromTop = $(document).scrollTop();
           if (distanceFromTop >= $('.hello').offset().top - ($(window).height() / 4.5)) {
-            $('.sideInfo').fadeIn(400).addClass('fixed');
-          }
-          else {
-            $('.sideInfo').fadeOut(400).removeClass('fixed');
+            $('.sideInfo')
+              .fadeIn(400)
+              .addClass('fixed');
+          } else {
+            $('.sideInfo')
+              .fadeOut(400)
+              .removeClass('fixed');
           }
         });
       });
     </script>
 
-
-
-
-
+    {% include analytics.html %}
+    {% include javaScrollStudy.html %}
+    {% include footer.html %}
 
 </body>
 
