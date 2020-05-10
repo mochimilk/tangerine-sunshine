@@ -36,6 +36,15 @@ fields:
   config:
     required: false
   label: Medium
+- name: excerpt
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Excerpt
 - name: link
   type: text
   config:
