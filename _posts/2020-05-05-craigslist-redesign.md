@@ -6,7 +6,6 @@ role: Visual Designer
 category: Design Challenge
 date: 2020-05-05T07:00:00.000+00:00
 medium: Illustrator
-link: ''
 excerpt: Redesigning for a familiar, more community friendly user experience.
 
 ---
