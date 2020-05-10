@@ -47,7 +47,7 @@ Another thing that drew us to a brutalist design was that stray away from a corp
 
 We also used Jekyll to build modules through "includes", making each component of the site easily modified/replaceable.
 
-![](/uploads/4D3B4888-3605-4C02-A66A-5ADEB1A42142.JPG)
+![](/uploads/4D3B4888-3605-4C02-A66A-5ADEB1A42142.JPG)_Modular build_
 
     <body>
     	{ include header.html }
