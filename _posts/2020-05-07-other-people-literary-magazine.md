@@ -9,6 +9,9 @@ medium: Jekyll/Sass, Photoshop, Illustrator
 link: https://otherpeoplesd.com/
 excerpt: Building and developing a design system predicated on readership, modularity,
   and management
+team:
+- Geraldine Wambersie — Creative Co-Director
+- Jack Yang — Product Designer
 
 ---
 ## Objective
@@ -17,7 +20,7 @@ The objective of this project was to create a website for Other People Literary 
 
 ## Role
 
-I oversaw and developed the **UX/UI design**, **frontend development**, as well as designed the overall **brand/identity** of Other People.
+The team consisted of the other creative co-director and a product designer.  I was responsible for overseeing and developing the **UX/UI design**, **frontend development**, as well as designing the overall **brand/identity** of Other People. The team worked in conjunction during our ideation.
 
 ## Brainstorming
 
