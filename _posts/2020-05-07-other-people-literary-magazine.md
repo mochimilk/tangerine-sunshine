@@ -45,13 +45,16 @@ Another thing that drew us to a brutalist design was that stray away from a corp
 
 ![](/uploads/Screen Shot 2020-05-09 at 4.17.31 PM.png)_Brutalist web design mood boards_
 
+We also used Jekyll to build modules through "includes", making each component of the site easily modified/replaceable.
+
+![](/uploads/4D3B4888-3605-4C02-A66A-5ADEB1A42142.JPG)
+
     <body>
     	{ include header.html }
     	{ include literaturemodule.html }
     	{ include visualartsmodule.html }
     	{ include footer.html }
     </body>
-
 
 ### Wireframes
 
