@@ -54,7 +54,7 @@ We also used Jekyll to build modules through "includes", making each component o
     	{ include literaturemodule.html }
     	{ include visualartsmodule.html }
     	{ include footer.html }
-    </body>
+    </body>   
 
 ### Wireframes
 

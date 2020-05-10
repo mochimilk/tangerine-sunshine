@@ -216,3 +216,16 @@ h2 {
         margin-top: $blockFour;
     }
 }
+
+
+
+
+
+
+@media screen and (min-width: 2400px) {
+.studiesMenu {
+    padding-top: $blockFive;
+width: 70%;
+margin: auto;
+}
+}
