@@ -5,7 +5,7 @@ category: UX/UI — Frontend Development — Branding
 thumb: "/uploads/WebUX-01.png"
 date: 2020-01-16T04:00:00.000+00:00
 layout: study
-medium: Illustrator, Photoshop, Figma, HTML/CSS
+medium: Illustrator, Photoshop, HTML/CSS
 link: http://tritonfest.ucsd.edu/
 excerpt: Creating a familiar, exciting experience/brand for UC San Diego's Triton
   Fest
