@@ -1,7 +1,7 @@
 ---
 title: Other People Literary Magazine
 role: Creative Co-Director
-category: UX/UI — Frontend Development — Branding
+category: UX/UI — Frontend Development — Design Systems — Branding
 thumb: "/uploads/730014EB-2EB9-44B0-96F8-D8D80489FCA9.JPG"
 date: 2020-04-19T00:00:00.000+00:00
 layout: study
