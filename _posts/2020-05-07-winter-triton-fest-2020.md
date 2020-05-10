@@ -7,7 +7,7 @@ date: 2020-01-16T04:00:00.000+00:00
 layout: study
 medium: Illustrator, Photoshop, Figma, HTML/CSS
 link: http://tritonfest.ucsd.edu/
-excerpt: Creating a familiar, exciting experience and brand for UC San Diego's Triton
+excerpt: Creating a familiar, exciting experience/brand for UC San Diego's Triton
   Fest
 
 ---
