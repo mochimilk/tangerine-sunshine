@@ -7,6 +7,7 @@ date: 2020-04-19T00:00:00.000+00:00
 layout: study
 medium: Jekyll/Sass, Photoshop, Illustrator
 link: https://otherpeoplesd.com/
+excerpt: Creating a design system predicated on good readership, modularity, and management
 
 ---
 ## Objective
