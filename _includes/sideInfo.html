@@ -1,17 +1,18 @@
 <div class="sideInfo">
 
+  {% if page.excerpt %}
+    <h3>{{ page.excerpt }}</h3>
+  {% endif %}
 
   <h3>Tools</h3>
   {{ page.medium }}
   <br><br>
 
   {% if page.link %}
-  <a href="{{ page.link}}" target="_blank">
-    <button class="button">
-      <h4>link</h4>
-    </button>
-  </a>
-  {% else %}
-  hello
+    <a href="{{ page.link}}" target="_blank">
+      <button class="button">
+        <h4>link</h4>
+      </button>
+    </a>
   {% endif %}
 </div>

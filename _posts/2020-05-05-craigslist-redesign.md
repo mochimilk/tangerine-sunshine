@@ -6,7 +6,7 @@ role: Visual Designer
 category: Design Challenge
 date: 2020-05-05 07:00:00 +0000
 medium: Illustrator
-link: ''
+link:
 
 ---
 ## Objectives/Wireframes
