@@ -1,3 +1,8 @@
+// * {
+//     border-style: solid;
+//     border-width: 1px;
+// }
+
 .StudiesContainer {
     padding: 0 $blockFour 0 $blockFour;
 
@@ -128,10 +133,12 @@ h2 {
     h1 {
         margin: 0;
         padding-top: $blockOne;
+
     }
     a {
         color: $backgroundColor;
     }
+
 }
 
 
