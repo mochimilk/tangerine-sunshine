@@ -36,13 +36,6 @@ fields:
   config:
     required: false
   label: Medium
-- name: team
-  type: list
-  config:
-    use_select: false
-    min: 
-    max: 
-  label: Team
 - name: excerpt
   type: textarea
   default: ''
