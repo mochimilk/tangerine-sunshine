@@ -58,5 +58,6 @@ fields:
   default: study
   hidden: true
 pages:
+- _posts/2020-05-05-craigslist-redesign.md
 - _posts/2020-05-07-other-people-literary-magazine.md
 - _posts/2020-05-07-winter-triton-fest-2020.md

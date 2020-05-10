@@ -4,9 +4,10 @@ title: Craigslist Redesign
 thumb: "/uploads/Thumb-01.png"
 role: Visual Designer
 category: Design Challenge
-date: 2020-05-05 07:00:00 +0000
+date: 2020-05-05T07:00:00.000+00:00
 medium: Illustrator
-link:
+link: ''
+excerpt: Redesigning for a familiar, more community friendly user experience.
 
 ---
 ## Objectives/Wireframes
