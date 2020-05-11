@@ -32,7 +32,7 @@ It was also inspired by Trevor Paglen’s _Site Unseen_ installation at the Muse
 
 Using Paglen’s work as an influence, I decided on creating a binary between the La Jolla obsucra and a digital obscura. I added components of camera viewfinders, auto/manual focus, and blurring to portray this; The space between the two is where I implemented the glitches, stretching photos and pixel sorting (implemented through [processing.js](http://processingjs.org/)).
 
-![](https://leeunsu.github.io/uploads/BOP.png)
+![](/uploads/SGF19_Poster.png)_Poster Designs_
 
 ## UX/UI
 
