@@ -24,7 +24,7 @@ As this was an event held in La Jolla, California, the art direction for this pr
 
 It was also inspired by Trevor Paglen’s _Site Unseen_ installation at the Museum of Contemporary Art San Diego (MCASD). What I found intriguing of his piece was the binary between the things visible in the tanglible world opposed to artificial intellgence.
 
-> _“Paglen’s photographs show something we are not meant to see, whose concealment he regards as symptomatic of the historical moment we inhabit. His objects act in opposition to what his images have exposed, imagining another and potentially different world. Paglen is a conceptual artist with activist intentions. Helping to better see the particular moment we live in and producing spaces in which to envision alternative futures are among his chief concerns.”_
+> _“Paglen’s photographs show something we are not meant to see, whose concealment he regards as symptomatic of the historical moment we inhabit. His objects act in opposition to what his images have exposed, imagining another and potentially different world._
 >
 > _— MCASD_
 
