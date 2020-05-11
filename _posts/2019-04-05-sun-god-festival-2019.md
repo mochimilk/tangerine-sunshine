@@ -6,7 +6,7 @@ role: Creative Director — Lead Web Designer
 category: Graphic Design — UX/UI
 date: 2019-04-05 07:00:00 +0000
 medium: Illustrator, Photoshop, Processing
-excerpt: ''
+excerpt: Experiential design study aiming to integrate the tangible with the artificial
 link: http://sgf.ucsd.edu/2019/
 
 ---
@@ -28,7 +28,7 @@ It was also inspired by Trevor Paglen’s _Site Unseen_ installation at the Muse
 >
 > _— MCASD_
 
-![](https://leeunsu.github.io/uploads/SGF19_Poster.png)
+![](/uploads/BOP.png)_Closeup of a design created through processing.js
 
 Using Paglen’s work as an influence, I decided on creating a binary between the La Jolla obsucra and a digital obscura. I added components of camera viewfinders, auto/manual focus, and blurring to portray this; The space between the two is where I implemented the glitches, stretching photos and pixel sorting (implemented through [processing.js](http://processingjs.org/)).
 
