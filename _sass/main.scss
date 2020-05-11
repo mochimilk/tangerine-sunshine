@@ -69,7 +69,7 @@ p {
 
 html,
 html[data-theme="light"] {
-  --background-color: #efedea;
+  --background-color: #ffffff;
   --light-text-color: #151515;
   --link-color: rgb(0, 112, 201);
   --main-background-color: rgb(255, 255, 255);
@@ -78,7 +78,7 @@ html[data-theme="light"] {
 
 html[data-theme="dark"] {
   --background-color: #151515;
-  --light-text-color: #efedea;
+  --light-text-color: #ffffff;
   --link-color: rgb(100, 210, 255);
   --main-background-color: rgb(28, 28, 30);
   --main-text-color: rgb(229, 229, 234);
@@ -88,14 +88,14 @@ html[data-theme="dark"] {
   html,
   html[data-theme="dark"] {
     --background-color: #151515;
-    --light-text-color: #efedea;
+    --light-text-color: #ffffff;
     --link-color: rgb(100, 210, 255);
     --main-background-color: rgb(28, 28, 30);
     --main-text-color: rgb(229, 229, 234);
   }
 
   html[data-theme="light"] {
-    --background-color: #efedea;
+    --background-color: #ffffff;
     --light-text-color: #151515;
     --link-color: rgb(0, 112, 201);
     --main-background-color: rgb(255, 255, 255);
