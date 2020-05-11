@@ -37,20 +37,21 @@
     margin-right: $blockFour;
     text-align: justify;
     width: 55%;
-    padding: $blockFour;
-
+    padding: $blockFour $blockFour $blockFour $blockFour;
+    a{
+        
+        color: orangered;
+        text-decoration: underline;
+    }
+    a:hover {
+text-decoration: none;
+    }
     h2:not(:first-child) {
         margin-top: $blockFour;
     }
-
     h3 {
         margin-top: $blockThree;
     }
-
-    ul{
-        display: block;
-    }
-
     ul:not(:first-child) {
         list-style-position: outside;
         line-height: 1.5;
@@ -61,7 +62,6 @@
         padding: 0;
         cursor: pointer;
     }
-
 
     .sideInfo {
         text-align: left;

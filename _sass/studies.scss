@@ -117,9 +117,9 @@ svg {
 .studiesMenu {
     margin-top: $blockFive;
 
-h2 {
-    margin-top: $blockThree;
-}
+    h2 {
+        margin-top: $blockThree;
+    }
     a {
         cursor: pointer;
     }
@@ -128,20 +128,24 @@ h2 {
     }
 }
 
+.studiesMenu::-webkit-scrollbar {
+    display: none;
+}
+
+.studiesMenu {
+    -ms-overflow-style: none;
+}
+
 .mobileNav {
     display: none;
     h1 {
         margin: 0;
         padding-top: $blockOne;
-
     }
     a {
         color: $backgroundColor;
     }
-
 }
-
-
 
 @media only screen and (max-width: 728px) {
     .StudiesContainer {
@@ -179,11 +183,10 @@ h2 {
 
     .mobileNav {
         display: initial;
- 
     }
-    ul.nav {display: none;}
-
-
+    ul.nav {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
@@ -224,15 +227,10 @@ h2 {
     }
 }
 
-
-
-
-
-
 @media screen and (min-width: 2400px) {
-.studiesMenu {
-    padding-top: $blockFive;
-width: 70%;
-margin: auto;
-}
+    .studiesMenu {
+        padding-top: $blockFive;
+        width: 70%;
+        margin: auto;
+    }
 }
