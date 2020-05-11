@@ -16,7 +16,7 @@ Sun God Festival is a student-curated, daylong music and arts festival at UC San
 
 ## Role
 
-In the spring of 2019, I had the opportunity to lead in the creative direction and web design of UC San Diego’s Sun God Festival. During the course of this project, I worked closely with the team behind A.S. Concerts and Events as well as A.S. Graphic Studio’s webmaster, [Emily Nguyen](http://emilynguyen.co/).
+In the spring of 2019, I had the opportunity to lead in the creative direction and web design of UC San Diego’s Sun God Festival. My responsibilities included meeting with the marketing team to **create an aesthetic direction**, **designing print and digital assets**, and **designing an experiential website** that students can utilize to learn about  and register for the event.  During the course of this project, I worked closely with the team behind A.S. Concerts and Events as well as A.S. Graphic Studio’s webmaster, [Emily Nguyen](http://emilynguyen.co/) (developed the site and the experiences in it).
 
 ## Art Direction
 
