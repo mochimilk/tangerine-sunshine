@@ -36,15 +36,6 @@ fields:
   config:
     required: false
   label: Medium
-- name: collaborators
-  type: list
-  config:
-    use_select: false
-    min: 
-    max: 
-    source:
-      type: simple
-  label: Collaborators
 - name: excerpt
   type: textarea
   default: ''
