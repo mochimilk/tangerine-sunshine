@@ -28,7 +28,7 @@ It was also inspired by Trevor Paglen’s _Site Unseen_ installation at the Muse
 >
 > _— MCASD_
 
-![](/uploads/BOP.png)_Closeup of a design created through processing.js
+![](/uploads/BOP.png)_Closeup of a design created through processing.js_
 
 Using Paglen’s work as an influence, I decided on creating a binary between the La Jolla obsucra and a digital obscura. I added components of camera viewfinders, auto/manual focus, and blurring to portray this; The space between the two is where I implemented the glitches, stretching photos and pixel sorting (implemented through [processing.js](http://processingjs.org/)).
 
