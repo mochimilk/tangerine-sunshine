@@ -244,7 +244,7 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 
 .postDate { text-align: right; position: absolute; bottom: 32px; right: 0; }
 
-.contentBody { margin-left: auto; margin-right: 64px; text-align: justify; width: 55%; padding: 64px 64px 64px 64px; }
+.contentBody { margin-left: auto; margin-right: 64px; text-align: justify; width: 55%; padding: 0 64px 64px 64px; }
 
 .contentBody a { color: #e09200; text-decoration: underline; }
 
@@ -262,7 +262,7 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 
 .contentBody .sideInfo a { color: inherit; }
 
-.contentBody .sideInfo.fixed { display: block; position: fixed; bottom: 256px; }
+.contentBody .sideInfo.fixed { display: block; position: fixed; margin: 0; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); }
 
 .contentBody button { background-color: transparent; border: none; border-radius: 25px; border-style: solid; border-width: 1px; padding: 5px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; cursor: pointer; color: var(--background-color); }
 
@@ -282,11 +282,13 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
   .postTitle { display: grid; grid-template-columns: 1fr; margin: 0 16px 0 16px; bottom: 32px; }
   .postDate { text-align: left; margin-top: 32px; position: relative; right: 0; bottom: 0; }
   .contentBody { margin-left: 0; margin-right: 0; left: 0; right: 0; width: initial; padding: 16px; }
+  .contentBody h2:not(:first-child) { margin-top: 32px; }
   .sideInfo { display: none; opacity: 0; z-index: -5; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .postTitle { margin: 0 32px 0 32px; bottom: 32px; }
   .contentBody { margin-left: 0; margin-right: 0; left: 0; right: 0; width: initial; padding: 32px; }
-  .contentBody h2 { position: relative; right: 0; left: 0; text-align: left; padding-right: 0; width: 100%; padding-top: 32px; }
+  .contentBody h2 { position: relative; right: 0; left: 0; text-align: left; padding-right: 0; width: 100%; margin-bottom: -16px; }
+  .contentBody h2:not(:first-child) { margin-top: 32px; }
   .contentBody h3 { margin-bottom: -16px; margin-top: 32px; }
   .contentBody h2, .contentBody h4, .contentBody p { margin-top: 32px; }
   .contentBody h2:nth-child(1) { padding-top: 0; }

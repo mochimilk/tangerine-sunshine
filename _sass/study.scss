@@ -37,14 +37,13 @@
     margin-right: $blockFour;
     text-align: justify;
     width: 55%;
-    padding: $blockFour $blockFour $blockFour $blockFour;
-    a{
-        
+    padding: 0 $blockFour $blockFour $blockFour;
+    a {
         color: rgb(224, 146, 0);
         text-decoration: underline;
     }
     a:hover {
-text-decoration: none;
+        text-decoration: none;
     }
     h2:not(:first-child) {
         margin-top: $blockFour;
@@ -92,7 +91,10 @@ text-decoration: none;
     .sideInfo.fixed {
         display: block;
         position: fixed;
-        bottom: $blockSix;
+        margin: 0;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
     }
 
     button {
@@ -169,6 +171,9 @@ text-decoration: none;
         right: 0;
         width: initial;
         padding: $blockTwo;
+        h2:not(:first-child) {
+            margin-top: $blockThree;
+        }
     }
 
     .sideInfo {
@@ -199,8 +204,10 @@ text-decoration: none;
             text-align: left;
             padding-right: 0;
             width: 100%;
-
-            padding-top: $blockThree;
+            margin-bottom: -$blockTwo;
+        }
+        h2:not(:first-child) {
+            margin-top: $blockThree;
         }
 
         h3 {
