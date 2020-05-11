@@ -9,7 +9,7 @@ medium: Jekyll/Sass, Photoshop, Illustrator
 link: https://otherpeoplesd.com/
 excerpt: Building and developing a design system predicated on readership, modularity,
   and management
-team:
+collaborators:
 - Geraldine Wambersie — Creative Co-Director
 - Jack Yang — Developer/Designer
 
