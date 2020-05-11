@@ -38,4 +38,4 @@ Using Paglen’s work as an influence, I decided on creating a binary between th
 
 Sun God Festival’s website was inspired much in the same way as the art direction. Interactive elements were designed and deployed throughout the page to correspond with the overall aesthetic. With the help of Emily as the developer, we were able to create a unique digital experience for the festival page. This project was built on Jekyll and SASS.
 
-![](/uploads/SGFWeb-01.png)![](/uploads/SGFWeb-02.png)![](/uploads/SGFWeb-04-03.png)
+![](/uploads/SGFWeb-01.png)![](/uploads/SGFWeb-02.png)![](/uploads/SGFWeb-04-03.png)![](/uploads/lineup.gif)_Mouse hover to reveal lineup_![](/uploads/stretch.gif)_Scroll to reveal information_
