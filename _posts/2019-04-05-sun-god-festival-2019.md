@@ -36,8 +36,6 @@ Using Paglen’s work as an influence, I decided on creating a binary between th
 
 ## UX/UI
 
-[Visit website](http://sgf.ucsd.edu/2019/)
-
 Sun God Festival’s website was inspired much in the same way as the art direction. Interactive elements were designed and deployed throughout the page to correspond with the overall aesthetic. With the help of Emily as the developer, we were able to create a unique digital experience for the festival page. This project was built on Jekyll and SASS.
 
-![](https://leeunsu.github.io/uploads/SGFWeb-01.png)![](https://leeunsu.github.io/uploads/SGFWeb-02.png)![](https://leeunsu.github.io/uploads/SGFWeb-04-03.png)![](https://leeunsu.github.io/uploads/lineup.gif)![](https://leeunsu.github.io/uploads/stretch.gif)
+![](/uploads/SGFWeb-01.png)![](/uploads/SGFWeb-02.png)![](/uploads/SGFWeb-04-03.png)
