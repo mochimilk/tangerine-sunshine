@@ -42,7 +42,9 @@ fields:
     use_select: false
     min: 
     max: 
-  label: Team
+    source:
+      type: simple
+  label: Collaborators
 - name: excerpt
   type: textarea
   default: ''
