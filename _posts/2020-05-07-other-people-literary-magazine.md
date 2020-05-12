@@ -5,7 +5,7 @@ category: UX/UI — Frontend Development — Design Systems — Branding
 thumb: "/uploads/730014EB-2EB9-44B0-96F8-D8D80489FCA9.JPG"
 date: 2020-04-19T00:00:00.000+00:00
 layout: study
-medium: Jekyll/Sass, Photoshop, Illustrator
+medium: Jekyll/Sass, Photoshop, Illustrator, Figma
 link: https://otherpeoplesd.com/
 excerpt: Building and developing a design system predicated on readership, modularity,
   and management
@@ -27,7 +27,7 @@ And, of course, it had to be responsive on mobile, tablet, and desktop.
 
 ## Proposal
 
-Our proposal was to, first, create a **minimalist/brutalist design** for the site that would place focus on the contributions (literature and art). It allowed for minimal distractions and focuses on readership and viewership.
+Our proposal was to, first, create a **minimalist/brutalist design** for the site that would place focus on the contributions (literature and art). It allowed for minimal distractions and prioritized the readership/viewership.
 
 Our second proposal was to use a coding language that could not only be modular, but easily learned/recognized. For this, we decided to use a **Jekyll/Sass** combo.
 

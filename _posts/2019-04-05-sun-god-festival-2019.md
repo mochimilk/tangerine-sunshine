@@ -6,7 +6,7 @@ role: Creative Director — Lead Web Designer
 category: Graphic Design — UX/UI
 date: 2019-04-05T07:00:00.000+00:00
 medium: Illustrator, Photoshop, Processing
-excerpt: Experiential design study aiming to integrate the tangible with the artificial
+excerpt: Experiential design study aiming to integrate the tangible world with the artificial
 link: http://sgf.ucsd.edu/2019/
 
 ---
