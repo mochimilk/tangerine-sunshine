@@ -400,7 +400,6 @@ if (theme === "dark") {
 
 
 
-
       <div class="sideInfo">
 
  
@@ -459,16 +458,19 @@ if (theme === "dark") {
 
 <p><img src="/uploads/Screen Shot 2020-05-09 at 4.17.31 PM.png" alt="" /><em>Brutalist web design mood boards</em></p>
 
-<p>We also used Jekyll to build modules through “includes”, making each component of the site easily modifiable/replaceable.</p>
+<p>We also used Jekyll to build modules through “includes”, making each component of the site easily modifiable/replaceable. This also made the index.html page simple to explore.</p>
 
 <p>Example:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;body&gt;
-	{ include header.html }
-	{ include literaturemodule.html }
-	{ include visualartsmodule.html }
-	{ include footer.html }
-&lt;/body&gt;
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>54 {* header.html *}
+55
+56 &lt;!-- something something literature modules --&gt;
+57 {* include poetrymodule.html *}
+58 {* include fictionmodule.html *}
+59 {* include nonfictionmodule.html *}
+60 {* include visualartsmodule.html *}
+61
+62 {* footer.html *}
 </code></pre></div></div>
 
 <h3 id="wireframes">Wireframes</h3>

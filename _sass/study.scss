@@ -292,3 +292,57 @@
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** Code formatting */
+/* Applies to all code */
+pre, code { font-family: "Hack", monospace; font-style: normal; font-feature-settings: "kern" off; font-kerning: none; font-variant: none; background-color: #eef; }
+
+pre ::selection, code ::selection { color: #1a1a1a; background: #bdbdb3; }
+
+pre ::-moz-selection, code ::-moz-selection { color: #1a1a1a; background: #bdbdb3; }
+
+pre ::-webkit-selection, code ::-webkit-selection { color: #1a1a1a; background: #bdbdb3; }
+
+/* Inline code, no highlight */
+code { padding: 2px 4px; border-radius: 3px; white-space: nowrap; }
+
+blockquote code { color: #5c5c5c; }
+
+/* Inline code, highlight */
+code.highlight { border-radius: 3px; color: #bdbdb3; background-color: #1a1a1a; }
+
+/* Block code, no highlight */
+pre { border-radius: 5px; margin: 22.5px 15px; padding: 8px 12px; overflow-x: auto; background-color: #f1f1ff; }
+
+pre code { border: 0; padding: 0; white-space: pre; }
+
+/* Block code, highlight */
+figure.highlight, div.highlight { position: relative; }
+
+figure.highlight pre, div.highlight pre { background-color: #1a1a1a; }
+
+figure.highlight pre code, div.highlight pre code { background-color: #1a1a1a; color: #bdbdb3; counter-reset: code; display: block; line-height: 1.5; /* Display language name */ }
+
+figure.highlight pre code[data-lang]::before, div.highlight pre code[data-lang]::before { content: attr(data-lang); position: absolute; right: 34px; top: -10px; padding-left: 7.5px; padding-right: 7.5px; border: 1px solid #828282; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; min-width: 40px; text-align: center; color: #8fbc8f; background-color: #1a1a1a; }
+
+@media screen and (max-width: 300px) { figure.highlight pre code[data-lang]::before, div.highlight pre code[data-lang]::before { visibility: hidden; } }
+
+figure.highlight pre code div, div.highlight pre code div { counter-increment: code; /* Line numbers */ }
+
+figure.highlight pre code div::before, div.highlight pre code div::before { color: #608079; content: counter(code); width: 14px; text-align: right; /* Add a nice border */ display: inline-block; padding-right: 7.5px; margin-right: 12px; border-right: 1px solid #656565; /* For older browsers and Safari */ -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }

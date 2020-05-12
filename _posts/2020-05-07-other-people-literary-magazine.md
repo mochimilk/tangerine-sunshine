@@ -9,9 +9,6 @@ medium: Jekyll/Sass, Photoshop, Illustrator
 link: https://otherpeoplesd.com/
 excerpt: Building and developing a design system predicated on readership, modularity,
   and management
-collaborators:
-- Geraldine Wambersie — Creative Co-Director
-- Jack Yang — Developer/Designer
 
 ---
 ## Objective
@@ -50,16 +47,24 @@ Another thing that drew us to a brutalist design was that stray away from a corp
 
 ![](/uploads/Screen Shot 2020-05-09 at 4.17.31 PM.png)_Brutalist web design mood boards_
 
-We also used Jekyll to build modules through "includes", making each component of the site easily modifiable/replaceable.
+We also used Jekyll to build modules through "includes", making each component of the site easily modifiable/replaceable. This also made the index.html page simple to explore.
 
 Example:
 
-    <body>
-    	{ include header.html }
-    	{ include literaturemodule.html }
-    	{ include visualartsmodule.html }
-    	{ include footer.html }
-    </body>
+	54 {* header.html *}
+	55
+	56 <!-- something something literature modules -->
+	57 {* include poetrymodule.html *}
+	58 {* include fictionmodule.html *}
+	59 {* include nonfictionmodule.html *}
+	60 {* include visualartsmodule.html *}
+	61
+	62 {* footer.html *}
+
+
+
+
+
 
 ### Wireframes
 
