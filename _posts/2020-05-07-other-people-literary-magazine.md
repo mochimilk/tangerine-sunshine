@@ -51,17 +51,19 @@ We also used Jekyll to build modules through "includes", making each component o
 
 Example:
 
-	54 {* header.html *}
-	55
-	56 <!-- something something literature modules -->
-	57 {* include poetrymodule.html *}
-	58 {* include fictionmodule.html *}
-	59 {* include nonfictionmodule.html *}
-	60 {* include visualartsmodule.html *}
-	61
-	62 {* footer.html *}
 
 
+{% highlight html linenos=table %}
+{* header.html *}
+	
+<!-- LITERATURE MODULES OR SOMETHING -->
+{* include poetrymodule.html *}
+{* include fictionmodule.html *}
+{* include nonfictionmodule.html *}
+{* include visualartsmodule.html *}
+	
+{* footer.html *}
+{% endhighlight %}
 
 
 

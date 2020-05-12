@@ -1,0 +1,92 @@
+I"M<h2 id="objective">Objective</h2>
+
+<p>The objective of this project was to create a website for Other People Literary Magazine. I also had the task of leading a team of designers and developers to build it. In having a team of students that would eventually graduate and go off start adulting, we needed to be mindful of making a site that could easily be passed onto others.</p>
+
+<h2 id="role">Role</h2>
+
+<p>The team consisted of the other creative co-director and a product designer.  I was responsible for overseeing and developing the <strong>UX/UI design</strong>, <strong>frontend development</strong>, as well as designing the overall <strong>brand/identity</strong> of Other People. The team worked in conjunction during our ideation.</p>
+
+<h2 id="brainstorming">Brainstorming</h2>
+
+<p>When first brainstorming this project, we wanted to <strong>create an experience focused on readership/viewership</strong>. We also wanted to <strong>create a modular design system</strong>; In doing so would pave way for succeeding developers to carry on the work fluidly. The third objective was to <strong>create a site on a content management system</strong> so that the editorial team can easily update the front matter.</p>
+
+<p>And, of course, it had to be responsive on mobile, tablet, and desktop.</p>
+
+<h2 id="proposal">Proposal</h2>
+
+<p>Our proposal was to, first, create a <strong>minimalist/brutalist design</strong> for the site that would place focus on the contributions (literature and art). It allowed for minimal distractions and focuses on readership and viewership.</p>
+
+<p>Our second proposal was to use a coding language that could not only be modular, but easily learned/recognized. For this, we decided to use a <strong>Jekyll/Sass</strong> combo.</p>
+
+<p>Our third proposal was to use a headless content management system, so that — in the case of a system falling off trend — the designers could easily chop the head off and replace it. For this, we decided to use <strong>Forestry.io</strong>.</p>
+
+<ul>
+  <li>Use a minimalist/brutalist design for max readability.</li>
+  <li>Make an easy/modular coding design system</li>
+  <li>Use a headless CMS</li>
+</ul>
+
+<h2 id="process">Process</h2>
+
+<h3 id="research">Research</h3>
+
+<p>One of the things that drew us into creating a brutalist design for Other People was the capacity to make an easy design system. Further, having these modules/components enabled the designers and developers to work more closely together as it acted like a sort of buffer between the two. We utilized Figma to translate design into development.</p>
+
+<p>Another thing that drew us to a brutalist design was that stray away from a corporate look to a more liberal and human design.</p>
+
+<p><img src="/uploads/Screen Shot 2020-05-09 at 4.17.31 PM.png" alt="" /><em>Brutalist web design mood boards</em></p>
+
+<p>We also used Jekyll to build modules through “includes”, making each component of the site easily modifiable/replaceable. This also made the index.html page simple to explore.</p>
+
+<p>Example:</p>
+
+<figure class="highlight"><pre><code class="language-language" data-lang="language"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</pre></td><td class="code"><pre>{* header.html *}
+	
+	&lt;!-- something something literature modules --&gt;
+	{* include poetrymodule.html *}
+	{* include fictionmodule.html *}
+	{* include nonfictionmodule.html *}
+	{* include visualartsmodule.html *}
+	
+	{* footer.html *}
+	
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<h3 id="wireframes">Wireframes</h3>
+
+<p><img src="/uploads/Screen Shot 2020-05-09 at 3.54.52 PM.png" alt="" /></p>
+
+<h2 id="branding">Branding</h2>
+
+<h3 id="logo">Logo</h3>
+
+<p>The initial logo was sketched out by the Editor-in-Chief, Nicole Lopez. With this sketch, it was simple to create a clean, balanced logo that would translate well into different sizes and forms. A total of four were finalized into the final branding.</p>
+
+<p><img src="/uploads/56E20A87-FC33-4B52-9B77-0669479E46D3.JPG" alt="" /></p>
+
+<h3 id="typography">Typography</h3>
+
+<p>The main type used throughout the branding is the Baiser family by Apito Foundry. Its diverse collection of fonts has been used as both H1 headers as well as H3 and H4. The clean design paved the way for a bolder, more flourishing text: Ogg Italic. Ogg Italic fills the space of the H2 header, coupling with Basier Regular to evoke a more literary-forward design.</p>
+
+<p><img src="/uploads/015BD80F-A81F-4928-AB9C-19369B0E2D6F.JPG" alt="" /></p>
+
+<h2 id="final-product">Final Product</h2>
+
+<p><img src="/uploads/4D3B4888-3605-4C02-A66A-5ADEB1A42142.JPG" alt="" /><em>Modular build</em></p>
+
+<p><img src="/uploads/OtherPeopleDarkMode.png" alt="" /></p>
+
+<p><img src="/uploads/C987B3A2-FBF4-4183-B067-B7CC1D956B87 2.jpg" alt="" /></p>
+
+<p><img src="/uploads/A3D1F817-B3DB-4B34-831A-18020155E577 2.JPG" alt="" /></p>
+:ET
