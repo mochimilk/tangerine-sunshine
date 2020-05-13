@@ -105,9 +105,8 @@ headerTwo {
     z-index: 1;
     top: 0;
     left: 0;
-    background: linear-gradient(180deg, rgb(234, 91, 247), rgb(108, 255, 211));
-    color: yellow;
-    text-shadow: 0px 0px 8px rgb(102, 102, 102);
+    background-color: $bodyColor;
+    color: $backgroundColor;
     overflow-x: hidden;
     transition: 0.3s;
 
@@ -123,14 +122,17 @@ headerTwo {
 
 .overlay-content {
     position: absolute;
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
     line-height: 0.8;
     padding: $blockFour;
     left: 0;
     right: 0;
+
     a {
-        color: yellow;
+        color: $backgroundColor;
     }
 }
 
@@ -143,7 +145,7 @@ headerTwo {
         transform: rotate(45deg);
     }
     circle {
-        fill: yellow;
+        fill: $backgroundColor;
     }
 }
 
