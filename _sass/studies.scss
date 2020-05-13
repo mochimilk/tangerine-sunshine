@@ -41,7 +41,7 @@ a:link {
     border-width: 1px 0 0 0;
     padding-top: $blockThree;
     padding-bottom: $blockThree;
-    color: $backgroundColor;
+    color: yellow;
     :nth-child(3) {
         margin-left: auto;
         margin-right: 0;
@@ -143,7 +143,7 @@ svg {
         padding-top: $blockOne;
     }
     a {
-        color: $backgroundColor;
+        color: yellow;
     }
 }
 
