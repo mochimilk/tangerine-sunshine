@@ -518,7 +518,7 @@ if (theme === "dark") {
       $(document).ready(function () {
         $(window).scroll(function () {
           var distanceFromTop = $(document).scrollTop();
-          if (distanceFromTop >= $('.hello').offset().top - ($(window).height() / 4.8)) {
+          if (distanceFromTop >= $('.hello').offset().top - ($(window).height() / 4)) {
             $('.sideInfo')
               .fadeIn(400)
               .addClass('fixed');

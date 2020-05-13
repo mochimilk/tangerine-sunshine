@@ -2,7 +2,7 @@ body { background: var(--background-color); color: var(--light-text-color); font
 
 html, body { margin: 0; padding: 0; }
 
-h1 { padding: 0; margin: 0; font-size: 3.5rem; font-weight: normal; }
+h1 { font-family: "NeueMachina-Regular"; padding: 0; margin: 0; font-size: 3.5rem; font-weight: normal; line-height: 4rem; }
 
 h2 { padding: 0; margin: 0; font-size: 2rem; text-transform: uppercase; font-weight: normal; }
 
@@ -10,7 +10,7 @@ h4 { padding: 0; margin: 0; margin-top: 0px; font-size: 0.8rem; line-height: 1.2
 
 p { line-height: 1.5rem; font-weight: normal; }
 
-@media only screen and (max-width: 728px) { h1 { font-size: 2.8rem; }
+@media only screen and (max-width: 728px) { h1 { font-size: 2.8rem; line-height: 3rem; }
   h2 { font-size: 1.5rem; } }
 
 html, html[data-theme="light"] { --background-color: #ffffff; --light-text-color: #151515; --link-color: rgb(0, 112, 201); --main-background-color: rgb(255, 255, 255); --main-text-color: rgb(51, 51, 51); }
@@ -95,7 +95,7 @@ headerTwo ul { display: flex; justify-content: space-between; list-style-type: n
 
 .IndexIntro a { color: inherit; display: inline; position: relative; overflow: hidden; cursor: pointer; }
 
-.IndexIntro a:after { content: ""; position: absolute; z-index: -1; left: 0; width: 100%; bottom: -3px; background-color: var(--light-text-color); height: 4px; transition-property: width; transition-duration: 0.3s; transition-timing-function: ease-out; border-radius: 25px; }
+.IndexIntro a:after { content: ""; position: absolute; z-index: -1; left: 0; width: 100%; bottom: 0px; background-color: var(--light-text-color); height: 4px; transition-property: width; transition-duration: 0.3s; transition-timing-function: ease-out; border-radius: 25px; }
 
 .IndexIntro a:hover:after, .IndexIntro a:focus:after, .IndexIntro a:active:after { right: 0; left: auto; width: 0%; }
 
@@ -555,5 +555,7 @@ figure.highlight pre code[data-lang]::before, div.highlight pre code[data-lang]:
 pre { margin: auto; }
 
 figure.highlight { margin: 0; padding: 0; }
+
+@font-face { font-family: "NeueMachina-Regular"; src: url("../../assets/css/Fonts/NeueMachina-Regular.otf"); font-weight: normal; font-style: normal; }
 
 /*# sourceMappingURL=main.css.map */
