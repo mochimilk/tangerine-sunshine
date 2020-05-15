@@ -1,49 +1,19 @@
-I"�?<h2 id="objective">Objective</h2>
+<!DOCTYPE html>
+<html lang="en-US">
 
-<p>The objective of this project was to create a website for Other People Literary Magazine. I also had the task of leading a team of designers and developers to build it. In having a team of students that would eventually graduate and go off start adulting, we needed to be mindful of making a site that could easily be passed onto others.</p>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <title>Design Gallery - eunsoo lee</title>
+        <link rel="stylesheet" href="/assets/css/main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
-<h2 id="role">Role</h2>
+    </head>
 
-<p>The team consisted of the other creative co-director and a product designer.  I was responsible for overseeing and developing the <strong>UX/UI design</strong>, <strong>frontend development</strong>, as well as designing the overall <strong>brand/identity</strong> of Other People. The team worked in conjunction during our ideation.</p>
-
-<h2 id="brainstorming">Brainstorming</h2>
-
-<p>When first brainstorming this project, we wanted to <strong>create an experience focused on readership/viewership</strong>. We also wanted to <strong>create a modular design system</strong>; In doing so would pave way for succeeding developers to carry on the work fluidly. The third objective was to <strong>create a site on a content management system</strong> so that the editorial team can easily update the front matter.</p>
-
-<p>And, of course, it had to be responsive on mobile, tablet, and desktop.</p>
-
-<h2 id="proposal">Proposal</h2>
-
-<p>Our proposal was to, first, create a <strong>minimalist/brutalist design</strong> for the site that would place focus on the contributions (literature and art). It allowed for minimal distractions and focuses on readership and viewership.</p>
-
-<p>Our second proposal was to use a coding language that could not only be modular, but easily learned/recognized. For this, we decided to use a <strong>Jekyll/Sass</strong> combo.</p>
-
-<p>Our third proposal was to use a headless content management system, so that — in the case of a system falling off trend — the designers could easily chop the head off and replace it. For this, we decided to use <strong>Forestry.io</strong>.</p>
-
-<ul>
-  <li>Use a minimalist/brutalist design for max readability.</li>
-  <li>Make an easy/modular coding design system</li>
-  <li>Use a headless CMS</li>
-</ul>
-
-<h2 id="process">Process</h2>
-
-<h3 id="research">Research</h3>
-
-<p>One of the things that drew us into creating a brutalist design for Other People was the capacity to make an easy design system. Further, having these modules/components enabled the designers and developers to work more closely together as it acted like a sort of buffer between the two. We utilized Figma to translate design into development.</p>
-
-<p>Another thing that drew us to a brutalist design was that stray away from a corporate look to a more liberal and human design.</p>
-
-<p><img src="/uploads/Screen Shot 2020-05-09 at 4.17.31 PM.png" alt="" /><em>Brutalist web design mood boards</em></p>
-
-<p>We also used Jekyll to build modules through “includes”, making each component of the site easily modifiable/replaceable.</p>
-
-<p>Example:</p>
-
-<pre>
-<code>
     <body>
-    	<span><div><header class="nav-down">
+
+        <headerTwo class="nav-down">
 
     <div class="title">
         <a href="http://localhost:4000/">
@@ -53,7 +23,7 @@
     <ul class="nav">
         <li>
             <h4>
-                <a class="first" type="button" onclick="smoothScroll(document.getElementById('second'))">Studies</a>
+    <a class="first" href="http://localhost:4000/#second">Studies</a>
             </h4>
         </li>
         <li>
@@ -64,7 +34,7 @@
         <li>
             <a>
                 <h4>
-        <a href="https://drive.google.com/file/d/1D7V5IB2bvq5p4SoKRd-34yDLYQQECumn/view?usp=sharing" target="_blank">Resume</a>
+        <a href="https://drive.google.com/file/d/1BkaIPwN4C9lLx6xhcfLW-Tqr72OrFTE3/view?usp=sharing" target="_blank">Resume</a>
                 </h4>
             </a>
         </li>
@@ -75,19 +45,26 @@
 
         <?xml version="1.0" encoding="utf-8"?>
         <!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="preserve">
-            <circle cx="240" cy="240" r="120" />
-            <circle cx="960" cy="240" r="120" />
-            <circle cx="240" cy="960" r="120" />
-            <circle cx="960" cy="960" r="120" />
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="preserve">
+            <circle cx="240" cy="240" r="120"/>
+            <circle cx="960" cy="240" r="120"/>
+            <circle cx="240" cy="960" r="120"/>
+            <circle cx="960" cy="960" r="120"/>
         </svg>
 
     </div>
 
-</header>
+</headerTwo>
+
+
+
+
+
+
 
 <div id="myNav" class="overlay">
-    <div class="overlay-content">
+    <div class= "overlay-content">
         <div class="title">
               <a href="http://localhost:4000/">
         eunsoo lee
@@ -97,19 +74,19 @@
         <ul class="nav">
             <li>
                 <h4>
-                    <a class="first" type="button" onclick="smoothScroll(document.getElementById('second')); closeNav()">Studies</a>
+           <a class="first" href="http://localhost:4000/#second">Studies</a>
                 </h4>
             </li>
             <li>
                 <h4>
-                    <a href="http://localhost:4000/about">About</a>
+                        <a href="http://localhost:4000/about">About</a>
                 </h4>
             </li>
             <li>
                 <a>
                     <h4>
-        <a href="https://drive.google.com/file/d/1D7V5IB2bvq5p4SoKRd-34yDLYQQECumn/view?usp=sharing" target="_blank">Resume</a>
-                    </h4> 
+               <a href="https://drive.google.com/file/d/1BkaIPwN4C9lLx6xhcfLW-Tqr72OrFTE3/view?usp=sharing" target="_blank">Resume</a>
+                    </h4>
                 </a>
             </li>
 
@@ -118,11 +95,12 @@
         <div href="javascript:void(0)" class="closebtn" onclick="closeNav()">
             <?xml version="1.0" encoding="utf-8"?>
             <!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="preserve">
-                <circle cx="240" cy="240" r="120" />
-                <circle cx="960" cy="240" r="120" />
-                <circle cx="240" cy="960" r="120" />
-                <circle cx="960" cy="960" r="120" />
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="preserve">
+                <circle cx="240" cy="240" r="120"/>
+                <circle cx="960" cy="240" r="120"/>
+                <circle cx="240" cy="960" r="120"/>
+                <circle cx="960" cy="960" r="120"/>
             </svg>
         </div>
 
@@ -130,25 +108,26 @@
 
 
 
-    <div class="studiesMenu">
+     <div class="studiesMenu">
     <div class="StudiesContainer">
         <div class="mobileNav">
             <h2>Hello</h2>
             <h1>
-                <a class="first" href="http://localhost:4000/#second" onclick="smoothScroll(document.getElementById('second')); closeNav()">Studies</a>
+                <a class="first" href="http://localhost:4000/#second"
+                    onclick="smoothScroll(document.getElementById('second')); closeNav()">Studies</a>
             </h1>
             <h1>
                 <a href="http://localhost:4000/about">About</a>
             </h1>
                <h1>
-            <a href="https://drive.google.com/file/d/1D7V5IB2bvq5p4SoKRd-34yDLYQQECumn/view?usp=sharing" target="_blank">Resume</a>
+            <a href="https://drive.google.com/file/d/1BkaIPwN4C9lLx6xhcfLW-Tqr72OrFTE3/view?usp=sharing" target="_blank">Resume</a>
        </h1>
         </div>
 
         <h2>Reader Settings</h2>
 
         <h1>
-            <a id="theme-toggle" onclick="modeSwitcher()"></a>
+            <a id="theme-toggle" onclick="modeSwitcher(), closeNav()"></a>
         </h1>
         <h4>(Changes body color on study articles)</h4>
 
@@ -160,7 +139,7 @@
                 <a href="/ux/ui%20%E2%80%94%20frontend%20development%20%E2%80%94%20design%20systems%20%E2%80%94%20branding/2020/04/18/other-people-literary-magazine.html">
                     <div class="StudiesModuleTwo">
                         <div class="square">
-                            <img src="/uploads/730014EB-2EB9-44B0-96F8-D8D80489FCA9.JPG" class="image" /></div>
+                            <img src="/uploads/730014EB-2EB9-44B0-96F8-D8D80489FCA9.JPG" class="image"></div>
                         <div class="StudiesInfo">
                             <h1>Other People Literary Magazine</h1>
                             <h4>
@@ -177,7 +156,7 @@
                 <a href="/ux/ui%20%E2%80%94%20frontend%20development%20%E2%80%94%20branding/2020/01/15/winter-triton-fest-2020.html">
                     <div class="StudiesModuleTwo">
                         <div class="square">
-                            <img src="/uploads/WebUX-01.png" class="image" /></div>
+                            <img src="/uploads/WebUX-01.png" class="image"></div>
                         <div class="StudiesInfo">
                             <h1>Winter Triton Fest 2020</h1>
                             <h4>
@@ -194,7 +173,7 @@
                 <a href="/graphic%20design%20%E2%80%94%20ux/ui/2019/04/05/sun-god-festival-2019.html">
                     <div class="StudiesModuleTwo">
                         <div class="square">
-                            <img src="/uploads/731BA2F5-FD0F-47EC-843A-71AA9F7B0B3D.JPG" class="image" /></div>
+                            <img src="/uploads/731BA2F5-FD0F-47EC-843A-71AA9F7B0B3D.JPG" class="image"></div>
                         <div class="StudiesInfo">
                             <h1>Sun God Festival 2019</h1>
                             <h4>
@@ -213,7 +192,7 @@
             <a href="/design%20challenge/2020/05/05/craigslist-redesign.html">
                 <div class="StudiesModuleTwo">
                     <div class="square">
-                        <img src="/uploads/Thumb-01.png" class="image" /></div>
+                        <img src="/uploads/Thumb-01.png" class="image"></div>
                     <div class="StudiesInfo">
                         <h1>Craigslist Redesign</h1>
                         <h4>
@@ -233,8 +212,7 @@
 
 
 
-
-        <footer>
+         <footer>
   <h4>Made with love by eunsoo lee  © 2020</h4>
   <div class="FooterLinks">
     <h4>
@@ -312,12 +290,16 @@ if (theme === "dark") {
 }
 </script>
 
+
+
+
+
 <script>
     // Hide Header on on scroll down
     var didScroll;
     var lastScrollTop = 0;
     var delta = 5;
-    var navbarHeight = $('header').outerHeight();
+    var navbarHeight = $('headerTwo').outerHeight();
 
     $(window).scroll(function (event) {
         didScroll = true;
@@ -341,13 +323,13 @@ if (theme === "dark") {
         // This is necessary so you never see what is "behind" the navbar.
         if (st > lastScrollTop && st > navbarHeight) {
             // Scroll Down
-            $('header')
+            $('headerTwo')
                 .removeClass('nav-down')
                 .addClass('nav-up');
         } else {
             // Scroll Up
             if (st + $(window).height() < $(document).height()) {
-                $('header')
+                $('headerTwo')
                     .removeClass('nav-up')
                     .addClass('nav-down');
             }
@@ -371,46 +353,83 @@ if (theme === "dark") {
             .style
             .height = "0%";
     }
-</script></div></span>
-    	{ include literaturemodule.html }
-    	{ include visualartsmodule.html }
-    	{ include footer.html }
+</script>
+
+        <!-- Photo Grid -->
+        <div class="row">
+            <div class="column">
+                <img src="" style="width:100%">
+
+            </div>
+
+        </div>
+
+        <!-- MISC -->
+        <footer>
+  <h4>Made with love by eunsoo lee  © 2020</h4>
+  <div class="FooterLinks">
+    <h4>
+      <a href="https://www.linkedin.com/in/leeunsu/" target="_blank">  LinkedIn</a> — <a href="https://github.com/leeunsu" target="_blank">GitHub</a>
+
+    </h4>
+  </div>
+</footer>
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157510729-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-157510729-1');
+    </script>
+
+        <script>
+
+            // Get the elements with class="column"
+            var elements = document.getElementsByClassName("column");
+
+            // Declare a loop variable
+            var i;
+
+            // Full-width images
+            function one() {
+                for (i = 0; i < elements.length; i++) {
+                    elements[i].style.msFlex = "100%"; // IE10
+                    elements[i].style.flex = "100%";
+                }
+            }
+
+            // Two images side by side
+            function two() {
+                for (i = 0; i < elements.length; i++) {
+                    elements[i].style.msFlex = "50%"; // IE10
+                    elements[i].style.flex = "50%";
+                }
+            }
+
+            // Four images side by side
+            function four() {
+                for (i = 0; i < elements.length; i++) {
+                    elements[i].style.msFlex = "25%"; // IE10
+                    elements[i].style.flex = "25%";
+                }
+            }
+
+            // Add active class to the current button (highlight it)
+            var header = document.getElementById("myHeader");
+            var btns = header.getElementsByClassName("btn");
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].addEventListener("click", function () {
+                    var current = document.getElementsByClassName("active");
+                    current[0].className = current[0]
+                        .className
+                        .replace(" active", "");
+                    this.className += " active";
+                });
+            }
+        </script>
     </body>
-</code>
-</pre>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  &lt;pre&gt;
-  &lt;code class="language-rust" data-lang="rust"&gt;&lt;div class="line-1"&gt;&lt;span class="k"&gt;let&lt;/span&gt; &lt;span class="n"&gt;hi&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;"Hello."&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-  &lt;/div&gt;&lt;div class="line-2"&gt;&lt;span class="nd"&gt;println!&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"{}"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;hi&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-  &lt;/div&gt;&lt;/code&gt;
-  &lt;/pre&gt;
-</code></pre></div></div>
-
-<h3 id="wireframes">Wireframes</h3>
-
-<p><img src="/uploads/Screen Shot 2020-05-09 at 3.54.52 PM.png" alt="" /></p>
-
-<h2 id="branding">Branding</h2>
-
-<h3 id="logo">Logo</h3>
-
-<p>The initial logo was sketched out by the Editor-in-Chief, Nicole Lopez. With this sketch, it was simple to create a clean, balanced logo that would translate well into different sizes and forms. A total of four were finalized into the final branding.</p>
-
-<p><img src="/uploads/56E20A87-FC33-4B52-9B77-0669479E46D3.JPG" alt="" /></p>
-
-<h3 id="typography">Typography</h3>
-
-<p>The main type used throughout the branding is the Baiser family by Apito Foundry. Its diverse collection of fonts has been used as both H1 headers as well as H3 and H4. The clean design paved the way for a bolder, more flourishing text: Ogg Italic. Ogg Italic fills the space of the H2 header, coupling with Basier Regular to evoke a more literary-forward design.</p>
-
-<p><img src="/uploads/015BD80F-A81F-4928-AB9C-19369B0E2D6F.JPG" alt="" /></p>
-
-<h2 id="final-product">Final Product</h2>
-
-<p><img src="/uploads/4D3B4888-3605-4C02-A66A-5ADEB1A42142.JPG" alt="" /><em>Modular build</em></p>
-
-<p><img src="/uploads/OtherPeopleDarkMode.png" alt="" /></p>
-
-<p><img src="/uploads/C987B3A2-FBF4-4183-B067-B7CC1D956B87 2.jpg" alt="" /></p>
-
-<p><img src="/uploads/A3D1F817-B3DB-4B34-831A-18020155E577 2.JPG" alt="" /></p>
-:ET
+</head>
