@@ -170,6 +170,8 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 
 .studiesMenu h4 { margin-top: 8px; }
 
+.studiesMenu a { color: yellow; }
+
 .studiesMenu::-webkit-scrollbar { display: none; }
 
 .studiesMenu { -ms-overflow-style: none; }
@@ -558,17 +560,24 @@ figure.highlight { margin: 0; padding: 0; }
 
 @font-face { font-family: "NeueMachina-Regular"; src: url("../../assets/css/Fonts/NeueMachina-Regular.otf"); font-weight: normal; font-style: normal; }
 
-.row { display: -ms-flexbox; /* IE10 */ display: flex; -ms-flex-wrap: wrap; /* IE10 */ flex-wrap: wrap; padding: 0 4px; }
+.galleryContainer { display: grid; grid-template-columns: 1fr; margin-top: 128px; padding: 0 64px 0 64px; }
 
-/* Create four equal columns that sits next to each other */
-.column { -ms-flex: 25%; /* IE10 */ flex: 25%; max-width: 25%; padding: 0 4px; }
+#photos { /* Prevent vertical gaps */ margin-top: 128px; -webkit-column-count: 5; -webkit-column-gap: 10px; -moz-column-count: 3; -moz-column-gap: 10px; column-count: 3; column-gap: 20px; line-height: 4; margin-left: auto; margin-right: auto; padding-left: 0; }
 
-.column img { margin-top: 8px; vertical-align: middle; width: 100%; }
+#photos img { /* Just in case there are inline attributes */ width: 100% !important; height: auto !important; }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) { .column { -ms-flex: 50%; flex: 50%; max-width: 50%; } }
+@media (max-width: 1200px) { #photos { -moz-column-count: 3; -webkit-column-count: 3; column-count: 3; } }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) { .column { -ms-flex: 100%; flex: 100%; max-width: 100%; } }
+@media (max-width: 1000px) { #photos { -moz-column-count: 2; -webkit-column-count: 2; column-count: 2; } }
+
+@media (max-width: 800px) { #photos { -moz-column-count: 1; -webkit-column-count: 1; column-count: 1; } }
+
+@media (max-width: 400px) { #photos { -moz-column-count: 1; -webkit-column-count: 1; column-count: 1; } }
+
+@media only screen and (max-width: 728px) { #photos { margin-top: 16px; padding-left: 0; }
+  .galleryContainer { margin-top: 16px; padding: 0 16px 0 16px; grid-template-columns: 100%; } }
+
+@media only screen and (max-width: 1024px) and (min-width: 729px) { #photos { margin-top: 64px; padding-left: 0; }
+  .galleryContainer { margin-top: 64px; padding: 0 32px 0 32px; grid-template-columns: 100%; } }
 
 /*# sourceMappingURL=main.css.map */

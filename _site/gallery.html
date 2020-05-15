@@ -124,6 +124,13 @@
        </h1>
         </div>
 
+
+    
+<h2>Other Stuffs 😛</h2>
+        <h1>
+            <a href="http://localhost:4000/gallery">Graphic Design Gallery</a>
+        </h1>
+
         <h2>Reader Settings</h2>
 
         <h1>
@@ -355,14 +362,54 @@ if (theme === "dark") {
     }
 </script>
 
-        <!-- Photo Grid -->
-        <div class="row">
-            <div class="column">
-                <img src="" style="width:100%">
 
-            </div>
 
-        </div>
+ 
+        <div class="galleryContainer">
+            <div class="cssanimation sequence fadeInBottom">
+      <h1> Some graphic illustrations I've done in the past 🖌🖍</h1>
+    </div>
+      <div class="space"></div>
+        <section id="photos">
+
+            
+
+                <img src="/uploads/mcnair-cover004.png">
+
+            
+
+                <img src="/uploads/dvc-atlantis_vidnet-01.png">
+
+            
+
+                <img src="/uploads/wtf19-allposters-04.png">
+
+            
+
+                <img src="/uploads/wtf19-allposters-03.png">
+
+            
+
+                <img src="/uploads/wtf19-allposters-02.png">
+
+            
+
+                <img src="/uploads/wtf19-allposters-01.png">
+
+            
+
+                <img src="/uploads/turnip-01.png">
+
+            
+
+                <img src="/uploads/wtf_eventposter-01.png">
+
+            
+
+        </section>
+
+    </div>
+
 
         <!-- MISC -->
         <footer>
@@ -385,51 +432,13 @@ if (theme === "dark") {
         gtag('config', 'UA-157510729-1');
     </script>
 
-        <script>
 
-            // Get the elements with class="column"
-            var elements = document.getElementsByClassName("column");
+        
 
-            // Declare a loop variable
-            var i;
 
-            // Full-width images
-            function one() {
-                for (i = 0; i < elements.length; i++) {
-                    elements[i].style.msFlex = "100%"; // IE10
-                    elements[i].style.flex = "100%";
-                }
-            }
 
-            // Two images side by side
-            function two() {
-                for (i = 0; i < elements.length; i++) {
-                    elements[i].style.msFlex = "50%"; // IE10
-                    elements[i].style.flex = "50%";
-                }
-            }
 
-            // Four images side by side
-            function four() {
-                for (i = 0; i < elements.length; i++) {
-                    elements[i].style.msFlex = "25%"; // IE10
-                    elements[i].style.flex = "25%";
-                }
-            }
 
-            // Add active class to the current button (highlight it)
-            var header = document.getElementById("myHeader");
-            var btns = header.getElementsByClassName("btn");
-            for (var i = 0; i < btns.length; i++) {
-                btns[i].addEventListener("click", function () {
-                    var current = document.getElementsByClassName("active");
-                    current[0].className = current[0]
-                        .className
-                        .replace(" active", "");
-                    this.className += " active";
-                });
-            }
-        </script>
     </body>
 
 </head>
