@@ -204,7 +204,7 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 
 @media screen and (min-width: 2400px) { .studiesMenu { padding-top: 128px; width: 70%; margin: auto; } }
 
-.aboutContainer { display: grid; grid-template-columns: 1fr 1fr; margin-top: 128px; padding: 0 64px 0 64px; }
+.aboutContainer { display: grid; grid-template-columns: 40% 60%; margin-top: 128px; padding: 0 64px 0 64px; }
 
 .aboutContainer h2 { padding-top: 64px; margin-bottom: 64px; }
 
