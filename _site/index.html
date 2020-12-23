@@ -105,6 +105,7 @@
     <div class="StudiesContainer">
         <div class="mobileNav">
             <h2>Hello</h2>
+       
             <h1>
                 <a class="first" href="http://localhost:4000/#second"
                     onclick="smoothScroll(document.getElementById('second')); closeNav()">Studies</a>
@@ -112,17 +113,14 @@
             <h1>
                 <a href="http://localhost:4000/about">About</a>
             </h1>
-               <h1>
-            <a href="https://drive.google.com/file/d/1BkaIPwN4C9lLx6xhcfLW-Tqr72OrFTE3/view?usp=sharing" target="_blank">Resume</a>
-       </h1>
+            <h1>
+                <a href="https://drive.google.com/file/d/1BkaIPwN4C9lLx6xhcfLW-Tqr72OrFTE3/view?usp=sharing" target="_blank">Resume</a>
+            </h1>
+                    <h1>
+            <a href="http://localhost:4000/gallery">Illustrations</a>
+        </h1>
         </div>
 
-
-    
-<h2>Other Stuffs 😛</h2>
-        <h1>
-            <a href="http://localhost:4000/gallery">Graphic Design Gallery</a>
-        </h1>
 
         <h2>Reader Settings</h2>
 
@@ -209,6 +207,15 @@
     </div>
 
 </div>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -356,9 +363,9 @@ if (theme === "dark") {
   <div class="IndexContainer">
     <div class="IndexIntro">
       <h1 class="cssanimation sequence fadeInBottom">
-        Visual Designer from La Jolla, CA.
-        <br>
-        Currently creating at <a href="https://www.kiva.org/" target="_blank">Kiva
+        <label id="lblGreetings"></label><br>
+
+        Currently creating at <a href="https://www.kiva.org/" target="_blank">Kiva.org
 <?xml version="1.0" encoding="utf-8"?>
           <!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -584,3 +591,29 @@ if (theme === "dark") {
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+<script>
+  var myDate = new Date();
+  var hrs = myDate.getHours();
+
+  var greet;
+
+  if (hrs < 12)
+      greet = 'Good Morning';
+  else if (hrs >= 12 && hrs <= 17)
+      greet = 'Good Afternoon';
+  else if (hrs >= 17 && hrs <= 24)
+      greet = 'Good Evening';
+
+
+
+  document.getElementById('lblGreetings').innerHTML =
+      '' + greet + '! I am a visual designer—';
+</script> 
