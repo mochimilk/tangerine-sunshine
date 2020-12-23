@@ -13,12 +13,12 @@ p { line-height: 1.5rem; font-weight: normal; }
 @media only screen and (max-width: 728px) { h1 { font-size: 2.8rem; line-height: 3rem; }
   h2 { font-size: 1.5rem; } }
 
-html, html[data-theme="light"] { --background-color: #ffffff; --light-text-color: #151515; --link-color: rgb(0, 112, 201); --main-background-color: rgb(255, 255, 255); --main-text-color: rgb(51, 51, 51); }
+html, html[data-theme="light"] { --background-color: rgb(247, 245, 238); --light-text-color: #181818; --link-color: rgb(0, 112, 201); --main-background-color: rgb(255, 255, 255); --main-text-color: rgb(51, 51, 51); }
 
-html[data-theme="dark"] { --background-color: #151515; --light-text-color: #ffffff; --link-color: rgb(100, 210, 255); --main-background-color: rgb(28, 28, 30); --main-text-color: rgb(229, 229, 234); }
+html[data-theme="dark"] { --background-color: #181818; --light-text-color: rgb(247, 245, 238); --link-color: rgb(100, 210, 255); --main-background-color: rgb(28, 28, 30); --main-text-color: rgb(229, 229, 234); }
 
-@media (prefers-color-scheme: dark) { html, html[data-theme="dark"] { --background-color: #151515; --light-text-color: #ffffff; --link-color: rgb(100, 210, 255); --main-background-color: rgb(28, 28, 30); --main-text-color: rgb(229, 229, 234); }
-  html[data-theme="light"] { --background-color: #ffffff; --light-text-color: #151515; --link-color: rgb(0, 112, 201); --main-background-color: rgb(255, 255, 255); --main-text-color: rgb(51, 51, 51); } }
+@media (prefers-color-scheme: dark) { html, html[data-theme="dark"] { --background-color: #181818; --light-text-color: rgb(247, 245, 238); --link-color: rgb(100, 210, 255); --main-background-color: rgb(28, 28, 30); --main-text-color: rgb(229, 229, 234); }
+  html[data-theme="light"] { --background-color: rgb(247, 245, 238); --light-text-color: #181818; --link-color: rgb(0, 112, 201); --main-background-color: rgb(255, 255, 255); --main-text-color: rgb(51, 51, 51); } }
 
 @keyframes slideInFromTop { 0% { transform: translateY(-100%); }
   100% { transform: translateY(0); } }
@@ -47,19 +47,19 @@ headerTwo a { color: inherit; }
 
 headerTwo ul { display: flex; justify-content: space-between; list-style-type: none; margin: 0; padding: 0; cursor: pointer; }
 
-.overlay { height: 0%; width: 100%; position: fixed; z-index: 1; top: 0; left: 0; background-color: #c1b6ff; color: #2a1b7e; overflow-x: hidden; transition: 0.3s; }
+.overlay { height: 0%; width: 100%; position: fixed; z-index: 1; top: 0; left: 0; background-color: #607961; color: #f7f5ee; overflow-x: hidden; transition: 0.3s; }
 
 .overlay ul { display: flex; justify-content: space-between; list-style-type: none; margin: 0; padding: 0; cursor: pointer; }
 
 .overlay-content { position: absolute; display: grid; grid-template-columns: 1fr 1fr 1fr; line-height: 0.8; padding: 64px; left: 0; right: 0; }
 
-.overlay-content a { color: #2a1b7e; }
+.overlay-content a { color: #f7f5ee; }
 
 .closebtn { margin-left: auto; margin-right: 0; }
 
 .closebtn svg { width: 20px; transform: rotate(45deg); }
 
-.closebtn circle { fill: #2a1b7e; }
+.closebtn circle { fill: #f7f5ee; }
 
 @media only screen and (max-width: 728px) { header, headerTwo { padding: 16px; grid-template-columns: 1fr 1fr; }
   .nav { display: none; }
@@ -130,7 +130,7 @@ a:visited, a:link { text-decoration: none; }
 
 .StudiesModule h1 { text-decoration: none; }
 
-.StudiesModuleTwo { display: grid; grid-template-columns: 30% 50% 20%; border-style: solid; border-width: 1px 0 0 0; padding-top: 32px; padding-bottom: 32px; color: #2a1b7e; }
+.StudiesModuleTwo { display: grid; grid-template-columns: 30% 50% 20%; border-style: solid; border-width: 1px 0 0 0; padding-top: 32px; padding-bottom: 32px; color: #f7f5ee; }
 
 .StudiesModuleTwo :nth-child(3) { margin-left: auto; margin-right: 0; }
 
@@ -170,7 +170,7 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 
 .studiesMenu h4 { margin-top: 8px; }
 
-.studiesMenu a { color: #2a1b7e; }
+.studiesMenu a { color: #f7f5ee; }
 
 .studiesMenu::-webkit-scrollbar { display: none; }
 
@@ -178,7 +178,7 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 
 .mobileNav h1 { margin: 0; padding-top: 8px; }
 
-.mobileNav a { color: #2a1b7e; }
+.mobileNav a { color: #f7f5ee; }
 
 @media only screen and (max-width: 728px) { .StudiesContainer { padding: 0 16px 0 16px; }
   .StudiesContainer h2 { margin-bottom: 32px; }
