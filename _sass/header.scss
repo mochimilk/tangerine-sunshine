@@ -1,3 +1,8 @@
+// *{
+//     border-style: solid;
+
+// }
+
 @keyframes slideInFromTop {
     0% {
         transform: translateY(-100%);
@@ -29,6 +34,7 @@ header {
 
     a {
         color: inherit;
+
     }
     
 
@@ -49,6 +55,8 @@ header {
 .title {
     font-weight: bold;
     line-height: 0.8rem;
+    display: flex;
+    align-self: center;
 }
 
 .menu {
