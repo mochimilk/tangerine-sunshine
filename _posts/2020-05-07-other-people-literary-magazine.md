@@ -2,7 +2,7 @@
 title: Other People Literary Magazine
 role: Designer + Developer
 category: UX/UI — Product Design
-thumb: "/uploads/thumbnail-01.png"
+thumb: "/uploads/thumbnail-01-01.png"
 date: 2020-04-19T00:00:00.000+00:00
 layout: study
 medium: Jekyll/Sass, Photoshop, Illustrator, Figma
