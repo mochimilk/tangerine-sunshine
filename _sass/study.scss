@@ -33,11 +33,14 @@
 }
 
 .contentBody {
-    margin-left: auto;
-    margin-right: $blockFour;
-    text-align: justify;
-    width: 55%;
-    padding: 0 $blockFour $blockFour $blockFour;
+    margin: auto;
+    // margin-right: $blockFour;
+    text-align: left;
+    width: 650px;
+    padding: 0 $blockFour 0 $blockFour;
+    p{
+        line-height: 150%;
+    }
     a {
         color: rgb(224, 146, 0);
         text-decoration: underline;
@@ -65,7 +68,7 @@
     .sideInfo {
         text-align: left;
         z-index: 0;
-        width: $blockSix;
+        width: 10%;
         font-size: 0.8rem;
         font-weight: normal;
         text-transform: uppercase;
@@ -100,7 +103,7 @@
     button {
         background-color: transparent;
         border: none;
-        border-radius: 25px;
+        border-radius: 10px;
         border-style: solid;
         border-width: 1px;
         padding: 5px 32px;
