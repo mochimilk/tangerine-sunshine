@@ -8,7 +8,7 @@ html, body { margin: 0; padding: 0; }
 
 h1 { font-family: "NeueMachina-Regular"; padding: 0; margin: 0; font-size: 3.5rem; font-weight: normal; line-height: 4rem; }
 
-h2 { padding: 0; margin: 0; font-size: 2rem; font-weight: 400; }
+h2 { padding: 0; margin: 0; font-size: 1.5rem; font-weight: 400; }
 
 h3 { font-size: .9rem; font-weight: 650; text-transform: uppercase; }
 
@@ -66,9 +66,9 @@ headerTwo ul { display: flex; justify-content: space-between; list-style-type: n
 
 .closebtn circle { fill: #f7f5ee; }
 
-@media only screen and (max-width: 728px) { header, headerTwo { padding: 24px; grid-template-columns: 1fr 1fr; }
+@media only screen and (max-width: 728px) { header, headerTwo { padding: 16px; grid-template-columns: 1fr 1fr; }
   .nav { display: none; }
-  .overlay-content { grid-template-columns: 1fr 1fr; padding: 24px; left: 0; right: 0; } }
+  .overlay-content { grid-template-columns: 1fr 1fr; padding: 16px; left: 0; right: 0; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { header, headerTwo { padding: 32px; grid-template-columns: 1fr 1fr 1fr; }
   .overlay-content { grid-template-columns: 1fr 1fr 1fr; padding: 32px; left: 0; right: 0; } }
@@ -108,7 +108,7 @@ headerTwo ul { display: flex; justify-content: space-between; list-style-type: n
 
 .ExploreStudies { margin-top: 64px; display: inline-flex; align-self: center; cursor: pointer; float: right; }
 
-@media only screen and (max-width: 728px) { .IndexIntro { margin-top: 256px; padding: 0 24px 0 24px; bottom: 24px; }
+@media only screen and (max-width: 728px) { .IndexIntro { margin-top: 256px; padding: 0 16px 0 16px; bottom: 16px; }
   .IndexIntro a { text-decoration: underline !important; }
   .IndexIntro a:hover { text-decoration: none !important; }
   .IndexIntro a:after { display: none; }
@@ -125,7 +125,7 @@ headerTwo ul { display: flex; justify-content: space-between; list-style-type: n
 
 .StudiesContainer { padding: 0 64px 0 64px; }
 
-.StudiesContainer h2, .StudiesContainer h3 { padding-top: 32px; margin-bottom: 24px; }
+.StudiesContainer h2, .StudiesContainer h3 { padding-top: 32px; margin-bottom: 16px; }
 
 .StudiesContainer h3 { opacity: .3; }
 
@@ -187,12 +187,12 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 
 .mobileNav a { color: #f7f5ee; }
 
-@media only screen and (max-width: 728px) { .StudiesContainer { padding: 0 24px 0 24px; }
+@media only screen and (max-width: 728px) { .StudiesContainer { padding: 0 16px 0 16px; }
   .StudiesContainer h2 { margin-bottom: 32px; }
-  .StudiesModule, .StudiesModuleTwo { display: grid; grid-template-columns: 1fr; padding-bottom: 24px; }
+  .StudiesModule, .StudiesModuleTwo { display: grid; grid-template-columns: 1fr; padding-bottom: 16px; }
   .StudiesModule svg, .StudiesModuleTwo svg { margin-bottom: -32px; display: none; }
   .StudiesInfo { margin-top: 32px; position: relative; margin-left: 0; }
-  .StudiesInfo h4 { position: relative; padding: 24px 0 24px 0; }
+  .StudiesInfo h4 { position: relative; padding: 16px 0 16px 0; }
   .studiesMenu { margin-top: 64px; }
   .studiesMenu h2 { margin-bottom: 32px; }
   ul.nav { display: none; } }
@@ -201,7 +201,7 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
   .StudiesContainer h2 { margin-bottom: 32px; }
   .StudiesModule, .StudiesModuleTwo { display: grid; grid-template-columns: 1fr; }
   .StudiesModule svg, .StudiesModuleTwo svg { margin-bottom: -32px; }
-  .StudiesInfo { margin-top: 24px; position: relative; margin-left: 0; }
+  .StudiesInfo { margin-top: 16px; position: relative; margin-left: 0; }
   .StudiesInfo h4 { position: relative; padding: 32px 0 32px 0; }
   .square img { height: 512px; /* height of container */ }
   .studiesMenu { margin-top: 64px; } }
@@ -219,7 +219,7 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 a:visited, a:link { text-decoration: none; }
 
 @media only screen and (max-width: 728px) { .aboutImage { padding-right: 0; }
-  .aboutContainer { margin-top: 24px; padding: 0 24px 0 24px; grid-template-columns: 1fr; }
+  .aboutContainer { margin-top: 16px; padding: 0 16px 0 16px; grid-template-columns: 1fr; }
   .aboutContainer h1 { margin-top: 32px; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .aboutImage { padding-right: 0; }
@@ -238,7 +238,7 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 
 .FooterLinks a:hover:after, .FooterLinks a:focus:after, .FooterLinks a:active:after { left: 0; right: auto; width: 100%; }
 
-@media only screen and (max-width: 728px) { footer { padding: 24px; } }
+@media only screen and (max-width: 728px) { footer { padding: 16px; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { footer { padding: 32px; } }
 
@@ -246,7 +246,7 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 
 .postTitle { position: relative; display: grid; grid-template-columns: 1fr 1fr; margin: 0 64px 0 64px; bottom: 64px; border-style: solid; border-width: 0 0 1px 0; padding-bottom: 32px; }
 
-.postTitle h4 { padding-top: 24px; bottom: 0; }
+.postTitle h4 { padding-top: 16px; bottom: 0; }
 
 .postDate { text-align: right; position: absolute; bottom: 32px; right: 0; }
 
@@ -287,17 +287,17 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 .studyImage img { width: 100%; }
 
 @media only screen and (max-width: 728px) { .studyIntro { margin-top: 64px; }
-  .postTitle { display: grid; grid-template-columns: 1fr; margin: 0 24px 0 24px; bottom: 32px; }
+  .postTitle { display: grid; grid-template-columns: 1fr; margin: 0 16px 0 16px; bottom: 32px; }
   .postDate { text-align: left; margin-top: 32px; position: relative; right: 0; bottom: 0; }
-  .contentBody { margin-left: 0; margin-right: 0; left: 0; right: 0; width: initial; padding: 24px; }
-  .contentBody h2:not(:first-child) { margin-top: 32px; }
+  .contentBody { margin-left: 0; margin-right: 0; left: 0; right: 0; width: initial; padding: 16px; }
+  .contentBody h2:not(:first-child) { margin-top: 64px; }
   .sideInfo { display: none; opacity: 0; z-index: -5; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .postTitle { margin: 0 32px 0 32px; bottom: 32px; }
   .contentBody { margin-left: 0; margin-right: 0; left: 0; right: 0; width: initial; padding: 32px; }
-  .contentBody h2 { position: relative; right: 0; left: 0; text-align: left; padding-right: 0; width: 100%; margin-bottom: -24px; }
+  .contentBody h2 { position: relative; right: 0; left: 0; text-align: left; padding-right: 0; width: 100%; margin-bottom: -16px; }
   .contentBody h2:not(:first-child) { margin-top: 32px; }
-  .contentBody h3 { margin-bottom: -24px; margin-top: 32px; }
+  .contentBody h3 { margin-bottom: -16px; margin-top: 32px; }
   .contentBody h2, .contentBody h4, .contentBody p { margin-top: 32px; }
   .contentBody h2:nth-child(1) { padding-top: 0; }
   .contentBody img { margin-top: 0; }
@@ -580,8 +580,8 @@ figure.highlight { margin: 0; padding: 0; }
 
 @media (max-width: 400px) { #photos { -moz-column-count: 1; -webkit-column-count: 1; column-count: 1; } }
 
-@media only screen and (max-width: 728px) { #photos { margin-top: 24px; padding-left: 0; }
-  .galleryContainer { margin-top: 24px; padding: 0 24px 0 24px; grid-template-columns: 100%; } }
+@media only screen and (max-width: 728px) { #photos { margin-top: 16px; padding-left: 0; }
+  .galleryContainer { margin-top: 16px; padding: 0 16px 0 16px; grid-template-columns: 100%; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { #photos { margin-top: 64px; padding-left: 0; }
   .galleryContainer { margin-top: 64px; padding: 0 32px 0 32px; grid-template-columns: 100%; } }
