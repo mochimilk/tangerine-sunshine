@@ -1,7 +1,6 @@
 .aboutContainer {
     display: grid;
     grid-template-columns: 40% 60%;
-    margin-top: $blockFive;
     padding: 0 $blockFour 0 $blockFour;
     h2 {
         padding-top: $blockFour;
@@ -24,13 +23,10 @@ a:link {
 @media only screen and (max-width: 728px) {
     .aboutImage {
         padding-right: 0;
-
     }
 
     .aboutContainer {
-        margin-top: $blockTwo;
         padding: 0 $blockTwo 0 $blockTwo;
-     
         grid-template-columns: 1fr;
         h1 {
             margin-top: $blockThree;
@@ -39,13 +35,10 @@ a:link {
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
-
     .aboutImage {
         padding-right: 0;
-
     }
     .aboutContainer {
-        margin-top: $blockThree;
         padding: 0 $blockThree 0 $blockThree;
         grid-template-columns: 1fr;
         h1 {
