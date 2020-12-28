@@ -132,7 +132,15 @@ svg {
     }
     a {
         color: $dropdowntext;
+
     }
+
+}
+
+.studiesMenu a:hover {
+
+        text-decoration: underline;
+
 }
 
 .studiesMenu::-webkit-scrollbar {

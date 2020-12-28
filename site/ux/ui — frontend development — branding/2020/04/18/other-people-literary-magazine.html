@@ -181,21 +181,21 @@ let theme = sessionStorage.getItem('theme');
 
 
 if (systemInitiatedDark.matches) {
-	document.getElementById("theme-toggle").innerHTML = "dark text";
+	document.getElementById("theme-toggle").innerHTML = "light";
 } else {
-	document.getElementById("theme-toggle").innerHTML = "light text";
+	document.getElementById("theme-toggle").innerHTML = "dark";
 }
 
 
 function prefersColorTest(systemInitiatedDark) {
   if (systemInitiatedDark.matches) {
   	document.documentElement.setAttribute('data-theme', 'dark');		
-   	document.getElementById("theme-toggle").innerHTML = "dark text";
+   	document.getElementById("theme-toggle").innerHTML = "light";
    	// this clears the session storage 
    	sessionStorage.setItem('theme', '');
   } else {
   	document.documentElement.setAttribute('data-theme', 'light');
-    document.getElementById("theme-toggle").innerHTML = "light text";
+    document.getElementById("theme-toggle").innerHTML = "dark";
     sessionStorage.setItem('theme', '');
   }
 }
@@ -209,33 +209,33 @@ function modeSwitcher() {
 	if (theme === "dark") {
 		document.documentElement.setAttribute('data-theme', 'light');
 		sessionStorage.setItem('theme', 'light');
-		document.getElementById("theme-toggle").innerHTML = "light text";
+		document.getElementById("theme-toggle").innerHTML = "dark";
 		// checks if reader selected light mode 
 	}	else if (theme === "light") {
 		document.documentElement.setAttribute('data-theme', 'dark');
 		sessionStorage.setItem('theme', 'dark');
-		document.getElementById("theme-toggle").innerHTML = "dark text";
+		document.getElementById("theme-toggle").innerHTML = "light";
 		// checks if system set dark mode 
 	} else if (systemInitiatedDark.matches) {	
 		document.documentElement.setAttribute('data-theme', 'light');
 		sessionStorage.setItem('theme', 'light');
-		document.getElementById("theme-toggle").innerHTML = "light text";
+		document.getElementById("theme-toggle").innerHTML = "dark";
 		// the only option left is system set light mode
 	} else {
 		document.documentElement.setAttribute('data-theme', 'dark');
 		sessionStorage.setItem('theme', 'dark');
-		document.getElementById("theme-toggle").innerHTML = "dark text";
+		document.getElementById("theme-toggle").innerHTML = "light";
 	}
 }
 
 if (theme === "dark") {
 	document.documentElement.setAttribute('data-theme', 'dark');
 	sessionStorage.setItem('theme', 'dark');
-	document.getElementById("theme-toggle").innerHTML = "dark text";
+	document.getElementById("theme-toggle").innerHTML = "light";
 } else if (theme === "light") {
 	document.documentElement.setAttribute('data-theme', 'light');
 	sessionStorage.setItem('theme', 'light');
-	document.getElementById("theme-toggle").innerHTML = "light text";
+	document.getElementById("theme-toggle").innerHTML = "dark";
 }
 </script>
 

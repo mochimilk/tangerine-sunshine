@@ -59,10 +59,22 @@
 
 .ExploreStudies {
     margin-top: $blockFour;
-    display: inline-flex;
-    align-self: center;
+        // margin-top: $blockTwo;
+    // display: inline-flex;
+    // align-self: center;
     cursor: pointer;
-    float: right;
+    // float: center;
+text-align: center;
+opacity: .2;
+transition-duration: 0.3s;
+transition-timing-function: ease-out;
+
+}
+
+.ExploreStudies:hover {
+
+        opacity: 1;
+
 }
 
 @media only screen and (max-width: 728px) {

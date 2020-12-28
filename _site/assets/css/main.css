@@ -25,6 +25,10 @@ html[data-theme="dark"] { --background-color: #181818; --light-text-color: rgb(2
 @media (prefers-color-scheme: dark) { html, html[data-theme="dark"] { --background-color: #181818; --light-text-color: rgb(247, 245, 238); --link-color: rgb(100, 210, 255); --main-background-color: rgb(28, 28, 30); --main-text-color: rgb(229, 229, 234); }
   html[data-theme="light"] { --background-color: rgb(247, 245, 238); --light-text-color: #181818; --link-color: rgb(0, 112, 201); --main-background-color: rgb(255, 255, 255); --main-text-color: rgb(51, 51, 51); } }
 
+button { background-color: transparent; border: none; border-radius: 10px; border-style: solid; border-width: 1px; padding: 8px 24px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; cursor: pointer; color: var(--light-text-color); }
+
+button:hover { background-color: #80808035; transition-duration: 0.3s; }
+
 @keyframes slideInFromTop { 0% { transform: translateY(-100%); }
   100% { transform: translateY(0); } }
 
@@ -106,7 +110,9 @@ headerTwo ul { display: flex; justify-content: space-between; list-style-type: n
 
 .IndexIntro a:hover svg { transform: rotate(45deg); transition-duration: 0.1s; }
 
-.ExploreStudies { margin-top: 64px; display: inline-flex; align-self: center; cursor: pointer; float: right; }
+.ExploreStudies { margin-top: 64px; cursor: pointer; text-align: center; opacity: .2; transition-duration: 0.3s; transition-timing-function: ease-out; }
+
+.ExploreStudies:hover { opacity: 1; }
 
 @media only screen and (max-width: 728px) { .IndexIntro { margin-top: 256px; padding: 0 16px 0 16px; bottom: 16px; }
   .IndexIntro a { text-decoration: underline !important; }
@@ -178,6 +184,8 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 .studiesMenu h4 { margin-top: 8px; }
 
 .studiesMenu a { color: #f7f5ee; }
+
+.studiesMenu a:hover { text-decoration: underline; }
 
 .studiesMenu::-webkit-scrollbar { display: none; }
 
@@ -271,10 +279,6 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 .contentBody .sideInfo a { color: inherit; }
 
 .contentBody .sideInfo.fixed { display: block; position: fixed; margin: 0; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); }
-
-.contentBody button { background-color: transparent; border: none; border-radius: 10px; border-style: solid; border-width: 1px; padding: 5px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; cursor: pointer; color: var(--background-color); }
-
-.contentBody button:hover { background-color: var(--background-color); color: var(--light-text-color); transition-duration: 0.3s; }
 
 .contentBody li { margin-left: 32px; }
 
