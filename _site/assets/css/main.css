@@ -129,7 +129,7 @@ headerTwo ul { display: flex; justify-content: space-between; list-style-type: n
 @media screen and (min-width: 2400px) { .IndexIntro { width: 65%; margin: auto; }
   body { margin: auto; width: 70%; } }
 
-.StudiesContainer { padding: 0 64px 0 64px; }
+.StudiesContainer { padding: 0 64px 0 64px; margin-top: 64px; }
 
 .StudiesContainer h2, .StudiesContainer h3 { padding-top: 32px; margin-bottom: 16px; }
 
