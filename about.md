@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Hello
-image: "/uploads/img_7692.jpg"
+image: "/uploads/img_0118.jpg"
 
 ---
 I am a product designer that currently lives in La Jolla, CA. Much of my development as an artist has come from weaving together principles and practices of literature and visual art. During my experiences, I have had the opportunity to design for festivals, magazines, and companies. Much of my work strives to be human-centered and locally-focused, designed to bring out the best of what surrounds it.
