@@ -121,13 +121,16 @@ headerTwo {
     overflow-x: hidden;
     transition: 0.3s;
 
+
     ul {
+
         display: flex;
         justify-content: space-between;
         list-style-type: none;
         margin: 0;
         padding: 0;
         cursor: pointer;
+
     }
 }
 
@@ -135,12 +138,14 @@ headerTwo {
     position: absolute;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
     line-height: 0.8;
     padding: $blockFour;
     left: 0;
     right: 0;
     a {
         color: $dropdowntext;
+
     }
 }
 

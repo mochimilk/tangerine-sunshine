@@ -6,9 +6,13 @@
 .StudiesContainer {
     padding: 0 $blockFour 0 $blockFour;
 
-    h2 {
-        padding-top: $blockFour;
-        margin-bottom: $blockThree;
+    h2,h3 {
+        padding-top: $blockThree;
+        margin-bottom: $blockTwo;
+
+    }
+    h3 {
+        opacity: .3;
     }
 }
 

@@ -39,7 +39,10 @@
     width: 650px;
     padding: 0 $blockFour 0 $blockFour;
     p{
-        line-height: 150%;
+        line-height: 180%;
+        margin-top: $blockThree;
+
+
     }
     a {
         color: rgb(224, 146, 0);
@@ -71,7 +74,7 @@
         width: 10%;
         font-size: 0.8rem;
         font-weight: normal;
-        text-transform: uppercase;
+
         display: none;
         position: absolute;
         left: $blockFour;
@@ -80,6 +83,8 @@
         justify-content: none;
         list-style-type: none;
         margin-bottom: 0;
+
+    text-transform: uppercase;
 
         li {
             line-height: 1.5;
@@ -173,7 +178,7 @@
         left: 0;
         right: 0;
         width: initial;
-        padding: $blockTwo;
+        padding:  $blockTwo ;
         h2:not(:first-child) {
             margin-top: $blockThree;
         }
