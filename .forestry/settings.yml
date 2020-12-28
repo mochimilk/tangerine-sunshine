@@ -10,6 +10,11 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
+- type: directory
+  path: engagements
+  label: Engagements
+  create: all
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
