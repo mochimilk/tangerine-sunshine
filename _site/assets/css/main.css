@@ -14,7 +14,7 @@ h3 { font-size: .9rem; font-weight: 650; text-transform: uppercase; }
 
 h4 { padding: 0; margin: 0; margin-top: 0px; font-size: 0.8rem; line-height: 1.2rem; font-weight: normal; text-transform: uppercase; }
 
-p { line-height: 1.5rem; font-weight: normal; }
+p { line-height: 180%; font-weight: normal; }
 
 @media only screen and (max-width: 728px) { h1 { font-size: 2.5rem; } }
 
@@ -70,7 +70,8 @@ headerTwo ul { display: flex; justify-content: space-between; list-style-type: n
 
 .closebtn circle { fill: #f7f5ee; }
 
-@media only screen and (max-width: 728px) { header, headerTwo { padding: 16px; grid-template-columns: 1fr 1fr; }
+@media only screen and (max-width: 728px) { body { padding-top: 120px; }
+  header, headerTwo { padding: 16px; grid-template-columns: 1fr 1fr; }
   .nav { display: none; }
   .overlay-content { grid-template-columns: 1fr 1fr; padding: 16px; left: 0; right: 0; } }
 
@@ -216,7 +217,7 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 
 @media screen and (min-width: 2400px) { .studiesMenu { padding-top: 128px; width: 70%; margin: auto; } }
 
-.aboutContainer { display: grid; grid-template-columns: 40% 60%; padding: 0 64px 0 64px; }
+.aboutContainer { display: grid; grid-template-columns: 60% 40%; padding: 0 64px 0 64px; }
 
 .aboutContainer h2 { padding-top: 64px; margin-bottom: 64px; }
 
@@ -224,15 +225,15 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 
 .aboutContainer a:hover { text-decoration: none; }
 
-.aboutImage { padding-right: 64px; }
+.aboutImage { padding-left: 128px; }
 
 .aboutImage img { width: 100%; }
 
-@media only screen and (max-width: 728px) { .aboutImage { padding-right: 0; }
+@media only screen and (max-width: 728px) { .aboutImage { padding-left: 0; }
   .aboutContainer { padding: 0 16px 0 16px; grid-template-columns: 1fr; }
   .aboutContainer h1 { margin-top: 32px; } }
 
-@media only screen and (max-width: 1024px) and (min-width: 729px) { .aboutImage { padding-right: 0; }
+@media only screen and (max-width: 1024px) and (min-width: 729px) { .aboutImage { padding-left: 0; }
   .aboutContainer { padding: 0 32px 0 32px; grid-template-columns: 1fr; }
   .aboutContainer h1 { margin-top: 32px; } }
 

@@ -1,7 +1,8 @@
 .aboutContainer {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 60% 40%;
     padding: 0 $blockFour 0 $blockFour;
+
     h2 {
         padding-top: $blockFour;
         margin-bottom: $blockFour;
@@ -16,7 +17,7 @@
 }
 
 .aboutImage {
-    padding-right: $blockFour;
+    padding-left: $blockFive;
     img {
         width: 100%;
     }
@@ -26,7 +27,7 @@
 
 @media only screen and (max-width: 728px) {
     .aboutImage {
-        padding-right: 0;
+        padding-left: 0;
     }
 
     .aboutContainer {
@@ -40,7 +41,7 @@
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
     .aboutImage {
-        padding-right: 0;
+        padding-left: 0;
     }
     .aboutContainer {
         padding: 0 $blockThree 0 $blockThree;
