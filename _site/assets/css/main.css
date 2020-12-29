@@ -220,11 +220,13 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 
 .aboutContainer h2 { padding-top: 64px; margin-bottom: 64px; }
 
+.aboutContainer a { color: #e09200; text-decoration: underline; }
+
+.aboutContainer a:hover { text-decoration: none; }
+
 .aboutImage { padding-right: 64px; }
 
 .aboutImage img { width: 100%; }
-
-a:visited, a:link { text-decoration: none; }
 
 @media only screen and (max-width: 728px) { .aboutImage { padding-right: 0; }
   .aboutContainer { padding: 0 16px 0 16px; grid-template-columns: 1fr; }
