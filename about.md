@@ -4,10 +4,10 @@ title: Hello
 image: "/uploads/penultimatefullsizerender.jpg"
 
 ---
-I am a product designer that currently lives in La Jolla, CA. Much of my development as an artist has come from weaving together principles and practices of literature and visual art. During my experiences, I have had the opportunity to design for festivals, magazines, and companies. Much of my work strives to be human-centered and locally-focused, designed to bring out the best of what surrounds it.
+I am a visual designer currently living in La Jolla, CA. Though my career in design roots predominately from illustrative art, I quickly found and affinity for product design and coding during my two years as a literature & writing major at UC San Diego (I know. Writing. Wild). My first job was here, as a student designer at [Associated Students Graphic Studio](https://asgraphicstudio.ucsd.edu), where I had the opportunity to design for huge student events like Triton Fest and Sun God Festival. I was also the creative co-director of Other People, a student-run literary magazine on campus.
 
-I am currently the Co-Director of Design at Other People, working with a team of amazing people to create UC San Diego's first literary magazine. 
+I am currently a Visual Designer at Kiva, working with a team of amazing designers to help create a product that gives the underserved a chance to grow as individuals,  as businesses, and as communities.
 
-In my free time I like to write, hike, go to farmer’s markets, or go out with my friends. I am also a dog person and a tea lover. 🐶🍵
+In my free time I like to write, play games, and listen to music. I am also a dog person and a tea lover. 🐶🍵
 
 (They/Them/Theirs)
