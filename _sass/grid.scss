@@ -1,7 +1,7 @@
 .galleryContainer {
     display: grid;
     grid-template-columns: 1fr;
-    margin-top: $blockFive;
+    margin-top: $blockTwo;
     padding: 0 $blockFour 0 $blockFour;
 
 
@@ -9,7 +9,7 @@
 
 #photos {
     /* Prevent vertical gaps */
-margin-top: $blockFive;
+margin-top: $blockFour;
     -webkit-column-count: 5;
     -webkit-column-gap: 10px;
     -moz-column-count: 3;

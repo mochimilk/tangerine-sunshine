@@ -14,7 +14,7 @@ h3 { font-size: .9rem; font-weight: 650; text-transform: uppercase; }
 
 h4 { padding: 0; margin: 0; margin-top: 0px; font-size: 0.8rem; line-height: 1.2rem; font-weight: normal; text-transform: uppercase; }
 
-p { line-height: 180%; font-weight: normal; }
+p { line-height: 165%; font-weight: normal; }
 
 @media only screen and (max-width: 728px) { h1 { font-size: 2.5rem; } }
 
@@ -217,15 +217,15 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 
 @media screen and (min-width: 2400px) { .studiesMenu { padding-top: 128px; width: 70%; margin: auto; } }
 
-.aboutContainer { display: grid; grid-template-columns: 60% 40%; padding: 0 64px 0 64px; }
+.aboutContainer { display: grid; grid-template-columns: 60% 40%; padding: 0 64px 0 64px; margin-top: 16px; }
 
 .aboutContainer h2 { padding-top: 64px; margin-bottom: 64px; }
 
-.aboutContainer a { color: #e09200; text-decoration: underline; }
+.aboutContainer a { color: var(--light-text-color); text-decoration: underline; }
 
 .aboutContainer a:hover { text-decoration: none; }
 
-.aboutImage { padding-left: 128px; }
+.aboutImage { padding-left: 64px; }
 
 .aboutImage img { width: 100%; }
 
@@ -263,7 +263,7 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 
 .contentBody { margin: auto; text-align: left; width: 650px; padding: 0 64px 0 64px; }
 
-.contentBody p { line-height: 180%; margin-top: 32px; }
+.contentBody p { margin-top: 16px; }
 
 .contentBody a { color: #e09200; text-decoration: underline; }
 
@@ -297,7 +297,7 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
   .postTitle { display: grid; grid-template-columns: 1fr; margin: 0 16px 0 16px; bottom: 32px; }
   .postDate { text-align: left; margin-top: 32px; position: relative; right: 0; bottom: 0; }
   .contentBody { margin-left: 0; margin-right: 0; left: 0; right: 0; width: initial; padding: 16px; }
-  .contentBody h2:not(:first-child) { margin-top: 64px; }
+  .contentBody h2:not(:first-child) { margin-top: 32px; }
   .sideInfo { display: none; opacity: 0; z-index: -5; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .postTitle { margin: 0 32px 0 32px; bottom: 32px; }
@@ -573,9 +573,9 @@ figure.highlight { margin: 0; padding: 0; }
 
 @font-face { font-family: "NeueMachina-Regular"; src: url("../../assets/css/Fonts/NeueMachina-Regular.otf"); font-weight: normal; font-style: normal; }
 
-.galleryContainer { display: grid; grid-template-columns: 1fr; margin-top: 128px; padding: 0 64px 0 64px; }
+.galleryContainer { display: grid; grid-template-columns: 1fr; margin-top: 16px; padding: 0 64px 0 64px; }
 
-#photos { /* Prevent vertical gaps */ margin-top: 128px; -webkit-column-count: 5; -webkit-column-gap: 10px; -moz-column-count: 3; -moz-column-gap: 10px; column-count: 3; column-gap: 20px; line-height: 4; margin-left: auto; margin-right: auto; padding-left: 0; }
+#photos { /* Prevent vertical gaps */ margin-top: 64px; -webkit-column-count: 5; -webkit-column-gap: 10px; -moz-column-count: 3; -moz-column-gap: 10px; column-count: 3; column-gap: 20px; line-height: 4; margin-left: auto; margin-right: auto; padding-left: 0; }
 
 #photos img { /* Just in case there are inline attributes */ width: 100% !important; height: auto !important; }
 

@@ -2,13 +2,15 @@
     display: grid;
     grid-template-columns: 60% 40%;
     padding: 0 $blockFour 0 $blockFour;
+    margin-top: $blockTwo;
 
     h2 {
         padding-top: $blockFour;
         margin-bottom: $blockFour;
     }
     a {
-        color: rgb(224, 146, 0);
+        // color: rgb(224, 146, 0);
+        color: $bodyColor;
         text-decoration: underline;
     }
     a:hover {
@@ -17,7 +19,7 @@
 }
 
 .aboutImage {
-    padding-left: $blockFive;
+    padding-left: $blockFour;
     img {
         width: 100%;
     }

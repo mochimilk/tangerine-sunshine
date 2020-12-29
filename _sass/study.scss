@@ -39,8 +39,8 @@
     width: 650px;
     padding: 0 $blockFour 0 $blockFour;
     p{
-        line-height: 180%;
-        margin-top: $blockThree;
+     
+        margin-top: $blockTwo;
 
 
     }
@@ -180,7 +180,7 @@
         width: initial;
         padding:  $blockTwo ;
         h2:not(:first-child) {
-            margin-top: $blockFour;
+            margin-top: $blockThree;
         }
     }
 
