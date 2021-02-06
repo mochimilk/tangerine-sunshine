@@ -91,4 +91,4 @@ _![](/uploads/screen-shot-2021-02-06-at-11-04-39-am.png)Fiction_
 
 ### Typography
 
-![](/uploads/basier-font-03.jpg)[Baiser](https://www.atipofoundry.com/fonts/basier) family by Apito Foundry
+![](/uploads/basier-font-06.jpg)![](/uploads/basier-font-03.jpg)[_Basier_](https://www.atipofoundry.com/fonts/basier) _by Atipo Foundry_
