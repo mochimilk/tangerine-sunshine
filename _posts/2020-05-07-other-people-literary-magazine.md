@@ -7,7 +7,7 @@ date: 2020-04-19T00:00:00.000+00:00
 layout: study
 medium: HTML(Jekyll)/SCSS(Sass), Photoshop, Illustrator, Figma
 link: https://otherpeoplesd.com/
-excerpt: Building and developing a design system predicated on readership, modularity,
+excerpt: Building and developing a web reader predicated on readership, modularity,
   and management
 
 ---
