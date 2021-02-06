@@ -5,7 +5,7 @@ category: UX/UI — Branding
 thumb: "/uploads/thumbnail-01-01.png"
 date: 2020-04-19T00:00:00.000+00:00
 layout: study
-medium: Jekyll/Sass, Photoshop, Illustrator, Figma
+medium: HTML(Jekyll)/SCSS(Sass), Photoshop, Illustrator, Figma
 link: https://otherpeoplesd.com/
 excerpt: Building and developing a design system predicated on readership, modularity,
   and management
