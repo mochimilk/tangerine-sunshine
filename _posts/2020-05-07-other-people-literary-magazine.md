@@ -51,47 +51,44 @@ We also used Jekyll to build modules through "includes", making each component o
 
 Example:
 
-
-
 {% highlight html linenos=table %}
 {* header.html *}
-	
+
 <!-- LITERATURE MODULES OR SOMETHING -->
-{* include poetrymodule.html *}
-{* include fictionmodule.html *}
-{* include nonfictionmodule.html *}
-{* include visualartsmodule.html *}
-	
+{* include poetrymodule.html _}
+{_ include fictionmodule.html _}
+{_ include nonfictionmodule.html _}
+{_ include visualartsmodule.html *}
+
 {* footer.html *}
 {% endhighlight %}
-
-
-
 
 ### Wireframes
 
 ![](/uploads/Screen Shot 2020-05-09 at 3.54.52 PM.png)
 
+## Instant search function
+
+![](/uploads/screen-shot-2021-02-06-at-11-05-19-am.png)_Instant search implemented for high content_
+
+## The site
+
+![](/uploads/screen-shot-2021-02-06-at-11-09-09-am.png)_Homepage_
+
+_![](/uploads/screen-shot-2021-02-06-at-11-04-39-am.png)Fiction_
+
+![](/uploads/screen-shot-2021-02-06-at-11-05-38-am.png)_Visual Arts_
+
+## The menu
+
+![](/uploads/screen-shot-2021-02-06-at-11-04-59-am.png)_Global search function at top_
+
 ## Branding
 
 ### Logo
-
-The initial logo was sketched out by the Editor-in-Chief, Nicole Lopez. With this sketch, it was simple to create a clean, balanced logo that would translate well into different sizes and forms. A total of four were finalized into the final branding.
 
 ![](/uploads/56E20A87-FC33-4B52-9B77-0669479E46D3.JPG)
 
 ### Typography
 
-The main type used throughout the branding is the Baiser family by Apito Foundry. Its diverse collection of fonts has been used as both H1 headers as well as H3 and H4. The clean design paved the way for a bolder, more flourishing text: Ogg Italic. Ogg Italic fills the space of the H2 header, coupling with Basier Regular to evoke a more literary-forward design.
-
-![](/uploads/015BD80F-A81F-4928-AB9C-19369B0E2D6F.JPG)
-
-## Final Product
-
-![](/uploads/4D3B4888-3605-4C02-A66A-5ADEB1A42142.JPG)_Modular build_
-
-![](/uploads/OtherPeopleDarkMode.png)
-
-![](/uploads/C987B3A2-FBF4-4183-B067-B7CC1D956B87 2.jpg)
-
-![](/uploads/A3D1F817-B3DB-4B34-831A-18020155E577 2.JPG)
+![](/uploads/basier-font-03.jpg)[Baiser](https://www.atipofoundry.com/fonts/basier) family by Apito Foundry
