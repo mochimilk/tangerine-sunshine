@@ -91,4 +91,4 @@ Example:
 
 ### Typography
 
-![](/uploads/basier-font-06.jpg)![](/uploads/basier-font-03.jpg)_[_Basier_](https://www.atipofoundry.com/fonts/basier) by Atipo Foundry_
+![](/uploads/basier-font-06.jpg)![](/uploads/basier-font-03.jpg)_[Basier](https://www.atipofoundry.com/fonts/basier) by Atipo Foundry_
