@@ -69,28 +69,19 @@ Example:
 
 ## The menu
 
-_![](/uploads/otherpeople07.png)_
-
-### Globally implemented instant search function
-
-_![](/uploads/otherpeople06.png)_
+![](/uploads/otherpeople07.png)_Dropdown menu_
+![](/uploads/otherpeople06.png)_Globally implemented instant search function_
 
 ## The site
-
 ![](/uploads/otherpeople01.png)_Hero_
-
-_![](/uploads/otherpeople02.png)Homepage explorer_
-
-_![](/uploads/otherpeople04.png)Fiction_
-
-_![](/uploads/otherpeople05.png)Visual Arts_
+![](/uploads/otherpeople02.png)_Homepage explorer_
+![](/uploads/otherpeople04.png)_Fiction_
+![](/uploads/otherpeople05.png)_Visual Arts_
 
 ## Branding
 
 ### Logo
-
 ![](/uploads/56E20A87-FC33-4B52-9B77-0669479E46D3.JPG)
 
 ### Typography
-
-![](/uploads/basier-font-06.jpg)![](/uploads/basier-font-03.jpg)[_Basier_](https://www.atipofoundry.com/fonts/basier) _by Atipo Foundry_
+![](/uploads/basier-font-06.jpg)![](/uploads/basier-font-03.jpg)_[_Basier_](https://www.atipofoundry.com/fonts/basier) by Atipo Foundry_
