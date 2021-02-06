@@ -11,6 +11,29 @@ excerpt: Building and developing a design system predicated on readership, modul
   and management
 
 ---
+## The site
+![](/uploads/otherpeople01.png)_Hero_
+
+![](/uploads/otherpeople02.png)_Homepage explorer_
+
+![](/uploads/otherpeople04.png)_Fiction_
+
+![](/uploads/otherpeople05.png)_Visual Arts_
+
+## The menu
+
+![](/uploads/otherpeople07.png)_Dropdown menu_
+
+![](/uploads/otherpeople06.png)_Globally implemented instant search function_
+
+## Branding
+
+### Logo
+![](/uploads/56E20A87-FC33-4B52-9B77-0669479E46D3.JPG)
+
+### Typography
+![](/uploads/basier-font-06.jpg)![](/uploads/basier-font-03.jpg)_[_Basier_](https://www.atipofoundry.com/fonts/basier) by Atipo Foundry_
+
 ## Objective
 
 The objective of this project was to create a website for Other People Literary Magazine. I also had the task of leading a team of designers and developers to build it. In having a team of students that would eventually graduate and go off start adulting, we needed to be mindful of making a site that could easily be passed onto others.
@@ -67,21 +90,3 @@ Example:
 
 ![](/uploads/Screen Shot 2020-05-09 at 3.54.52 PM.png)
 
-## The menu
-
-![](/uploads/otherpeople07.png)_Dropdown menu_
-![](/uploads/otherpeople06.png)_Globally implemented instant search function_
-
-## The site
-![](/uploads/otherpeople01.png)_Hero_
-![](/uploads/otherpeople02.png)_Homepage explorer_
-![](/uploads/otherpeople04.png)_Fiction_
-![](/uploads/otherpeople05.png)_Visual Arts_
-
-## Branding
-
-### Logo
-![](/uploads/56E20A87-FC33-4B52-9B77-0669479E46D3.JPG)
-
-### Typography
-![](/uploads/basier-font-06.jpg)![](/uploads/basier-font-03.jpg)_[_Basier_](https://www.atipofoundry.com/fonts/basier) by Atipo Foundry_
