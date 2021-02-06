@@ -67,21 +67,23 @@ Example:
 
 ![](/uploads/Screen Shot 2020-05-09 at 3.54.52 PM.png)
 
-## Instant search function
+## The menu
 
-![](/uploads/screen-shot-2021-02-06-at-11-05-19-am.png)_Instant search implemented for high content_
+_![](/uploads/otherpeople07.png)_
+
+### Globally implemented instant search function
+
+_![](/uploads/otherpeople06.png)_
 
 ## The site
 
-![](/uploads/screen-shot-2021-02-06-at-11-09-09-am.png)_Homepage_
+![](/uploads/otherpeople01.png)_Hero_
 
-![](/uploads/screen-shot-2021-02-06-at-11-04-39-am.png)_Fiction_
+_![](/uploads/otherpeople02.png)Homepage explorer_
 
-![](/uploads/screen-shot-2021-02-06-at-11-05-38-am.png)_Visual Arts_
+_![](/uploads/otherpeople04.png)Fiction_
 
-## The menu
-
-![](/uploads/screen-shot-2021-02-06-at-11-04-59-am.png)_Global search function at top_
+_![](/uploads/otherpeople05.png)Visual Arts_
 
 ## Branding
 
@@ -91,4 +93,4 @@ Example:
 
 ### Typography
 
-![](/uploads/basier-font-06.jpg)![](/uploads/basier-font-03.jpg)_[Basier](https://www.atipofoundry.com/fonts/basier) by Atipo Foundry_
+![](/uploads/basier-font-06.jpg)![](/uploads/basier-font-03.jpg)[_Basier_](https://www.atipofoundry.com/fonts/basier) _by Atipo Foundry_
