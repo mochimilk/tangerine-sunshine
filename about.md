@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Hello
-image: "/uploads/penultimatefullsizerender.jpg"
+image: ''
 
 ---
 <!-- I hate writing these things. It's like writing an autobiography of my professional life and saying "look at all the awesome things I've done!!!" when, as a designer, all I do is look at my own work critically. I even go to *other* designers on a daily basis to look for all the not-so-awesome stuff in my work after having worked it for so long myself that "good design" and "suck" has morphed into a blob of blue-light emitting uncertainty. Regardless, I've been given the opportunity to work on some pretty cool projects, so I'm eternally grateful for that.
