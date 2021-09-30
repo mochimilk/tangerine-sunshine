@@ -17,6 +17,10 @@ fields:
   config:
     required: false
   label: Role
+- name: role2
+  type: tag_list
+  default: []
+  label: Role
 - name: category
   type: text
   config:
@@ -61,3 +65,4 @@ pages:
 - _posts/2020-05-05-craigslist-redesign.md
 - _posts/2020-05-07-other-people-literary-magazine.md
 - _posts/2020-05-07-winter-triton-fest-2020.md
+- _posts/hello-kiva-creative-studio.md

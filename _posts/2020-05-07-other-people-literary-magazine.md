@@ -1,11 +1,11 @@
 ---
 title: Other People Literary Magazine
-role: Visual Designer + Developer
+role: Brand, Product, Developer
 category: UX/UI — Branding
 thumb: "/uploads/thumbnail-01-01.png"
-date: 2020-04-19T00:00:00.000+00:00
+date: 2020-04-19 00:00:00 +0000
 layout: study
-medium: HTML(Jekyll)/SCSS(Sass), Photoshop, Illustrator, Figma
+medium: Creative Cloud, Figma, Jekyll, Sass
 link: https://otherpeoplesd.com/
 excerpt: Building and developing a web reader predicated on readership, modularity,
   and management
@@ -89,4 +89,3 @@ Example:
 ### Wireframes
 
 ![](/uploads/Screen Shot 2020-05-09 at 3.54.52 PM.png)
-
