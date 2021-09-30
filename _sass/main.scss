@@ -1,7 +1,7 @@
 // Palette
 $creme: rgb(247, 245, 238);
 $black: #181818;
-$olive: rgb(80, 119, 82);
+$olive: rgb(75, 99, 76);
 $highlight: rgb(190, 163, 111);
 
 $backgroundColor: var(--background-color);
@@ -49,9 +49,7 @@ h1 {
 }
 
 h2 {
-  padding: 0;
-  margin: 0;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 400;
   // font-size: 1.2rem;
   // text-transform: uppercase;
@@ -59,8 +57,8 @@ h2 {
 }
 
 h3 {
-  font-size: 0.875rem;
-  font-weight: 500;
+  font-size: 1.8rem;
+  font-weight: 400;
   opacity: .55;
 
 }
@@ -76,14 +74,15 @@ h4 {
 }
 
 p {
-  font-size: 0.875rem;
+  font-size: 1rem;
 
-  line-height: 165%;
+  line-height: 200%;
   font-weight: normal;
 }
 
 li {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  line-height: 200%;
 }
 
 @media only screen and (max-width: 728px) {
@@ -130,21 +129,23 @@ html[data-theme="dark"] {
 
 button {
   background-color: transparent;
-  border: none;
   border-radius: 10px;
   border-style: solid;
   border-width: 1px;
+
   padding: 8px 24px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
+  // color: $bodyColor;
   color: $bodyColor;
+  border-color: rgba($bodyColor, .2);
 }
 
 button:hover {
   background-color: #80808035;
-
+  border-color: rgba($bodyColor, 1);
   transition-duration: 0.3s;
 }

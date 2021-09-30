@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: " en-US" }}">
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <title>{{ page.title }} - {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ " /assets/css/main.css" | relative_url }}">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </head>
@@ -57,16 +57,36 @@
     <div class="contentBody">
 
 
+      <h2>Prélude</h2>
+
+      <div class="infoModule">
+        <div>
+          <h4>Medium</h4>
+          <p>{{ page.medium }}</p>
+        </div>
+
+        <div>
+          <h4>Role</h4>
+        <p>{{ page.role }}</p>
+        </div>
+
+        <div>
+          <h4>Category</h4>
+        <p>{{ page.category }}</p>
+        </div>
+
+        <div>
+          <h4>Relevant links</h4>
+        <p>{{ page.links }}</p>
+        </div>
+
+      </div>
+
+  
 
 
 
-
-
-
-
-
-
-      {% include sideInfo.html %}
+      <!-- {% include sideInfo.html %} -->
       {{ content }}
 
     </div>

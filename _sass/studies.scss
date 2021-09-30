@@ -4,251 +4,242 @@
 // }
 
 .StudiesContainer {
-    padding: 0 $blockFour 0 $blockFour;
-margin-top: $blockFour;
-    h2,h3 {
-        padding-top: $blockThree;
-        margin-bottom: $blockTwo;
-
-    }
-    h3 {
-        opacity: .3;
-    }
+  padding: 0 $blockFour 0 $blockFour;
+  margin-top: $blockFour;
+  h2,
+  h3 {
+    padding-top: $blockThree;
+    margin-bottom: $blockTwo;
+  }
+  h3 {
+    opacity: 0.3;
+  }
 }
 
 a:visited,
 a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .StudiesModule {
-    display: grid;
-    grid-template-columns: 30% 50% 20%;
-    border-style: solid;
-    border-width: 1px 0 0 0;
+  display: grid;
+  grid-template-columns: 30% 50% 20%;
+  border-style: solid;
+  border-width: 1px 0 0 0;
 
-    padding-top: $blockThree;
-    padding-bottom: $blockFour;
-    color: $backgroundColor;
-    :nth-child(3) {
-        margin-left: auto;
-        margin-right: 0;
-    }
-    h1 {
-        text-decoration: none;
-    }
+  padding-top: $blockThree;
+  padding-bottom: $blockFour;
+  color: $backgroundColor;
+  :nth-child(3) {
+    margin-left: auto;
+    margin-right: 0;
+  }
+  h1 {
+    text-decoration: none;
+  }
 }
 
 .StudiesModuleTwo {
-    display: grid;
-    grid-template-columns: 30% 50% 20%;
-    border-style: solid;
-    border-width: 1px 0 0 0;
-    padding-top: $blockThree;
-    padding-bottom: $blockThree;
-    color: $dropdowntext;
-    :nth-child(3) {
-        margin-left: auto;
-        margin-right: 0;
-    }
-    h1 {
-        text-decoration: none;
-    }
+  display: grid;
+  grid-template-columns: 30% 50% 20%;
+  border-style: solid;
+  border-width: 1px 0 0 0;
+  padding-top: $blockThree;
+  padding-bottom: $blockThree;
+  color: $dropdowntext;
+  :nth-child(3) {
+    margin-left: auto;
+    margin-right: 0;
+  }
+  h1 {
+    text-decoration: none;
+  }
 }
 
 svg {
-    width: 30px;
-    .st0 {
-        fill: none;
-        stroke-width: 10rem;
-        stroke-miterlimit: 100;
-    }
+  width: 30px;
+  .st0 {
+    fill: none;
+    stroke-width: 10rem;
+    stroke-miterlimit: 100;
+  }
 }
 
 .StudiesModule:hover {
-    h1 {
-        text-decoration: underline;
-    }
-    svg {
-        transform: rotate(45deg);
-        transition-duration: 0.1s;
-    }
-    img {
-        transform: scale(0.95);
-        transition-duration: 0.5s;
-    }
+  h1 {
+    text-decoration: underline;
+  }
+  svg {
+    transform: rotate(45deg);
+    transition-duration: 0.1s;
+  }
+  img {
+    transform: scale(0.95);
+    transition-duration: 0.5s;
+  }
 }
 
 .StudiesModuleTwo:hover {
-    h1 {
-        text-decoration: underline;
-    }
-    svg {
-        transform: rotate(45deg);
-        transition-duration: 0.1s;
-    }
-    img {
-        transform: scale(0.95);
-        transition-duration: 0.5s;
-    }
+  h1 {
+    text-decoration: underline;
+  }
+  svg {
+    transform: rotate(45deg);
+    transition-duration: 0.1s;
+  }
+  img {
+    transform: scale(0.95);
+    transition-duration: 0.5s;
+  }
 }
 
 .square {
-    img {
-        width: 100%; /* width of container */
-        height: $blockSix; /* height of container */
-        object-fit: cover;
-    }
+  img {
+    width: 100%; /* width of container */
+    height: $blockSix; /* height of container */
+    object-fit: cover;
+  }
 }
 
 .StudiesInfo {
-    position: relative;
-    margin-left: $blockFour;
-    h4 {
-        position: absolute;
-        bottom: 0;
-        :nth-child(1) {
-            font-weight: bold;
-        }
-        div {
-            margin: 0;
-            padding: 0;
-            line-height: 1.2rem;
-        }
+  position: relative;
+  margin-left: $blockFour;
+  h4 {
+    position: absolute;
+    bottom: 0;
+    :nth-child(1) {
+      font-weight: bold;
     }
+    div {
+      margin: 0;
+      padding: 0;
+      line-height: 1.2rem;
+    }
+  }
 }
 
 .studiesMenu {
-    margin-top: $blockFive;
+  margin-top: $blockFive;
 
-    h2 {
-        margin-top: $blockThree;
-    }
-    a {
-        cursor: pointer;
-    }
-    h4 {
-        margin-top: $blockOne;
-    }
-    a {
-        color: $dropdowntext;
-
-    }
-
+  h2 {
+    margin-top: $blockThree;
+  }
+  a {
+    cursor: pointer;
+  }
+  h4 {
+    margin-top: $blockOne;
+  }
+  a {
+    color: $dropdowntext;
+  }
 }
 
 .studiesMenu a:hover {
-
-        text-decoration: underline;
-
+  text-decoration: underline;
 }
 
 .studiesMenu::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .studiesMenu {
-    -ms-overflow-style: none;
+  -ms-overflow-style: none;
 }
 
 .mobileNav {
-
-    h1 {
-        margin: 0;
-        padding-top: $blockOne;
-    }
-    a {
-        color: $dropdowntext;
-
-    }
+  h1 {
+    margin: 0;
+    padding-top: $blockOne;
+  }
+  a {
+    color: $dropdowntext;
+  }
 }
 
 @media only screen and (max-width: 728px) {
-    .StudiesContainer {
-        padding: 0 $blockTwo 0 $blockTwo;
-        h2 {
-            margin-bottom: $blockThree;
-        }
+  .StudiesContainer {
+    padding: 0 $blockTwo 0 $blockTwo;
+    h2 {
+      margin-bottom: $blockThree;
     }
+  }
 
-    .StudiesModule,
-    .StudiesModuleTwo {
-        display: grid;
-        grid-template-columns: 1fr;
-        padding-bottom: $blockTwo;
-        svg {
-            margin-bottom: -$blockThree;
-            display: none;
-        }
+  .StudiesModule,
+  .StudiesModuleTwo {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: $blockTwo;
+    svg {
+      margin-bottom: -$blockThree;
+      display: none;
     }
+  }
 
-    .StudiesInfo {
-        margin-top: $blockThree;
-        position: relative;
-        margin-left: 0;
-        h4 {
-            position: relative;
-            padding: $blockTwo 0 $blockTwo 0;
-        }
+  .StudiesInfo {
+    margin-top: $blockThree;
+    position: relative;
+    margin-left: 0;
+    h4 {
+      position: relative;
+      padding: $blockTwo 0 $blockTwo 0;
     }
+  }
 
-    .studiesMenu {
-        margin-top: $blockFour;
-        h2 {
-            margin-bottom: $blockThree;
-        }
+  .studiesMenu {
+    margin-top: $blockFour;
+    h2 {
+      margin-bottom: $blockThree;
     }
+  }
 
-
-    ul.nav {
-        display: none;
-    }
-
-
+  ul.nav {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
-    .StudiesContainer {
-        padding: 0 $blockThree 0 $blockThree;
-        h2 {
-            margin-bottom: $blockThree;
-        }
+  .StudiesContainer {
+    padding: 0 $blockThree 0 $blockThree;
+    h2 {
+      margin-bottom: $blockThree;
     }
+  }
 
-    .StudiesModule,
-    .StudiesModuleTwo {
-        display: grid;
-        grid-template-columns: 1fr;
-        svg {
-            margin-bottom: -$blockThree;
-        }
+  .StudiesModule,
+  .StudiesModuleTwo {
+    display: grid;
+    grid-template-columns: 1fr;
+    svg {
+      margin-bottom: -$blockThree;
     }
+  }
 
-    .StudiesInfo {
-        margin-top: $blockTwo;
-        position: relative;
-        margin-left: 0;
-        h4 {
-            position: relative;
-            padding: $blockThree 0 $blockThree 0;
-        }
+  .StudiesInfo {
+    margin-top: $blockTwo;
+    position: relative;
+    margin-left: 0;
+    h4 {
+      position: relative;
+      padding: $blockThree 0 $blockThree 0;
     }
+  }
 
-    .square {
-        img {
-            height: $blockSeven; /* height of container */
-        }
+  .square {
+    img {
+      height: $blockSeven; /* height of container */
     }
+  }
 
-    .studiesMenu {
-        margin-top: $blockFour;
-    }
+  .studiesMenu {
+    margin-top: $blockFour;
+  }
 }
 
 @media screen and (min-width: 2400px) {
-    .studiesMenu {
-        padding-top: $blockFive;
-        width: 70%;
-        margin: auto;
-    }
+  .studiesMenu {
+    padding-top: $blockFive;
+    width: 70%;
+    margin: auto;
+  }
 }

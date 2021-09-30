@@ -36,7 +36,7 @@
     margin: auto;
     // margin-right: $blockFour;
     text-align: left;
-    width: 650px;
+    max-width: 1200px;
     padding: 0 $blockFour 0 $blockFour;
     p{
      
@@ -51,8 +51,8 @@
     a:hover {
         text-decoration: none;
     }
-    h2:not(:first-child) {
-        margin-top: $blockFour;
+    h2 {
+        padding-top: $blockFour;
     }
     h3 {
         margin-top: $blockThree;
@@ -194,7 +194,7 @@
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
     .postTitle {
         margin: 0 $blockThree 0 $blockThree;
-        bottom: $blockThree;
+        // bottom: $blockThree;
     }
 
     .contentBody {
@@ -248,7 +248,7 @@
         margin-left: auto;
         margin-right: auto;
         text-align: justify;
-        width: 70%;
+        max-width: 1200px;
         padding: 0;
 
         h2:not(:first-child) {
@@ -777,4 +777,30 @@ margin: auto;
 figure.highlight {
     margin: 0;
     padding: 0;
+}
+
+
+
+
+.infoModule {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: $blockThree;
+    h4 {
+
+        margin-bottom: $blockTwo;
+        opacity: .55;
+    }
+ > div {
+     border-bottom: solid 1px;
+     padding: 0 $blockThree $blockThree 0 ;
+ }
+ > div:nth-child(even) {
+     padding-left: $blockThree;
+     border-left: solid 1px;
+ }
+ > div:nth-child(3), div:nth-child(4) {
+padding-top: $blockThree;
+    border-bottom: solid 5px;
+}
 }

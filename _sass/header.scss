@@ -104,8 +104,15 @@ headerTwo {
 }
 
 // MOBILENAV
-
+.overlay::-webkit-scrollbar {
+    display: none;
+  }
 .overlay {
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  
+
     height: 0%;
     width: 100%;
     position: fixed;
