@@ -11,7 +11,7 @@ excerpt: Building and developing a web reader predicated on readership, modulari
   and management
 role2:
 - Brand
-- " Product"
+- Product
 - Developer
 
 ---
