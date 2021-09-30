@@ -17,6 +17,10 @@ fields:
   config:
     required: false
   label: Role
+- name: role2
+  type: tag_list
+  default: []
+  label: Role
 - name: category
   type: text
   config:
