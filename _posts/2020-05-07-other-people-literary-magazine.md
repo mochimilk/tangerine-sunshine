@@ -9,6 +9,10 @@ medium: Creative Cloud, Figma, Jekyll, Sass
 link: https://otherpeoplesd.com/
 excerpt: Building and developing a web reader predicated on readership, modularity,
   and management
+role2:
+- Brand
+- " Product"
+- Developer
 
 ---
 ## The site
