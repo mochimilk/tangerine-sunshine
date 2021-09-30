@@ -10,9 +10,9 @@ link: https://otherpeoplesd.com/
 excerpt: Building and developing a web reader predicated on readership, modularity,
   and management
 role2:
-- Brand
-- Product
-- Developer
+  - Brand
+  - Product
+  - Developer
 
 ---
 ## The site
