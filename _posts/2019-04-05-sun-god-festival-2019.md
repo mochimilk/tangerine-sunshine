@@ -3,10 +3,13 @@ layout: study
 title: Sun God Festival 2019
 thumb: "/uploads/731BA2F5-FD0F-47EC-843A-71AA9F7B0B3D.JPG"
 role: Creative Director — Lead Web Designer
-category: Graphic Design — UX/UI
+category:
+- Brand
+- Product
 date: 2019-04-05T07:00:00.000+00:00
 medium: Illustrator, Photoshop, Processing
-excerpt: Experiential design study aiming to integrate the tangible world with the artificial
+excerpt: Experiential design study aiming to integrate the tangible world with the
+  artificial
 link: http://sgf.ucsd.edu/2019/
 
 ---

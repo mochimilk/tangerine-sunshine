@@ -2,7 +2,9 @@
 layout: study
 title: Craigslist Redesign
 thumb: "/uploads/Thumb-01.png"
-role: Visual Designer
+role:
+- Brand
+- Product
 category: Design Challenge
 date: 2020-05-05T07:00:00.000+00:00
 link: ''
