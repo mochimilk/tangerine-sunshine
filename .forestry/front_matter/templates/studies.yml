@@ -13,11 +13,6 @@ fields:
     maxSize: 64
   label: Thumb
 - name: role
-  type: text
-  config:
-    required: false
-  label: Role
-- name: role2
   type: tag_list
   default: []
   label: Role
