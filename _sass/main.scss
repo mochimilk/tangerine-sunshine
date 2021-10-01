@@ -77,9 +77,11 @@ h4 {
 
 p {
   font-size: 1rem;
-
   line-height: 200%;
   font-weight: normal;
+}
+a {
+  line-height: 200%;
 }
 
 li {
@@ -134,7 +136,6 @@ button {
   border-radius: 10px;
   border-style: solid;
   border-width: 1px;
-
   padding: 8px 16px;
   text-align: center;
   text-decoration: none;

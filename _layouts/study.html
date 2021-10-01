@@ -27,8 +27,8 @@
               {% for role in page.role %}
               <li>{{ role }}</li>
               {% endfor %}
-            </b><br>         
-              {% include minsread.html %}
+            </b><br>
+            {% include minsread.html %}
             <br>
           </h4>
         </div>
@@ -59,32 +59,31 @@
     <div class="hello"></div>
     <div class="contentBody">
 
+      <!-- PRELUDE -->
       <h2>Prélude</h2>
-
       <div class="infoModule">
+
+        <!-- MEDIUM -->
         <div>
           <h4>Medium</h4>
           <p>{{ page.medium }}</p>
         </div>
 
+        <!-- ROLE -->
         <div>
           <h4>Role</h4>
           {% for role in page.role %}
           <li>{{ role }}</li>
           {% endfor %}
-
-
-
-
-
         </div>
 
+        <!-- CATEGORY -->
         <div>
           <h4>Category</h4>
           <p>{{ page.category }}</p>
         </div>
 
-
+        <!-- LINKS -->
         <div>
           <h4>Relevant links</h4>
           {% if page.link == '' %}
@@ -93,26 +92,12 @@
           {% for link in page.link %}
           <a href="{{ page.link }}" target="_blank">
             <button class="button">
-              site ↗
+              Link
             </button>
           </a>
           {% endfor %}
           {% endif %}
         </div>
-
-
-
-
-        <!-- {% for link in page.link %}
-        <div>
-          <h4>Relevant links</h4>
-          <a href="{{ page.link }}" target="_blank">
-            <button class="button">
-              site ↗
-            </button>
-          </a>
-        </div>
-        {% endfor %} -->
 
       </div>
 
@@ -120,7 +105,7 @@
 
 
 
-      <!-- {% include sideInfo.html %} -->
+      {% include sideInfo.html %}
       {{ content }}
 
     </div>

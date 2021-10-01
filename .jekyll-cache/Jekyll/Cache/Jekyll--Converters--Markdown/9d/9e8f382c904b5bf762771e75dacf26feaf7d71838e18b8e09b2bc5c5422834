@@ -1,0 +1,68 @@
+I"`<h2 id="i-building-brutal">I. Building Brutal</h2>
+
+<h3 id="objective">Objective</h3>
+<p>The objective of this project was to build a site for Other People, a student run magazine at UC San Diego. Given both the brutalist nature of the school’s architecture along with the high functionality of the art form itself, our team wanted to design a site that could live cohesively within those two spheres.</p>
+
+<h3 id="role">Role</h3>
+
+<p>My role was here was to design/develop the frontend site, create a global search function, as well as implement a CMS that others on my team could easily manage.</p>
+
+<h3 id="building-brutal">Building brutal</h3>
+
+<p>When first brainstorming this project, we wanted to <strong>create an experience focused on readership/viewership</strong>. We also wanted to <strong>create a modular design system</strong>; In doing so would pave way for succeeding developers to carry on the work fluidly. The third objective was to <strong>create a site on a content management system</strong> so that the editorial team can easily update the front matter.</p>
+
+<p>And, of course, it had to be responsive on mobile, tablet, and desktop.</p>
+
+<h2 id="the-site">The site</h2>
+<p><img src="/uploads/otherpeople01.png" alt="" /><em>Hero</em></p>
+
+<p><img src="/uploads/otherpeople02.png" alt="" /><em>Homepage explorer</em></p>
+
+<p><img src="/uploads/otherpeople04.png" alt="" /><em>Fiction</em></p>
+
+<p><img src="/uploads/otherpeople05.png" alt="" /><em>Visual Arts</em></p>
+
+<h2 id="the-menu">The menu</h2>
+
+<p><img src="/uploads/otherpeople07.png" alt="" /><em>Dropdown menu</em></p>
+
+<p><img src="/uploads/otherpeople06.png" alt="" /><em>Globally implemented instant search function</em></p>
+
+<h2 id="branding">Branding</h2>
+
+<h3 id="logo">Logo</h3>
+<p><img src="/uploads/56E20A87-FC33-4B52-9B77-0669479E46D3.JPG" alt="" /></p>
+
+<h3 id="typography">Typography</h3>
+<p><img src="/uploads/basier-font-06.jpg" alt="" /><img src="/uploads/basier-font-03.jpg" alt="" /><em><a href="https://www.atipofoundry.com/fonts/basier">Basier</a> by Atipo Foundry</em></p>
+
+<h2 id="proposal">Proposal</h2>
+
+<p>Our proposal was to, first, create a <strong>minimalist/brutalist design</strong> for the site that would place focus on the contributions (literature and art). It allowed for minimal distractions and prioritized the readership/viewership.</p>
+
+<p>Our second proposal was to use a coding language that could not only be modular, but easily learned/recognized. For this, we decided to use a <strong>Jekyll/Sass</strong> combo.</p>
+
+<p>Our third proposal was to use a headless content management system, so that — in the case of a system falling off trend — the designers could easily chop the head off and replace it. For this, we decided to use <strong>Forestry.io</strong>.</p>
+
+<ul>
+  <li>Use a minimalist/brutalist design for max readability.</li>
+  <li>Make an easy/modular coding design system</li>
+  <li>Use a headless CMS</li>
+</ul>
+
+<h2 id="process">Process</h2>
+
+<h3 id="research">Research</h3>
+
+<p>One of the things that drew us into creating a brutalist design for Other People was the capacity to make an easy design system. Further, having these modules/components enabled the designers and developers to work more closely together as it acted like a sort of buffer between the two. We utilized Figma to translate design into development.</p>
+
+<p>Another thing that drew us to a brutalist design was that stray away from a corporate look to a more liberal and human design.</p>
+
+<p><img src="/uploads/Screen Shot 2020-05-09 at 4.17.31 PM.png" alt="" /><em>Brutalist web design mood boards</em></p>
+
+<p>We also used Jekyll to build modules through “includes”, making each component of the site easily modifiable/replaceable. This also made the index.html page simple to explore.</p>
+
+<h3 id="wireframes">Wireframes</h3>
+
+<p><img src="/uploads/Screen Shot 2020-05-09 at 3.54.52 PM.png" alt="" /></p>
+:ET

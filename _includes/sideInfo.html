@@ -1,20 +1,26 @@
 <div class="sideInfo">
 
- {% for excerpt in page.excerpt %}
-    <p>{{ page.excerpt }}</p>
-  {% endfor %}
-  <br>
-<hr>
-  <h3>Tools</h3>
-  {{ page.medium }}
-  <br><br>
+  <h4>Medium</h4>
+  <p>{{ page.medium }}</p>
 
-  
- {% for link in page.link %}
-    <a href="{{ page.link}}" target="_blank">
-      <button class="button">
-        <h4>link</h4>
-      </button>
-    </a>
+
+
+  <h4>Role</h4>
+  {% for role in page.role %}
+  <li>{{ role }}</li>
+  {% endfor %}
+
+
+
+  <h4>Category</h4>
+  <p>{{ page.category }}</p>
+
+
+  {% for link in page.link %}
+  <a href="{{ page.link}}" target="_blank">
+    <button class="button">
+      link
+    </button>
+  </a>
   {% endfor %}
 </div>
