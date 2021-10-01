@@ -27,12 +27,13 @@
               {% for role in page.role %}
               <li>{{ role }}</li>
               {% endfor %}
-            </b><br>{{ page.category }}
+            </b><br>         
+              {% include minsread.html %}
             <br>
           </h4>
         </div>
         <div class="postDate">
-          <h2>
+          <h3>
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
             <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
               {{ page.date | date: date_format }}
@@ -44,10 +45,9 @@
               {{ mdate | date: date_format }}
             </time>
             {%- endif -%}
-            <h4>
-              {% include minsread.html %}</h4>
+
         </div>
-        </h2>
+        </h3>
       </div>
 
     </div>
