@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <title>{{ page.title }} - {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ " /assets/css/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </head>
@@ -87,18 +87,18 @@
 
         <div>
           <h4>Relevant links</h4>
-        {% if page.link == '' %}
-        <p>N/A</p>
-      {% else %}
-      {% for link in page.link %}
-      <a href="{{ page.link }}" target="_blank">
-        <button class="button">
-          site ↗
-        </button>
-      </a>
-      {% endfor %}
-      {% endif %}
-      </div>
+          {% if page.link == '' %}
+          <p>N/A</p>
+          {% else %}
+          {% for link in page.link %}
+          <a href="{{ page.link }}" target="_blank">
+            <button class="button">
+              site ↗
+            </button>
+          </a>
+          {% endfor %}
+          {% endif %}
+        </div>
 
 
 
