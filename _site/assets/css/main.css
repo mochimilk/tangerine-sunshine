@@ -17,8 +17,6 @@ h4 { padding: 0; margin: 0; margin-top: 0px; font-size: 0.8rem; line-height: 1.2
 
 p { font-size: 1rem; line-height: 200%; font-weight: normal; }
 
-a { line-height: 200%; }
-
 li { font-size: 1rem; line-height: 200%; }
 
 @media only screen and (max-width: 728px) { h1 { font-size: 2.5rem; } }
@@ -261,7 +259,7 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 
 .contentBody .sideInfo { text-align: left; z-index: 0; width: 10%; font-size: 0.8rem; font-weight: normal; position: absolute; left: 64px; line-height: 1.5; justify-content: none; list-style-type: none; margin-bottom: 0; display: none; opacity: 0; }
 
-.contentBody .sideInfo li { list-style-type: none; margin: 8px 0 8px 0; display: inline-block; }
+.contentBody .sideInfo li { list-style-type: none; margin: 0 0 8px 0; display: inline-block; }
 
 .contentBody .sideInfo li:nth-child(n + 5):before { content: "– "; }
 
@@ -285,7 +283,7 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 
 .studyImage img { width: 100%; }
 
-@media only screen and (max-width: 728px) { .studyIntro { margin-top: 64px; } .postTitle { display: grid; grid-template-columns: 1fr; margin: 0 16px 0 16px; bottom: 32px; } .postTitle h3 { margin: 0; } .postDate { text-align: left; margin-top: 32px; position: relative; right: 0; bottom: 0; } .contentBody { margin-left: 0; margin-right: 0; left: 0; right: 0; width: initial; padding: 16px; } .contentBody h2 { margin-top: 32px; margin-bottom: 32px; } .sideInfo { display: none; opacity: 0; z-index: -5; } }
+@media only screen and (max-width: 728px) { .studyIntro { margin-top: 64px; } .postTitle { display: grid; grid-template-columns: 1fr; margin: 0 16px 0 16px; bottom: 32px; } .postTitle h3 { margin: 0; } .postDate { text-align: left; margin-top: 32px; position: relative; right: 0; bottom: 0; } .contentBody { margin-left: 0; margin-right: 0; left: 0; right: 0; width: initial; padding: 16px; } .contentBody h2 { margin-top: 32px; margin-bottom: 32px; } .contentBody h3 { margin-bottom: 16px; } .sideInfo { display: none; opacity: 0; z-index: -5; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .postTitle { margin: 0 32px 0 32px; bottom: 32px; } .contentBody { margin-left: 0; margin-right: 0; left: 0; right: 0; width: initial; padding: 32px; } .contentBody h2 { position: relative; right: 0; left: 0; text-align: left; padding-right: 0; width: 100%; } .contentBody h2:not(:first-child) { margin-top: 64px; } .contentBody h2, .contentBody h4, .contentBody h2:nth-child(1) { padding-top: 0; } .contentBody img { margin-top: 0; } .sideInfo { display: none; opacity: 0; z-index: -5; } }
 
@@ -293,7 +291,7 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 
 .infoModule { display: grid; grid-template-columns: 1fr 1fr; padding-bottom: 32px; }
 
-.infoModule button { margin-top: 8px; }
+.infoModule button { margin-top: 12px; }
 
 .infoModule li { list-style-type: none; margin: 0; display: inline-block; }
 
@@ -307,7 +305,7 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 
 .infoModule > div:nth-child(3), .infoModule div:nth-child(4) { padding-top: 32px; border-bottom: solid 5px; }
 
-@media only screen and (max-width: 728px) { .infoModule { grid-template-columns: 1fr; } .infoModule > div { border-bottom: solid 1px; padding: 32px 0 32px 0; } .infoModule > div:nth-child(even) { padding-left: 0; border-left: none; } .infoModule > div:nth-child(3), .infoModule div:nth-child(4) { padding-top: 32px; border-bottom: solid 1px; } .infoModule > div:nth-child(1) { padding-top: 0; } .infoModule > div:nth-child(4) { border-bottom: solid 5px; } }
+@media only screen and (max-width: 728px) { .infoModule { grid-template-columns: 1fr; } .infoModule > div { border-bottom: solid 1px; padding: 24px 0 24px 0; } .infoModule > div:nth-child(even) { padding-left: 0; border-left: none; } .infoModule > div:nth-child(3), .infoModule div:nth-child(4) { padding-top: 24px; border-bottom: solid 1px; } .infoModule > div:nth-child(1) { padding-top: 0; } .infoModule > div:nth-child(4) { border-bottom: solid 5px; } }
 
 @font-face { font-family: "NeueMachina-Regular"; src: url("../../assets/css/Fonts/NeueMachina-Regular.otf"); font-weight: normal; font-style: normal; }
 

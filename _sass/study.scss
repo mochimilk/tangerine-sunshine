@@ -84,7 +84,7 @@ p {
     opacity: 0;
     li {
       list-style-type: none;
-      margin: 8px 0 8px 0;
+      margin: 0 0 8px 0;
       display: inline-block;
     }
 
@@ -172,6 +172,9 @@ p {
     h2 {
       margin-top: $blockThree;
       margin-bottom: $blockThree;
+    }
+    h3 {
+      margin-bottom: $blockTwo;
     }
   }
 
@@ -274,7 +277,7 @@ p {
   grid-template-columns: 1fr 1fr;
   padding-bottom: $blockThree;
 button {
-  margin-top: $blockOne;
+  margin-top: 12px;
 }
   li {
     list-style-type: none;
@@ -310,7 +313,7 @@ button {
   
   > div {
     border-bottom: solid 1px;
-    padding: $blockThree 0 $blockThree 0;
+    padding: 24px 0 24px 0;
   }
   > div:nth-child(even) {
     padding-left: 0;
@@ -318,7 +321,7 @@ button {
   }
   > div:nth-child(3),
   div:nth-child(4) {
-    padding-top: $blockThree;
+    padding-top: 24px;
     border-bottom: solid 1px;
   }
   > div:nth-child(1){
