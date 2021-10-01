@@ -15,6 +15,7 @@
   bottom: $blockFour;
   border-style: solid;
   border-width: 0 0 1px 0;
+  border-color: $borderTertiary;
   padding-bottom: $blockThree;
   h4 {
     padding-top: $blockTwo;
@@ -293,17 +294,17 @@ button {
     opacity: 0.55;
   }
   > div {
-    border-bottom: solid 1px;
+    border-bottom: solid 1px  $borderTertiary;
     padding: 0 $blockThree $blockThree 0;
   }
   > div:nth-child(even) {
     padding-left: $blockThree;
-    border-left: solid 1px;
+    border-left: solid 1px $borderTertiary;
   }
   > div:nth-child(3),
   div:nth-child(4) {
     padding-top: $blockThree;
-    border-bottom: solid 5px;
+    border-bottom: solid 5px $borderTertiary;
   }
 }
 

@@ -33,6 +33,7 @@ a:link {
   padding-top: $blockThree;
   padding-bottom: $blockFour;
   color: $backgroundColor;
+  
   :nth-child(3) {
     margin-left: auto;
     margin-right: 0;
@@ -49,6 +50,7 @@ a:link {
     // background-color: rgba(128, 128, 128, 0.1);
     // padding: 2px 12px 2px 12px;
     // border-radius: 4px;
+
   }
 
   li:nth-child(n + 2):before {

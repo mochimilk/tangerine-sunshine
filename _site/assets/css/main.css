@@ -11,7 +11,7 @@ h1 { font-family: "NeueMachina-Regular"; padding: 0; margin: 0; font-size: 3.5re
 
 h2 { font-size: 2.5rem; font-weight: 400; }
 
-h3 { font-size: 1.8rem; font-weight: 400; opacity: .55; }
+h3 { font-size: 1.8rem; font-weight: 400; opacity: 0.55; }
 
 h4 { padding: 0; margin: 0; margin-top: 0px; font-size: 0.8rem; line-height: 1.2rem; font-weight: normal; text-transform: uppercase; }
 
@@ -21,15 +21,15 @@ li { font-size: 1rem; line-height: 200%; }
 
 @media only screen and (max-width: 728px) { h1 { font-size: 2.5rem; } }
 
-html, html[data-theme="light"] { --background-color: rgb(247, 245, 238); --light-text-color: #181818; --link-color: rgb(0, 112, 201); --main-background-color: rgb(255, 255, 255); --main-text-color: rgb(51, 51, 51); }
+html, html[data-theme="light"] { --background-color: rgb(247, 245, 238); --light-text-color: #181818; --link-color: rgb(0, 112, 201); --main-background-color: rgb(255, 255, 255); --main-text-color: rgb(51, 51, 51); --border-tertiary: rgba(24,24,24, 0.3); --border-tertiary-inverse: rgba(247, 245, 238, 0.3); }
 
-html[data-theme="dark"] { --background-color: #181818; --light-text-color: rgb(247, 245, 238); --link-color: rgb(100, 210, 255); --main-background-color: rgb(28, 28, 30); --main-text-color: rgb(229, 229, 234); }
+html[data-theme="dark"] { --background-color: #181818; --light-text-color: rgb(247, 245, 238); --link-color: rgb(100, 210, 255); --main-background-color: rgb(28, 28, 30); --main-text-color: rgb(229, 229, 234); --border-tertiary: rgba(247, 245, 238, 0.3); --border-tertiary-inverse: rgba(24,24,24, 0.3); }
 
-@media (prefers-color-scheme: dark) { html, html[data-theme="dark"] { --background-color: #181818; --light-text-color: rgb(247, 245, 238); --link-color: rgb(100, 210, 255); --main-background-color: rgb(28, 28, 30); --main-text-color: rgb(229, 229, 234); } html[data-theme="light"] { --background-color: rgb(247, 245, 238); --light-text-color: #181818; --link-color: rgb(0, 112, 201); --main-background-color: rgb(255, 255, 255); --main-text-color: rgb(51, 51, 51); } }
+@media (prefers-color-scheme: dark) { html, html[data-theme="dark"] { --background-color: #181818; --light-text-color: rgb(247, 245, 238); --link-color: rgb(100, 210, 255); --main-background-color: rgb(28, 28, 30); --main-text-color: rgb(229, 229, 234); --border-tertiary: rgba(247, 245, 238, 0.3); --border-tertiary-inverse: rgba(24,24,24, 0.3); } html[data-theme="light"] { --background-color: rgb(247, 245, 238); --light-text-color: #181818; --link-color: rgb(0, 112, 201); --main-background-color: rgb(255, 255, 255); --main-text-color: rgb(51, 51, 51); --border-tertiary: rgba(24,24,24, 0.3); --border-tertiary-inverse: rgba(247, 245, 238, 0.3); } }
 
-button { background-color: transparent; border-radius: 10px; border-style: solid; border-width: 1px; padding: 8px 16px; text-align: center; text-decoration: none; display: inline-block; margin-top: 0px; font-size: 0.8rem; line-height: 1.2rem; font-weight: normal; text-transform: uppercase; cursor: pointer; color: var(--light-text-color); border-color: rgba(var(--light-text-color), 0.2); }
+button { background-color: transparent; border-radius: 10px; border-style: solid; border-width: 1px; padding: 8px 16px; text-align: center; text-decoration: none; display: inline-block; margin-top: 0px; font-size: 0.8rem; line-height: 1.2rem; font-weight: normal; text-transform: uppercase; cursor: pointer; color: var(--light-text-color); border-color: var(--border-tertiary); }
 
-button:hover { background-color: #80808035; border-color: rgba(var(--light-text-color), 1); transition-duration: 0.3s; }
+button:hover { background-color: #80808035; border-color: var(--light-text-color); transition-duration: 0.3s; }
 
 @keyframes slideInFromTop { 0% { transform: translateY(-100%); }
   100% { transform: translateY(0); } }
@@ -235,7 +235,7 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 
 .studyIntro { margin-top: 256px; }
 
-.postTitle { position: relative; display: grid; grid-template-columns: 1fr 1fr; margin: 0 64px 0 64px; bottom: 64px; border-style: solid; border-width: 0 0 1px 0; padding-bottom: 32px; }
+.postTitle { position: relative; display: grid; grid-template-columns: 1fr 1fr; margin: 0 64px 0 64px; bottom: 64px; border-style: solid; border-width: 0 0 1px 0; border-color: var(--border-tertiary); padding-bottom: 32px; }
 
 .postTitle h4 { padding-top: 16px; bottom: 0; }
 
@@ -299,11 +299,11 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 
 .infoModule h4 { opacity: 0.55; }
 
-.infoModule > div { border-bottom: solid 1px; padding: 0 32px 32px 0; }
+.infoModule > div { border-bottom: solid 1px var(--border-tertiary); padding: 0 32px 32px 0; }
 
-.infoModule > div:nth-child(even) { padding-left: 32px; border-left: solid 1px; }
+.infoModule > div:nth-child(even) { padding-left: 32px; border-left: solid 1px var(--border-tertiary); }
 
-.infoModule > div:nth-child(3), .infoModule div:nth-child(4) { padding-top: 32px; border-bottom: solid 5px; }
+.infoModule > div:nth-child(3), .infoModule div:nth-child(4) { padding-top: 32px; border-bottom: solid 5px var(--border-tertiary); }
 
 @media only screen and (max-width: 728px) { .infoModule { grid-template-columns: 1fr; } .infoModule > div { border-bottom: solid 1px; padding: 24px 0 24px 0; } .infoModule > div:nth-child(even) { padding-left: 0; border-left: none; } .infoModule > div:nth-child(3), .infoModule div:nth-child(4) { padding-top: 24px; border-bottom: solid 1px; } .infoModule > div:nth-child(1) { padding-top: 0; } .infoModule > div:nth-child(4) { border-bottom: solid 5px; } }
 

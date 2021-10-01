@@ -6,10 +6,13 @@ $highlight: rgb(190, 163, 111);
 
 $backgroundColor: var(--background-color);
 $bodyColor: var(--light-text-color);
+$borderTertiary: var(--border-tertiary);
+$borderTertiaryInverse: var(--border-tertiary-inverse);
+
 $dropdowntext: rgb(247, 245, 238);
 // $dropdowntext:  rgb(80, 119, 82);
-$bodyFont: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
-  "Segoe UI Emoji", "Segoe UI Symbol";
+$bodyFont: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+  sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 $blockOne: 8px;
 $blockTwo: 16px;
@@ -61,8 +64,7 @@ h2 {
 h3 {
   font-size: 1.8rem;
   font-weight: 400;
-  opacity: .55;
-
+  opacity: 0.55;
 }
 
 h4 {
@@ -99,6 +101,9 @@ html[data-theme="light"] {
   --link-color: rgb(0, 112, 201);
   --main-background-color: rgb(255, 255, 255);
   --main-text-color: rgb(51, 51, 51);
+  --border-tertiary: rgba(24,24,24, 0.3);
+  --border-tertiary-inverse: rgba(247, 245, 238, 0.3);
+
 }
 
 html[data-theme="dark"] {
@@ -107,6 +112,8 @@ html[data-theme="dark"] {
   --link-color: rgb(100, 210, 255);
   --main-background-color: rgb(28, 28, 30);
   --main-text-color: rgb(229, 229, 234);
+  --border-tertiary: rgba(247, 245, 238, 0.3);
+  --border-tertiary-inverse: rgba(24,24,24, 0.3);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -117,6 +124,8 @@ html[data-theme="dark"] {
     --link-color: rgb(100, 210, 255);
     --main-background-color: rgb(28, 28, 30);
     --main-text-color: rgb(229, 229, 234);
+    --border-tertiary: rgba(247, 245, 238, 0.3);
+    --border-tertiary-inverse: rgba(24,24,24, 0.3);
   }
 
   html[data-theme="light"] {
@@ -125,6 +134,8 @@ html[data-theme="dark"] {
     --link-color: rgb(0, 112, 201);
     --main-background-color: rgb(255, 255, 255);
     --main-text-color: rgb(51, 51, 51);
+    --border-tertiary: rgba(24,24,24, 0.3);
+    --border-tertiary-inverse: rgba(247, 245, 238, 0.3);
   }
 }
 
@@ -145,11 +156,11 @@ button {
   cursor: pointer;
   // color: $bodyColor;
   color: $bodyColor;
-  border-color: rgba($bodyColor, .2);
+  border-color: $borderTertiary;
 }
 
 button:hover {
   background-color: #80808035;
-  border-color: rgba($bodyColor, 1);
+  border-color: $bodyColor;
   transition-duration: 0.3s;
 }
