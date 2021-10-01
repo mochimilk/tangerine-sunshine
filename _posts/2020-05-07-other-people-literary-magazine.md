@@ -1,6 +1,9 @@
 ---
 title: Other People Literary Magazine
-role: Brand, Product, Developer
+role:
+  - Brand
+  - Product
+  - Developer
 category: UX/UI — Branding
 thumb: "/uploads/thumbnail-01-01.png"
 date: 2020-04-19 00:00:00 +0000
@@ -9,10 +12,6 @@ medium: Creative Cloud, Figma, Jekyll, Sass
 link: https://otherpeoplesd.com/
 excerpt: Building and developing a web reader predicated on readership, modularity,
   and management
-role2:
-- Brand
-- Product
-- Developer
 
 ---
 ## The site
@@ -36,7 +35,7 @@ role2:
 ![](/uploads/56E20A87-FC33-4B52-9B77-0669479E46D3.JPG)
 
 ### Typography
-![](/uploads/basier-font-06.jpg)![](/uploads/basier-font-03.jpg)_[_Basier_](https://www.atipofoundry.com/fonts/basier) by Atipo Foundry_
+![](/uploads/basier-font-06.jpg)![](/uploads/basier-font-03.jpg)_[Basier](https://www.atipofoundry.com/fonts/basier) by Atipo Foundry_
 
 ## Objective
 

@@ -10,7 +10,11 @@
             <div class="StudiesInfo">
                 <h1>{{post.title}}</h1>
                 <h4>
-                    <div>{{post.role}}</div>
+                    <div>
+                        {% for role in post.role %}
+                        <li>{{ role }}</li>
+                        {% endfor %}
+                    </div>
                     <div>{{post.category}}</div>
                 </h4>
             </div>

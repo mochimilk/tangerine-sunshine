@@ -1,3 +1,4 @@
+@charset "UTF-8";
 ::selection { background: #bea36f; /* WebKit/Blink Browsers */ }
 
 ::-moz-selection { background: #bea36f; /* Gecko Browsers */ }
@@ -26,7 +27,7 @@ html[data-theme="dark"] { --background-color: #181818; --light-text-color: rgb(2
 
 @media (prefers-color-scheme: dark) { html, html[data-theme="dark"] { --background-color: #181818; --light-text-color: rgb(247, 245, 238); --link-color: rgb(100, 210, 255); --main-background-color: rgb(28, 28, 30); --main-text-color: rgb(229, 229, 234); } html[data-theme="light"] { --background-color: rgb(247, 245, 238); --light-text-color: #181818; --link-color: rgb(0, 112, 201); --main-background-color: rgb(255, 255, 255); --main-text-color: rgb(51, 51, 51); } }
 
-button { background-color: transparent; border-radius: 10px; border-style: solid; border-width: 1px; padding: 8px 24px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; cursor: pointer; color: var(--light-text-color); border-color: rgba(var(--light-text-color), 0.2); }
+button { background-color: transparent; border-radius: 10px; border-style: solid; border-width: 1px; padding: 8px 16px; text-align: center; text-decoration: none; display: inline-block; margin-top: 0px; font-size: 0.8rem; line-height: 1.2rem; font-weight: normal; text-transform: uppercase; cursor: pointer; color: var(--light-text-color); border-color: rgba(var(--light-text-color), 0.2); }
 
 button:hover { background-color: #80808035; border-color: rgba(var(--light-text-color), 1); transition-duration: 0.3s; }
 
@@ -59,7 +60,7 @@ headerTwo ul { display: flex; justify-content: space-between; list-style-type: n
 
 .overlay::-webkit-scrollbar { display: none; }
 
-.overlay { -ms-overflow-style: none; /* IE and Edge */ scrollbar-width: none; /* Firefox */ height: 0%; width: 100%; position: fixed; z-index: 1; top: 0; left: 0; background-color: #607961; color: #f7f5ee; overflow-x: hidden; transition: 0.3s; }
+.overlay { -ms-overflow-style: none; /* IE and Edge */ scrollbar-width: none; /* Firefox */ height: 0%; width: 100%; position: fixed; z-index: 1; top: 0; left: 0; background-color: #576958; color: #f7f5ee; overflow-x: hidden; transition: 0.3s; }
 
 .overlay ul { display: flex; justify-content: space-between; list-style-type: none; margin: 0; padding: 0; cursor: pointer; }
 
@@ -134,11 +135,19 @@ a:visited, a:link { text-decoration: none; }
 
 .StudiesModule h1 { text-decoration: none; }
 
+.StudiesModule li { list-style-type: none; margin: 0; display: inline-block; font-size: .8rem; }
+
+.StudiesModule li:nth-child(n + 2):before { content: "× "; }
+
 .StudiesModuleTwo { display: grid; grid-template-columns: 30% 50% 20%; border-style: solid; border-width: 1px 0 0 0; padding-top: 32px; padding-bottom: 32px; color: #f7f5ee; }
 
 .StudiesModuleTwo :nth-child(3) { margin-left: auto; margin-right: 0; }
 
 .StudiesModuleTwo h1 { text-decoration: none; }
+
+.StudiesModuleTwo li { list-style-type: none; margin: 0; display: inline-block; font-size: .8rem; }
+
+.StudiesModuleTwo li:nth-child(n + 2):before { content: "× "; }
 
 svg { width: 30px; }
 
@@ -229,6 +238,10 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 .postTitle { position: relative; display: grid; grid-template-columns: 1fr 1fr; margin: 0 64px 0 64px; bottom: 64px; border-style: solid; border-width: 0 0 1px 0; padding-bottom: 32px; }
 
 .postTitle h4 { padding-top: 16px; bottom: 0; }
+
+.postTitle li { list-style-type: none; margin: 0; display: inline-block; font-size: .8rem; }
+
+.postTitle li:nth-child(n + 2):before { content: "× "; }
 
 .postDate { text-align: right; position: absolute; bottom: 32px; right: 0; }
 
@@ -525,7 +538,11 @@ figure.highlight { margin: 0; padding: 0; }
 
 .infoModule { display: grid; grid-template-columns: 1fr 1fr; padding-bottom: 32px; }
 
-.infoModule h4 { margin-bottom: 16px; opacity: .55; }
+.infoModule li { list-style-type: none; margin: 0; display: inline-block; }
+
+.infoModule li:nth-child(n + 3):before { content: "× "; }
+
+.infoModule h4 { margin-bottom: 16px; opacity: 0.55; }
 
 .infoModule > div { border-bottom: solid 1px; padding: 0 32px 32px 0; }
 

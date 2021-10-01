@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <title>{{ page.title }} - {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ " /assets/css/main.css" | relative_url }}">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </head>
@@ -24,7 +24,10 @@
           <h1>{{ page.title | escape }}</h1><br>
           <h4>
             <b>
-              {{ page.role }}</b><br>{{ page.category }}
+              {% for role in page.role %}
+              <li>{{ role }}</li>
+              {% endfor %}
+            </b><br>{{ page.category }}
             <br>
           </h4>
         </div>
@@ -56,7 +59,6 @@
     <div class="hello"></div>
     <div class="contentBody">
 
-
       <h2>Prélude</h2>
 
       <div class="infoModule">
@@ -67,7 +69,14 @@
 
         <div>
           <h4>Role</h4>
-          <p>{{ page.role2 }}</p>
+          {% for role in page.role %}
+          <li>{{ role }}</li>
+          {% endfor %}
+
+
+
+
+
         </div>
 
         <div>
@@ -75,10 +84,35 @@
           <p>{{ page.category }}</p>
         </div>
 
+
         <div>
           <h4>Relevant links</h4>
-          <p>{{ page.links }}</p>
+        {% if page.link == '' %}
+        <p>N/A</p>
+      {% else %}
+      {% for link in page.link %}
+      <a href="{{ page.link }}" target="_blank">
+        <button class="button">
+          site ↗
+        </button>
+      </a>
+      {% endfor %}
+      {% endif %}
+      </div>
+
+
+
+
+        <!-- {% for link in page.link %}
+        <div>
+          <h4>Relevant links</h4>
+          <a href="{{ page.link }}" target="_blank">
+            <button class="button">
+              site ↗
+            </button>
+          </a>
         </div>
+        {% endfor %} -->
 
       </div>
 
