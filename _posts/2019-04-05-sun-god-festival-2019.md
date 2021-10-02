@@ -5,7 +5,6 @@ thumb: "/uploads/731BA2F5-FD0F-47EC-843A-71AA9F7B0B3D.JPG"
 role:
   - Brand
   - Product
-category: Creative Director — Lead Web Designer
 date: 2019-04-05T07:00:00.000+00:00
 medium: Illustrator, Photoshop, Processing
 excerpt: Experiential design study aiming to integrate the tangible world with the

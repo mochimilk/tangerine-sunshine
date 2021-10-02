@@ -64,13 +64,13 @@
       <div class="infoModule">
 
         <!-- MEDIUM -->
-        <div>
+        <div class="medium">
           <h4>Medium</h4>
           <p>{{ page.medium }}</p>
         </div>
 
         <!-- ROLE -->
-        <div>
+        <div class="role">
           <h4>Role</h4>
           {% for role in page.role %}
           <li>{{ role }}</li>
@@ -78,13 +78,13 @@
         </div>
 
         <!-- CATEGORY -->
-        <div>
-          <h4>Category</h4>
-          <p>{{ page.category }}</p>
+        <div class="timeframe">
+          <h4>Project timeframe</h4>
+          <p>{{ page.timeframe }}</p>
         </div>
 
         <!-- LINKS -->
-        <div>
+        <div class="link">
           <h4>Relevant links</h4>
           {% if page.link == '' %}
           <p>N/A</p>

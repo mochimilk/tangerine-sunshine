@@ -45,9 +45,9 @@
   text-align: left;
   max-width: 960px;
   padding: 0 $blockFour 0 $blockFour;
-p {
-  margin: 0 0 0 0;
-}
+  p {
+    margin: 0 0 0 0;
+  }
   a {
     color: rgb(224, 146, 0);
     text-decoration: underline;
@@ -89,7 +89,7 @@ p {
       display: inline-block;
     }
 
-    li:nth-child(n + 5):before {
+    li:nth-child(n + 6):before {
       content: $symbol;
     }
     a {
@@ -98,8 +98,12 @@ p {
     h4 {
       opacity: 0.5;
     }
-    p, li {
-      margin-bottom: $blockTwo;
+    p,
+    li {
+      margin-bottom: 24px;
+    }
+    button {
+      margin-top: 12px;
     }
   }
 
@@ -150,7 +154,7 @@ p {
     grid-template-columns: 1fr;
     margin: 0 $blockTwo 0 $blockTwo;
     bottom: $blockThree;
-    h3{
+    h3 {
       margin: 0;
     }
   }
@@ -273,13 +277,31 @@ p {
   }
 }
 
+// PRELUDE
+
+.medium {
+  grid-area: medium;
+}
+.role {
+  grid-area: role;
+}
+.category {
+  grid-area: timeframe;
+}
+.link {
+  grid-area: link;
+}
+
 .infoModule {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "medium medium"
+    "role role"
+    "timeframe link";
   padding-bottom: $blockThree;
-button {
-  margin-top: 12px;
-}
+  button {
+    margin-top: 12px;
+  }
   li {
     list-style-type: none;
     margin: 0;
@@ -294,42 +316,36 @@ button {
     opacity: 0.55;
   }
   > div {
-    border-bottom: solid 1px  $borderTertiary;
-    padding: 0 $blockThree $blockThree 0;
+    border-bottom: solid 1px $borderTertiary;
+    padding: $blockThree 0 $blockThree 0;
   }
-  > div:nth-child(even) {
-    padding-left: $blockThree;
+
+  > div:nth-child(1) {
+    padding-top: 0;
+  }
+  >div:nth-child(3){
+    p {
+      font-size: 1.5rem;
+    }
+  }
+  > div:nth-child(4) {
     border-left: solid 1px $borderTertiary;
+    padding-left: $blockThree;
   }
   > div:nth-child(3),
-  div:nth-child(4) {
-    padding-top: $blockThree;
+  > div:nth-child(4) {
     border-bottom: solid 5px $borderTertiary;
   }
 }
 
 @media only screen and (max-width: 728px) {
   .infoModule {
-    grid-template-columns: 1fr;
-  
-  > div {
-    border-bottom: solid 1px  $borderTertiary;
-    padding: 24px 0 24px 0;
-  }
-  > div:nth-child(even) {
-    padding-left: 0;
-    border-left: none;
-  }
-  > div:nth-child(3),
-  div:nth-child(4) {
-    padding-top: 24px;
-    border-bottom: solid 1px  $borderTertiary;
-  }
-  > div:nth-child(1){
-    padding-top: 0;
-  }
-  >div:nth-child(4){
-    border-bottom: solid 5px  $borderTertiary;
-  }
+    > div {
+
+      padding: 24px 0 24px 0;
+    }
+    > div:nth-child(4) {
+      padding-left: 24px;
+    }
 }
 }

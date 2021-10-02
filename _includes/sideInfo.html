@@ -1,5 +1,7 @@
 <div class="sideInfo">
 
+<h3>Prélude</h3>
+
   <h4>Medium</h4>
   <p>{{ page.medium }}</p>
 
@@ -12,10 +14,10 @@
 
 
 
-  <h4>Category</h4>
-  <p>{{ page.category }}</p>
+  <h4>Project timeframe</h4>
+  <p>{{ page.timeframe }}</p>
 
-
+<h4>Relevant links</h4>
   {% for link in page.link %}
   <a href="{{ page.link}}" target="_blank">
     <button class="button">

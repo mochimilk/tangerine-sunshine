@@ -261,13 +261,15 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 
 .contentBody .sideInfo li { list-style-type: none; margin: 0 0 8px 0; display: inline-block; }
 
-.contentBody .sideInfo li:nth-child(n + 5):before { content: "– "; }
+.contentBody .sideInfo li:nth-child(n + 6):before { content: "– "; }
 
 .contentBody .sideInfo a { color: inherit; }
 
 .contentBody .sideInfo h4 { opacity: 0.5; }
 
-.contentBody .sideInfo p, .contentBody .sideInfo li { margin-bottom: 16px; }
+.contentBody .sideInfo p, .contentBody .sideInfo li { margin-bottom: 24px; }
+
+.contentBody .sideInfo button { margin-top: 12px; }
 
 .contentBody .sideInfo.fixed { position: fixed; margin: 0; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); display: none; }
 
@@ -289,7 +291,15 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 
 @media screen and (min-width: 2400px) { .contentBody { margin-top: 128px; margin-left: auto; margin-right: auto; text-align: justify; max-width: 960px; padding: 0; } .contentBody h2:not(:first-child) { margin-top: 64px; } .contentBody h3 { margin-top: 32px; } .contentBody ul:not(:first-child) { list-style-position: outside; line-height: 1.5; display: initial; justify-content: none; list-style-type: initial; margin: 0; padding: 0; cursor: pointer; } .contentBody .sideInfo { display: initial; opacity: 1; } .contentBody .sideInfo li { line-height: 1.5; list-style-type: none; padding: 0; } .contentBody .sideInfo a { color: inherit; } }
 
-.infoModule { display: grid; grid-template-columns: 1fr 1fr; padding-bottom: 32px; }
+.medium { grid-area: medium; }
+
+.role { grid-area: role; }
+
+.category { grid-area: timeframe; }
+
+.link { grid-area: link; }
+
+.infoModule { display: grid; grid-template-areas: "medium medium" "role role" "timeframe link"; padding-bottom: 32px; }
 
 .infoModule button { margin-top: 12px; }
 
@@ -299,13 +309,17 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 
 .infoModule h4 { opacity: 0.55; }
 
-.infoModule > div { border-bottom: solid 1px var(--border-tertiary); padding: 0 32px 32px 0; }
+.infoModule > div { border-bottom: solid 1px var(--border-tertiary); padding: 32px 0 32px 0; }
 
-.infoModule > div:nth-child(even) { padding-left: 32px; border-left: solid 1px var(--border-tertiary); }
+.infoModule > div:nth-child(1) { padding-top: 0; }
 
-.infoModule > div:nth-child(3), .infoModule div:nth-child(4) { padding-top: 32px; border-bottom: solid 5px var(--border-tertiary); }
+.infoModule > div:nth-child(3) p { font-size: 1.5rem; }
 
-@media only screen and (max-width: 728px) { .infoModule { grid-template-columns: 1fr; } .infoModule > div { border-bottom: solid 1px var(--border-tertiary); padding: 24px 0 24px 0; } .infoModule > div:nth-child(even) { padding-left: 0; border-left: none; } .infoModule > div:nth-child(3), .infoModule div:nth-child(4) { padding-top: 24px; border-bottom: solid 1px var(--border-tertiary); } .infoModule > div:nth-child(1) { padding-top: 0; } .infoModule > div:nth-child(4) { border-bottom: solid 5px var(--border-tertiary); } }
+.infoModule > div:nth-child(4) { border-left: solid 1px var(--border-tertiary); padding-left: 32px; }
+
+.infoModule > div:nth-child(3), .infoModule > div:nth-child(4) { border-bottom: solid 5px var(--border-tertiary); }
+
+@media only screen and (max-width: 728px) { .infoModule > div { padding: 24px 0 24px 0; } .infoModule > div:nth-child(4) { padding-left: 24px; } }
 
 @font-face { font-family: "NeueMachina-Regular"; src: url("../../assets/css/Fonts/NeueMachina-Regular.otf"); font-weight: normal; font-style: normal; }
 
