@@ -3,16 +3,11 @@ layout: study
 title: Sun God Festival 2019
 thumb: "/uploads/731BA2F5-FD0F-47EC-843A-71AA9F7B0B3D.JPG"
 role:
-<<<<<<< HEAD
-  - Brand
-  - Product
-=======
 - Brand
 - Product
 category:
 - Brand
 - Product
->>>>>>> c547faef7cb899bacaf0f8b05be8db871dfa3de6
 date: 2019-04-05T07:00:00.000+00:00
 medium: Illustrator, Photoshop, Processing
 excerpt: Experiential design study aiming to integrate the tangible world with the
@@ -21,7 +16,7 @@ link: http://sgf.ucsd.edu/2019/
 timeframe: 6 months
 
 ---
-## About
+## Aboutt
 
 Sun God Festival is a student-curated, daylong music and arts festival at UC San Diego. Named as one of Live Nation’s “Top 5 College Concerts That Should Be Actual Festivals”, Sun God Festival is continuously reimagined to deliver students with thrilling moments and life-long memories from live performances by national touring artists, diverse food vendors, vibrant art and décor, and interactive brand activations.
 
