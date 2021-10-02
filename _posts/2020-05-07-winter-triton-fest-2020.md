@@ -12,6 +12,7 @@ medium: Illustrator, Photoshop, HTML/CSS, Figma
 link: http://tritonfest.ucsd.edu/
 excerpt: Creating a familiar, exciting experience/brand for UC San Diego's Triton
   Fest
+timeframe: 3 months
 
 ---
 ## Objective
