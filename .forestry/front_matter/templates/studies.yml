@@ -16,11 +16,11 @@ fields:
   type: tag_list
   default: []
   label: Role
-- name: category
+- name: timeframe
   type: text
   config:
     required: false
-  label: Category
+  label: Project timeframe
 - name: date
   type: datetime
   description: ''
