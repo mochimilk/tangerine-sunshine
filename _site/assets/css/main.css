@@ -19,7 +19,7 @@ p { font-size: 1rem; line-height: 200%; font-weight: normal; }
 
 li { font-size: 1rem; line-height: 200%; }
 
-@media only screen and (max-width: 728px) { h1 { font-size: 2.5rem; } }
+@media only screen and (max-width: 728px) { h1 { font-size: 2.5rem; } h2 { font-size: 2rem; } h3 { font-size: 1.5rem; } }
 
 html, html[data-theme="light"] { --background-color: rgb(247, 245, 238); --light-text-color: #181818; --link-color: rgb(0, 112, 201); --main-background-color: rgb(255, 255, 255); --main-text-color: rgb(51, 51, 51); --border-tertiary: rgba(24,24,24, 0.3); --border-tertiary-inverse: rgba(247, 245, 238, 0.3); }
 
@@ -123,9 +123,9 @@ headerTwo ul { display: flex; justify-content: space-between; list-style-type: n
 
 .StudiesContainer { padding: 0 64px 0 64px; margin-top: 64px; }
 
-.StudiesContainer h2, .StudiesContainer h3 { padding-top: 32px; margin-bottom: 16px; }
+.StudiesContainer h2 { padding-top: 64px; margin-bottom: 16px; }
 
-.StudiesContainer h3 { opacity: 0.3; }
+.StudiesContainer h3 { padding-top: 16px; opacity: 0.3; }
 
 a:visited, a:link { text-decoration: none; }
 
@@ -139,7 +139,7 @@ a:visited, a:link { text-decoration: none; }
 
 .StudiesModule li:nth-child(n + 2):before { content: "– "; }
 
-.StudiesModuleTwo { display: grid; grid-template-columns: 30% 50% 20%; border-style: solid; border-width: 1px 0 0 0; padding-top: 32px; padding-bottom: 32px; color: #f7f5ee; }
+.StudiesModuleTwo { display: grid; grid-template-columns: 30% 50% 20%; border-style: solid; border-width: 1px 0 0 0; padding-top: 32px; padding-bottom: 32px; color: #f7f5ee; border-color: var(--border-tertiary); }
 
 .StudiesModuleTwo :nth-child(3) { margin-left: auto; margin-right: 0; }
 
@@ -195,7 +195,7 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 
 .mobileNav a { color: #f7f5ee; }
 
-@media only screen and (max-width: 728px) { .StudiesContainer { padding: 0 16px 0 16px; } .StudiesContainer h2 { margin-bottom: 32px; } .StudiesModule, .StudiesModuleTwo { display: grid; grid-template-columns: 1fr; padding-bottom: 16px; } .StudiesModule svg, .StudiesModuleTwo svg { margin-bottom: -32px; display: none; } .StudiesInfo { margin-top: 32px; position: relative; margin-left: 0; } .StudiesInfo h4 { position: relative; padding: 16px 0 16px 0; } .studiesMenu { margin-top: 64px; } .studiesMenu h2 { margin-bottom: 32px; } ul.nav { display: none; } }
+@media only screen and (max-width: 728px) { .StudiesContainer { padding: 0 16px 0 16px; } .StudiesContainer h2 { margin-bottom: 16px; } .StudiesModule, .StudiesModuleTwo { display: grid; grid-template-columns: 1fr; padding-bottom: 16px; } .StudiesModule svg, .StudiesModuleTwo svg { margin-bottom: -32px; display: none; } .StudiesInfo { margin-top: 32px; position: relative; margin-left: 0; } .StudiesInfo h4 { position: relative; padding: 16px 0 16px 0; } .studiesMenu { margin-top: 64px; } .studiesMenu h2 { margin-bottom: 16px; } ul.nav { display: none; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .StudiesContainer { padding: 0 32px 0 32px; } .StudiesContainer h2 { margin-bottom: 32px; } .StudiesModule, .StudiesModuleTwo { display: grid; grid-template-columns: 1fr; } .StudiesModule svg, .StudiesModuleTwo svg { margin-bottom: -32px; } .StudiesInfo { margin-top: 16px; position: relative; margin-left: 0; } .StudiesInfo h4 { position: relative; padding: 32px 0 32px 0; } .square img { height: 512px; /* height of container */ } .studiesMenu { margin-top: 64px; } }
 
@@ -283,7 +283,7 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 
 .studyImage img { width: 100%; }
 
-@media only screen and (max-width: 728px) { .studyIntro { margin-top: 64px; } .postTitle { display: grid; grid-template-columns: 1fr; margin: 0 16px 0 16px; bottom: 32px; } .postTitle h3 { margin: 0; } .postDate { text-align: left; margin-top: 32px; position: relative; right: 0; bottom: 0; } .contentBody { margin-left: 0; margin-right: 0; left: 0; right: 0; width: initial; padding: 16px; } .contentBody h2 { margin-top: 32px; margin-bottom: 32px; } .contentBody h3 { margin-bottom: 16px; } .sideInfo { display: none; opacity: 0; z-index: -5; } }
+@media only screen and (max-width: 728px) { .studyIntro { margin-top: 128px; } .postTitle { display: grid; grid-template-columns: 1fr; margin: 0 16px 0 16px; bottom: 32px; } .postTitle h3 { margin: 0; } .postDate { text-align: left; margin-top: 32px; position: relative; right: 0; bottom: 0; } .contentBody { margin-left: 0; margin-right: 0; left: 0; right: 0; width: initial; padding: 16px; } .contentBody h2 { margin-top: 32px; margin-bottom: 32px; } .contentBody h3 { margin-bottom: 16px; } .sideInfo { display: none; opacity: 0; z-index: -5; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .postTitle { margin: 0 32px 0 32px; bottom: 32px; } .contentBody { margin-left: 0; margin-right: 0; left: 0; right: 0; width: initial; padding: 32px; } .contentBody h2 { position: relative; right: 0; left: 0; text-align: left; padding-right: 0; width: 100%; } .contentBody h2:not(:first-child) { margin-top: 64px; } .contentBody h2, .contentBody h4, .contentBody h2:nth-child(1) { padding-top: 0; } .contentBody img { margin-top: 0; } .sideInfo { display: none; opacity: 0; z-index: -5; } }
 
@@ -305,7 +305,7 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 
 .infoModule > div:nth-child(3), .infoModule div:nth-child(4) { padding-top: 32px; border-bottom: solid 5px var(--border-tertiary); }
 
-@media only screen and (max-width: 728px) { .infoModule { grid-template-columns: 1fr; } .infoModule > div { border-bottom: solid 1px; padding: 24px 0 24px 0; } .infoModule > div:nth-child(even) { padding-left: 0; border-left: none; } .infoModule > div:nth-child(3), .infoModule div:nth-child(4) { padding-top: 24px; border-bottom: solid 1px; } .infoModule > div:nth-child(1) { padding-top: 0; } .infoModule > div:nth-child(4) { border-bottom: solid 5px; } }
+@media only screen and (max-width: 728px) { .infoModule { grid-template-columns: 1fr; } .infoModule > div { border-bottom: solid 1px var(--border-tertiary); padding: 24px 0 24px 0; } .infoModule > div:nth-child(even) { padding-left: 0; border-left: none; } .infoModule > div:nth-child(3), .infoModule div:nth-child(4) { padding-top: 24px; border-bottom: solid 1px var(--border-tertiary); } .infoModule > div:nth-child(1) { padding-top: 0; } .infoModule > div:nth-child(4) { border-bottom: solid 5px var(--border-tertiary); } }
 
 @font-face { font-family: "NeueMachina-Regular"; src: url("../../assets/css/Fonts/NeueMachina-Regular.otf"); font-weight: normal; font-style: normal; }
 
