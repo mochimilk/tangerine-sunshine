@@ -1,7 +1,7 @@
 ---
 layout: study
 title: Hello from Kiva
-thumb: "/uploads/title.png"
+thumb: "/uploads/frame-3.png"
 role:
 - Product
 - Brand
