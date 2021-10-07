@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang=" en-US">
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
-  <title>Home - eunsoo lee</title>
+  <title>Hello from Kiva - eunsoo lee</title>
   <link rel="stylesheet" href="/assets/css/main.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -12,7 +12,7 @@
 
 <body>
 
-  <header class="nav-down">
+  <headerTwo class="nav-down">
 
     <div class="title">
         <a href="http://localhost:4000/">
@@ -22,7 +22,7 @@
     <ul class="nav">
         <li>
             <h4>
-                <a class="first" type="button" onclick="smoothScroll(document.getElementById('second'))" >Studies</a>
+    <a class="first" href="http://localhost:4000/#second">Studies</a>
             </h4>
         </li>
         <li>
@@ -54,7 +54,13 @@
 
     </div>
 
-</header>
+</headerTwo>
+
+
+
+
+
+
 
 <div id="myNav" class="overlay">
     <div class= "overlay-content">
@@ -67,19 +73,19 @@
         <ul class="nav">
             <li>
                 <h4>
-                    <a class="first" type="button" onclick="smoothScroll(document.getElementById('second')); closeNav()">Studies</a>
+           <a class="first" href="http://localhost:4000/#second">Studies</a>
                 </h4>
             </li>
             <li>
                 <h4>
-                    <a href="http://localhost:4000/about">About</a>
+                        <a href="http://localhost:4000/about">About</a>
                 </h4>
             </li>
             <li>
                 <a>
                     <h4>
-        <a href="https://drive.google.com/file/d/1BkaIPwN4C9lLx6xhcfLW-Tqr72OrFTE3/view?usp=sharing" target="_blank">Resume</a>
-                    </h4> 
+               <a href="https://drive.google.com/file/d/1BkaIPwN4C9lLx6xhcfLW-Tqr72OrFTE3/view?usp=sharing" target="_blank">Resume</a>
+                    </h4>
                 </a>
             </li>
 
@@ -101,7 +107,7 @@
 
 
 
-    <div class="studiesMenu">
+     <div class="studiesMenu">
     <div class="StudiesContainer">
         <div class="mobileNav">
             <h3>Hello</h3>
@@ -270,8 +276,7 @@
 
 
 
-
-        <footer>
+         <footer>
   <h4>Made with love by eunsoo lee  © 2021 </h4>
   <div class="FooterLinks">
     <h4>
@@ -349,12 +354,16 @@ if (theme === "dark") {
 }
 </script>
 
+
+
+
+
 <script>
     // Hide Header on on scroll down
     var didScroll;
     var lastScrollTop = 0;
     var delta = 5;
-    var navbarHeight = $('header').outerHeight();
+    var navbarHeight = $('headerTwo').outerHeight();
 
     $(window).scroll(function (event) {
         didScroll = true;
@@ -378,13 +387,13 @@ if (theme === "dark") {
         // This is necessary so you never see what is "behind" the navbar.
         if (st > lastScrollTop && st > navbarHeight) {
             // Scroll Down
-            $('header')
+            $('headerTwo')
                 .removeClass('nav-down')
                 .addClass('nav-up');
         } else {
             // Scroll Up
             if (st + $(window).height() < $(document).height()) {
-                $('header')
+                $('headerTwo')
                     .removeClass('nav-up')
                     .addClass('nav-down');
             }
@@ -410,276 +419,194 @@ if (theme === "dark") {
     }
 </script>
 
-  <!-- INDEX INTRO -->
-  <div class="IndexContainer">
-    <div class="IndexIntro">
-      <h1 class="cssanimation sequence fadeInBottom">
-        <label id="lblGreetings"></label><br>
-        I am a visual designer,<br>
-        currently creating at <a href="https://www.kiva.org/" target="_blank">Kiva.org
-<?xml version="1.0" encoding="utf-8"?>
-          <!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            x="0px" y="0px" viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="preserve">
-            <style type="text/css"></style>
-            <polyline class="st0" points="116.7,116.7 1083.3,116.7 1083.3,1083.3 " />
-            <line class="st0" x1="1083.3" y1="116.7" x2="116.7" y2="1083.3" />
-          </svg>
-        </a>
+  <div class="studyIntro">
 
+    <div class="cssanimation sequence fadeInBottom">
 
-
-      </h1>
-      <div class="first" type="button" onclick="smoothScroll(document.getElementById('second'))">
-        <div class="ExploreStudies">
-          <h4 class="cssanimation sequence fadeInBottom">     
-          scroll
-  </h4>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- DO WE NEED CONTENT HERE? -->
-  
-
-
-  <!-- MODULES -->
-  <div class="StudiesContainer">
-    <div class="second" id="second"></div>
-
-    <h2>Studies</h2>
-    
-    
-    <a href="/2021/10/07/hello-kiva-creative-studio.html">
-        <div class="StudiesModule">
-            <div class="square"> <img src="/uploads/frame-3.png" class="image"></div>
-            <div class="StudiesInfo">
-                <h1>Hello from Kiva</h1>
-                <h4>
-                    <div>
-
-
-
-
+      <!-- POST TITLE -->
+      <div class="postTitle">
+        <div>
+          <h1>Hello from Kiva</h1><br>
+          <h4>
+            <b>
+              
+              <li>Product</li>
+              
+              <li>Brand</li>
+              
+            </b><br>
                         
-                        <li>Product</li>
-                        
-                        <li>Brand</li>
-                        
-
-
-
-
-                    </div><time class="dt-published" datetime="2021-10-07T14:30:00-07:00"
-                                itemprop="datePublished">
-                                Oct 7, 2021
-                            </time></h4>
-            </div>
-            <div>
-                <?xml version="1.0" encoding="utf-8"?>
-                <!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1200 1200"
-                    style="enable-background:new 0 0 1200 1200;" xml:space="preserve">
-                    <style type="text/css">
-
-                    </style>
-                    <polyline class="st0" points="116.7,116.7 1083.3,116.7 1083.3,1083.3 " />
-                    <line class="st0" x1="1083.3" y1="116.7" x2="116.7" y2="1083.3" />
-                </svg>
-            </div>
-        </div>
-    </a>
-    
-    
-    
-    
-    
-    <a href="/2020/04/18/other-people-literary-magazine.html">
-        <div class="StudiesModule">
-            <div class="square"> <img src="/uploads/thumbnail-01-01.png" class="image"></div>
-            <div class="StudiesInfo">
-                <h1>Other People Literary Magazine</h1>
-                <h4>
-                    <div>
-
-
-
-
-                        
-                        <li>Brand</li>
-                        
-                        <li>Product</li>
-                        
-                        <li>Developer</li>
-                        
-
-
-
-
-                    </div><time class="dt-published" datetime="2020-04-18T17:00:00-07:00"
-                                itemprop="datePublished">
-                                Apr 18, 2020
-                            </time></h4>
-            </div>
-            <div>
-                <?xml version="1.0" encoding="utf-8"?>
-                <!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1200 1200"
-                    style="enable-background:new 0 0 1200 1200;" xml:space="preserve">
-                    <style type="text/css">
-
-                    </style>
-                    <polyline class="st0" points="116.7,116.7 1083.3,116.7 1083.3,1083.3 " />
-                    <line class="st0" x1="1083.3" y1="116.7" x2="116.7" y2="1083.3" />
-                </svg>
-            </div>
-        </div>
-    </a>
-    
-    
-    
-    <a href="/2020/01/15/winter-triton-fest-2020.html">
-        <div class="StudiesModule">
-            <div class="square"> <img src="/uploads/WebUX-01.png" class="image"></div>
-            <div class="StudiesInfo">
-                <h1>Winter Triton Fest 2020</h1>
-                <h4>
-                    <div>
-
-
-
-
-                        
-                        <li>Brand</li>
-                        
-                        <li>Product</li>
-                        
-                        <li>Developer</li>
-                        
-
-
-
-
-                    </div><time class="dt-published" datetime="2020-01-15T20:00:00-08:00"
-                                itemprop="datePublished">
-                                Jan 15, 2020
-                            </time></h4>
-            </div>
-            <div>
-                <?xml version="1.0" encoding="utf-8"?>
-                <!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1200 1200"
-                    style="enable-background:new 0 0 1200 1200;" xml:space="preserve">
-                    <style type="text/css">
-
-                    </style>
-                    <polyline class="st0" points="116.7,116.7 1083.3,116.7 1083.3,1083.3 " />
-                    <line class="st0" x1="1083.3" y1="116.7" x2="116.7" y2="1083.3" />
-                </svg>
-            </div>
-        </div>
-    </a>
-    
-    
-    
-    <a href="/2019/04/05/sun-god-festival-2019.html">
-        <div class="StudiesModule">
-            <div class="square"> <img src="/uploads/731BA2F5-FD0F-47EC-843A-71AA9F7B0B3D.JPG" class="image"></div>
-            <div class="StudiesInfo">
-                <h1>Sun God Festival 2019</h1>
-                <h4>
-                    <div>
-
-
-
-
-                        
-                        <li>Brand</li>
-                        
-                        <li>Product</li>
-                        
-
-
-
-
-                    </div><time class="dt-published" datetime="2019-04-05T00:00:00-07:00"
-                                itemprop="datePublished">
-                                Apr 5, 2019
-                            </time></h4>
-            </div>
-            <div>
-                <?xml version="1.0" encoding="utf-8"?>
-                <!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1200 1200"
-                    style="enable-background:new 0 0 1200 1200;" xml:space="preserve">
-                    <style type="text/css">
-
-                    </style>
-                    <polyline class="st0" points="116.7,116.7 1083.3,116.7 1083.3,1083.3 " />
-                    <line class="st0" x1="1083.3" y1="116.7" x2="116.7" y2="1083.3" />
-                </svg>
-            </div>
-        </div>
-    </a>
-    
-    
-</div>
-  
-<div class="StudiesContainer">
-    <div class="second" id="second"></div>
-    
-    <h2>Design Challenges</h2>
             
-    <a href="/design%20challenge/2020/05/05/craigslist-redesign.html">
-        <div class="StudiesModule">
-            <div class="square"> <img src="/uploads/Thumb-01.png" class="image"></div>
-            <div class="StudiesInfo">
-                <h1>Craigslist Redesign</h1>
-                <h4>
-                    <div>
-                        
-                        <li>Brand</li>
-                        
-                        <li>Product</li>
-                        
-                    </div>
-                    <div>Design Challenge</div>
-                </h4>
-            </div>
-            <div>      <?xml version="1.0" encoding="utf-8"?>
-                <!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                     viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="preserve">
-                <style type="text/css">
-                
-                </style>
-                <polyline class="st0" points="116.7,116.7 1083.3,116.7 1083.3,1083.3 "/>
-                <line class="st0" x1="1083.3" y1="116.7" x2="116.7" y2="1083.3"/>
-                </svg></div>
+              1 min
+             read
+
+            <br>
+          </h4>
         </div>
-    </a>
-    
-</div>
+        <div class="postDate">
+          <h3><time class="dt-published" datetime="2021-10-07T14:30:00-07:00" itemprop="datePublished">
+              Oct 7, 2021
+            </time></div>
+        </h3>
+      </div>
+
+    </div>
+
+    <!-- POST BODY -->
+    <div class="studyImage">
+      <img src="/uploads/frame-3.png">
+    </div>
+    <div class="hello"></div>
+    <div class="contentBody">
+
+      <!-- PRELUDE -->
+      <h2>⁕ Prélude</h2>
+      <div class="infoModule">
+
+        <!-- MEDIUM -->
+        <div class="medium">
+          <h4>Medium</h4>
+          <p>Figma, Creative Cloud, TailWind</p>
+        </div>
+
+        <!-- ROLE -->
+        <div class="role">
+          <h4>Role</h4>
+          
+          <li>Product</li>
+          
+          <li>Brand</li>
+          
+        </div>
+
+        <!-- CATEGORY -->
+        <div class="timeframe">
+          <h4>Project timeframe</h4>
+          <p>1 year</p>
+        </div>
+
+        <!-- LINKS -->
+        <div class="link">
+          <h4>Relevant links</h4>
+          
+          <p>N/A</p>
+          
+        </div>
+
+      </div>
 
 
-  <!-- MISC -->
-  <footer>
-  <h4>Made with love by eunsoo lee  © 2021 </h4>
-  <div class="FooterLinks">
-    <h4>
-      <a href="https://www.linkedin.com/in/leeunsu/" target="_blank">  LinkedIn</a> — <a href="mailto:noteunsoo@gmail.com?subject=Hello, whaddup 😎🆒" target="_blank">Say hi 👋</a>
 
-    </h4>
-  </div>
-</footer>
+
+
+      <div class="sideInfo">
+
+<h3>Prélude</h3>
+
+  <h4>Medium</h4>
+  <p>Figma, Creative Cloud, TailWind</p>
+
+
+
+  <h4>Role</h4>
+  
+  <li>Product</li>
+  
+  <li>Brand</li>
   
 
 
+
+  <h4>Project timeframe</h4>
+  <p>1 year</p>
+
+<h4>Relevant links</h4>
+  
+</div>
+      <div id="encrypted_content">
+  <form id="encrypt_form" action="#" method="post">
+    <input id="encrypt_password"
+           type="password"
+           name="password"
+           placeholder="Password protected"
+           autofocus />
+
+    <input type="submit" value="Unlock"/>
+  </form>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+  <script>
+    document.getElementById('encrypt_form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      var passphrase = document.getElementById('encrypt_password').value,
+          encryptedMsg = '',
+          encryptedHMAC = encryptedMsg.substring(0, 64),
+          encryptedHTML = encryptedMsg.substring(64),
+          decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
+
+      if (decryptedHMAC !== encryptedHMAC) {
+        alert('Bad passphrase!');
+        return;
+      }
+
+      var plainHTML = CryptoJS.AES.decrypt(encryptedHTML, passphrase).toString(CryptoJS.enc.Utf8);
+      document.getElementById('encrypted_content').innerHTML = plainHTML;
+    });
+  </script>
+</div>
+
+    </div>
+
+    <!-- MISC -->
+    <script>
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          var distanceFromTop = $(document).scrollTop();
+          if (distanceFromTop >= $('.hello').offset().top - ($(window).height() / 4)) {
+            $('.sideInfo')
+              .fadeIn(400)
+              .addClass('fixed');
+          } else {
+            $('.sideInfo')
+              .fadeOut(400)
+              .removeClass('fixed');
+          }
+        });
+      });
+    </script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157510729-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-157510729-1');
+    </script>
+    <!-- <script>
+    $(window).scroll(function () {
+        var wScroll = $(this).scrollTop();
+        if (wScroll >= $('.hello').offset().top - ($(window).height() / 1.2)) {
+
+            $("body").css("background-color", "var(--light-text-color)");
+            $("body").css("color", "var(--background-color)");
+            $(".st0").css("stroke", "var(--background-color)");
+            $("svg").css("fill", "var(--background-color)");
+            $("headerTwo").css("background-color", "var(--light-text-color)");
+            $("headerTwo").css("color", "var(--background-color)");
+
+        } else {
+            $("body").css("background-color", "var(--background-color)");
+            $("body").css("color", "var(--light-text-color)");
+            $(".st0").css("stroke", "var(--light-text-color)");
+            $("svg").css("fill", "var(--light-text-color)");
+            $("headerTwo").css("background-color", "var(--background-color)");
+            $("headerTwo").css("color", "var(--light-text-color)");
+
+        }
+    });
+</script>
 
 <script>
     window.smoothScroll = function (target) {
@@ -710,70 +637,17 @@ if (theme === "dark") {
         // start scrolling
         scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
     }
-</script>
+</script> -->
+    <footer>
+  <h4>Made with love by eunsoo lee  © 2021 </h4>
+  <div class="FooterLinks">
+    <h4>
+      <a href="https://www.linkedin.com/in/leeunsu/" target="_blank">  LinkedIn</a> — <a href="mailto:noteunsoo@gmail.com?subject=Hello, whaddup 😎🆒" target="_blank">Say hi 👋</a>
 
-<script>
-    $(window).scroll(function () {
-        var wScroll = $(this).scrollTop();
-        if (wScroll >= $('.StudiesModule').offset().top - ($(window).height() / 1.2)) {
-            $("body").css("background-color", "var(--light-text-color)");
-            $("body").css("color", "var(--background-color)");
-            $(".st0").css("stroke", "var(--background-color)");
-            $("svg").css("fill", "var(--background-color)");
-            $("header").css("background-color", "var(--light-text-color)");
-            $("header").css("color", "var(--background-color)");
-                        $(".StudiesModule").css("border-color", "var(--border-tertiary-inverse)");
-
-        } else {
-            $("body").css("background-color", "var(--background-color)");
-            $("body").css("color", "var(--light-text-color)");
-            $(".st0").css("stroke", "var(--light-text-color)");
-            $("svg").css("fill", "var(--light-text-color)");
-            $("header").css("background-color", "var(--background-color)");
-            $("header").css("color", "var(--light-text-color)");
-                             $(".StudiesModule").css("border-color", "var(--border-tertiary)");
-        }
-    });
-</script>
-
-
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157510729-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-157510729-1');
-    </script>
+    </h4>
+  </div>
+</footer>
 
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-<script>
-  var myDate = new Date();
-  var hrs = myDate.getHours();
-
-  var greet;
-
-  if (hrs < 12)
-      greet = 'Good morning ✷';
-  else if (hrs >= 12 && hrs <= 17)
-      greet = 'Good afternoon ❊';
-  else if (hrs >= 17 && hrs <= 24)
-      greet = 'Good evening ☾';
-
-
-
-  document.getElementById('lblGreetings').innerHTML =
-      '' + greet + '';
-</script> 
