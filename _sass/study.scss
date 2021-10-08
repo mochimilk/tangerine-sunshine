@@ -134,6 +134,52 @@
     text-transform: uppercase;
     font-size: 0.7rem;
     line-height: 1.5rem;
+    background: $backgroundColor;
+  }
+
+  input[type="password"] {
+    width: 100%;
+    padding: 12px 0px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 0px;
+    background-color: transparent;
+    color: $bodyColor;
+    border-bottom: solid 2px $borderTertiary;
+    font-size: 1.5rem;
+  }
+
+  input:focus {
+    outline: none;
+    border-bottom: solid 2px;
+  }
+
+  input[type="submit"] {
+    background-color: transparent;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: $blockTwo;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+    // color: $bodyColor;
+    color: $bodyColor;
+    border-color: $borderTertiary;
+    width: 100%;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #80808035;
+    border-color: $bodyColor;
+    transition-duration: 0.3s;
   }
 }
 
@@ -323,7 +369,7 @@
   > div:nth-child(1) {
     padding-top: 0;
   }
-  >div:nth-child(3){
+  > div:nth-child(3) {
     p {
       font-size: 1.5rem;
     }
@@ -341,11 +387,10 @@
 @media only screen and (max-width: 728px) {
   .infoModule {
     > div {
-
       padding: 24px 0 24px 0;
     }
     > div:nth-child(4) {
       padding-left: 24px;
     }
-}
+  }
 }

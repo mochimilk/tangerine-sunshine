@@ -279,7 +279,15 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 
 .contentBody em { padding-bottom: 32px; }
 
-.contentBody img + em { display: table; margin: 0 auto; text-align: center; opacity: 0.8; text-transform: uppercase; font-size: 0.7rem; line-height: 1.5rem; }
+.contentBody img + em { display: table; margin: 0 auto; text-align: center; opacity: 0.8; text-transform: uppercase; font-size: 0.7rem; line-height: 1.5rem; background: var(--background-color); }
+
+.contentBody input[type="password"] { width: 100%; padding: 12px 0px; margin: 8px 0; box-sizing: border-box; border: none; border-radius: 0px; background-color: transparent; color: var(--light-text-color); border-bottom: solid 2px var(--border-tertiary); font-size: 1.5rem; }
+
+.contentBody input:focus { outline: none; border-bottom: solid 2px; }
+
+.contentBody input[type="submit"] { background-color: transparent; border-radius: 10px; border-style: solid; border-width: 1px; padding: 8px 16px; text-align: center; text-decoration: none; display: inline-block; margin-top: 16px; font-size: 0.8rem; line-height: 1.2rem; font-weight: normal; text-transform: uppercase; cursor: pointer; color: var(--light-text-color); border-color: var(--border-tertiary); width: 100%; }
+
+.contentBody input[type="submit"]:hover { background-color: #80808035; border-color: var(--light-text-color); transition-duration: 0.3s; }
 
 .studyImage { width: 100%; }
 
