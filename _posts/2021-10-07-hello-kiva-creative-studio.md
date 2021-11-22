@@ -1,5 +1,5 @@
 ---
-layout: encrypted
+layout: study
 title: Hello from Kiva
 thumb: "/uploads/frame-3.png"
 role:
@@ -15,6 +15,8 @@ timeframe: 1 year
 ---
 ## Building the design system
 
+The task of building a design system from the ground up was set in place to improve upon components that were built prior to Kiva establishing a design team. Being the first team of designers hired and headed by our creative director, Olly Farshi, we were asked to build a system that followed Kiva's brand heritage while improving upon its modernity as well as accessibility. The final product was then implemented into Tailwind css, where the system was part of a larger, cohesive conversation across all web and mobile products within Kiva.
+
 ![](/uploads/components-1.png)
 
 ![](/uploads/components-2.png)
@@ -25,8 +27,12 @@ timeframe: 1 year
 
 ### Accessibility first
 
+One of the biggest priorities when building the new design system was accessibility. We wanted to make sure that each element in our system inherently considered all of our users without having to have a secondary work around. Working with close attention to WCAG compliances, we were able to build components that were highly visible while also conveying brand and emotion that we wanted.
+
 ![](/uploads/components-5.png)
 
 ## Illustrations
+
+Wanting to better convey the emotion behind Kiva, I was tasked with creating illustrations that set a strong footing for future brand identity work. What this also enabled for us was a new way to tell our stories. These illustrations were used across both marketing and product teams. They were used in many experiences across Kiva, including socials, emails, campaigns, checkout flows, homepages, and more.
 
 ![](/uploads/icons-and-illustrations-1.png)
