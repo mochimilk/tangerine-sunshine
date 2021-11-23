@@ -41,4 +41,4 @@ Wanting to better convey the emotion behind Kiva, we also created illustrations 
 
 We also set out to make icons to go along with our illustrative style to be used across all our products.
 
-![](/uploads/icons-and-illustrations-4.png)
+![](/uploads/icons-and-illustrations-4.png)![](/uploads/icons-and-illustrations-5.png)
