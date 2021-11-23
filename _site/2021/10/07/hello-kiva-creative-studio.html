@@ -523,36 +523,37 @@ if (theme === "dark") {
 <h4>Relevant links</h4>
   
 </div>
-      <div id="encrypted_content">
-  <form id="encrypt_form" action="#" method="post">
-    <input id="encrypt_password"
-           type="password"
-           name="password"
-           placeholder="Password protected"
-           autofocus />
+      <h2 id="building-the-design-system">Building the design system</h2>
 
-    <input type="submit" value="Unlock"/>
-  </form>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
-  <script>
-    document.getElementById('encrypt_form').addEventListener('submit', function(e) {
-      e.preventDefault();
-      var passphrase = document.getElementById('encrypt_password').value,
-          encryptedMsg = '',
-          encryptedHMAC = encryptedMsg.substring(0, 64),
-          encryptedHTML = encryptedMsg.substring(64),
-          decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
+<p>The task of building a design system was set in place to improve upon components that were built prior to Kiva establishing a design team. Being the first team of designers hired and headed by our creative director, Olly Farshi, we were asked to build a system that followed Kiva’s brand heritage while improving upon its modernity as well as accessibility. The final product was then implemented into Tailwind css, where the system was part of a larger, cohesive conversation across all web and mobile products within Kiva. The elements were also added to our Figma team library as variable components.</p>
 
-      if (decryptedHMAC !== encryptedHMAC) {
-        alert('Bad passphrase!');
-        return;
-      }
+<p><img src="/uploads/components-1.png" alt="" /></p>
 
-      var plainHTML = CryptoJS.AES.decrypt(encryptedHTML, passphrase).toString(CryptoJS.enc.Utf8);
-      document.getElementById('encrypted_content').innerHTML = plainHTML;
-    });
-  </script>
-</div>
+<p><img src="/uploads/components-2.png" alt="" /></p>
+
+<p><img src="/uploads/components-4.png" alt="" /></p>
+
+<p><img src="/uploads/components-3.png" alt="" /></p>
+
+<h3 id="accessibility-first">Accessibility first</h3>
+
+<p>One of the biggest priorities when building the new design system was accessibility. We wanted to make sure that each element in our system inherently considered all of our users without having to have a secondary work around. Working with close attention to WCAG compliances, we were able to build components that were highly visible while also conveying brand and emotion that we wanted.</p>
+
+<p><img src="/uploads/components-5.png" alt="" /></p>
+
+<h2 id="illustrations">Illustrations</h2>
+
+<p>Wanting to better convey the emotion behind Kiva, we also created illustrations that set a strong footing for future brand identity work. What this also enabled for us was a new way to tell our stories. These illustrations were used across both marketing and product teams. They were used in many experiences across Kiva, including socials, emails, campaigns, checkout flows, homepages, and more.</p>
+
+<p><img src="/uploads/icons-and-illustrations-1.png" alt="" /></p>
+
+<h2 id="icons">Icons</h2>
+
+<p>We also set out to make icons to go along with our illustrative style to be used across all our products.</p>
+
+<p><img src="/uploads/icons-and-illustrations-4.png" alt="" />
+<img src="/uploads/icons-and-illustrations-5.png" alt="" /></p>
+
 
     </div>
 
