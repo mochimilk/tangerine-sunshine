@@ -1,5 +1,5 @@
 ---
-layout: encrypted
+layout: study
 title: Hello from Kiva
 thumb: "/uploads/frame-3.png"
 role:
