@@ -15,7 +15,7 @@ timeframe: In-house designer
 ---
 ## Building the design system
 
-The task of building a design system was set in place to improve upon components that were built prior to Kiva establishing a design team. Being part of the first team of designers hired and headed by our creative director, Olly Farshi, I was asked to build a system that followed Kiva's brand heritage while improving upon its modernity as well as accessibility. I worked closely with our senior product designer, Nathan Treviño, to build this. The final product was then implemented by engineering into Tailwind CSS, where the system was part of a larger, cohesive conversation across all web and mobile products at Kiva. The elements were also added to our Figma team library as variable components.
+The task of building a design system was set in place to improve upon components that were built prior to Kiva establishing a design team. Being part of the first team of designers hired and headed by our creative director, Olly Farshi, I was asked to build a system that followed Kiva's brand heritage while improving upon its modernity as well as accessibility. I worked closely with our senior product designer, Nathan Treviño, who co-built and helped bring this work to reality. The final product was then implemented by engineering into Tailwind CSS, where the system was part of a larger, cohesive conversation across all web and mobile products at Kiva. The elements were also added to our Figma team library as variable components.
 
 ![](/uploads/components-1.png)
 
