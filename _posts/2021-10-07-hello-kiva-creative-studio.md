@@ -15,7 +15,7 @@ timeframe: In-house designer
 ---
 ## Building the design system
 
-The task of building a design system was set in place to improve upon components that were built prior to Kiva establishing a design team. Being part of the first team of designers hired and headed by our creative director, Olly Farshi, I was asked to build a system that followed Kiva's brand heritage while improving upon its modernity as well as accessibility. I worked closely with our senior product designer, Nathan Treviño, who co-built and helped bring this work to reality. The final product was then implemented by engineering into Tailwind CSS, where the system was part of a larger, cohesive conversation across all web and mobile products at Kiva. The elements were also added to our Figma team library as variable components.
+The task of building a design system was set in place to improve upon components that were built prior to Kiva establishing a design team. Being part of the first team of designers hired and headed by our creative director, Olly Farshi, my role was to build a system that followed Kiva's brand heritage while improving upon its modernity as well as accessibility. I worked closely with our senior product designer, Nathan Treviño, who co-built and helped bring this work to reality. The final product was then implemented by engineering into Tailwind CSS, where the system was part of a larger, cohesive conversation across all web and mobile products at Kiva. The elements were also added to our Figma team library as variable components.
 
 ![](/uploads/components-1.png)
 
@@ -27,7 +27,7 @@ The task of building a design system was set in place to improve upon components
 
 ### Accessibility first
 
-One of the biggest priorities when building the new design system was accessibility. We wanted to make sure that each element in our system inherently considered all of our users without having to have a secondary work around. Working with close attention to WCAG compliances, I was able to build components that was highly accessible while also conveying brand and emotion that we wanted.
+One of the biggest priorities when building the new design system was accessibility. We wanted to make sure that each element in our system inherently considered all of our users without needing to have a secondary work around. Designing with close attention to WCAG compliances, I was able to build components that were highly accessible while preserving Kiva's brand and heritage.
 
 ![](/uploads/components-5.png)
 
@@ -35,7 +35,7 @@ One of the biggest priorities when building the new design system was accessibil
 
 ### Illustrations
 
-Wanting to better convey the emotion behind Kiva, I also created illustrations that set a strong footing for future brand identity work. What this also enabled for us was a new way to tell our stories. These illustrations were used across both marketing and product teams. They also were used in experiences across Kiva like socials, emails, campaigns, checkout flows, homepages, and more.
+Wanting to better express the emotion of Kiva, I was also tasked in creating illustrations that set a strong footing for future brand identity work. What this also enabled for us was a new way to tell our stories. These illustrations were used across experiences in both marketing and product teams across Kiva such — socials, emails, campaigns, checkout flows, homepages, and more.
 
 ![](/uploads/icons-and-illustrations-1.png)
 
