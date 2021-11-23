@@ -31,15 +31,24 @@ One of the biggest priorities when building the new design system was accessibil
 
 ![](/uploads/components-5.png)
 
-## Illustrations
+## Brand
+
+### Illustrations
 
 Wanting to better convey the emotion behind Kiva, we also created illustrations that set a strong footing for future brand identity work. What this also enabled for us was a new way to tell our stories. These illustrations were used across both marketing and product teams. They were used in many experiences across Kiva, including socials, emails, campaigns, checkout flows, homepages, and more.
 
 ![](/uploads/icons-and-illustrations-1.png)
 
-## Icons
+![](/uploads/icons-and-illustrations-2.png)
+
+### Icons
 
 We also set out to make icons to go along with our illustrative style to be used across all our products.
 
-![](/uploads/icons-and-illustrations-4.png)
-![](/uploads/icons-and-illustrations-5.png)
+![](/uploads/icons-and-illustrations-4.png)![](/uploads/icons-and-illustrations-5.png)
+
+### Typography
+
+![](/uploads/typography-2.png)
+
+![](/uploads/typography-1.png)
