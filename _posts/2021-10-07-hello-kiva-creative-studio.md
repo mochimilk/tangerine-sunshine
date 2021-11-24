@@ -23,7 +23,7 @@ The task of building a design system was set in place to improve upon components
 
 ![](/uploads/components-4.png)
 
-![](/uploads/components-3.png)![](/uploads/sample-screen.png)
+![](/uploads/components-3.png)
 
 ### Accessibility first
 
