@@ -23,7 +23,7 @@ The task of building a design system was set in place to improve upon components
 
 ![](/uploads/components-4.png)
 
-![](/uploads/components-3.png)
+![](/uploads/components-3.png)![](/uploads/sample-screen.png)
 
 ### Accessibility first
 
@@ -35,7 +35,7 @@ One of the biggest priorities when building the new design system was accessibil
 
 ### Illustrations
 
-Wanting to better express the emotion of Kiva, I was also tasked in creating illustrations that set a strong footing for future brand identity work. What this also enabled for us was a new way to tell our stories. These illustrations were used across experiences in both marketing and product teams across Kiva such — socials, emails, campaigns, checkout flows, homepages, and more.
+Wanting to better express the emotion of Kiva, I was also tasked in creating illustrations that set a strong footing for future brand identity work. What this also enabled for us was a new way to tell our stories. These illustrations were used across experiences in both marketing and product teams across Kiva such as socials, emails, campaigns, checkout flows, homepages, and more.
 
 ![](/uploads/icons-and-illustrations-1.png)
 
@@ -48,6 +48,8 @@ As a side project, I also set out to make icons to go along with our illustrativ
 ![](/uploads/icons-and-illustrations-4.png)![](/uploads/icons-and-illustrations-5.png)
 
 ### Typography
+
+When first coming into Kiva, our tailored font, Kiva Post Grotesque, was already built and set in place in throughout many of our experiences. Yet, at its previous state, it still had room to grow and also needed a guideline to give each style a home of its own. To improve on its look and feel, I adjusted the letter-spacing and kerning of each character to reflect current sans serif trends. With Nathan Treviño, we developed a cohesive, hierarchical set of headers and paragraph styles following Gestalt principles of design.
 
 ![](/uploads/typography-2.png)
 
