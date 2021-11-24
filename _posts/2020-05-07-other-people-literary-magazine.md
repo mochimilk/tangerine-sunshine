@@ -14,7 +14,7 @@ excerpt: Building and developing a web reader predicated on readership, modulari
 timeframe: 1 year
 
 ---
-## I. Building Brutal
+## Building Brutal
 
 The objective of this project was to build a site for Other People, a student run magazine at UC San Diego. Given both the brutalist nature of the school's architecture along with the high functionality of the art form itself, our team wanted to design a site that could live cohesively within those two spheres.
 
@@ -22,7 +22,7 @@ The objective of this project was to build a site for Other People, a student ru
 
 My role was here was to design/develop the frontend site, create a global search function, as well as implement a CMS that others on my team could easily manage.
 
-## II. Research
+## Research
 
 One of the things that drew us into creating a brutalist design for Other People was that it allowed for minimal distractions and prioritized the readership/viewership of student work. It also made the process of building a modular design system much easuer. Having these modules/components enabled the designers and developers to build more quickly while maintaining the brand identity.
 
@@ -32,7 +32,7 @@ Below is a wireframe of our initial ideation of the site, along with inspiration
 
 ![](/uploads/Screen Shot 2020-05-09 at 3.54.52 PM.png)
 
-## III. Brand
+## Brand
 
 ### Logo
 ![](/uploads/56E20A87-FC33-4B52-9B77-0669479E46D3.JPG)
@@ -40,7 +40,7 @@ Below is a wireframe of our initial ideation of the site, along with inspiration
 ### Typography
 ![](/uploads/basier-font-06.jpg)![](/uploads/basier-font-03.jpg)_[Basier](https://www.atipofoundry.com/fonts/basier) by Atipo Foundry_
 
-## IV. Final Product
+## Final Product
 ### Homepage
 The final product showcases touts its brutalist aesthetics and functionality throughout the site. Even from when the user lands on the page, to dropping down the menu, they are met with rich, bold text that directs them directly to the core of the experiece, the student content itself.
 
