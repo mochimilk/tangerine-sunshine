@@ -53,4 +53,4 @@ When first coming into Kiva, our tailored font, Kiva Post Grotesque, was already
 
 ![](/uploads/typography-2.png)
 
-![](/uploads/typography-1.png)
+![](/uploads/typography-1.png)![](/uploads/sample-screen-1.png)
