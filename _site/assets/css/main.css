@@ -1,7 +1,7 @@
 @charset "UTF-8";
-::selection { background: #bea36f; /* WebKit/Blink Browsers */ }
+::selection { background: rgba(252, 153, 255, 0.5); /* WebKit/Blink Browsers */ }
 
-::-moz-selection { background: #bea36f; /* Gecko Browsers */ }
+::-moz-selection { background: rgba(252, 153, 255, 0.5); /* Gecko Browsers */ }
 
 body { background: var(--background-color); color: var(--light-text-color); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; transition: background-color 0.3s ease-in-out; }
 
