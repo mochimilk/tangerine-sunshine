@@ -119,12 +119,14 @@ headerTwo {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: $olive;
+    // background-color: $olive;
     // background-color: rgb(247, 245, 238);
     color: $dropdowntext;
     // background: linear-gradient(180deg, rgb(234, 91, 247), rgb(108, 255, 211));
     // color: yellow;
     // text-shadow: 0px 0px 8px rgb(102, 102, 102);
+    background: rgb(244,219,230);
+    background: radial-gradient(circle, rgba(244,219,230,1) 0%, rgba(226,239,255,1) 100%);
     overflow-x: hidden;
     transition: 0.3s;
 

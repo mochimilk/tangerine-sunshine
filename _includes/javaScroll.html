@@ -1,27 +1,23 @@
-
-
-
-
 <script>
     window.smoothScroll = function (target) {
         var scrollContainer = target;
         do { //find scroll container
             scrollContainer = scrollContainer.parentNode;
-            if (!scrollContainer) 
+            if (!scrollContainer)
                 return;
             scrollContainer.scrollTop += 1;
         } while (scrollContainer.scrollTop == 0);
 
         var targetY = 0;
         do { //find the top of target relatively to the container
-            if (target == scrollContainer) 
+            if (target == scrollContainer)
                 break;
             targetY += target.offsetTop;
         } while (target = target.offsetParent);
 
         scroll = function (c, a, b, i) {
             i++;
-            if (i > 10) 
+            if (i > 10)
                 return;
             c.scrollTop = a + (b - a) / 10 * i;
             setTimeout(function () {
@@ -40,20 +36,30 @@
             $("body").css("background-color", "var(--light-text-color)");
             $("body").css("color", "var(--background-color)");
             $(".st0").css("stroke", "var(--background-color)");
+
+            // $(".IndexIntro a:after").css("stroke", "var(--light-text-color");
+
+
             $("svg").css("fill", "var(--background-color)");
             $("header").css("background-color", "var(--light-text-color)");
             $("header").css("color", "var(--background-color)");
-                        $(".StudiesModule").css("border-color", "var(--border-tertiary-inverse)");
+            $(".StudiesModule").css("border-color", "var(--border-tertiary-inverse)");
+            $("div.IndexContainer a").css("color","var(--background-color)")
 
         } else {
             $("body").css("background-color", "var(--background-color)");
             $("body").css("color", "var(--light-text-color)");
             $(".st0").css("stroke", "var(--light-text-color)");
+
+            
+            // $(".IndexIntro a:after").css("stroke", "var(--background-color)");
+
+
             $("svg").css("fill", "var(--light-text-color)");
             $("header").css("background-color", "var(--background-color)");
             $("header").css("color", "var(--light-text-color)");
-                             $(".StudiesModule").css("border-color", "var(--border-tertiary)");
+            $(".StudiesModule").css("border-color", "var(--border-tertiary)");
+            $("div.IndexContainer a").css("color","var(--light-text-color)")
         }
     });
 </script>
-

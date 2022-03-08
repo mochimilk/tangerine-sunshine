@@ -272,7 +272,7 @@
 
 
         <footer>
-  <h4>Made with love by eunsoo lee  © 2021 </h4>
+  <h4>Made with love by eunsoo lee  © 2022 </h4>
   <div class="FooterLinks">
     <h4>
       <a href="https://www.linkedin.com/in/leeunsu/" target="_blank">  LinkedIn</a> — <a href="mailto:noteunsoo@gmail.com?subject=Hello, whaddup 😎🆒" target="_blank">Say hi 👋</a>
@@ -416,7 +416,7 @@ if (theme === "dark") {
       <h1 class="cssanimation sequence fadeInBottom">
         <label id="lblGreetings"></label><br>
         I am a visual designer,<br>
-        currently creating at <a href="https://www.kiva.org/" target="_blank">Kiva.org
+        currently at <a href="https://www.hulu.com/" target="_blank">Hulu
 <?xml version="1.0" encoding="utf-8"?>
           <!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -669,7 +669,7 @@ if (theme === "dark") {
 
   <!-- MISC -->
   <footer>
-  <h4>Made with love by eunsoo lee  © 2021 </h4>
+  <h4>Made with love by eunsoo lee  © 2022 </h4>
   <div class="FooterLinks">
     <h4>
       <a href="https://www.linkedin.com/in/leeunsu/" target="_blank">  LinkedIn</a> — <a href="mailto:noteunsoo@gmail.com?subject=Hello, whaddup 😎🆒" target="_blank">Say hi 👋</a>
@@ -677,30 +677,26 @@ if (theme === "dark") {
     </h4>
   </div>
 </footer>
-  
-
-
-
-<script>
+  <script>
     window.smoothScroll = function (target) {
         var scrollContainer = target;
         do { //find scroll container
             scrollContainer = scrollContainer.parentNode;
-            if (!scrollContainer) 
+            if (!scrollContainer)
                 return;
             scrollContainer.scrollTop += 1;
         } while (scrollContainer.scrollTop == 0);
 
         var targetY = 0;
         do { //find the top of target relatively to the container
-            if (target == scrollContainer) 
+            if (target == scrollContainer)
                 break;
             targetY += target.offsetTop;
         } while (target = target.offsetParent);
 
         scroll = function (c, a, b, i) {
             i++;
-            if (i > 10) 
+            if (i > 10)
                 return;
             c.scrollTop = a + (b - a) / 10 * i;
             setTimeout(function () {
@@ -719,24 +715,33 @@ if (theme === "dark") {
             $("body").css("background-color", "var(--light-text-color)");
             $("body").css("color", "var(--background-color)");
             $(".st0").css("stroke", "var(--background-color)");
+
+            // $(".IndexIntro a:after").css("stroke", "var(--light-text-color");
+
+
             $("svg").css("fill", "var(--background-color)");
             $("header").css("background-color", "var(--light-text-color)");
             $("header").css("color", "var(--background-color)");
-                        $(".StudiesModule").css("border-color", "var(--border-tertiary-inverse)");
+            $(".StudiesModule").css("border-color", "var(--border-tertiary-inverse)");
+            $("div.IndexContainer a").css("color","var(--background-color)")
 
         } else {
             $("body").css("background-color", "var(--background-color)");
             $("body").css("color", "var(--light-text-color)");
             $(".st0").css("stroke", "var(--light-text-color)");
+
+            
+            // $(".IndexIntro a:after").css("stroke", "var(--background-color)");
+
+
             $("svg").css("fill", "var(--light-text-color)");
             $("header").css("background-color", "var(--background-color)");
             $("header").css("color", "var(--light-text-color)");
-                             $(".StudiesModule").css("border-color", "var(--border-tertiary)");
+            $(".StudiesModule").css("border-color", "var(--border-tertiary)");
+            $("div.IndexContainer a").css("color","var(--light-text-color)")
         }
     });
 </script>
-
-
       <!-- Global site tag (gtag.js) - Google Analytics -->
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157510729-1"></script>
