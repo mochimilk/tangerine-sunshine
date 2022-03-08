@@ -129,7 +129,7 @@ headerTwo ul { display: flex; justify-content: space-between; list-style-type: n
 
 a:visited, a:link { text-decoration: none; }
 
-.StudiesModule { display: grid; grid-template-columns: 30% 50% 20%; border-style: solid; border-width: 1px 0 0 0; padding-top: 32px; padding-bottom: 64px; color: var(--background-color); }
+.StudiesModule { filter: grayscale(100%); display: grid; grid-template-columns: 30% 50% 20%; border-style: solid; border-width: 1px 0 0 0; padding-top: 32px; padding-bottom: 64px; color: var(--background-color); }
 
 .StudiesModule :nth-child(3) { margin-left: auto; margin-right: 0; }
 
@@ -139,7 +139,7 @@ a:visited, a:link { text-decoration: none; }
 
 .StudiesModule li:nth-child(n + 2):before { content: "– "; }
 
-.StudiesModuleTwo { display: grid; grid-template-columns: 30% 50% 20%; border-style: solid; border-width: 1px 0 0 0; padding-top: 32px; padding-bottom: 32px; color: #46373e; border-color: var(--border-tertiary); }
+.StudiesModuleTwo { filter: grayscale(100%); display: grid; grid-template-columns: 30% 50% 20%; border-style: solid; border-width: 1px 0 0 0; padding-top: 32px; padding-bottom: 32px; color: #46373e; border-color: var(--border-tertiary); }
 
 .StudiesModuleTwo :nth-child(3) { margin-left: auto; margin-right: 0; }
 
@@ -153,11 +153,15 @@ svg { width: 30px; }
 
 svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 
+.StudiesModule:hover { filter: grayscale(0%); }
+
 .StudiesModule:hover h1 { text-decoration: underline; }
 
 .StudiesModule:hover svg { transform: rotate(45deg); transition-duration: 0.1s; }
 
 .StudiesModule:hover img { transform: scale(0.95); transition-duration: 0.5s; }
+
+.StudiesModuleTwo:hover { filter: grayscale(0%); }
 
 .StudiesModuleTwo:hover h1 { text-decoration: underline; }
 
