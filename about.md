@@ -17,5 +17,4 @@ In my free time I like to write, play games, and listen to music. I am also a do
 <a href="https://blacktranslivesmatter.carrd.co" target="_blank"> <button class="button"> 🏳️‍⚧️ Support black trans lives </button> </a>
 
 <a href="https://help-ukraine.carrd.co/" target="_blank">
-<button class="button">
-![🇺🇦](https://s.w.org/images/core/emoji/13.0.1/svg/1f1fa-1f1e6.svg)![🇺🇦](https://s.w.org/images/core/emoji/13.0.1/svg/1f1fa-1f1e6.svg)🤝 Support Ukraine </button> </a>
+<button class="button"> 🤝 Support Ukraine </button> </a>
