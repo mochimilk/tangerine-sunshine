@@ -123,11 +123,11 @@ transition-timing-function: ease-out;
 
 @media screen and (min-width: 2400px) {
     .IndexIntro {
-        width: 65%;
+        max-width: 1472px;
         margin: auto;
     }
     body {
         margin: auto;
-        width: 70%;
+        max-width: 1600px;
     }
 }

@@ -13,7 +13,7 @@ h2 { font-size: 2.5rem; font-weight: 400; }
 
 h3 { font-size: 1.8rem; font-weight: 400; opacity: 0.55; }
 
-h4 { padding: 0; margin: 0; margin-top: 0px; font-size: 0.8rem; line-height: 1.2rem; font-weight: normal; text-transform: uppercase; }
+h4 { padding: 0; margin: 0; margin-top: 0px; font-size: .8rem; line-height: 1.2rem; font-weight: normal; text-transform: uppercase; }
 
 p { font-size: 1rem; line-height: 200%; font-weight: normal; }
 
@@ -119,17 +119,17 @@ headerTwo ul { display: flex; justify-content: space-between; list-style-type: n
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .IndexIntro { margin-top: 256px; padding: 0 32px 0 32px; bottom: 32px; } .IndexIntro a { text-decoration: underline !important; } .IndexIntro a:hover { text-decoration: none !important; } .IndexIntro a:after { display: none; } .ExploreStudies { margin-top: 32px; } }
 
-@media screen and (min-width: 2400px) { .IndexIntro { width: 65%; margin: auto; } body { margin: auto; width: 70%; } }
+@media screen and (min-width: 2400px) { .IndexIntro { max-width: 1472px; margin: auto; } body { margin: auto; max-width: 1600px; } }
 
 .StudiesContainer { padding: 0 64px 0 64px; margin-top: 64px; }
 
 .StudiesContainer h2 { padding-top: 64px; margin-bottom: 16px; }
 
-.StudiesContainer h3 { padding-top: 16px; opacity: 0.3; }
+.StudiesContainer h3 { padding-top: 16px; }
 
 a:visited, a:link { text-decoration: none; }
 
-.StudiesModule { filter: grayscale(100%); display: grid; grid-template-columns: 30% 50% 20%; border-style: solid; border-width: 1px 0 0 0; padding-top: 32px; padding-bottom: 64px; color: var(--background-color); }
+.StudiesModule { filter: saturate(30%); display: grid; grid-template-columns: 30% 50% 20%; border-style: solid; border-width: 1px 0 0 0; padding-top: 32px; padding-bottom: 128px; color: var(--background-color); }
 
 .StudiesModule :nth-child(3) { margin-left: auto; margin-right: 0; }
 
@@ -139,7 +139,7 @@ a:visited, a:link { text-decoration: none; }
 
 .StudiesModule li:nth-child(n + 2):before { content: "– "; }
 
-.StudiesModuleTwo { filter: grayscale(100%); display: grid; grid-template-columns: 30% 50% 20%; border-style: solid; border-width: 1px 0 0 0; padding-top: 32px; padding-bottom: 32px; color: #46373e; border-color: var(--border-tertiary); }
+.StudiesModuleTwo { filter: saturate(30%); display: grid; grid-template-columns: 30% 70%; border-style: solid; border-width: 1px 0 0 0; padding-top: 32px; padding-bottom: 128px; color: #46373e; border-color: #181818; }
 
 .StudiesModuleTwo :nth-child(3) { margin-left: auto; margin-right: 0; }
 
@@ -203,7 +203,7 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .StudiesContainer { padding: 0 32px 0 32px; } .StudiesContainer h2 { margin-bottom: 32px; } .StudiesModule, .StudiesModuleTwo { display: grid; grid-template-columns: 1fr; } .StudiesModule svg, .StudiesModuleTwo svg { margin-bottom: -32px; } .StudiesInfo { margin-top: 16px; position: relative; margin-left: 0; } .StudiesInfo h4 { position: relative; padding: 32px 0 32px 0; } .square img { height: 512px; /* height of container */ } .studiesMenu { margin-top: 64px; } }
 
-@media screen and (min-width: 2400px) { .studiesMenu { padding-top: 128px; width: 70%; margin: auto; } }
+@media screen and (min-width: 2400px) { .studiesMenu { padding-top: 128px; max-width: 1600px; margin: auto; } .StudiesModule img, .StudiesModuleTwo img { height: 280px; } }
 
 .aboutContainer { display: grid; grid-template-columns: 60% 40%; padding: 0 64px 0 64px; margin-top: 16px; }
 
