@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Hello
+title: Hi, I'm Eunsoo
 image: "/uploads/img_3572.JPG"
 
 ---
