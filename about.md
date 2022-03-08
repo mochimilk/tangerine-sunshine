@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Hello
-image: ''
+image: "/uploads/img_3572.JPG"
 
 ---
 I am a visual designer, currently based in Los Angeles, CA. Though my career in design roots predominately from illustrative art, I found an affinity for product design and dev during my two years as a literature & writing major at UC San Diego. My first design job was as a student designer at [Associated Students Graphic Studio](https://asgraphicstudio.ucsd.edu "AS Graphic Studio"), where I had the opportunity to design for events like Triton Fest and Sun God Festival. I was also the creative co-director of [Other People](otherpeoplesd.com "Other People"), a student-run literary magazine on campus.
