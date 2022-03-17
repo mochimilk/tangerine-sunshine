@@ -60,7 +60,7 @@ headerTwo ul { display: flex; justify-content: space-between; list-style-type: n
 
 .overlay::-webkit-scrollbar { display: none; }
 
-.overlay { -ms-overflow-style: none; /* IE and Edge */ scrollbar-width: none; /* Firefox */ backdrop-filter: blur(10px); background-color: rgba(48, 48, 48, 0.7); height: 0%; width: 100%; position: fixed; z-index: 1; top: 0; left: 0; color: #ffffff; overflow-x: hidden; transition: 0.3s; }
+.overlay { -ms-overflow-style: none; /* IE and Edge */ scrollbar-width: none; /* Firefox */ backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); background-color: rgba(48, 48, 48, 0.7); height: 0%; width: 100%; position: fixed; z-index: 1; top: 0; left: 0; color: #ffffff; overflow-x: hidden; transition: 0.3s; }
 
 .overlay ul { display: flex; justify-content: space-between; list-style-type: none; margin: 0; padding: 0; cursor: pointer; }
 

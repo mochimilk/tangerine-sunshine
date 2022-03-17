@@ -113,6 +113,7 @@ headerTwo {
     scrollbar-width: none;  /* Firefox */
   
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     background-color: rgba(48, 48, 48, 0.7);
 
     height: 0%;
