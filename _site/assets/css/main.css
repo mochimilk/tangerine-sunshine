@@ -60,19 +60,19 @@ headerTwo ul { display: flex; justify-content: space-between; list-style-type: n
 
 .overlay::-webkit-scrollbar { display: none; }
 
-.overlay { -ms-overflow-style: none; /* IE and Edge */ scrollbar-width: none; /* Firefox */ height: 0%; width: 100%; position: fixed; z-index: 1; top: 0; left: 0; color: #46373e; background: #f4dbe6; background: radial-gradient(circle, #f4dbe6 0%, #e2efff 100%); overflow-x: hidden; transition: 0.3s; }
+.overlay { -ms-overflow-style: none; /* IE and Edge */ scrollbar-width: none; /* Firefox */ backdrop-filter: blur(10px); background-color: rgba(48, 48, 48, 0.7); height: 0%; width: 100%; position: fixed; z-index: 1; top: 0; left: 0; color: #ffffff; overflow-x: hidden; transition: 0.3s; }
 
 .overlay ul { display: flex; justify-content: space-between; list-style-type: none; margin: 0; padding: 0; cursor: pointer; }
 
 .overlay-content { position: absolute; display: grid; grid-template-columns: 1fr 1fr 1fr; line-height: 0.8; padding: 64px; left: 0; right: 0; }
 
-.overlay-content a { color: #46373e; }
+.overlay-content a { color: #ffffff; }
 
 .closebtn { margin-left: auto; margin-right: 0; }
 
 .closebtn svg { width: 20px; transform: rotate(45deg); }
 
-.closebtn circle { fill: #46373e; }
+.closebtn circle { fill: #ffffff; }
 
 @media only screen and (max-width: 728px) { body { padding-top: 120px; } header, headerTwo { padding: 16px; grid-template-columns: 1fr 1fr; } .nav { display: none; } .overlay-content { grid-template-columns: 1fr 1fr; padding: 16px; left: 0; right: 0; } }
 
@@ -139,7 +139,7 @@ a:visited, a:link { text-decoration: none; }
 
 .StudiesModule li:nth-child(n + 2):before { content: "– "; }
 
-.StudiesModuleTwo { filter: saturate(30%); display: grid; grid-template-columns: 30% 70%; border-style: solid; border-width: 1px 0 0 0; padding-top: 32px; padding-bottom: 128px; color: #46373e; border-color: #181818; }
+.StudiesModuleTwo { filter: saturate(30%); display: grid; grid-template-columns: 30% 70%; border-style: solid; border-width: 1px 0 0 0; padding-top: 32px; padding-bottom: 128px; color: #ffffff; border-color: #ffffff; }
 
 .StudiesModuleTwo :nth-child(3) { margin-left: auto; margin-right: 0; }
 
@@ -187,7 +187,7 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 
 .studiesMenu h4 { margin-top: 8px; }
 
-.studiesMenu a { color: #46373e; }
+.studiesMenu a { color: #ffffff; }
 
 .studiesMenu a:hover { text-decoration: underline; }
 
@@ -197,7 +197,7 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 
 .mobileNav h1 { margin: 0; padding-top: 8px; }
 
-.mobileNav a { color: #46373e; }
+.mobileNav a { color: #ffffff; }
 
 @media only screen and (max-width: 728px) { .StudiesContainer { padding: 0 16px 0 16px; } .StudiesContainer h2 { margin-bottom: 16px; } .StudiesModule, .StudiesModuleTwo { display: grid; grid-template-columns: 1fr; padding-bottom: 64px; } .StudiesModule svg, .StudiesModuleTwo svg { margin-bottom: -32px; display: none; } .StudiesInfo { margin-top: 32px; position: relative; margin-left: 0; } .StudiesInfo h4 { position: relative; padding: 16px 0 16px 0; } .studiesMenu { margin-top: 64px; } .studiesMenu h2 { margin-bottom: 16px; } ul.nav { display: none; } }
 
