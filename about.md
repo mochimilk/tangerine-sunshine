@@ -13,9 +13,3 @@ From 2020-2022, I was a Visual Designer at [Kiva](Kiva.org "https://kiva.org"), 
 I am currently a Visual Designer at [Hulu](https://hulu.com "Hulu").
 
 In my free time I like to write, play games, and listen to music. I am also a dog person and a tea lover.
-
-<br>
-<a href="https://blacktranslivesmatter.carrd.co" target="_blank"> <button class="button"> 🏳️‍⚧️ Support black trans lives </button> </a>
-
-<a href="https://help-ukraine.carrd.co/" target="_blank">
-<button class="button"> 🤝 Support Ukraine </button> </a>
