@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Hi, I'm Eunsoo
-image: "/uploads/img_3572.JPG"
+image: "/uploads/864f8a13-887e-420c-8f5b-c97b0dab158a.JPG"
 
 ---
 ### (she/her)
