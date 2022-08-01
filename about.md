@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Design, destroy, delineate.
-image: "/uploads/864f8a13-887e-420c-8f5b-c97b0dab158a.JPG"
+image: "/uploads/img_7878.jpg"
 
 ---
 ### (she/her)
