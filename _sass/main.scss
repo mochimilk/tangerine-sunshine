@@ -8,8 +8,10 @@ $backgroundColor: var(--background-color);
 $bodyColor: var(--light-text-color);
 $borderTertiary: var(--border-tertiary);
 $borderTertiaryInverse: var(--border-tertiary-inverse);
+$blackOpacity10: var(--black-opacity-10);
+$blackOpacity30: var(--black-opacity-30);
 
-$dropdowntext: #ffffff;
+$dropdowntext: #181818;
 // $dropdowntext: rgb(247, 245, 238);
 // $dropdowntext:  rgb(80, 119, 82);
 $bodyFont: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
@@ -111,6 +113,8 @@ html[data-theme="light"] {
   --main-text-color: rgb(51, 51, 51);
   --border-tertiary: rgba(24,24,24, 0.3);
   --border-tertiary-inverse: rgba(247, 245, 238, 0.3);
+  --black-opacity-10: #18181810;
+  --black-opacity-30: #18181830;
 
 }
 
@@ -122,6 +126,8 @@ html[data-theme="dark"] {
   --main-text-color: rgb(229, 229, 234);
   --border-tertiary: rgba(247, 245, 238, 0.3);
   --border-tertiary-inverse: rgba(24,24,24, 0.3);
+  --black-opacity-10: #ffffff10;
+  --black-opacity-30: #ffffff30;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -134,6 +140,9 @@ html[data-theme="dark"] {
     --main-text-color: rgb(229, 229, 234);
     --border-tertiary: rgba(247, 245, 238, 0.3);
     --border-tertiary-inverse: rgba(24,24,24, 0.3);
+    --black-opacity-10: #ffffff10;
+    --black-opacity-30: #ffffff30;
+  
   }
 
   html[data-theme="light"] {
@@ -144,6 +153,8 @@ html[data-theme="dark"] {
     --main-text-color: rgb(51, 51, 51);
     --border-tertiary: rgba(24,24,24, 0.3);
     --border-tertiary-inverse: rgba(247, 245, 238, 0.3);
+    --black-opacity-10: #18181810;
+    --black-opacity-30: #18181830;
   }
 }
 

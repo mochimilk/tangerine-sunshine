@@ -4,10 +4,11 @@
 // }
 
 .StudiesContainer {
-  padding: 0 $blockFour 0 $blockFour;
+  padding: $blockFour;
   margin-top: $blockFour;
-  h2 {
-    padding-top: $blockFour;
+  background-color: $blackOpacity10;
+  h4 {
+
     margin-bottom: $blockTwo;
   }
   h3 {
@@ -24,14 +25,14 @@ a:link {
 }
 
 .StudiesModule {
-  filter: saturate(30%);
+  filter: saturate(0%);
   display: grid;
   grid-template-columns: 30% 50% 20%;
-  border-style: solid;
-  border-width: 1px 0 0 0;
-  padding-top: $blockThree;
-  padding-bottom: $blockFive;
-  color: $backgroundColor;
+
+  border-top: solid 1px $blackOpacity30 ;
+  padding-top: $blockFour;
+  padding-bottom: $blockFour;
+  color: $bodyColor;
   :nth-child(3) {
     margin-left: auto;
     margin-right: 0;
@@ -54,10 +55,14 @@ a:link {
   li:nth-child(n + 2):before {
     content: $symbol;
   }
+  img{
+    border-radius: 10px 60px;
+    opacity: .8;
+  }
 }
 
 .StudiesModuleTwo {
-  filter: saturate(30%);
+  filter: saturate(0%);
   display: grid;
   grid-template-columns: 30% 70%;
   border-style: solid;
@@ -87,12 +92,16 @@ a:link {
   li:nth-child(n + 2):before {
     content: $symbol;
   }
+  img {
+    border-radius: 10px 60px;
+  }
 }
 
 svg {
   width: 30px;
   .st0 {
     fill: none;
+    stroke: $bodyColor;
     stroke-width: 10rem;
     stroke-miterlimit: 100;
   }
@@ -194,7 +203,7 @@ svg {
 
 @media only screen and (max-width: 728px) {
   .StudiesContainer {
-    padding: 0 $blockTwo 0 $blockTwo;
+    padding: $blockFour $blockTwo;
     h2 {
       margin-bottom: $blockTwo;
     }
@@ -204,7 +213,7 @@ svg {
   .StudiesModuleTwo {
     display: grid;
     grid-template-columns: 1fr;
-    padding-bottom: $blockFour;
+    padding-bottom: $blockTwo;
     svg {
       margin-bottom: -$blockThree;
       display: none;
@@ -235,7 +244,7 @@ svg {
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
   .StudiesContainer {
-    padding: 0 $blockThree 0 $blockThree;
+    padding: $blockFour $blockThree;
     h2 {
       margin-bottom: $blockThree;
     }
@@ -272,14 +281,18 @@ svg {
 }
 
 @media screen and (min-width: 2400px) {
+
+
   .studiesMenu {
     padding-top: $blockFive;
     max-width: 1600px;
     margin: auto;
   }
   .StudiesModule, .StudiesModuleTwo {
+
     img {
       height: 280px;
+
     }
   }
 }

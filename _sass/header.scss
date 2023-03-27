@@ -112,11 +112,12 @@ headerTwo {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   
-    backdrop-filter: blur(33px);
-    -webkit-backdrop-filter: blur(33x);
-    background-blend-mode: overlay;
+    // backdrop-filter: blur(33px);
+    // -webkit-backdrop-filter: blur(33x);
+    // background-blend-mode: overlay;
+    // background-color: rgba(48, 48, 48, 0.7);
+    background-color: #28e285;
 
-    background-color: rgba(48, 48, 48, 0.7);
     height: 0%;
     width: 100%;
     position: fixed;
