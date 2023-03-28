@@ -14,6 +14,6 @@ From 2020-2022, I designed for [Kiva](Kiva.org "https://kiva.org"), working to h
 
 I am currently at [Hulu](https://hulu.com "Hulu"), pushing for a bold, clean, fun aesthetic across brand and product.
 
-In my free time I like to write, play games, and listen to music.
+In my free time I like writing, coding, playing games, and listening to music.
 
 TRANS AF ✦ API AF ✦ TRASH AF
