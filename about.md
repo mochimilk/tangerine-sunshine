@@ -1,9 +1,10 @@
 ---
 layout: about
 title: Trash.
-image: "/uploads/trash.JPG"
-
+image: /uploads/trash.JPG
+_template: about
 ---
+
 ### (she/her)
 
 All good things come from waste.

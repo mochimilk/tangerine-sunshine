@@ -1,19 +1,21 @@
 ---
 title: Other People Literary Magazine
 role:
-- Brand
-- Product
-- Developer
-thumb: "/uploads/thumbnail-01-01.png"
-date: 2020-04-19 00:00:00 +0000
+  - Brand
+  - Product
+  - Developer
+thumb: /uploads/thumbnail-01-01.png
+date: '2020-04-19 00:00:00 +0000'
 layout: study
-medium: Creative Cloud, Figma, Jekyll, Sass
-link: https://otherpeoplesd.com/
-excerpt: Building and developing a web reader predicated on readership, modularity,
-  and management
+medium: 'Creative Cloud, Figma, Jekyll, Sass'
+link: 'https://otherpeoplesd.com/'
+excerpt: >-
+  Building and developing a web reader predicated on readership, modularity, and
+  management
 timeframe: 1 year
-
+_template: studies
 ---
+
 ## Building Brutal
 
 The objective of this project was to build a site for Other People, a student run magazine at UC San Diego. Given both the brutalist nature of the school's architecture along with the high functionality of the art form itself, our team wanted to design a site that could live cohesively within those two spheres.

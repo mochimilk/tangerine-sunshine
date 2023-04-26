@@ -1,18 +1,19 @@
 ---
 layout: study
 title: Hello from Kiva
-thumb: "/uploads/frame-3.png"
+thumb: /uploads/frame-3.png
 role:
-- Product
-- Brand
+  - Product
+  - Brand
 category: ''
-date: 2021-10-07 21:30:00 +0000
-medium: Figma, Creative Cloud, TailWind
+date: '2021-10-07 21:30:00 +0000'
+medium: 'Figma, Creative Cloud, TailWind'
 excerpt: ''
 link: ''
 timeframe: In-house designer
-
+_template: studies
 ---
+
 ## Building the design system
 
 The task of building a design system was set in place to improve upon components that were built prior to Kiva establishing a design team. Being part of the first team of designers hired and headed by our creative director, Olly Farshi, my role was to build a system that followed Kiva's brand heritage while improving upon its modernity as well as accessibility. I worked closely with our senior product designer, Nathan Treviño, who co-built and helped bring this work to reality. The final product was then implemented by engineering into Tailwind CSS, where the system was part of a larger, cohesive conversation across all web and mobile products at Kiva. The elements were also added to our Figma team library as variable components.

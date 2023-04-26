@@ -121,13 +121,43 @@ headerTwo ul { display: flex; justify-content: space-between; list-style-type: n
 
 @media screen and (min-width: 2400px) { .IndexIntro { max-width: 1472px; margin: auto; } body { margin: auto; max-width: 1600px; } }
 
-.StudiesContainer { padding: 64px; margin-top: 64px; background-color: var(--black-opacity-10); }
+.StudiesContainer { padding: 64px; background-color: var(--black-opacity-10); }
 
 .StudiesContainer h4 { margin-bottom: 16px; }
 
 .StudiesContainer h3 { padding-top: 16px; }
 
 a:visited, a:link { text-decoration: none; }
+
+.CarouselModule { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 32px; }
+
+.CarouselComponent { filter: saturate(0%); display: grid; grid-template-columns: 1fr; border-top: solid 1px var(--black-opacity-30); padding-top: 64px; color: var(--light-text-color); }
+
+.CarouselComponent :nth-child(3) { margin-left: auto; margin-right: 0; }
+
+.CarouselComponent h1 { text-decoration: none; font-size: 32px; }
+
+.CarouselComponent li { list-style-type: none; margin: 0; display: inline-block; font-size: .8rem; }
+
+.CarouselComponent li:nth-child(n + 2):before { content: "– "; }
+
+.CarouselComponent img { opacity: .8; border-radius: .5rem 2rem; }
+
+.CarouselComponent:hover { filter: grayscale(0%); }
+
+.CarouselComponent:hover h1 { text-decoration: underline; }
+
+.CarouselComponent:hover svg { transform: rotate(45deg); transition-duration: 0.1s; }
+
+.CarouselComponent:hover img { transform: scale(0.95); transition-duration: 0.5s; }
+
+.CarouselInfo { position: relative; margin-top: 32px; }
+
+.CarouselInfo h4 { margin-top: 8px; }
+
+.CarouselInfo h4 :nth-child(1) { font-weight: bold; }
+
+.CarouselInfo h4 div { margin: 0; padding: 0; line-height: 1.2rem; }
 
 .StudiesModule { filter: saturate(0%); display: grid; grid-template-columns: 30% 50% 20%; border-top: solid 1px var(--black-opacity-30); padding-top: 64px; padding-bottom: 64px; color: var(--light-text-color); }
 
@@ -203,9 +233,9 @@ svg .st0 { fill: none; stroke: var(--light-text-color); stroke-width: 10rem; str
 
 .mobileNav a { color: #181818; }
 
-@media only screen and (max-width: 728px) { .StudiesContainer { padding: 64px 16px; } .StudiesContainer h2 { margin-bottom: 16px; } .StudiesModule, .StudiesModuleTwo { display: grid; grid-template-columns: 1fr; padding-bottom: 16px; } .StudiesModule svg, .StudiesModuleTwo svg { margin-bottom: -32px; display: none; } .StudiesInfo { margin-top: 32px; position: relative; margin-left: 0; } .StudiesInfo h4 { position: relative; padding: 16px 0 16px 0; } .studiesMenu { margin-top: 64px; } .studiesMenu h2 { margin-bottom: 16px; } ul.nav { display: none; } }
+@media only screen and (max-width: 728px) { .StudiesContainer { padding: 64px 16px; } .StudiesContainer h2 { margin-bottom: 16px; } .CarouselModule { display: grid; grid-template-columns: 1fr; } .CarouselInfo { margin-top: 32px; position: relative; margin-left: 0; } .CarouselInfo h4 { position: relative; padding: 16px 0 16px 0; } .StudiesModule, .StudiesModuleTwo { display: grid; grid-template-columns: 1fr; padding-bottom: 16px; } .StudiesModule svg, .StudiesModuleTwo svg { margin-bottom: -32px; display: none; } .StudiesInfo { margin-top: 32px; position: relative; margin-left: 0; } .StudiesInfo h4 { position: relative; padding: 16px 0 16px 0; } .studiesMenu { margin-top: 64px; } .studiesMenu h2 { margin-bottom: 16px; } ul.nav { display: none; } }
 
-@media only screen and (max-width: 1024px) and (min-width: 729px) { .StudiesContainer { padding: 64px 32px; } .StudiesContainer h2 { margin-bottom: 32px; } .StudiesModule, .StudiesModuleTwo { display: grid; grid-template-columns: 1fr; } .StudiesModule svg, .StudiesModuleTwo svg { margin-bottom: -32px; } .StudiesInfo { margin-top: 16px; position: relative; margin-left: 0; } .StudiesInfo h4 { position: relative; padding: 32px 0 32px 0; } .square img { height: 512px; /* height of container */ } .studiesMenu { margin-top: 64px; } }
+@media only screen and (max-width: 1024px) and (min-width: 729px) { .StudiesContainer { padding: 64px 32px; } .StudiesContainer h2 { margin-bottom: 32px; } .CarouselModule { display: grid; grid-template-columns: 1fr 1fr; } .CarouselModule img { max-height: 200px; } .StudiesModule, .StudiesModuleTwo { display: grid; grid-template-columns: 1fr; } .StudiesModule svg, .StudiesModuleTwo svg { margin-bottom: -32px; } .StudiesInfo { margin-top: 16px; position: relative; margin-left: 0; } .StudiesInfo h4 { position: relative; padding: 32px 0 32px 0; } .square img { height: 512px; /* height of container */ } .studiesMenu { margin-top: 64px; } }
 
 @media screen and (min-width: 2400px) { .studiesMenu { padding-top: 128px; max-width: 1600px; margin: auto; } .StudiesModule img, .StudiesModuleTwo img { height: 280px; } }
 

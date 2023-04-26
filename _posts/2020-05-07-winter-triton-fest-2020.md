@@ -1,19 +1,19 @@
 ---
 title: Winter Triton Fest 2020
 role:
-- Brand
-- Product
-- Developer
-thumb: "/uploads/WebUX-01.png"
-date: 2020-01-16T04:00:00.000+00:00
+  - Brand
+  - Product
+  - Developer
+thumb: /uploads/WebUX-01.png
+date: 2020-01-16T04:00:00.000Z
 layout: study
-medium: Illustrator, Photoshop, HTML/CSS, Figma
-link: http://tritonfest.ucsd.edu/
-excerpt: Creating a familiar, exciting experience/brand for UC San Diego's Triton
-  Fest
+medium: 'Illustrator, Photoshop, HTML/CSS, Figma'
+link: 'http://tritonfest.ucsd.edu/'
+excerpt: 'Creating a familiar, exciting experience/brand for UC San Diego''s Triton Fest'
 timeframe: 3 months
-
+_template: studies
 ---
+
 ## Objective
 
 The objective of this project was to design and develop a website for Winter Triton Fest 2020. Winter Triton Fest is an annual late night, weekend event series held at the beginning of winter quarters at UC San Diego. They host a number of events, including talks from Josh Peck, Stephanie Soo, Anne Phung, and more.
