@@ -42,11 +42,6 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
-      - name: Build TinaCMS
-        env:
-         TINA_PUBLIC_CLIENT_ID: ${{ secrets.d171d09a-8b0f-43f0-a758-1d74eda480bb }}
-         TINA_TOKEN: ${{ secrets.c75731a6795b03eda1cef4ec8e3a622c12e98615 }}
-        run: npx tinacms build
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
@@ -55,6 +50,11 @@ jobs:
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v1
+      - name: Build TinaCMS
+        env:
+          TINA_PUBLIC_CLIENT_ID: ${{ d171d09a-8b0f-43f0-a758-1d74eda480bb }}
+          TINA_TOKEN: ${{ c75731a6795b03eda1cef4ec8e3a622c12e98615 }}
+        run: npx tinacms build
 
   # Deployment job
   deploy:
