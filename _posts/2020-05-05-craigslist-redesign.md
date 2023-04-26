@@ -13,6 +13,7 @@ excerpt: 'Redesigning for a familiar, more community friendly user experience.'
 _template: studies
 ---
 
+
 ## Objectives/Wireframes
 
 The objective of this project was to create a more user-friendly and approachable homepage experience for Craigslist. When first doing my research, I found that the categories being front and center of the homepage was refreshing and practical, and wanted to retain that element. However, the search bar felt a little too tucked into the corner for a site where the search function held a lot of significance. This made it difficult to discern how the elements on either side of the sidebar were being prioritized. I also noticed, when making a new listing, the current UX shuffled through 5 pages — I wanted to narrow this down to 1. I set off with these in mind:
