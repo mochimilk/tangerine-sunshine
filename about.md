@@ -1,9 +1,11 @@
 ---
 layout: about
-title: Trash.
+title: Design. Destroy. Delineate.
 image: /uploads/trash.JPG
 _template: about
 ---
+
+
 
 
 ### (she/her)
@@ -18,4 +20,4 @@ I am currently at [Hulu](https://hulu.com "Hulu"), pushing for a bold, clean, fu
 
 In my free time I like writing, coding, playing games, and listening to music.
 
-TRANS AF ✦ API AF ✦ TRASH AF
+TRANS AF ✦ API AF
