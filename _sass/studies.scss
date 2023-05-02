@@ -20,12 +20,38 @@ a:link {
   text-decoration: none;
 }
 
+.CarouselContainer {
 
-.CarouselModule {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 32px
+  grid-gap: 32px;
+  padding: $blockTwo $blockFour $blockFour $blockFour;
+
+  background-color: $blackOpacity10;
+  h4 {
+
+    margin-bottom: $blockTwo;
+  }
+  h3 {
+    padding-top: $blockTwo;
+  }
 }
+a:visited,
+a:link {
+  text-decoration: none;
+}
+
+.section-divider{
+ 
+
+  padding: 0 $blockFour;
+
+  background-color: $blackOpacity10;
+
+}
+
+// .CarouselModule {
+// }
 
 .CarouselComponent {
   filter: saturate(0%);
@@ -377,7 +403,7 @@ svg {
 @media screen and (min-width: 2400px) {
   .studiesMenu {
     padding-top: $blockFive;
-    max-width: 1600px;
+    // max-width: 1600px;
     margin: auto;
   }
   .StudiesModule, .StudiesModuleTwo {
