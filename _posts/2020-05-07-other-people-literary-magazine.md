@@ -19,6 +19,7 @@ _template: studies
 
 
 
+
 ## Building Brutal
 
 The objective of this project was to build a site for Other People, a student run magazine at UC San Diego. Given both the brutalist nature of the school's architecture along with the high functionality of the art form itself, our team wanted to design a site that could live cohesively within those two spheres.
