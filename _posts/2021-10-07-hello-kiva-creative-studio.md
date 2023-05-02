@@ -10,7 +10,7 @@ date: '2021-10-07 21:30:00 +0000'
 medium: 'Figma, Creative Cloud, TailWind'
 excerpt: ''
 link: ''
-timeframe: In-house designer
+timeframe: 2 years – FTE
 _template: studies
 ---
 
