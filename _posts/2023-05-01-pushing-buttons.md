@@ -11,7 +11,7 @@ date: '2023-05-07 21:30:00 +0000'
 medium: 'Figma, Adobe CC'
 excerpt: ''
 link: ''
-timeframe: 1 year
+timeframe: 1+ year – FTE
 _template: studies
 ---
 

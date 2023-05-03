@@ -19,7 +19,7 @@ _template: studies
 
 ## A weird tool.
 
-A fun side project I made as a tool to help our design team examine what their type will look like on a live page. Implements Hulu's variable typeface. Built in a jekyll enviroment. Click the link in the prelude to try it out yourself!
+A fun side project I made as a tool to help our design team examine what their type will look like on a live page. Implements Hulu's variable typeface and built in a jekyll enviroment. Much thanks to [XK9](https://www.xk9.com) and [Commercial Type](https://commercialtype.com/about) for working together to build the variable type. Click [here](https://mochimilk.github.io/Graphik-Variable/) or the link in the prelude to try it out yourself!
 
 ![](/uploads/variable.gif)
 
