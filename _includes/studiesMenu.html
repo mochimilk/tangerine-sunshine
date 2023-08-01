@@ -1,99 +1,112 @@
 <div class="studiesMenu">
     <div class="StudiesContainer">
         <div class="mobileNav">
-            <h3>Hello</h3>
-       
-            <h1>
-                <a class="first" href="{{ site.url }}{{ site.baseurl }}/#second"
-                    onclick="smoothScroll(document.getElementById('second')); closeNav()">Studies</a>
-            </h1>
-            <h1>
-                <a href="{{ site.url }}{{ site.baseurl }}/about">About</a>
-            </h1>
-            <h1>
-                <a href="{%include resume.html %}" target="_blank">Resume</a>
-            </h1>
-                    <h1>
-            <a href="{{ site.url }}{{ site.baseurl }}/gallery">Illustrations</a>
-        </h1>
+
+
+            <!-- OTHER -->
+            <div class="drpdwn-section-container">
+                <div class="drpdwn-section-divider">
+                    <h4>● Hello</h4>
+                </div>
+
+                <h1>
+                    <a class="first" href="{{ site.url }}{{ site.baseurl }}/#second"
+                        onclick="smoothScroll(document.getElementById('second')); closeNav()">Studies</a>
+                </h1>
+              
+                <h1>
+                    <a href="{{ site.url }}{{ site.baseurl }}/gallery">Illustrations</a>
+                </h1>
+            </div>
+
+                        <!-- READER -->
+                        <div class="drpdwn-section-container">
+                            <div class="drpdwn-section-divider">
+                                <h4>◌ Me</h4>
+                            </div>
+                            <h1>
+                                <a href="{{ site.url }}{{ site.baseurl }}/about">About</a>
+                            </h1>
+                            <h1>
+                                <a href="{%include resume.html %}" target="_blank">Resume</a>
+                            </h1>
+                        </div>
+
+            <!-- READER -->
+            <div class="drpdwn-section-container">
+                <div class="drpdwn-section-divider">
+                    <h4>☼ Reader Settings</h4>
+                </div>
+                <h1>
+                    <a id="theme-toggle" onclick="modeSwitcher(), closeNav()"></a>
+                </h1>
+            </div>
+
         </div>
 
 
-        <h3>Reader Settings</h3>
-
-        <h1>
-            <a id="theme-toggle" onclick="modeSwitcher(), closeNav()"></a>
-        </h1>
-
-
-        <h2>Studies</h2>
+        <div class="drpdwn-section-divider">
+            <h4>● Studies</h4>
+        </div>
         {% for post in site.posts %}
-            {% unless post.category == "Design Challenge"%}
-                <a href="{{site.baseurl}}{{ post.url }}">
-                    <div class="StudiesModuleTwo">
-                        <div class="square">
-                            <img src="{{site.baseurl}}{{ post.thumb }}" class="image"></div>
-                        <div class="StudiesInfo">
-                            <h1>{{post.title}}</h1>
-                            <h4>
-                                <div>
-                                    {% for role in post.role %}
-                                    <li>{{ role }}</li>
-                                    {% endfor %}
-                                </div>
-                                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-                                <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}"
-                                    itemprop="datePublished">
-                                    {{ post.date | date: date_format }}
-                                </time>
-                                {%- if post.modified_date -%}
-                                ~
-                                {%- assign mdate = post.modified_date | date_to_xmlschema -%}
-                                <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
-                                    {{ mdate | date: date_format }}
-                                </time>
-                                {%- endif -%}
-                            </h4>
+        {% unless post.category == "Design Challenge"%}
+        <a href="{{site.baseurl}}{{ post.url }}">
+            <div class="drpdwn-StudiesModule">
+                <div class="square">
+                    <img src="{{site.baseurl}}{{ post.thumb }}" class="image">
+                </div>
+                <div class="StudiesInfo">
+                    <h1>{{post.title}}</h1>
+                    <h4>
+                        <div>
+                            {% for role in post.role %}
+                            <li>{{ role }}</li>
+                            {% endfor %}
                         </div>
+                        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                        <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}"
+                            itemprop="datePublished">
+                            {{ post.date | date: date_format }}
+                        </time>
+                        {%- if post.modified_date -%}
+                        ~
+                        {%- assign mdate = post.modified_date | date_to_xmlschema -%}
+                        <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
+                            {{ mdate | date: date_format }}
+                        </time>
+                        {%- endif -%}
+                    </h4>
+                </div>
 
-                    </div>
-                </a>
-            {% endunless %}
+            </div>
+        </a>
+        {% endunless %}
         {% endfor %}
 
         <h2>Design Challenges</h2>
         {% for post in site.categories['Design Challenge'] limit : 3 %}
-            <a href="{{site.baseurl}}{{ post.url }}">
-                <div class="StudiesModuleTwo">
-                    <div class="square">
-                        <img src="{{site.baseurl}}{{ post.thumb }}" class="image"></div>
-                    <div class="StudiesInfo">
-                        <h1>{{post.title}}</h1>
-                        <h4>
-                            <div>
-                                {% for role in post.role %}
-                                <li>{{ role }}</li>
-                                {% endfor %}
-                            </div>
-                            <div>{{post.category}}</div>
-                        </h4>
-                    </div>
-
+        <a href="{{site.baseurl}}{{ post.url }}">
+            <div class="drpdwn-StudiesModule">
+                <div class="square">
+                    <img src="{{site.baseurl}}{{ post.thumb }}" class="image">
                 </div>
-            </a>
+                <div class="StudiesInfo">
+                    <h1>{{post.title}}</h1>
+                    <h4>
+                        <div>
+                            {% for role in post.role %}
+                            <li>{{ role }}</li>
+                            {% endfor %}
+                        </div>
+                        <div>{{post.category}}</div>
+                    </h4>
+                </div>
+
+            </div>
+        </a>
 
         {% endfor %}
 
     </div>
 
 </div>
-
-
-
-
-
-
-
-
-
-

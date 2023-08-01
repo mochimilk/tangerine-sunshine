@@ -128,11 +128,11 @@ a:visited, a:link { text-decoration: none; }
 
 .StudiesModule h1 { text-decoration: none; }
 
-.StudiesModuleTwo { display: grid; grid-template-columns: 30% 50% 20%; border-style: solid; border-width: 1px 0 0 0; padding-top: 32px; padding-bottom: 32px; color: var(--background-color); }
+.drpdwn-StudiesModule { display: grid; grid-template-columns: 30% 50% 20%; border-style: solid; border-width: 1px 0 0 0; padding-top: 32px; padding-bottom: 32px; color: var(--background-color); }
 
-.StudiesModuleTwo :nth-child(3) { margin-left: auto; margin-right: 0; }
+.drpdwn-StudiesModule :nth-child(3) { margin-left: auto; margin-right: 0; }
 
-.StudiesModuleTwo h1 { text-decoration: none; }
+.drpdwn-StudiesModule h1 { text-decoration: none; }
 
 svg { width: 30px; }
 
@@ -144,11 +144,11 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 
 .StudiesModule:hover img { transform: scale(0.95); transition-duration: 0.5s; }
 
-.StudiesModuleTwo:hover h1 { text-decoration: underline; }
+.drpdwn-StudiesModule:hover h1 { text-decoration: underline; }
 
-.StudiesModuleTwo:hover svg { transform: rotate(45deg); transition-duration: 0.1s; }
+.drpdwn-StudiesModule:hover svg { transform: rotate(45deg); transition-duration: 0.1s; }
 
-.StudiesModuleTwo:hover img { transform: scale(0.95); transition-duration: 0.5s; }
+.drpdwn-StudiesModule:hover img { transform: scale(0.95); transition-duration: 0.5s; }
 
 .square img { width: 100%; /* width of container */ height: 256px; /* height of container */ object-fit: cover; }
 
@@ -176,8 +176,8 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 
 @media only screen and (max-width: 728px) { .StudiesContainer { padding: 0 16px 0 16px; }
   .StudiesContainer h2 { margin-bottom: 32px; }
-  .StudiesModule, .StudiesModuleTwo { display: grid; grid-template-columns: 1fr; }
-  .StudiesModule svg, .StudiesModuleTwo svg { margin-bottom: -32px; }
+  .StudiesModule, .drpdwn-StudiesModule { display: grid; grid-template-columns: 1fr; }
+  .StudiesModule svg, .drpdwn-StudiesModule svg { margin-bottom: -32px; }
   .StudiesInfo { margin-top: 16px; position: relative; margin-left: 0; }
   .StudiesInfo h4 { position: relative; padding: 32px 0 32px 0; }
   .studiesMenu { margin-top: 64px; }
@@ -187,8 +187,8 @@ svg .st0 { fill: none; stroke-width: 10rem; stroke-miterlimit: 100; }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .StudiesContainer { padding: 0 32px 0 32px; }
   .StudiesContainer h2 { margin-bottom: 32px; }
-  .StudiesModule, .StudiesModuleTwo { display: grid; grid-template-columns: 1fr; }
-  .StudiesModule svg, .StudiesModuleTwo svg { margin-bottom: -32px; }
+  .StudiesModule, .drpdwn-StudiesModule { display: grid; grid-template-columns: 1fr; }
+  .StudiesModule svg, .drpdwn-StudiesModule svg { margin-bottom: -32px; }
   .StudiesInfo { margin-top: 16px; position: relative; margin-left: 0; }
   .StudiesInfo h4 { position: relative; padding: 32px 0 32px 0; }
   .square img { height: 512px; /* height of container */ }

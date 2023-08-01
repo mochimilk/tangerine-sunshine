@@ -9,23 +9,13 @@
             <div class="square"> <img src="{{site.baseurl}}{{ post.thumb }}" class="image"></div>
             <div class="StudiesInfo">
                 <h1>{{post.title}}</h1>
+
                 <h4>
                     <div>
-
-
-
-
                         {% for role in post.role %}
                         <li>{{ role }}</li>
                         {% endfor %}
-
-
-
-
                     </div>
-
-
-
 
                     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                     <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -38,11 +28,8 @@
                         {{ mdate | date: date_format }}
                     </time>
                     {%- endif -%}
-
-
-
-
                 </h4>
+                
             </div>
             <div>
                 <?xml version="1.0" encoding="utf-8"?>

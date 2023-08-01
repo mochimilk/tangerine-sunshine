@@ -3,112 +3,44 @@
 //     border-width: 1px;
 // }
 
-.StudiesContainer {
-  padding: $blockFour;
-  background-color: $blackOpacity10;
-  h4 {
-    margin-bottom: $blockTwo;
-  }
-  h3 {
-    padding-top: $blockTwo;
-  }
-}
+// PRE⚙️PRE⚙️PRE⚙️PRE⚙️PRE⚙️PRE⚙️PRE⚙️PRE⚙️PRE⚙️PRE⚙️PRE⚙️PRE⚙️PRE⚙️PRE⚙️PRE⚙️PRE⚙️
+
 a:visited,
 a:link {
   text-decoration: none;
 }
 
-.CarouselContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 32px;
-  padding: $blockTwo $blockFour $blockFour $blockFour;
-  background-color: $blackOpacity10;
-  h4 {
-    margin-bottom: $blockTwo;
-  }
-  h3 {
-    padding-top: $blockTwo;
-  }
-}
-a:visited,
-a:link {
-  text-decoration: none;
-}
-.section-divider{
+.section-divider {
   padding: 0 $blockFour;
   background-color: $blackOpacity10;
 }
 
-// .CarouselModule {
-// }
-
-.CarouselComponent {
-  filter: saturate(0%);
-  display: grid;
-  grid-template-columns: 1fr;
-  border-top: solid 1px $blackOpacity30 ;
-  padding-top: $blockFour;
-  color: $bodyColor;
-  :nth-child(3) {
-    margin-left: auto;
-    margin-right: 0;
-  }
-  h1 {
-    text-decoration: none;
-    font-size: 32px;
-  }
-  li {
-    list-style-type: none;
-    margin: 0;
-    display: inline-block;
-    font-size: .8rem;
-  }
-  li:nth-child(n + 2):before {
-    content: $symbol;
-  }
-  img{
-    // border-radius: 100%;
-    opacity: .8;
-height: 15vw;
-    border-radius: .25rem;
-  }
-}
-
-
-.CarouselComponent:hover {
-  filter: grayscale(0%);
-  h1 {
-    text-decoration: underline;
-  }
-  svg {
-    transform: rotate(45deg);
-    transition-duration: 0.1s;
-  }
+.square {
   img {
-    transform: scale(0.95);
-    transition-duration: 0.5s;
+    width: 100%;
+    object-fit: cover;
   }
 }
 
-.CarouselInfo {
-  position: relative;
-  margin-top: $blockThree;
+// STUDIES📁STUDIES📁STUDIES📁STUDIES📁STUDIES📁STUDIES📁STUDIES📁STUDIES📁STUDIES📁STUDIES📁
+
+.StudiesContainer {
+  padding: $blockFour;
+  background-color: $blackOpacity10;
+
   h4 {
-    margin-top: $blockOne;
-    :nth-child(1) {
-      font-weight: bold;
-    }
-    div {
-      margin: 0;
-      padding: 0;
-      line-height: 1.2rem;
-    }
+    margin-bottom: $blockTwo;
+  }
+
+  h3 {
+    padding-top: $blockTwo;
   }
 }
 
-
-
+a:visited,
+a:link {
+  text-decoration: none;
+}
 
 .StudiesModule {
   filter: saturate(0%);
@@ -118,72 +50,39 @@ height: 15vw;
   padding-top: $blockFour;
   padding-bottom: $blockFour;
   color: $bodyColor;
+
   :nth-child(3) {
     margin-left: auto;
     margin-right: 0;
   }
+
   h1 {
     text-decoration: none;
   }
+
   li {
     list-style-type: none;
     margin: 0;
     display: inline-block;
     font-size: .8rem;
-    // background-color: rgba(128, 128, 128, 0.1);
-    // padding: 2px 12px 2px 12px;
-    // border-radius: 4px;
-
   }
+
   li:nth-child(n + 2):before {
     content: $symbol;
   }
-  img{
+
+  img {
     border-radius: .25rem;
     height: 15vw;
     opacity: .8;
-
   }
 }
 
-.StudiesModuleTwo {
-  filter: saturate(0%);
-  display: grid;
-  grid-template-columns: 30% 70%;
-  border-style: solid;
-  border-width: 1px 0 0 0;
-  padding-top: $blockThree;
-  padding-bottom: $blockFive;
-  color: $dropdowntext;
-  border-color: $dropdowntext;
-  :nth-child(3) {
-    margin-left: auto;
-    margin-right: 0;
-  }
-  h1 {
-    text-decoration: none;
-  }
 
-  li {
-    list-style-type: none;
-    margin: 0;
-    display: inline-block;
-    font-size: .8rem;
-    // background-color: rgba(128, 128, 128, 0.1);
-    // padding: 2px 12px 2px 12px;
-    // border-radius: 4px;
-  }
-
-  li:nth-child(n + 2):before {
-    content: $symbol;
-  }
-  img {
-    border-radius: .25rem;
-  }
-}
 
 svg {
   width: 30px;
+
   .st0 {
     fill: none;
     stroke: $bodyColor;
@@ -194,58 +93,49 @@ svg {
 
 .StudiesModule:hover {
   filter: grayscale(0%);
+
   h1 {
     text-decoration: underline;
   }
+
   svg {
     transform: rotate(45deg);
     transition-duration: 0.1s;
   }
+
   img {
     transform: scale(0.95);
     transition-duration: 0.5s;
   }
 }
 
-.StudiesModuleTwo:hover {
-  filter: grayscale(0%);
-  h1 {
-    text-decoration: underline;
-  }
-  svg {
-    transform: rotate(45deg);
-    transition-duration: 0.1s;
-  }
-  img {
-    transform: scale(0.95);
-    transition-duration: 0.5s;
-  }
-}
 
-.square {
-  img {
-    width: 100%; /* width of container */
 
-    object-fit: cover;
-  }
-}
+
 
 .StudiesInfo {
-  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   margin-left: $blockFour;
+  justify-content: space-between;
+  column-gap: 320px;
+
   h4 {
-    position: absolute;
-    bottom: 0;
     :nth-child(1) {
       font-weight: bold;
     }
+
     div {
       margin: 0;
       padding: 0;
       line-height: 1.2rem;
     }
+
+    margin-bottom: 0;
   }
 }
+
 
 .studiesMenu {
   margin-top: $blockFive;
@@ -253,12 +143,15 @@ svg {
   h2 {
     margin-top: $blockThree;
   }
+
   a {
     cursor: pointer;
   }
+
   h4 {
     margin-top: $blockOne;
   }
+
   a {
     color: $dropdowntext;
   }
@@ -276,19 +169,110 @@ svg {
   -ms-overflow-style: none;
 }
 
-.mobileNav {
-  h1 {
-    margin: 0;
-    padding-top: $blockOne;
+// CAROUSEL🎡CAROUSEL🎡CAROUSEL🎡CAROUSEL🎡CAROUSEL🎡CAROUSEL🎡CAROUSEL🎡CAROUSEL🎡CAROUSEL🎡
+
+.CarouselContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 32px;
+  padding: $blockTwo $blockFour $blockFour $blockFour;
+  background-color: $blackOpacity10;
+
+  h4 {
+    margin-bottom: $blockTwo;
   }
-  a {
-    color: $dropdowntext;
+
+  h3 {
+    padding-top: $blockTwo;
   }
 }
+
+// .CarouselModule {
+// }
+
+.CarouselComponent {
+  filter: saturate(0%);
+  display: grid;
+  grid-template-columns: 1fr;
+  border-top: solid 1px $blackOpacity30 ;
+  padding-top: $blockFour;
+  color: $bodyColor;
+
+  :nth-child(3) {
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  h1 {
+    text-decoration: none;
+    font-size: 32px;
+  }
+
+  li {
+    list-style-type: none;
+    margin: 0;
+    display: inline-block;
+    font-size: .8rem;
+  }
+
+  li:nth-child(n + 2):before {
+    content: $symbol;
+  }
+
+  img {
+    opacity: .8;
+    height: 15vw;
+    border-radius: .25rem;
+  }
+}
+
+.CarouselComponent:hover {
+  filter: grayscale(0%);
+
+  h1 {
+    text-decoration: underline;
+  }
+
+  svg {
+    transform: rotate(45deg);
+    transition-duration: 0.1s;
+  }
+
+  img {
+    transform: scale(0.95);
+    transition-duration: 0.5s;
+  }
+}
+
+.CarouselInfo {
+  position: relative;
+  margin-top: $blockThree;
+
+  h4 {
+    margin-top: $blockOne;
+
+    :nth-child(1) {
+      font-weight: bold;
+    }
+
+    div {
+      margin: 0;
+      padding: 0;
+      line-height: 1.2rem;
+    }
+  }
+}
+
+
 
 @media only screen and (max-width: 728px) {
   .StudiesContainer {
     padding: $blockFour $blockTwo;
+
+    h4 {
+      margin-bottom: $blockThree;
+    }
+
     h2 {
       margin-bottom: $blockTwo;
     }
@@ -300,19 +284,21 @@ svg {
     grid-gap: 32px;
     padding: $blockTwo $blockTwo $blockFour $blockTwo;
     background-color: $blackOpacity10;
+
     h4 {
       margin-bottom: none;
     }
+
     h3 {
       padding-top: none;
     }
   }
 
-  .section-divider{
+  .section-divider {
     padding: 0 $blockTwo;
     background-color: $blackOpacity10;
   }
-  
+
   .CarouselModule {
     display: grid;
     grid-template-columns: 1fr;
@@ -321,9 +307,10 @@ svg {
   .CarouselComponent {
     display: grid;
     grid-template-columns: 1fr;
+
     img {
-    height: 55vw;
-  }
+      height: 55vw;
+    }
   }
 
   .CarouselInfo {
@@ -332,30 +319,34 @@ svg {
     margin-top: $blockThree;
     position: relative;
     margin-left: 0;
+
     h4 {
       position: relative;
       padding: $blockOne 0 $blockOne 0;
     }
   }
 
-  .StudiesModule,
-  .StudiesModuleTwo {
+  .StudiesModule {
     display: grid;
     grid-template-columns: 1fr;
     padding-bottom: $blockTwo;
+
     svg {
       margin-bottom: -$blockThree;
       display: none;
     }
+
     img {
       height: 55vw;
     }
   }
 
   .StudiesInfo {
+    height: auto;
     margin-top: $blockThree;
     position: relative;
     margin-left: 0;
+
     h4 {
       position: relative;
       padding: $blockTwo 0 $blockTwo 0;
@@ -364,6 +355,7 @@ svg {
 
   .studiesMenu {
     margin-top: $blockFour;
+
     h2 {
       margin-bottom: $blockTwo;
     }
@@ -377,6 +369,7 @@ svg {
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
   .StudiesContainer {
     padding: $blockFour $blockThree;
+
     h2 {
       margin-bottom: $blockThree;
     }
@@ -388,19 +381,21 @@ svg {
     grid-gap: 24px;
     padding: $blockThree $blockThree $blockFour $blockThree;
     background-color: $blackOpacity10;
+
     h4 {
       margin-bottom: none;
     }
+
     h3 {
       padding-top: none;
     }
   }
 
-  .section-divider{
+  .section-divider {
     padding: 0 $blockThree;
     background-color: $blackOpacity10;
   }
-  
+
   .CarouselModule {
     display: grid;
     grid-template-columns: 1fr;
@@ -409,6 +404,7 @@ svg {
   .CarouselComponent {
     display: grid;
     grid-template-columns: 1fr;
+
     img {
       height: 24vw;
     }
@@ -420,6 +416,7 @@ svg {
     margin-top: $blockThree;
     position: relative;
     margin-left: 0;
+
     h4 {
       position: relative;
       padding: $blockOne 0 $blockOne 0;
@@ -427,12 +424,14 @@ svg {
   }
 
   .StudiesModule,
-  .StudiesModuleTwo {
+  .drpdwn-StudiesModule {
     display: grid;
     grid-template-columns: 1fr;
+
     svg {
       margin-bottom: -$blockThree;
     }
+
     img {
       height: 55vw;
     }
@@ -442,6 +441,7 @@ svg {
     margin-top: $blockTwo;
     position: relative;
     margin-left: 0;
+
     h4 {
       position: relative;
       padding: $blockThree 0 $blockThree 0;
@@ -461,9 +461,20 @@ svg {
     // max-width: 1600px;
     margin: auto;
   }
-  .StudiesModule, .StudiesModuleTwo {
+
+  .StudiesModule,
+  .drpdwn-StudiesModule {
     img {
-      height: 10vw;
+      height: 11vw;
+    }
+  }
+
+  .CarouselComponent {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    img {
+      height: 12vw;
     }
   }
 }

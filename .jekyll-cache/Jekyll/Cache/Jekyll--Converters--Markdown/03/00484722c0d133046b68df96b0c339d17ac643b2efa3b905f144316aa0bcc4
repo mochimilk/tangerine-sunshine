@@ -1,7 +1,0 @@
-I"ÿ<h2 id="a-weird-tool">A weird tool.</h2>
-
-<p>A fun side project I made as a tool to help our design team examine what their type will look like on a live page. Implements Huluâ€™s variable typeface and built in a jekyll enviroment. Much thanks to <a href="https://www.xk9.com">XK9</a> and <a href="https://commercialtype.com/about">Commercial Type</a> for working together to build the variable type. Click the link in the prelude to try it out yourself!</p>
-
-<p><img src="/uploads/variable.gif" alt="" /></p>
-
-:ET

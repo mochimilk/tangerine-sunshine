@@ -50,12 +50,5 @@ We then worked closely with our development team to create web components for ea
 
 ![](/uploads/picto.jpg)
 
-Once we were satisfied with our new illustrations and web components, we updated our design system documentation and communicated the changes to our development team. We also provided training sessions to ensure that all team members were familiar with the new components and how to use them effectively.
 
 
-
-<br>~<br>~<br>~<br>
-### Coding is hard.
-More info underway. Pls be patient as I migrate my CMS ^-^
-<br>
-In the meantime, shoot me a message! My links can be found in the footer 👇

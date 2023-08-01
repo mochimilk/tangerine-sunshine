@@ -1,4 +1,4 @@
-I"f	<h2 id="introduction">Introduction</h2>
+I"�	<h2 id="introduction">Introduction</h2>
 
 <p>Hulu’s web design system takes its root from what we’ve all come to know and love in the Hulu app. We’ve worked hard on building a complementary web-focused design system that lives harmoiously with the product team’s existing groundwork. These components are used across the board in Hulu’s campaign sites, ad managers, as well as microsites.</p>
 
@@ -20,7 +20,7 @@ Overall, the process of introducing new colors to our design system was a collab
 
 <p>We were also asked to create new illustrations as web components to enhance the user experience and enjoyability of our website. Our goal was to create a set of illustrations that would be visually appealing, consistent with our brand identity, and easily adaptable for different use cases.
 <br /><br />
-Based on our research, we developed a set of new illustrations in a flat design style, with bold outlines and vibrant colors. We created multiple variations of each illustration to ensure that they were adaptable to different use cases, such as header images, hero banners, and feature sections.</p>
+We then worked closely with our development team to create web components for each illustration. We used SVGs to ensure that the illustrations would be scalable and accessible for users with different screen sizes and devices. We also provided guidelines on how to implement and customize the illustrations, to ensure consistency across all web pages.</p>
 
 <p><img src="/uploads/picto.jpg" alt="" /></p>
 

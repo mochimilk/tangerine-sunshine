@@ -122,6 +122,7 @@
   img {
     width: 100%;
     padding-top: $blockThree;
+    padding-bottom: $blockThree;
   }
   em {
     padding-bottom: $blockThree;
@@ -284,7 +285,7 @@
     margin-top: $blockFive;
     margin-left: auto;
     margin-right: auto;
-    text-align: justify;
+    text-align: left;
     max-width: 960px;
     padding: 0;
 
