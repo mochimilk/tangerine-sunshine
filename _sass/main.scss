@@ -2,7 +2,7 @@
 $creme: rgb(247, 245, 238);
 $black: #181818;
 $olive: rgb(87, 105, 88);
-$highlight: rgba(252, 153, 255, 0.5);
+$highlight: #00ffa3;
 
 $backgroundColor: var(--background-color);
 $bodyColor: var(--light-text-color);
@@ -26,6 +26,9 @@ $blockSix: 256px;
 $blockSeven: 512px;
 
 $symbol: "– ";
+
+$media-md: 1200px;
+$media-sm: 800px;
 
 ::selection {
   background: $highlight; /* WebKit/Blink Browsers */

@@ -1,28 +1,17 @@
-.IndexContainer {
-    // height: 100vh;
-    // margin-bottom: -160px;
-
-}
-
-
-
 .IndexIntro {
-    // position: absolute;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     bottom: $blockFour;
     padding: 0 $blockFour 0 $blockFour;
     left: 0;
     right: 0;
-margin-top: $blockFive;
-    // display: grid;
-    // grid-template-columns: 2fr 1fr;
-
-    h1 {
-        font-size: 48px;
-    }
-
+    margin-top: $blockFive;
+    margin-bottom: $blockThree;
+    // h1 {
+    //     font-size: 48px;
+    // }
     svg {
         width: 30px;
-
         .st0 {
             fill: none;
             stroke: $bodyColor;
@@ -30,7 +19,6 @@ margin-top: $blockFive;
             stroke-miterlimit: 100;
         }
     }
-
     a {
         color: inherit;
         display: inline;
@@ -38,7 +26,6 @@ margin-top: $blockFive;
         overflow: hidden;
         cursor: pointer;
     }
-
     a:after {
         content: "";
         position: absolute;
@@ -54,7 +41,6 @@ margin-top: $blockFive;
         transition-timing-function: ease-out;
         border-radius: 25px;
     }
-
     a:hover:after,
     a:focus:after,
     a:active:after {
@@ -62,7 +48,6 @@ margin-top: $blockFive;
         left: auto;
         width: 0%;
     }
-
     a:hover {
         svg {
             transform: rotate(45deg);
@@ -108,6 +93,7 @@ margin-top: $blockFive;
         a:after {
             display: none;
         }
+
         h1 {
             font-size: 2rem;
         }
@@ -135,6 +121,7 @@ margin-top: $blockFive;
         a:after {
             display: none;
         }
+
         h1 {
             font-size: 2.5rem;
         }

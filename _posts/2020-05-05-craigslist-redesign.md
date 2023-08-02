@@ -38,11 +38,11 @@ I was also able to make a “create post” module using a single-page overlay. 
 
 ![](https://eunsoolee.co/uploads/Untitled-2-01.png)
 
-## High Fidelity
+### High Fidelity
 
 ![](https://eunsoolee.co/uploads/Craigslist%20wireframe-05.png)![](https://eunsoolee.co/uploads/Craigslist%20wireframe-08.png)![](https://eunsoolee.co/uploads/Craigslist%20wireframe-06.png)![](https://eunsoolee.co/uploads/Craigslist%20wireframe-09.png)![](https://eunsoolee.co/uploads/Craigslist%20wireframe-07.png)
 
-## Branding
+### Branding
 
 I decided to go with a sans-serif typeface for the branding in order to keep the aesthetic of the website as unobtrusive as possible (especially with the amount of text that is displayed on the screen at any given time).
 

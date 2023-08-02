@@ -2,20 +2,18 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     padding: 0 $blockFour 0 $blockFour;
-    margin-top: $blockFour;
+    margin-top: $blockTwo;
 
+    h1 {
 
-
-    h2 {
-        // padding-top: $blockFour;
-        margin-bottom: $blockFour;
-        opacity: .8;
+        margin-top: $blockThree;
     }
+
     a {
-        // color: rgb(224, 146, 0);
         color: $bodyColor;
         text-decoration: underline;
     }
+
     a:hover {
         text-decoration: none;
     }
@@ -23,6 +21,7 @@
 
 .aboutImage {
     padding-left: $blockFour;
+
     img {
         width: 100%;
         border-radius: .25rem;
@@ -39,6 +38,7 @@
     .aboutContainer {
         padding: 0 $blockTwo 0 $blockTwo;
         grid-template-columns: 1fr;
+
         h1 {
             margin-top: $blockThree;
         }
@@ -49,9 +49,11 @@
     .aboutImage {
         padding-left: 0;
     }
+
     .aboutContainer {
         padding: 0 $blockThree 0 $blockThree;
         grid-template-columns: 1fr;
+
         h1 {
             margin-top: $blockThree;
         }

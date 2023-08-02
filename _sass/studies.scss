@@ -75,7 +75,6 @@ a:link {
   img {
     border-radius: .25rem;
     height: 15vw;
-    opacity: .8;
   }
 }
 
@@ -192,7 +191,6 @@ svg {
 // }
 
 .CarouselComponent {
-  filter: saturate(0%);
   display: grid;
   grid-template-columns: 1fr;
   border-top: solid 1px $blackOpacity30 ;
@@ -220,14 +218,14 @@ svg {
   }
 
   img {
-    opacity: .8;
+
     height: 15vw;
     border-radius: .25rem;
   }
 }
 
 .CarouselComponent:hover {
-  filter: grayscale(0%);
+
 
   h1 {
     text-decoration: underline;

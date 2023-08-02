@@ -1,7 +1,7 @@
 @charset "UTF-8";
-::selection { background: rgba(252, 153, 255, 0.5); /* WebKit/Blink Browsers */ }
+::selection { background: #00ffa3; /* WebKit/Blink Browsers */ }
 
-::-moz-selection { background: rgba(252, 153, 255, 0.5); /* Gecko Browsers */ }
+::-moz-selection { background: #00ffa3; /* Gecko Browsers */ }
 
 body { background: var(--background-color); color: var(--light-text-color); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; transition: background-color 0.3s ease-in-out; }
 
@@ -95,9 +95,7 @@ headerTwo ul { display: flex; justify-content: space-between; list-style-type: n
     transform: translateY(100%); }
   to { opacity: 1; } }
 
-.IndexIntro { bottom: 64px; padding: 0 64px 0 64px; left: 0; right: 0; margin-top: 128px; }
-
-.IndexIntro h1 { font-size: 48px; }
+.IndexIntro { display: grid; grid-template-columns: 2fr 1fr; bottom: 64px; padding: 0 64px 0 64px; left: 0; right: 0; margin-top: 128px; margin-bottom: 32px; }
 
 .IndexIntro svg { width: 30px; }
 
@@ -145,7 +143,7 @@ a:visited, a:link { text-decoration: none; }
 
 .StudiesModule li:nth-child(n + 2):before { content: "– "; }
 
-.StudiesModule img { border-radius: .25rem; height: 15vw; opacity: .8; }
+.StudiesModule img { border-radius: .25rem; height: 15vw; }
 
 svg { width: 30px; }
 
@@ -187,7 +185,7 @@ svg .st0 { fill: none; stroke: var(--light-text-color); stroke-width: 10rem; str
 
 .CarouselContainer h3 { padding-top: 16px; }
 
-.CarouselComponent { filter: saturate(0%); display: grid; grid-template-columns: 1fr; border-top: solid 1px var(--black-opacity-30); padding-top: 32px; color: var(--light-text-color); }
+.CarouselComponent { display: grid; grid-template-columns: 1fr; border-top: solid 1px var(--black-opacity-30); padding-top: 32px; color: var(--light-text-color); }
 
 .CarouselComponent :nth-child(3) { margin-left: auto; margin-right: 0; }
 
@@ -197,9 +195,7 @@ svg .st0 { fill: none; stroke: var(--light-text-color); stroke-width: 10rem; str
 
 .CarouselComponent li:nth-child(n + 2):before { content: "– "; }
 
-.CarouselComponent img { opacity: .8; height: 15vw; border-radius: .25rem; }
-
-.CarouselComponent:hover { filter: grayscale(0%); }
+.CarouselComponent img { height: 15vw; border-radius: .25rem; }
 
 .CarouselComponent:hover h1 { text-decoration: underline; }
 
@@ -221,9 +217,9 @@ svg .st0 { fill: none; stroke: var(--light-text-color); stroke-width: 10rem; str
 
 @media screen and (min-width: 2400px) { .studiesMenu { padding-top: 128px; margin: auto; } .StudiesModule img, .drpdwn-StudiesModule img { height: 11vw; } .CarouselComponent { display: grid; grid-template-columns: 1fr; } .CarouselComponent img { height: 12vw; } }
 
-.aboutContainer { display: grid; grid-template-columns: 2fr 1fr; padding: 0 64px 0 64px; margin-top: 64px; }
+.aboutContainer { display: grid; grid-template-columns: 2fr 1fr; padding: 0 64px 0 64px; margin-top: 16px; }
 
-.aboutContainer h2 { margin-bottom: 64px; opacity: .8; }
+.aboutContainer h1 { margin-top: 32px; }
 
 .aboutContainer a { color: var(--light-text-color); text-decoration: underline; }
 
