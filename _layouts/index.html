@@ -19,6 +19,8 @@
 
 <body>
 
+  <div class="bg"></div>
+
   {% include header.html %}
 
   <!-- INDEX INTRO -->
@@ -26,28 +28,32 @@
     <div class="IndexIntro">
       <h1 class="cssanimation sequence fadeInBottom">
         <label id="lblGreetings"></label><br>
-        I am a visual designer,<br>
-        currently at <a href="https://www.hulu.com/" target="_blank">Hulu
+
+        <br>
+I am a visual designer collaborating on visual narratives and experiences by developing holistic intentions through strategy, design and direction.<br><br> <a onclick="smoothScroll(document.getElementById('second'))">Scroll↓</a> to see recent work.
+        <!-- currently at <a href="https://www.hulu.com/" target="_blank">Hulu
 <?xml version="1.0" encoding="utf-8"?>
-          <!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
             x="0px" y="0px" viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="preserve">
             <style type="text/css"></style>
             <polyline class="st0" points="116.7,116.7 1083.3,116.7 1083.3,1083.3 " />
             <line class="st0" x1="1083.3" y1="116.7" x2="116.7" y2="1083.3" />
           </svg>
-        </a>
+        </a> -->
 
 
 
       </h1>
-      <div class="first" type="button" onclick="smoothScroll(document.getElementById('second'))">
+
+      <!-- <div class="first" type="button" onclick="smoothScroll(document.getElementById('second'))">
         <div class="ExploreStudies">
           <h4 class="cssanimation sequence fadeInBottom">     
           scroll
   </h4>
         </div>
-      </div>
+      </div> -->
+
+
     </div>
   </div>
 
@@ -82,11 +88,11 @@
   var greet;
 
   if (hrs < 12)
-      greet = 'Good morning ✷';
+      greet = 'Good (morning) —';
   else if (hrs >= 12 && hrs <= 17)
-      greet = 'Good afternoon ❊';
+      greet = 'Good (afternoon) —';
   else if (hrs >= 17 && hrs <= 24)
-      greet = 'Good evening ☾';
+      greet = 'Good (evening) —';
 
 
 

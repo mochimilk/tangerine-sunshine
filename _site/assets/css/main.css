@@ -7,15 +7,15 @@ body { background: var(--background-color); color: var(--light-text-color); font
 
 html, body { margin: 0; padding: 0; }
 
-h1 { font-family: "NeueMachina-Regular"; padding: 0; margin: 0; font-size: 3.5rem; font-weight: normal; line-height: 115%; }
+h1 { font-family: "NeueMachina-Regular"; padding: 0; margin: 0; font-size: 36px; font-weight: normal; line-height: 115%; }
 
-h2 { font-size: 2.5rem; font-weight: 400; }
+h2 { font-size: 32px; font-weight: 400; }
 
-h3 { font-size: 1.8rem; font-weight: 400; opacity: 0.55; }
+h3 { font-size: 24px; font-weight: 400; opacity: 0.55; }
 
 h4 { padding: 0; margin: 0; margin-top: 0px; font-size: .8rem; line-height: 1.2rem; font-weight: normal; text-transform: uppercase; }
 
-p { font-size: 1rem; line-height: 175%; font-weight: normal; }
+p { font-size: 16px; line-height: 175%; font-weight: normal; }
 
 li { font-size: 1rem; line-height: 200%; }
 
@@ -36,7 +36,7 @@ button:hover { background-color: #80808035; border-color: var(--light-text-color
 
 body { padding-top: 160px; }
 
-header { padding: 64px; display: grid; grid-template-columns: 1fr 1fr 1fr; animation: 1s ease-out 0s 1 slideInFromTop; line-height: 0.8; background-color: var(--background-color); color: var(--light-text-color); position: fixed; top: 0; transition: top 0.3s ease-in-out; left: 0px; right: 0px; z-index: 1; }
+header { padding: 64px; display: grid; grid-template-columns: 1fr 1fr 1fr; animation: 1s ease-out 0s 1 slideInFromTop; line-height: 0.8; backdrop-filter: blur(3px); color: var(--light-text-color); position: fixed; top: 0; transition: top 0.3s ease-in-out; left: 0px; right: 0px; z-index: 1; }
 
 header a { color: inherit; }
 
@@ -52,7 +52,7 @@ header ul { display: flex; justify-content: space-between; list-style-type: none
 
 .menu svg:hover { transform: rotate(135deg); transition-duration: 0.3s; }
 
-headerTwo { padding: 64px; display: grid; grid-template-columns: 1fr 1fr 1fr; line-height: 0.8; background-color: var(--background-color); color: var(--light-text-color); position: fixed; top: 0; transition: top 0.3s ease-in-out; left: 0px; right: 0px; z-index: 1; }
+headerTwo { padding: 64px; display: grid; grid-template-columns: 1fr 1fr 1fr; line-height: 0.8; backdrop-filter: blur(3px); color: var(--light-text-color); position: fixed; top: 0; transition: top 0.3s ease-in-out; left: 0px; right: 0px; z-index: 1; }
 
 headerTwo a { color: inherit; }
 
@@ -60,7 +60,7 @@ headerTwo ul { display: flex; justify-content: space-between; list-style-type: n
 
 .overlay::-webkit-scrollbar { display: none; }
 
-.overlay { -ms-overflow-style: none; /* IE and Edge */ scrollbar-width: none; /* Firefox */ background-color: #28e285; height: 0%; width: 100%; position: fixed; z-index: 1; top: 0; left: 0; color: #181818; overflow-x: hidden; transition: 0.3s; }
+.overlay { -ms-overflow-style: none; /* IE and Edge */ scrollbar-width: none; /* Firefox */ background-color: #00ffa3; height: 0%; width: 100%; position: fixed; z-index: 1; top: 0; left: 0; color: #181818; overflow-x: hidden; transition: 0.3s; }
 
 .overlay ul { display: flex; justify-content: space-between; list-style-type: none; margin: 0; padding: 0; cursor: pointer; }
 
@@ -95,9 +95,9 @@ headerTwo ul { display: flex; justify-content: space-between; list-style-type: n
     transform: translateY(100%); }
   to { opacity: 1; } }
 
-.IndexContainer { height: 100vh; margin-bottom: -160px; }
+.IndexIntro { bottom: 64px; padding: 0 64px 0 64px; left: 0; right: 0; margin-top: 64px; }
 
-.IndexIntro { position: absolute; bottom: 64px; padding: 0 64px 0 64px; left: 0; right: 0; }
+.IndexIntro h1 { font-size: 3.5rem; }
 
 .IndexIntro svg { width: 30px; }
 
@@ -115,9 +115,9 @@ headerTwo ul { display: flex; justify-content: space-between; list-style-type: n
 
 .ExploreStudies:hover { opacity: 1; }
 
-@media only screen and (max-width: 728px) { .IndexIntro { margin-top: 256px; padding: 0 16px 0 16px; bottom: 16px; } .IndexIntro a { text-decoration: underline !important; } .IndexIntro a:hover { text-decoration: none !important; } .IndexIntro a:after { display: none; } .ExploreStudies { margin-top: 32px; } }
+@media only screen and (max-width: 728px) { .IndexIntro { margin-top: 64px; padding: 0 16px 0 16px; bottom: 16px; } .IndexIntro a { text-decoration: underline !important; } .IndexIntro a:hover { text-decoration: none !important; } .IndexIntro a:after { display: none; } .IndexIntro h1 { font-size: 2.5rem; } .ExploreStudies { margin-top: 32px; } }
 
-@media only screen and (max-width: 1024px) and (min-width: 729px) { .IndexIntro { margin-top: 256px; padding: 0 32px 0 32px; bottom: 32px; } .IndexIntro a { text-decoration: underline !important; } .IndexIntro a:hover { text-decoration: none !important; } .IndexIntro a:after { display: none; } .ExploreStudies { margin-top: 32px; } }
+@media only screen and (max-width: 1024px) and (min-width: 729px) { .IndexIntro { margin-top: 64px; padding: 0 32px 0 32px; bottom: 32px; } .IndexIntro a { text-decoration: underline !important; } .IndexIntro a:hover { text-decoration: none !important; } .IndexIntro a:after { display: none; } .ExploreStudies { margin-top: 32px; } }
 
 @media screen and (min-width: 2400px) { .IndexIntro { max-width: 1728px; margin: auto; } body { margin: auto; max-width: 1856px; } }
 
@@ -127,7 +127,7 @@ a:visited, a:link { text-decoration: none; }
 
 .square img { width: 100%; object-fit: cover; }
 
-.StudiesContainer { padding: 64px; background-color: var(--black-opacity-10); }
+.StudiesContainer { padding: 64px; }
 
 .StudiesContainer h4 { margin-bottom: 16px; }
 
@@ -135,7 +135,7 @@ a:visited, a:link { text-decoration: none; }
 
 a:visited, a:link { text-decoration: none; }
 
-.StudiesModule { filter: saturate(0%); display: grid; grid-template-columns: 30% 50% 20%; border-top: solid 1px var(--black-opacity-30); padding-top: 64px; padding-bottom: 64px; color: var(--light-text-color); }
+.StudiesModule { display: grid; grid-template-columns: 30% 50% 20%; border-top: solid 1px var(--black-opacity-30); padding-top: 64px; padding-bottom: 64px; color: var(--light-text-color); }
 
 .StudiesModule :nth-child(3) { margin-left: auto; margin-right: 0; }
 
@@ -150,8 +150,6 @@ a:visited, a:link { text-decoration: none; }
 svg { width: 30px; }
 
 svg .st0 { fill: none; stroke: var(--light-text-color); stroke-width: 10rem; stroke-miterlimit: 100; }
-
-.StudiesModule:hover { filter: grayscale(0%); }
 
 .StudiesModule:hover h1 { text-decoration: underline; }
 
@@ -193,7 +191,7 @@ svg .st0 { fill: none; stroke: var(--light-text-color); stroke-width: 10rem; str
 
 .CarouselComponent :nth-child(3) { margin-left: auto; margin-right: 0; }
 
-.CarouselComponent h1 { text-decoration: none; font-size: 32px; }
+.CarouselComponent h1 { text-decoration: none; }
 
 .CarouselComponent li { list-style-type: none; margin: 0; display: inline-block; font-size: .8rem; }
 
@@ -343,8 +341,6 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 
 .infoModule > div:nth-child(1) { padding-top: 0; }
 
-.infoModule > div:nth-child(3) p { font-size: 1.5rem; }
-
 .infoModule > div:nth-child(4) { border-left: solid 1px var(--border-tertiary); padding-left: 32px; }
 
 .infoModule > div:nth-child(3), .infoModule > div:nth-child(4) { border-bottom: solid 5px var(--border-tertiary); }
@@ -410,5 +406,23 @@ footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-to
 .mobileNav h1 { margin: 0; padding-top: 8px; }
 
 .mobileNav a { color: #181818; }
+
+@media only screen and (max-width: 728px) { .drpdwn-section-divider { margin-bottom: 16px; } .mobileNav { grid-template-columns: 1fr; grid-gap: 32px; } }
+
+@media only screen and (max-width: 1024px) and (min-width: 729px) { .drpdwn-section-divider { margin-bottom: 16px; } .mobileNav { grid-template-columns: 1fr; grid-gap: 32px; } }
+
+.bg { position: fixed; top: -50%; left: -50%; right: -50%; bottom: -50%; width: 200%; height: 200vh; background: transparent url("http://assets.iceable.com/img/noise-transparent.png") repeat 0 0; background-repeat: repeat; animation: bg-animation .2s infinite; opacity: .9; visibility: visible; pointer-events: none; z-index: -1; }
+
+@keyframes bg-animation { 0% { transform: translate(0, 0); }
+  10% { transform: translate(-5%, -5%); }
+  20% { transform: translate(-10%, 5%); }
+  30% { transform: translate(5%, -10%); }
+  40% { transform: translate(-5%, 15%); }
+  50% { transform: translate(-10%, 5%); }
+  60% { transform: translate(15%, 0); }
+  70% { transform: translate(0, 10%); }
+  80% { transform: translate(-15%, 0); }
+  90% { transform: translate(10%, 5%); }
+  100% { transform: translate(5%, 0); } }
 
 /*# sourceMappingURL=main.css.map */

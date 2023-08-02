@@ -7,6 +7,7 @@
     0% {
         transform: translateY(-100%);
     }
+
     100% {
         transform: translateY(0);
     }
@@ -22,7 +23,8 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
     animation: 1s ease-out 0s 1 slideInFromTop;
     line-height: 0.8;
-    background-color: $backgroundColor;
+    // background-color: $backgroundColor;
+    backdrop-filter: blur(3px);
     color: $bodyColor;
 
     position: fixed;
@@ -60,11 +62,13 @@ header {
 .menu {
     margin-left: auto;
     margin-right: 0;
+
     svg {
         width: 20px;
         cursor: pointer;
         fill: $bodyColor;
     }
+
     svg:hover {
         transform: rotate(135deg);
         transition-duration: 0.3s;
@@ -79,7 +83,8 @@ headerTwo {
     grid-template-columns: 1fr 1fr 1fr;
 
     line-height: 0.8;
-    background-color: $backgroundColor;
+    // background-color: $backgroundColor;
+    backdrop-filter: blur(3px);
     color: $bodyColor;
 
     position: fixed;
@@ -104,20 +109,17 @@ headerTwo {
 }
 
 // MOBILENAV
+
 .overlay::-webkit-scrollbar {
     display: none;
-  }
+}
+
 .overlay {
-
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-  
-    // backdrop-filter: blur(33px);
-    // -webkit-backdrop-filter: blur(33x);
-    // background-blend-mode: overlay;
-    // background-color: rgba(48, 48, 48, 0.7);
-    background-color: #28e285;
-
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    background-color: #00ffa3;
     height: 0%;
     width: 100%;
     position: fixed;
@@ -128,9 +130,7 @@ headerTwo {
     overflow-x: hidden;
     transition: 0.3s;
 
-
     ul {
-
         display: flex;
         justify-content: space-between;
         list-style-type: none;
@@ -145,40 +145,44 @@ headerTwo {
     position: absolute;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
     line-height: 0.8;
     padding: $blockFour;
     left: 0;
     right: 0;
+
     a {
         color: $dropdowntext;
-
     }
 }
 
 .closebtn {
     margin-left: auto;
     margin-right: 0;
+
     svg {
         width: 20px;
-
         transform: rotate(45deg);
     }
+
     circle {
         fill: $dropdowntext;
     }
 }
+
+
 
 // SCREENS
 @media only screen and (max-width: 728px) {
     body {
         padding-top: 120px;
     }
+
     header,
     headerTwo {
         padding: $blockTwo;
         grid-template-columns: 1fr 1fr;
     }
+
     .nav {
         display: none;
     }
@@ -192,11 +196,13 @@ headerTwo {
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
+
     header,
     headerTwo {
         padding: $blockThree;
         grid-template-columns: 1fr 1fr 1fr;
     }
+
     .overlay-content {
         grid-template-columns: 1fr 1fr 1fr;
         padding: $blockThree;

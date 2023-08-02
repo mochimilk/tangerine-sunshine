@@ -1,19 +1,28 @@
 .IndexContainer {
-    height: 100vh;
-    margin-bottom: -160px;
+    // height: 100vh;
+    // margin-bottom: -160px;
 
 }
 
+
+
 .IndexIntro {
-    position: absolute;
+    // position: absolute;
     bottom: $blockFour;
     padding: 0 $blockFour 0 $blockFour;
     left: 0;
     right: 0;
+margin-top: $blockFour;
+    // display: grid;
+    // grid-template-columns: 2fr 1fr;
 
+    h1 {
+        font-size: 3.5rem;
+    }
 
     svg {
         width: 30px;
+
         .st0 {
             fill: none;
             stroke: $bodyColor;
@@ -21,6 +30,7 @@
             stroke-miterlimit: 100;
         }
     }
+
     a {
         color: inherit;
         display: inline;
@@ -28,6 +38,7 @@
         overflow: hidden;
         cursor: pointer;
     }
+
     a:after {
         content: "";
         position: absolute;
@@ -43,6 +54,7 @@
         transition-timing-function: ease-out;
         border-radius: 25px;
     }
+
     a:hover:after,
     a:focus:after,
     a:active:after {
@@ -61,37 +73,43 @@
 
 .ExploreStudies {
     margin-top: $blockFour;
-        // margin-top: $blockTwo;
+    // margin-top: $blockTwo;
     // display: inline-flex;
     // align-self: center;
     cursor: pointer;
     // float: center;
-text-align: center;
-opacity: .3;
-transition-duration: 0.3s;
-transition-timing-function: ease-out;
+    text-align: center;
+    opacity: .3;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
 
 }
 
 .ExploreStudies:hover {
 
-        opacity: 1;
+    opacity: 1;
 
 }
 
 @media only screen and (max-width: 728px) {
     .IndexIntro {
-        margin-top: $blockSix;
+        margin-top: $blockFour;
         padding: 0 $blockTwo 0 $blockTwo;
         bottom: $blockTwo;
+
         a {
             text-decoration: underline !important;
         }
+
         a:hover {
             text-decoration: none !important;
         }
+
         a:after {
             display: none;
+        }
+        h1 {
+            font-size: 2.5rem;
         }
     }
 
@@ -102,15 +120,18 @@ transition-timing-function: ease-out;
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
     .IndexIntro {
-        margin-top: $blockSix;
+        margin-top: $blockFour;
         padding: 0 $blockThree 0 $blockThree;
         bottom: $blockThree;
+
         a {
             text-decoration: underline !important;
         }
+
         a:hover {
             text-decoration: none !important;
         }
+
         a:after {
             display: none;
         }
@@ -126,6 +147,7 @@ transition-timing-function: ease-out;
         max-width: 1728px;
         margin: auto;
     }
+
     body {
         margin: auto;
         max-width: 1856px;
