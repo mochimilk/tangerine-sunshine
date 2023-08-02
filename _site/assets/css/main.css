@@ -95,7 +95,9 @@ headerTwo ul { display: flex; justify-content: space-between; list-style-type: n
     transform: translateY(100%); }
   to { opacity: 1; } }
 
-.IndexIntro { display: grid; grid-template-columns: 2fr 1fr; bottom: 64px; padding: 0 64px 0 64px; left: 0; right: 0; margin-top: 128px; margin-bottom: 32px; }
+.IndexIntro { bottom: 64px; padding: 0 64px 0 64px; left: 0; right: 0; margin-top: 128px; margin-bottom: 32px; }
+
+.IndexIntro h1 { font-size: 48px; }
 
 .IndexIntro svg { width: 30px; }
 

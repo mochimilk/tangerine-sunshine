@@ -1,15 +1,14 @@
 .IndexIntro {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+
     bottom: $blockFour;
     padding: 0 $blockFour 0 $blockFour;
     left: 0;
     right: 0;
     margin-top: $blockFive;
     margin-bottom: $blockThree;
-    // h1 {
-    //     font-size: 48px;
-    // }
+    h1 {
+        font-size: 48px;
+    }
     svg {
         width: 30px;
         .st0 {
