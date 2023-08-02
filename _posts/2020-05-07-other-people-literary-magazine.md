@@ -21,9 +21,7 @@ _template: studies
 
 
 
-## Building Brutal
-
-The objective of this project was to build a site for Other People, a student run magazine at UC San Diego. Given both the brutalist nature of the school's architecture along with the high functionality of the art form itself, our team wanted to design a site that could live cohesively within those two spheres.
+## The objective of this project was to build a site for Other People, a student run magazine at UC San Diego. Given both the brutalist nature of the school's architecture along with the high functionality of the art form itself, our team wanted to design a site that could live cohesively within those two spheres.
 
 ### Role
 
@@ -47,9 +45,10 @@ Below is a wireframe of our initial ideation of the site, along with inspiration
 ### Typography
 ![](/uploads/basier-font-06.jpg)![](/uploads/basier-font-03.jpg)_[Basier](https://www.atipofoundry.com/fonts/basier) by Atipo Foundry_
 
-## Final Product
+
+## The final product showcases touts its brutalist aesthetics and functionality throughout the site. Even from when the user lands on the page, to dropping down the menu, they are met with rich, bold text that directs them directly to the core of the experiece, the student content itself.
 ### Homepage
-The final product showcases touts its brutalist aesthetics and functionality throughout the site. Even from when the user lands on the page, to dropping down the menu, they are met with rich, bold text that directs them directly to the core of the experiece, the student content itself.
+
 
 ![](/uploads/otherpeople01.png)_Hero_
 

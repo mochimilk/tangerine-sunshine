@@ -19,9 +19,7 @@ _template: studies
 
 
 
-## Introduction
-
-Hulu's web design system takes its root from what we've all come to know and love in the Hulu app. We've worked hard on building a complementary web-focused design system that lives harmoiously with the product team's existing groundwork. These components are used across the board in Hulu's campaign sites, ad managers, as well as microsites.
+## Hulu's web design system takes its root from what we've all come to know and love in the Hulu app. We've worked hard on building a complementary web-focused design system that lives harmoiously with the product team's existing groundwork. These components are used across the board in Hulu's campaign sites, ad managers, as well as microsites.
 
 ![](/uploads/btns.jpg)
 
@@ -35,7 +33,8 @@ To begin the process, we conducted a thorough analysis of our existing color sys
 <br><br>
 Once we were satisfied with our color palette, we updated our figma to be globally available to our team, along with proper documentation.
 ![](/uploads/colors.jpg)
-Overall, the process of introducing new colors to our design system was a collaborative effort that required extensive research, experimentation, and testing. The end result was a set of new colors that added new visual interest and flexibility to our designs, while maintaining the overall cohesiveness of our existing system.
+
+## Overall, the process of introducing new colors to our design system was a collaborative effort that required extensive research, experimentation, and testing. The end result was a set of new colors that added new visual interest and flexibility to our designs, while maintaining the overall cohesiveness of our existing system.
 
 
 

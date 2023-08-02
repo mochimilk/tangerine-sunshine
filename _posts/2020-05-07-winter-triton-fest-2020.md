@@ -19,19 +19,18 @@ _template: studies
 
 
 
-## Objective
 
-The objective of this project was to design and develop a website for Winter Triton Fest 2020. Winter Triton Fest is an annual late night, weekend event series held at the beginning of winter quarters at UC San Diego. They host a number of events, including talks from Josh Peck, Stephanie Soo, Anne Phung, and more.
+## The objective of this project was to design and develop a website for Winter Triton Fest 2020. Winter Triton Fest is an annual late night, weekend event series held at the beginning of winter quarters at UC San Diego. They host a number of events, including talks from Josh Peck, Stephanie Soo, Anne Phung, and more.
 
-## Role
+### Role
 
-I wore many hats in this project as a lot of the staff was out for winter break 😭. However, it challenged me to build a project independently. For this project, I took the role in **UX/UI, frontend, and branding**.
+I wore many hats in this project as a lot of the staff was out for winter break. However, it challenged me to build a project independently. For this project, I took the role in **UX/UI, frontend, and branding**.
 
-## Brainstorming
+### Brainstorming
 
 When first thinking of building the site, I took into consideration what students would use the site for. Looking at prior Triton Fest sites, I saw that it consisted of a list of events, each linking to a corresponding facebook event page. Though the site was functional, it wasn't so much practical as it took the viewer out of the site and into Facebook.
 
-## Proposal
+### Proposal
 
 I wanted to create a site that would allow students to explore and share all the events offered at Triton Fest without having to leave the site itself. To do this, I kept three things in mind:
 
@@ -39,7 +38,6 @@ I wanted to create a site that would allow students to explore and share all the
 * Make "location" and "date" easily "screen-shotable" so that students can share.
 * Make a site that is responsive so that students will be able to utilize it regardless of where they are viewing it.
 
-## Process
 
 ### Research
 
@@ -47,7 +45,7 @@ For this project, I was inspired by similar sites that focused on marketing thei
 
 ![](/uploads/Screen Shot 2020-05-08 at 11.30.03 PM.png)_Event component mood boards_
 
-I wanted to make the entirety of the Triton Fest website as informationally minimalistic as possible — just like the cards I used for my mood board — displaying only event, time, date, and location. In doing so would make the site a brief, yet informative and enjoyable experience.
+## I wanted to make the entirety of the Triton Fest website as informationally minimal as possible — just like the cards I used for my mood board — displaying only event, time, date, and location. In doing so would make the site a brief, yet informative and enjoyable experience.
 
 ### Wireframes
 

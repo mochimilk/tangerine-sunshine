@@ -1,0 +1,32 @@
+I"F<h2 id="sun-god-festival-is-a-student-curated-daylong-music-and-arts-festival-at-uc-san-diego-named-as-one-of-live-nations-top-5-college-concerts-that-should-be-actual-festivals-sun-god-festival-is-continuously-reimagined-to-deliver-students-with-thrilling-moments-and-life-long-memories-from-live-performances-by-national-touring-artists-diverse-food-vendors-vibrant-art-and-décor-and-interactive-brand-activations">Sun God Festival is a student-curated, daylong music and arts festival at UC San Diego. Named as one of Live Nation’s “Top 5 College Concerts That Should Be Actual Festivals”, Sun God Festival is continuously reimagined to deliver students with thrilling moments and life-long memories from live performances by national touring artists, diverse food vendors, vibrant art and décor, and interactive brand activations.</h2>
+
+<h3 id="role">Role</h3>
+
+<p>In the spring of 2019, I had the opportunity to lead in the creative direction and web design of UC San Diego’s Sun God Festival. My responsibilities included meeting with the marketing team to <strong>create an aesthetic direction</strong>, <strong>designing print and digital assets</strong>, and <strong>designing an experiential website</strong> that students can utilize to learn about  and register for the event.  During the course of this project, I worked closely with the team behind A.S. Concerts and Events as well as A.S. Graphic Studio’s webmaster, <a href="http://emilynguyen.co/">Emily Nguyen</a> (developed the site and the experiences in it).</p>
+
+<h3 id="art-direction">Art Direction</h3>
+
+<h2 id="as-this-was-an-event-held-in-la-jolla-california-the-art-direction-for-this-project-was-inspired-by-coastal-elements-i-explored-the-environment-of-the-locale-going-hiking-on-the-torrey-pines-trail-and-spending-time-at-the-village">As this was an event held in La Jolla, California, the art direction for this project was inspired by coastal elements. I explored the environment of the locale, going hiking on the Torrey Pines Trail and spending time at The Village.</h2>
+
+<p>It was also inspired by Trevor Paglen’s <em>Site Unseen</em> installation at the Museum of Contemporary Art San Diego (MCASD). What I found intriguing of his piece was the binary between the things visible in the tanglible world opposed to artificial intellgence.</p>
+
+<blockquote>
+  <p><em>“Paglen’s photographs show something we are not meant to see, whose concealment he regards as symptomatic of the historical moment we inhabit. His objects act in opposition to what his images have exposed, imagining another and potentially different world.</em></p>
+
+  <p><em>— MCASD</em></p>
+</blockquote>
+
+<p><img src="/uploads/BOP.png" alt="" /><em>Closeup of a design created through processing.js</em></p>
+
+<p>Using Paglen’s work as an influence, I decided on creating a binary between the La Jolla obsucra and a digital obscura. I added components of camera viewfinders, auto/manual focus, and blurring to portray this; The space between the two is where I implemented the glitches, stretching photos and pixel sorting (implemented through processing.js).</p>
+
+<p><img src="/uploads/SGF19_Poster.png" alt="" /><em>Poster Designs</em></p>
+
+<h3 id="uxui">UX/UI</h3>
+
+<p>Sun God Festival’s website was inspired much in the same way as the art direction. Interactive elements were designed and deployed throughout the page to correspond with the overall aesthetic. With the help of Emily as the developer, we were able to create a unique digital experience for the festival page. This project was built on Jekyll and SASS.</p>
+
+<p><img src="/uploads/SGFWeb-01.png" alt="" /><img src="/uploads/SGFWeb-02.png" alt="" /><img src="/uploads/SGFWeb-04-03.png" alt="" /><img src="/uploads/lineup.gif" alt="" /><em>Mouse hover to reveal lineup</em></p>
+
+<p><img src="/uploads/stretch.gif" alt="" /><em>Scroll to reveal information</em></p>
+:ET

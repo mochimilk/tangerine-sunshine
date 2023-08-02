@@ -17,10 +17,12 @@
   border-width: 0 0 1px 0;
   border-color: $borderTertiary;
   padding-bottom: $blockThree;
+
   h4 {
     padding-top: $blockTwo;
     bottom: 0;
   }
+
   li {
     list-style-type: none;
     margin: 0;
@@ -45,19 +47,28 @@
   text-align: left;
   max-width: 960px;
   padding: 0 $blockFour 0 $blockFour;
+
   p {
     margin: 0 0 0 0;
   }
+
   a {
     color: rgb(224, 146, 0);
     text-decoration: underline;
   }
+
   a:hover {
     text-decoration: none;
   }
+
   h2 {
     margin-top: $blockFour;
   }
+
+  h3 {
+    margin-top: $blockFour;
+  }
+
   ul:not(:first-child) {
     list-style-position: outside;
     line-height: 1.5;
@@ -83,6 +94,7 @@
     margin-bottom: 0;
     display: none;
     opacity: 0;
+
     li {
       list-style-type: none;
       margin: 0 0 8px 0;
@@ -92,16 +104,20 @@
     li:nth-child(n + 6):before {
       content: $symbol;
     }
+
     a {
       color: inherit;
     }
+
     h4 {
       opacity: 0.5;
     }
+
     p,
     li {
-      margin-bottom: 24px;
+      margin-top: 8px;
     }
+
     button {
       margin-top: 12px;
     }
@@ -119,15 +135,18 @@
   li {
     margin-left: $blockThree;
   }
+
   img {
     width: 100%;
     padding-top: $blockThree;
-    padding-bottom: $blockThree;
+
   }
+
   em {
-    padding-bottom: $blockThree;
+    // padding-bottom: $blockThree;
   }
-  img + em {
+
+  img+em {
     display: table;
     margin: 0 auto;
     text-align: center;
@@ -186,6 +205,7 @@
 
 .studyImage {
   width: 100%;
+
   img {
     width: 100%;
   }
@@ -201,6 +221,7 @@
     grid-template-columns: 1fr;
     margin: 0 $blockTwo 0 $blockTwo;
     bottom: $blockThree;
+
     h3 {
       margin: 0;
     }
@@ -221,12 +242,13 @@
     right: 0;
     width: initial;
     padding: $blockTwo;
+
     h2 {
-      margin-top: $blockThree;
-      margin-bottom: $blockThree;
+      margin-top: $blockTwo;
     }
+
     h3 {
-      margin-bottom: $blockTwo;
+      margin-top: $blockFour;
     }
   }
 
@@ -259,6 +281,7 @@
       padding-right: 0;
       width: 100%;
     }
+
     h2:not(:first-child) {
       margin-top: $blockFour;
     }
@@ -268,10 +291,12 @@
     h2:nth-child(1) {
       padding-top: 0;
     }
+
     img {
       margin-top: 0;
     }
   }
+
   .sideInfo {
     display: none;
     opacity: 0;
@@ -298,6 +323,7 @@
       // margin-bottom: -$blockThree;
       margin-top: $blockThree;
     }
+
     ul:not(:first-child) {
       list-style-position: outside;
       line-height: 1.5;
@@ -308,6 +334,7 @@
       padding: 0;
       cursor: pointer;
     }
+
     .sideInfo {
       display: initial;
       opacity: 1;
@@ -317,6 +344,7 @@
         list-style-type: none;
         padding: 0;
       }
+
       a {
         color: inherit;
       }
@@ -329,12 +357,15 @@
 .medium {
   grid-area: medium;
 }
+
 .role {
   grid-area: role;
 }
+
 .category {
   grid-area: timeframe;
 }
+
 .link {
   grid-area: link;
 }
@@ -346,9 +377,11 @@
     "role role"
     "timeframe link";
   padding-bottom: $blockThree;
+
   button {
     margin-top: 12px;
   }
+
   li {
     list-style-type: none;
     margin: 0;
@@ -362,35 +395,40 @@
   h4 {
     opacity: 0.55;
   }
-  > div {
+
+  >div {
     border-bottom: solid 1px $borderTertiary;
     padding: $blockThree 0 $blockThree 0;
   }
 
-  > div:nth-child(1) {
+  >div:nth-child(1) {
     padding-top: 0;
   }
-  > div:nth-child(3) {
+
+  >div:nth-child(3) {
     p {
       // font-size: 1.5rem;
     }
   }
-  > div:nth-child(4) {
+
+  >div:nth-child(4) {
     border-left: solid 1px $borderTertiary;
     padding-left: $blockThree;
   }
-  > div:nth-child(3),
-  > div:nth-child(4) {
+
+  >div:nth-child(3),
+  >div:nth-child(4) {
     border-bottom: solid 5px $borderTertiary;
   }
 }
 
 @media only screen and (max-width: 728px) {
   .infoModule {
-    > div {
+    >div {
       padding: 24px 0 24px 0;
     }
-    > div:nth-child(4) {
+
+    >div:nth-child(4) {
       padding-left: 24px;
     }
   }
