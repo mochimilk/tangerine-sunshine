@@ -1,6 +1,6 @@
 .aboutContainer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 32px;
     padding: 0 $blockFour 0 $blockFour;
     margin-top: $blockTwo;
@@ -29,27 +29,23 @@ touch-action: none;
     mix-blend-mode: difference;
     color: rgb(0, 0, 0);
     user-select: none;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -o-user-select: none;
-    pointer-events: none;
+
 
 }
 
 .aboutImage {
 
     position: fixed;
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 600px;
     padding: 10px;
     top: 50%;
     left: 50%;
-    margin-top: -225px;  /* Negative half of height. */
-    margin-left: -225px;  /* Negative half of width. */
+    margin-top: -300px;  /* Negative half of height. */
+    margin-left: -200px;  /* Negative half of width. */
 
 
-    z-index: 0;
+    z-index: 1;
 
     touch-action: none;
     user-select: none;
