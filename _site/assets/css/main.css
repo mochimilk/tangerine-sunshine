@@ -219,7 +219,7 @@ svg .st0 { fill: none; stroke: var(--light-text-color); stroke-width: 10rem; str
 
 @media screen and (min-width: 2400px) { .studiesMenu { padding-top: 128px; margin: auto; } .StudiesModule img, .drpdwn-StudiesModule img { height: 11vw; } .CarouselComponent { display: grid; grid-template-columns: 1fr; } .CarouselComponent img { height: 12vw; } }
 
-.aboutContainer { display: grid; grid-template-columns: 2fr 1fr; gap: 32px; padding: 0 64px 0 64px; margin-top: 16px; touch-action: none; }
+.aboutContainer { display: grid; grid-template-columns: 2fr 1fr; gap: 32px; padding: 0 64px 0 64px; margin-top: 16px; }
 
 .aboutContainer h2 { margin-top: 32px; }
 
@@ -229,7 +229,7 @@ svg .st0 { fill: none; stroke: var(--light-text-color); stroke-width: 10rem; str
 
 .aboutText { filter: invert(1); mix-blend-mode: difference; color: black; user-select: none; }
 
-.aboutImage { position: fixed; width: 400px; height: 600px; padding: 10px; top: 50%; left: 50%; margin-top: -300px; /* Negative half of height. */ margin-left: -200px; /* Negative half of width. */ z-index: 1; touch-action: none; user-select: none; }
+.aboutImage { position: fixed; width: 400px; height: 600px; padding: 10px; top: 50%; left: 50%; margin-top: -300px; /* Negative half of height. */ margin-left: -200px; /* Negative half of width. */ z-index: 1; }
 
 .aboutImage img { width: 100%; border-radius: .25rem; cursor: grab; scale: 70%; }
 
