@@ -115,9 +115,9 @@ headerTwo ul { display: flex; justify-content: space-between; list-style-type: n
 
 .ExploreStudies:hover { opacity: 1; }
 
-@media only screen and (max-width: 800px) { .IndexIntro { margin-top: 64px; padding: 0 16px 0 16px; bottom: 16px; } .IndexIntro a { text-decoration: underline !important; } .IndexIntro a:hover { text-decoration: none !important; } .IndexIntro a:after { display: none; } .IndexIntro h1 { font-size: 2rem; } .ExploreStudies { margin-top: 32px; } }
-
 @media only screen and (max-width: 1200px) { .IndexIntro { margin-top: 64px; padding: 0 32px 0 32px; bottom: 32px; } .IndexIntro a { text-decoration: underline !important; } .IndexIntro a:hover { text-decoration: none !important; } .IndexIntro a:after { display: none; } .IndexIntro h1 { font-size: 2.5rem; } .ExploreStudies { margin-top: 32px; } }
+
+@media only screen and (max-width: 800px) { .IndexIntro { margin-top: 64px; padding: 0 16px 0 16px; bottom: 16px; } .IndexIntro a { text-decoration: underline !important; } .IndexIntro a:hover { text-decoration: none !important; } .IndexIntro a:after { display: none; } .IndexIntro h1 { font-size: 2rem; } .ExploreStudies { margin-top: 32px; } }
 
 @media screen and (min-width: 2400px) { .IndexIntro { max-width: 1728px; margin: auto; } body { margin: auto; max-width: 1856px; } }
 

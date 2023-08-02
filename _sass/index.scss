@@ -75,6 +75,34 @@
 
 }
 
+@media only screen and (max-width: $media-md) {
+    .IndexIntro {
+        margin-top: $blockFour;
+        padding: 0 $blockThree 0 $blockThree;
+        bottom: $blockThree;
+
+        a {
+            text-decoration: underline !important;
+        }
+
+        a:hover {
+            text-decoration: none !important;
+        }
+
+        a:after {
+            display: none;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+        }
+    }
+
+    .ExploreStudies {
+        margin-top: $blockThree;
+    }
+}
+
 @media only screen and (max-width: $media-sm) {
     .IndexIntro {
         margin-top: $blockFour;
@@ -103,33 +131,7 @@
     }
 }
 
-@media only screen and (max-width: $media-md) {
-    .IndexIntro {
-        margin-top: $blockFour;
-        padding: 0 $blockThree 0 $blockThree;
-        bottom: $blockThree;
 
-        a {
-            text-decoration: underline !important;
-        }
-
-        a:hover {
-            text-decoration: none !important;
-        }
-
-        a:after {
-            display: none;
-        }
-
-        h1 {
-            font-size: 2.5rem;
-        }
-    }
-
-    .ExploreStudies {
-        margin-top: $blockThree;
-    }
-}
 
 @media screen and (min-width: 2400px) {
     .IndexIntro {
