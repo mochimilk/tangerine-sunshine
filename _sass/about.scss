@@ -1,12 +1,15 @@
 .aboutContainer {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 2fr 1fr;
     padding: 0 $blockFour 0 $blockFour;
-    margin-top: $blockTwo;
+    margin-top: $blockFour;
+
+
 
     h2 {
-        padding-top: $blockFour;
+        // padding-top: $blockFour;
         margin-bottom: $blockFour;
+        opacity: .8;
     }
     a {
         // color: rgb(224, 146, 0);

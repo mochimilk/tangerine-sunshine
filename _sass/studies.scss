@@ -11,8 +11,9 @@ a:link {
 }
 
 .section-divider {
-  padding: 0 $blockFour;
+  padding: $blockFour $blockFour 0 $blockFour;
   background-color: $blackOpacity10;
+
 }
 
 .square {
@@ -47,7 +48,7 @@ a:link {
   display: grid;
   grid-template-columns: 30% 50% 20%;
   border-top: solid 1px $blackOpacity30 ;
-  padding-top: $blockFour;
+  padding-top: $blockThree;
   padding-bottom: $blockFour;
   color: $bodyColor;
 
@@ -195,7 +196,7 @@ svg {
   display: grid;
   grid-template-columns: 1fr;
   border-top: solid 1px $blackOpacity30 ;
-  padding-top: $blockFour;
+  padding-top: $blockThree;
   color: $bodyColor;
 
   :nth-child(3) {
