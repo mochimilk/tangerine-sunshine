@@ -5,8 +5,6 @@
     padding: 0 $blockFour 0 $blockFour;
     margin-top: $blockTwo;
 
-// touch-action: none;
-
 
  
  
@@ -47,11 +45,10 @@
 
     z-index: 1;
 
-    // touch-action: none;
-    // user-select: none;
+
 
     img {
-        // user-select: none;
+ 
         width: 100%;
         border-radius: .25rem;
         cursor: grab;
