@@ -1,16 +1,21 @@
 .aboutContainer {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
     padding: 0 $blockFour 0 $blockFour;
     margin-top: $blockTwo;
 
-    h2 {
+touch-action: none;
 
+
+ 
+ 
+    h2 {
         margin-top: $blockThree;
     }
 
     a {
-        color: $bodyColor;
+        color: $backgroundColor;
         text-decoration: underline;
     }
 
@@ -19,15 +24,81 @@
     }
 }
 
+.aboutText {
+    filter: invert(1);
+    mix-blend-mode: difference;
+    color: rgb(0, 0, 0);
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    pointer-events: none;
+
+}
+
 .aboutImage {
-    padding-left: $blockFour;
+
+    position: fixed;
+    width: 450px;
+    height: 450px;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    margin-top: -225px;  /* Negative half of height. */
+    margin-left: -225px;  /* Negative half of width. */
+
+
+    z-index: 0;
+
+    touch-action: none;
+    user-select: none;
 
     img {
+        // user-select: none;
         width: 100%;
         border-radius: .25rem;
+        cursor: grab;
+        scale: 70%;
+
+
+    }
+
+    img:hover {
+        scale: .75;
+    }
+
+    img:active {
+        scale: .77;
+        opacity: .8;
+        cursor: grabbing;
     }
 }
 
+
+
+
+  
+
+
+
+
+
+
+@media only screen and (max-width: $media-md) {
+    .aboutImage {
+        padding-left: 0;
+    }
+
+    .aboutContainer {
+        padding: 0 $blockThree 0 $blockThree;
+        grid-template-columns: 1fr;
+
+        h1 {
+            margin-top: $blockThree;
+        }
+    }
+}
 
 
 @media only screen and (max-width: $media-sm) {
@@ -37,21 +108,6 @@
 
     .aboutContainer {
         padding: 0 $blockTwo 0 $blockTwo;
-        grid-template-columns: 1fr;
-
-        h1 {
-            margin-top: $blockThree;
-        }
-    }
-}
-
-@media only screen and (max-width: $media-md) {
-    .aboutImage {
-        padding-left: 0;
-    }
-
-    .aboutContainer {
-        padding: 0 $blockThree 0 $blockThree;
         grid-template-columns: 1fr;
 
         h1 {

@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-image: /uploads/trash.JPG
+image: /uploads/face.png
 _template: about
 ---
 

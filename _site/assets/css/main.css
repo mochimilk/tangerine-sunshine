@@ -36,7 +36,7 @@ button:hover { background-color: #80808035; border-color: var(--light-text-color
 
 body { padding-top: 160px; }
 
-header { padding: 64px; display: grid; grid-template-columns: 1fr 1fr 1fr; animation: 1s ease-out 0s 1 slideInFromTop; line-height: 0.8; backdrop-filter: blur(3px); color: var(--light-text-color); position: fixed; top: 0; transition: top 0.3s ease-in-out; left: 0px; right: 0px; z-index: 1; }
+header { padding: 64px; display: grid; grid-template-columns: 1fr 1fr 1fr; animation: 1s ease-out 0s 1 slideInFromTop; line-height: 0.8; filter: invert(1); mix-blend-mode: difference; color: black; position: fixed; top: 0; transition: top 0.3s ease-in-out; left: 0px; right: 0px; z-index: 1; }
 
 header a { color: inherit; }
 
@@ -46,13 +46,13 @@ header ul { display: flex; justify-content: space-between; list-style-type: none
 
 .title { font-weight: bold; line-height: 0.8rem; display: flex; align-self: center; }
 
-.menu { margin-left: auto; margin-right: 0; }
+.menu { margin-left: auto; margin-right: 0; filter: invert(1); mix-blend-mode: difference; color: black; }
 
 .menu svg { width: 20px; cursor: pointer; fill: var(--light-text-color); }
 
 .menu svg:hover { transform: rotate(135deg); transition-duration: 0.3s; }
 
-headerTwo { padding: 64px; display: grid; grid-template-columns: 1fr 1fr 1fr; line-height: 0.8; backdrop-filter: blur(3px); color: var(--light-text-color); position: fixed; top: 0; transition: top 0.3s ease-in-out; left: 0px; right: 0px; z-index: 1; }
+headerTwo { padding: 64px; display: grid; grid-template-columns: 1fr 1fr 1fr; line-height: 0.8; position: fixed; top: 0; transition: top 0.3s ease-in-out; left: 0px; right: 0px; z-index: 1; filter: invert(1); mix-blend-mode: difference; color: black; }
 
 headerTwo a { color: inherit; }
 
@@ -219,21 +219,27 @@ svg .st0 { fill: none; stroke: var(--light-text-color); stroke-width: 10rem; str
 
 @media screen and (min-width: 2400px) { .studiesMenu { padding-top: 128px; margin: auto; } .StudiesModule img, .drpdwn-StudiesModule img { height: 11vw; } .CarouselComponent { display: grid; grid-template-columns: 1fr; } .CarouselComponent img { height: 12vw; } }
 
-.aboutContainer { display: grid; grid-template-columns: 2fr 1fr; padding: 0 64px 0 64px; margin-top: 16px; }
+.aboutContainer { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; padding: 0 64px 0 64px; margin-top: 16px; touch-action: none; }
 
 .aboutContainer h2 { margin-top: 32px; }
 
-.aboutContainer a { color: var(--light-text-color); text-decoration: underline; }
+.aboutContainer a { color: var(--background-color); text-decoration: underline; }
 
 .aboutContainer a:hover { text-decoration: none; }
 
-.aboutImage { padding-left: 64px; }
+.aboutText { filter: invert(1); mix-blend-mode: difference; color: black; user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none; pointer-events: none; }
 
-.aboutImage img { width: 100%; border-radius: .25rem; }
+.aboutImage { position: fixed; width: 450px; height: 450px; padding: 10px; top: 50%; left: 50%; margin-top: -225px; /* Negative half of height. */ margin-left: -225px; /* Negative half of width. */ z-index: 0; touch-action: none; user-select: none; }
 
-@media only screen and (max-width: 800px) { .aboutImage { padding-left: 0; } .aboutContainer { padding: 0 16px 0 16px; grid-template-columns: 1fr; } .aboutContainer h1 { margin-top: 32px; } }
+.aboutImage img { width: 100%; border-radius: .25rem; cursor: grab; scale: 70%; }
+
+.aboutImage img:hover { scale: .75; }
+
+.aboutImage img:active { scale: .77; opacity: .8; cursor: grabbing; }
 
 @media only screen and (max-width: 1200px) { .aboutImage { padding-left: 0; } .aboutContainer { padding: 0 32px 0 32px; grid-template-columns: 1fr; } .aboutContainer h1 { margin-top: 32px; } }
+
+@media only screen and (max-width: 800px) { .aboutImage { padding-left: 0; } .aboutContainer { padding: 0 16px 0 16px; grid-template-columns: 1fr; } .aboutContainer h1 { margin-top: 32px; } }
 
 footer { display: grid; grid-template-columns: 1fr 1fr; padding: 64px; margin-top: 64px; }
 

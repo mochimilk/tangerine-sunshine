@@ -23,9 +23,11 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
     animation: 1s ease-out 0s 1 slideInFromTop;
     line-height: 0.8;
-    // background-color: $backgroundColor;
-    backdrop-filter: blur(3px);
-    color: $bodyColor;
+
+
+    filter: invert(1);
+    mix-blend-mode: difference;
+    color: rgb(0, 0, 0);
 
     position: fixed;
     top: 0;
@@ -63,6 +65,10 @@ header {
     margin-left: auto;
     margin-right: 0;
 
+    filter: invert(1);
+    mix-blend-mode: difference;
+    color: rgb(0, 0, 0);
+
     svg {
         width: 20px;
         cursor: pointer;
@@ -83,9 +89,8 @@ headerTwo {
     grid-template-columns: 1fr 1fr 1fr;
 
     line-height: 0.8;
-    // background-color: $backgroundColor;
-    backdrop-filter: blur(3px);
-    color: $bodyColor;
+
+
 
     position: fixed;
     top: 0;
@@ -93,6 +98,10 @@ headerTwo {
     left: 0px;
     right: 0px;
     z-index: 1;
+
+    filter: invert(1);
+    mix-blend-mode: difference;
+    color: rgb(0, 0, 0);
 
     a {
         color: inherit;
@@ -158,6 +167,8 @@ headerTwo {
 .closebtn {
     margin-left: auto;
     margin-right: 0;
+
+
 
     svg {
         width: 20px;
