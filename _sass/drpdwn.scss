@@ -100,7 +100,7 @@
   }
 }
 
-@media only screen and (max-width: 728px) {
+@media only screen and (max-width: $media-sm) {
   .drpdwn-section-divider {
     margin-bottom: $blockTwo ;
   }
@@ -112,7 +112,7 @@
   }
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 729px) {
+@media only screen and (max-width: $media-md) {
   .drpdwn-section-divider {
     margin-bottom: $blockTwo ;
   }

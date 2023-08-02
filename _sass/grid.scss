@@ -8,17 +8,14 @@
 }
 
 #photos {
-    /* Prevent vertical gaps */
-margin-top: $blockFour;
+    margin-top: $blockFour;
     -webkit-column-count: 5;
     -webkit-column-gap: 10px;
     -moz-column-count: 3;
     -moz-column-gap: 10px;
     column-count: 3;
-
     column-gap: 20px;
     line-height: 4;
-
     margin-left: auto;
     margin-right: auto;
     padding-left: 0;
@@ -26,7 +23,6 @@ margin-top: $blockFour;
 }
 
 #photos img {
-    /* Just in case there are inline attributes */
     width: 100% !important;
     height: auto !important;
 }
@@ -38,6 +34,7 @@ margin-top: $blockFour;
         column-count: 3;
     }
 }
+
 @media (max-width: 1000px) {
     #photos {
         -moz-column-count: 2;
@@ -45,6 +42,7 @@ margin-top: $blockFour;
         column-count: 2;
     }
 }
+
 @media (max-width: 800px) {
     #photos {
         -moz-column-count: 1;
@@ -52,6 +50,7 @@ margin-top: $blockFour;
         column-count: 1;
     }
 }
+
 @media (max-width: 400px) {
     #photos {
         -moz-column-count: 1;
@@ -60,11 +59,11 @@ margin-top: $blockFour;
     }
 }
 
-@media only screen and (max-width: 728px) {
-#photos{
-    margin-top: $blockTwo;
-    padding-left: 0;
-}
+@media only screen and (max-width: $media-sm) {
+    #photos {
+        margin-top: $blockTwo;
+        padding-left: 0;
+    }
 
     .galleryContainer {
         margin-top: $blockTwo;
@@ -75,8 +74,8 @@ margin-top: $blockFour;
     }
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 729px) {
-    #photos{
+@media only screen and (max-width: $media-md) {
+    #photos {
         margin-top: $blockFour;
         padding-left: 0;
     }

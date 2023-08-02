@@ -4,7 +4,7 @@
     padding: 0 $blockFour 0 $blockFour;
     margin-top: $blockTwo;
 
-    h1 {
+    h2 {
 
         margin-top: $blockThree;
     }
@@ -30,7 +30,7 @@
 
 
 
-@media only screen and (max-width: 728px) {
+@media only screen and (max-width: $media-sm) {
     .aboutImage {
         padding-left: 0;
     }
@@ -45,7 +45,7 @@
     }
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 729px) {
+@media only screen and (max-width: $media-md) {
     .aboutImage {
         padding-left: 0;
     }

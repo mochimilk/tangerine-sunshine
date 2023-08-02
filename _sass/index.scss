@@ -75,7 +75,7 @@
 
 }
 
-@media only screen and (max-width: 728px) {
+@media only screen and (max-width: $media-sm) {
     .IndexIntro {
         margin-top: $blockFour;
         padding: 0 $blockTwo 0 $blockTwo;
@@ -103,7 +103,7 @@
     }
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 729px) {
+@media only screen and (max-width: $media-md) {
     .IndexIntro {
         margin-top: $blockFour;
         padding: 0 $blockThree 0 $blockThree;

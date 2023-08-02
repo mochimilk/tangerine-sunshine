@@ -22,6 +22,7 @@
   "dependencies": {
     "@tinacms/auth": "^1.0.3",
     "@tinacms/cli": "^1.5.9",
+    "moment-timezone": "^0.5.43",
     "tinacms": "^1.5.2"
   }
 }

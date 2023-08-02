@@ -1,8 +1,3 @@
-// * {
-//     border-style: solid;
-//     border-width: 1px;
-// }
-
 .studyIntro {
   margin-top: $blockSix;
 }
@@ -46,7 +41,7 @@
   margin: auto;
   text-align: left;
   max-width: 960px;
-  padding: 0 $blockFour 0 $blockFour;
+  padding: $blockFour $blockFour 0 $blockFour;
 
   p {
     margin: 0 0 0 0;
@@ -62,7 +57,7 @@
   }
 
   h2 {
-    margin-top: $blockFour;
+    margin-top: $blockThree;
   }
 
   h3 {
@@ -204,14 +199,47 @@
 }
 
 .studyImage {
-  width: 100%;
+
 
   img {
+    object-fit: cover;
     width: 100%;
+    height: 38.2vw;
   }
 }
 
-@media only screen and (max-width: 728px) {
+@media only screen and (max-width: $media-md) {
+  .postTitle {
+    margin: 0 $blockThree 0 $blockThree;
+    bottom: $blockThree;
+  }
+
+  .contentBody {
+    max-width: 100%;
+    width: initial;
+    padding: $blockThree;
+
+    h2 {
+      text-align: left;
+      padding-right: 0;
+      width: 100%;
+    }
+
+    h2:not(:first-child) {
+      margin-top: $blockThree;
+    }
+
+
+  }
+
+  .sideInfo {
+    display: none;
+    opacity: 0;
+    z-index: -5;
+  }
+}
+
+@media only screen and (max-width: $media-sm) {
   .studyIntro {
     margin-top: $blockFive;
   }
@@ -249,51 +277,6 @@
 
     h3 {
       margin-top: $blockFour;
-    }
-  }
-
-  .sideInfo {
-    display: none;
-    opacity: 0;
-    z-index: -5;
-  }
-}
-
-@media only screen and (max-width: 1024px) and (min-width: 729px) {
-  .postTitle {
-    margin: 0 $blockThree 0 $blockThree;
-    bottom: $blockThree;
-  }
-
-  .contentBody {
-    margin-left: 0;
-    margin-right: 0;
-    left: 0;
-    right: 0;
-    width: initial;
-    padding: $blockThree;
-
-    h2 {
-      position: relative;
-      right: 0;
-      left: 0;
-      text-align: left;
-      padding-right: 0;
-      width: 100%;
-    }
-
-    h2:not(:first-child) {
-      margin-top: $blockFour;
-    }
-
-    h2,
-    h4,
-    h2:nth-child(1) {
-      padding-top: 0;
-    }
-
-    img {
-      margin-top: 0;
     }
   }
 
@@ -376,7 +359,7 @@
     "medium medium"
     "role role"
     "timeframe link";
-  padding-bottom: $blockThree;
+
 
   button {
     margin-top: 12px;
@@ -422,7 +405,7 @@
   }
 }
 
-@media only screen and (max-width: 728px) {
+@media only screen and (max-width: $media-sm) {
   .infoModule {
     >div {
       padding: 24px 0 24px 0;

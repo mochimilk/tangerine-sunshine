@@ -172,7 +172,24 @@ headerTwo {
 
 
 // SCREENS
-@media only screen and (max-width: 728px) {
+@media only screen and (max-width: $media-md) {
+
+    header,
+    headerTwo {
+        padding: $blockThree;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .overlay-content {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: $blockThree;
+        left: 0;
+        right: 0;
+    }
+}
+
+
+@media only screen and (max-width: $media-sm) {
     body {
         padding-top: 120px;
     }
@@ -195,18 +212,3 @@ headerTwo {
     }
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 729px) {
-
-    header,
-    headerTwo {
-        padding: $blockThree;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .overlay-content {
-        grid-template-columns: 1fr 1fr 1fr;
-        padding: $blockThree;
-        left: 0;
-        right: 0;
-    }
-}
