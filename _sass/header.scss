@@ -25,9 +25,7 @@ header {
     line-height: 0.8;
 
 
-    filter: invert(1);
-    mix-blend-mode: difference;
-    color: rgb(0, 0, 0);
+color: $bodyColor;
 
     position: fixed;
     top: 0;
@@ -65,9 +63,7 @@ header {
     margin-left: auto;
     margin-right: 0;
 
-    filter: invert(1);
-    mix-blend-mode: difference;
-    color: rgb(0, 0, 0);
+    color: $bodyColor;
 
     svg {
         width: 20px;
@@ -99,9 +95,7 @@ headerTwo {
     right: 0px;
     z-index: 1;
 
-    filter: invert(1);
-    mix-blend-mode: difference;
-    color: rgb(0, 0, 0);
+    color: $bodyColor;
 
     a {
         color: inherit;

@@ -55,17 +55,17 @@ footer {
 
 
 
+@media only screen and (max-width: $media-md) {
+    footer {
+        padding: $blockThree;
+    }
+}
+
 
 
 
 @media only screen and (max-width: $media-sm) {
     footer {
         padding: $blockTwo;
-    }
-}
-
-@media only screen and (max-width: $media-md) {
-    footer {
-        padding: $blockThree;
     }
 }

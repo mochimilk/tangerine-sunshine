@@ -37,7 +37,7 @@ My role here was as a solo designer, following brand cues and buidling the exper
 
 
 
-![](/uploads/ham_masthead.mp4)_Implementation of a show tile carousel that both auto scrolls and can be manually scrolled by the user_
+![](/uploads/ham_masthead.jpg)_Implementation of a show tile carousel that both auto scrolls and can be manually scrolled by the user_
 
 ### Modulars
 

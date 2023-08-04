@@ -1,4 +1,4 @@
-I"*<h2 id="the-objective-of-this-task-was-to-redesign-the-site-for-hulu-ad-manager-to-increase-engagementsignups-while-improving-on-brand-cues-that-better-fit-the-new-hulu-look">The objective of this task was to redesign the site for Hulu Ad Manager to increase engagement/signups while improving on brand cues that better fit the new Hulu look.</h2>
+I"7<h2 id="the-objective-of-this-task-was-to-redesign-the-site-for-hulu-ad-manager-to-increase-engagementsignups-while-improving-on-brand-cues-that-better-fit-the-new-hulu-look">The objective of this task was to redesign the site for Hulu Ad Manager to increase engagement/signups while improving on brand cues that better fit the new Hulu look.</h2>
 
 <h3 id="role">Role</h3>
 
@@ -8,7 +8,7 @@
 
 <h2 id="this-masthead-was-designed-corresponding-with-hulus-brand-cues---bold-clean-fun---while-maintaining-a-functional-value">This masthead was designed corresponding with Hulu’s brand cues - bold, clean, fun - while maintaining a functional value.</h2>
 
-<p><img src="/uploads/ham_masthead.mov" alt="" /><em>Implementation of a show tile carousel that both auto scrolls and can be manually scrolled by the user</em></p>
+<p><img src="/uploads/ham_masthead.jpg" alt="" /><em>Implementation of a show tile carousel that both auto scrolls and can be manually scrolled by the user</em></p>
 
 <h3 id="modulars">Modulars</h3>
 
@@ -42,7 +42,8 @@
 
 <h2 id="this-project-helped-product-brand-and-developers-move-towards-working-as-a-more-cohesive-team">This project helped product, brand, and developers move towards working as a more cohesive team.</h2>
 
-<p>Prior to this project, many of our tasks followed a linear approach, funneling from one team down to another. What I wanted was for our team to work cohesively by having a single source of truth (the master design system file) that can be utilized by all branches of our team and beyond. Many components in this project were used as building blocks for other Hulu web products, both in campaign sites and internal sites.</p>
+<p>Prior to this project, many of our tasks followed a linear approach, funneling from one team down to another. What I wanted was for our team to work cohesively by having a single source of truth (the master design system file) that can be utilized by all branches of our team and beyond. Many components in this project were used as building blocks for other Hulu web products, both in campaign sites and internal sites.
+<br /><br /></p>
 
 <p>Not only were they successfully used in other sites, but this new web system was built upon and iterated on for other by other members of the team, further solidifying a design system that is ever-changing and self-sustaining.</p>
 :ET
