@@ -4,6 +4,7 @@ role:
   - Brand
   - Product
   - Developer
+category: 'Design Challenge'
 thumb: /uploads/thumbnail-01-01.png
 date: '2020-04-19 00:00:00 +0000'
 layout: study

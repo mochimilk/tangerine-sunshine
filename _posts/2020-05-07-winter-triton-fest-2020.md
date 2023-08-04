@@ -4,6 +4,8 @@ role:
   - Brand
   - Product
   - Developer
+  - Web
+category: 'Design Challenge'
 thumb: /uploads/WebUX-01.png
 date: 2020-01-16T04:00:00.000Z
 layout: study
