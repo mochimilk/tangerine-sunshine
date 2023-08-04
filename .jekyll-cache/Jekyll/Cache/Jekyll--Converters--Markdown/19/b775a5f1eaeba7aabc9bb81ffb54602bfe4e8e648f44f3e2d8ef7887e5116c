@@ -1,0 +1,33 @@
+I"M<h2 id="the-objective-of-this-task-was-to-redesign-the-site-for-hulu-ad-manager-to-increase-engagementsignups-while-improving-on-brand-cues-that-better-fit-the-new-hulu-look">The objective of this task was to redesign the site for Hulu Ad Manager to increase engagement/signups while improving on brand cues that better fit the new Hulu look.</h2>
+
+<h3 id="role">Role</h3>
+
+<p>My role here was as a solo designer, following brand cues and buidling the experience from the ground up. I worked with my design manager and the dev team to assist on user testing and development.</p>
+
+<h3 id="masthead">Masthead</h3>
+
+<h2 id="this-masthead-was-designed-corresponding-with-hulus-brand-cues---bold-clean-fun---while-maintaining-a-functional-value">This masthead was designed corresponding with Hulu’s brand cues - bold, clean, fun - while maintaining a functional value.</h2>
+
+<p><img src="/uploads/ham_masthead.mov" alt="" /><em>Implementation of a show tile carousel that both auto scrolls and can be manually scrolled by the user</em></p>
+
+<h3 id="modulars">Modulars</h3>
+
+<h2 id="one-of-the-goals-of-this-site-was-to-build-modular-parts-that-can-be-implemented-into-tailwind-used-in-future-web-products-these-building-blocks-paved-a-path-for-other-hulu-web-products-that-were-used-both-in-campaign-sites-and-internal-sites">One of the goals of this site was to build modular parts that can be implemented into tailwind used in future web products. These building blocks paved a path for other Hulu web products that were used both in campaign sites and internal sites.</h2>
+
+<p>Many modulars were taken through multiple product, dev, and brand reviews to ensure it’s value and cohesiveness across user experience and brand. All parts of this site were built from scratch, taking data from previous successes in our old UI and juxtaposing them with our new innovations. Some of the more basic components were taken from our other innovations, the revamped <a href="https://eunsoolee.co/2023/05/07/pushing-buttons.html">Hulu Design System</a>.</p>
+
+<p><img src="/uploads/ham_modular001.jpg" alt="" /><em>Carousel modules linking to relevant articles</em></p>
+
+<p><img src="/uploads/ham_modular002.jpg" alt="" /><em>Side by side modules with text and CTA</em></p>
+
+<h3 id="data-carousel">Data carousel</h3>
+
+<p>Some new ways to convey data were also built alongside carousel modules. This was made in close collaboration with the dev team, using the same skeleton as the carousel modules. The goal of this carousel was to show our success metrics with more visual appeal.</p>
+
+<p><img src="/uploads/ham_modulars003.jpg" alt="" /><em>Data carousel</em></p>
+
+<h3 id="figma-prototype-enabled">Figma prototype enabled</h3>
+
+<h2 id="all-components-and-modules-built-for-this-site-were-documented-and-built-as-fully-functioning-assets-for-hulu-team-libraries-this-includes-all-states-hover-active-disabled-scroll-functions-and-animations">All components and modules built for this site were documented and built as fully functioning assets for Hulu team libraries. This includes all states (hover, active, disabled), scroll functions, and animations.</h2>
+
+:ET

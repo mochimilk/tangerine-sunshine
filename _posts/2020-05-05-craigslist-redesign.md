@@ -6,7 +6,7 @@ role:
   - Brand
   - Product
 category: Design Challenge
-date: 2020-05-05T07:00:00.000Z
+date: 2023-05-07T07:00:00.000Z
 link: ''
 medium: Illustrator
 excerpt: 'Redesigning for a familiar, more community friendly user experience.'

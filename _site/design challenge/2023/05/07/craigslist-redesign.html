@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang=" en-US">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Craigslist Redesign - eunsoo lee</title>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <div class="bg"></div>
+
+  <headerTwo class="nav-down">
+
+    <div class="title">
+        <a href="http://localhost:4000/">
+        eunsoo lee</a>
+    </div>
+
+    <ul class="nav">
+        <li>
+            <h4>
+    <a class="first" href="http://localhost:4000/#StudiesContainer">Studies</a>
+            </h4>
+        </li>
+        <li>
+            <h4>
+                <a href="http://localhost:4000/about">About</a>
+            </h4>
+        </li>
+        <li>
+            <a>
+                <h4>
+        <a href="https://drive.google.com/file/d/13poUSgZzaBHDCbN3bqwKQOaFj4kucOva/view?usp=sharing" target="_blank">Resume</a>
+                </h4>
+            </a>
+        </li>
+
+    </ul>
+
+    <div class="menu" onclick="openNav()">
+
+        <?xml version="1.0" encoding="utf-8"?>
+        <!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="preserve">
+            <circle cx="240" cy="240" r="120"/>
+            <circle cx="960" cy="240" r="120"/>
+            <circle cx="240" cy="960" r="120"/>
+            <circle cx="960" cy="960" r="120"/>
+        </svg>
+
+    </div>
+
+</headerTwo>
+
+
+
+
+
+
+
+<div id="myNav" class="overlay">
+    <div class= "overlay-content">
+        <div class="title">
+              <a href="http://localhost:4000/">
+        eunsoo lee
+        </a>
+    </div>
+
+        <ul class="nav">
+            <li>
+                <h4>
+           <a class="first" href="http://localhost:4000/#second">Studies</a>
+                </h4>
+            </li>
+            <li>
+                <h4>
+                        <a href="http://localhost:4000/about">About</a>
+                </h4>
+            </li>
+            <li>
+                <a>
+                    <h4>
+               <a href="https://drive.google.com/file/d/13poUSgZzaBHDCbN3bqwKQOaFj4kucOva/view?usp=sharing" target="_blank">Resume</a>
+                    </h4>
+                </a>
+            </li>
+
+        </ul>
+
+        <div href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+            <?xml version="1.0" encoding="utf-8"?>
+            <!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="preserve">
+                <circle cx="240" cy="240" r="120"/>
+                <circle cx="960" cy="240" r="120"/>
+                <circle cx="240" cy="960" r="120"/>
+                <circle cx="960" cy="960" r="120"/>
+            </svg>
+        </div>
+
+    </div>
+
+
+
+     <div class="studiesMenu">
+    <div class="StudiesContainer">
+        <div class="mobileNav">
+
+
+            <!-- OTHER -->
+            <div class="drpdwn-section-container">
+                <div class="drpdwn-section-divider">
+                    <h4>● Hello</h4>
+                </div>
+
+                <h1>
+                    <a class="first" href="http://localhost:4000/#second"
+                        onclick="smoothScroll(document.getElementById('second')); closeNav()">Studies</a>
+                </h1>
+              
+                <h1>
+                    <a href="http://localhost:4000/gallery">Illustrations</a>
+                </h1>
+            </div>
+
+                        <!-- READER -->
+                        <div class="drpdwn-section-container">
+                            <div class="drpdwn-section-divider">
+                                <h4>◌ Me</h4>
+                            </div>
+                            <h1>
+                                <a href="http://localhost:4000/about">About</a>
+                            </h1>
+                            <h1>
+                                <a href="https://drive.google.com/file/d/13poUSgZzaBHDCbN3bqwKQOaFj4kucOva/view?usp=sharing" target="_blank">Resume</a>
+                            </h1>
+                        </div>
+
+            <!-- READER -->
+            <div class="drpdwn-section-container">
+                <div class="drpdwn-section-divider">
+                    <h4>◌ Reader Settings</h4>
+                </div>
+                <h1>
+                    <a id="theme-toggle" onclick="modeSwitcher(), closeNav()"></a>
+                </h1>
+            </div>
+
+        </div>
+
+
+        <!-- <div class="drpdwn-section-divider">
+            <h4>● Studies</h4>
+        </div>
+        
+        
+        <a href="/2023/05/08/Hulu-Ad-Manager.html">
+            <div class="drpdwn-StudiesModule">
+                <div class="square">
+                    <img src="/uploads/ham_landing_thumb.jpg" class="image">
+                </div>
+                <div class="StudiesInfo">
+                    <h1>Hulu Ad Manager</h1>
+                    <h4>
+                        <div>
+                            
+                            <li>Brand</li>
+                            
+                            <li>Product</li>
+                            
+                            <li>Web</li>
+                            
+                        </div><time class="dt-published" datetime="2023-05-08T00:00:00-07:00"
+                            itemprop="datePublished">
+                            May 8, 2023
+                        </time></h4>
+                </div>
+
+            </div>
+        </a>
+        
+        
+        
+        <a href="/2023/05/07/pushing-buttons.html">
+            <div class="drpdwn-StudiesModule">
+                <div class="square">
+                    <img src="/uploads/hulu-design-system.JPG" class="image">
+                </div>
+                <div class="StudiesInfo">
+                    <h1>Hulu Systems</h1>
+                    <h4>
+                        <div>
+                            
+                            <li>Product</li>
+                            
+                            <li>Brand</li>
+                            
+                            <li>Web</li>
+                            
+                        </div><time class="dt-published" datetime="2023-05-07T14:30:00-07:00"
+                            itemprop="datePublished">
+                            May 7, 2023
+                        </time></h4>
+                </div>
+
+            </div>
+        </a>
+        
+        
+        
+        
+        
+        
+        
+        <a href="/2021/10/07/hello-kiva-creative-studio.html">
+            <div class="drpdwn-StudiesModule">
+                <div class="square">
+                    <img src="/uploads/frame-3.png" class="image">
+                </div>
+                <div class="StudiesInfo">
+                    <h1>Hello from Kiva</h1>
+                    <h4>
+                        <div>
+                            
+                            <li>Product</li>
+                            
+                            <li>Brand</li>
+                            
+                        </div><time class="dt-published" datetime="2021-10-07T14:30:00-07:00"
+                            itemprop="datePublished">
+                            Oct 7, 2021
+                        </time></h4>
+                </div>
+
+            </div>
+        </a>
+        
+        
+        
+        <a href="/2020/04/18/other-people-literary-magazine.html">
+            <div class="drpdwn-StudiesModule">
+                <div class="square">
+                    <img src="/uploads/thumbnail-01-01.png" class="image">
+                </div>
+                <div class="StudiesInfo">
+                    <h1>Other People Literary Magazine</h1>
+                    <h4>
+                        <div>
+                            
+                            <li>Brand</li>
+                            
+                            <li>Product</li>
+                            
+                            <li>Developer</li>
+                            
+                        </div><time class="dt-published" datetime="2020-04-18T17:00:00-07:00"
+                            itemprop="datePublished">
+                            Apr 18, 2020
+                        </time></h4>
+                </div>
+
+            </div>
+        </a>
+        
+        
+        
+        <a href="/2020/01/15/winter-triton-fest-2020.html">
+            <div class="drpdwn-StudiesModule">
+                <div class="square">
+                    <img src="/uploads/WebUX-01.png" class="image">
+                </div>
+                <div class="StudiesInfo">
+                    <h1>Winter Triton Fest 2020</h1>
+                    <h4>
+                        <div>
+                            
+                            <li>Brand</li>
+                            
+                            <li>Product</li>
+                            
+                            <li>Developer</li>
+                            
+                        </div><time class="dt-published" datetime="2020-01-15T20:00:00-08:00"
+                            itemprop="datePublished">
+                            Jan 15, 2020
+                        </time></h4>
+                </div>
+
+            </div>
+        </a>
+        
+        
+        
+        <a href="/2019/04/05/sun-god-festival-2019.html">
+            <div class="drpdwn-StudiesModule">
+                <div class="square">
+                    <img src="/uploads/731BA2F5-FD0F-47EC-843A-71AA9F7B0B3D.JPG" class="image">
+                </div>
+                <div class="StudiesInfo">
+                    <h1>Sun God Festival 2019</h1>
+                    <h4>
+                        <div>
+                            
+                            <li>Brand</li>
+                            
+                            <li>Product</li>
+                            
+                        </div><time class="dt-published" datetime="2019-04-05T00:00:00-07:00"
+                            itemprop="datePublished">
+                            Apr 5, 2019
+                        </time></h4>
+                </div>
+
+            </div>
+        </a>
+        
+        
+
+        <h2>Design Challenges</h2>
+        
+        <a href="/design%20challenge/2023/05/07/craigslist-redesign.html">
+            <div class="drpdwn-StudiesModule">
+                <div class="square">
+                    <img src="/uploads/Thumb-01.png" class="image">
+                </div>
+                <div class="StudiesInfo">
+                    <h1>Craigslist Redesign</h1>
+                    <h4>
+                        <div>
+                            
+                            <li>Brand</li>
+                            
+                            <li>Product</li>
+                            
+                        </div>
+                        <div>Design Challenge</div>
+                    </h4>
+                </div>
+
+            </div>
+        </a>
+
+        
+        <a href="/design%20challenge/2023/05/01/graphik-variable.html">
+            <div class="drpdwn-StudiesModule">
+                <div class="square">
+                    <img src="/uploads/variable.gif" class="image">
+                </div>
+                <div class="StudiesInfo">
+                    <h1>Graphik Variable</h1>
+                    <h4>
+                        <div>
+                            
+                            <li>Typography</li>
+                            
+                        </div>
+                        <div>Design Challenge</div>
+                    </h4>
+                </div>
+
+            </div>
+        </a>
+
+         -->
+
+    </div>
+
+</div>
+
+         <footer>
+  <h4> eunsooware v.2.0.16  ©2023 </h4>
+  <div class="FooterLinks">
+    <h4>
+        <a href="https://www.linkedin.com/in/leeunsu/" target="_blank">Linkedin</a > —
+        <a href="mailto:noteunsoo@gmail.com?subject=Hello, whaddup 😎🆒" target="_blank">Mail</a>
+
+    </h4>
+  </div>
+</footer>
+</div>
+
+<script>
+  // this checks whether system dark mode is set 
+let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
+// this checks for session storage telling to override
+// the system preferences 
+let theme = sessionStorage.getItem('theme');
+
+
+if (systemInitiatedDark.matches) {
+	document.getElementById("theme-toggle").innerHTML = "Light mode";
+} else {
+	document.getElementById("theme-toggle").innerHTML = "Dark mode";
+}
+
+
+function prefersColorTest(systemInitiatedDark) {
+  if (systemInitiatedDark.matches) {
+  	document.documentElement.setAttribute('data-theme', 'dark');		
+   	document.getElementById("theme-toggle").innerHTML = "Light mode";
+   	// this clears the session storage 
+   	sessionStorage.setItem('theme', '');
+  } else {
+  	document.documentElement.setAttribute('data-theme', 'light');
+    document.getElementById("theme-toggle").innerHTML = "Dark mode";
+    sessionStorage.setItem('theme', '');
+  }
+}
+systemInitiatedDark.addListener(prefersColorTest);
+
+
+function modeSwitcher() {
+// it's important to check for overrides again 
+	let theme = sessionStorage.getItem('theme');
+	// checks if reader selected dark mode 
+	if (theme === "dark") {
+		document.documentElement.setAttribute('data-theme', 'light');
+		sessionStorage.setItem('theme', 'light');
+		document.getElementById("theme-toggle").innerHTML = "Dark mode";
+		// checks if reader selected light mode 
+	}	else if (theme === "light") {
+		document.documentElement.setAttribute('data-theme', 'dark');
+		sessionStorage.setItem('theme', 'dark');
+		document.getElementById("theme-toggle").innerHTML = "Light mode";
+		// checks if system set dark mode 
+	} else if (systemInitiatedDark.matches) {	
+		document.documentElement.setAttribute('data-theme', 'light');
+		sessionStorage.setItem('theme', 'light');
+		document.getElementById("theme-toggle").innerHTML = "Dark mode";
+		// the only option left is system set light mode
+	} else {
+		document.documentElement.setAttribute('data-theme', 'dark');
+		sessionStorage.setItem('theme', 'dark');
+		document.getElementById("theme-toggle").innerHTML = "Light mode";
+	}
+}
+
+if (theme === "dark") {
+	document.documentElement.setAttribute('data-theme', 'dark');
+	sessionStorage.setItem('theme', 'dark');
+	document.getElementById("theme-toggle").innerHTML = "Light mode";
+} else if (theme === "light") {
+	document.documentElement.setAttribute('data-theme', 'light');
+	sessionStorage.setItem('theme', 'light');
+	document.getElementById("theme-toggle").innerHTML = "Dark mode";
+}
+</script>
+
+
+
+
+
+<script>
+    // Hide Header on on scroll down
+    var didScroll;
+    var lastScrollTop = 0;
+    var delta = 5;
+    var navbarHeight = $('headerTwo').outerHeight();
+
+    $(window).scroll(function (event) {
+        didScroll = true;
+    });
+
+    setInterval(function () {
+        if (didScroll) {
+            hasScrolled();
+            didScroll = false;
+        }
+    }, 250);
+
+    function hasScrolled() {
+        var st = $(this).scrollTop();
+
+        // Make sure they scroll more than delta
+        if (Math.abs(lastScrollTop - st) <= delta) 
+            return;
+        
+        // If they scrolled down and are past the navbar, add class .nav-up.
+        // This is necessary so you never see what is "behind" the navbar.
+        if (st > lastScrollTop && st > navbarHeight) {
+            // Scroll Down
+            $('headerTwo')
+                .removeClass('nav-down')
+                .addClass('nav-up');
+        } else {
+            // Scroll Up
+            if (st + $(window).height() < $(document).height()) {
+                $('headerTwo')
+                    .removeClass('nav-up')
+                    .addClass('nav-down');
+            }
+        }
+
+        lastScrollTop = st;
+    }
+</script>
+
+<script>
+    function openNav() {
+        document
+            .getElementById("myNav")
+            .style
+            .height = "100%";
+    }
+
+    function closeNav() {
+        document
+            .getElementById("myNav")
+            .style
+            .height = "0%";
+    }
+</script>
+
+  <div class="studyIntro">
+
+    <div class="cssanimation sequence fadeInBottom">
+
+      <!-- POST TITLE -->
+      <div class="postTitle">
+        <div>
+          <h1>Craigslist Redesign</h1><br>
+          <h4>
+            <b>
+              
+              <li>Brand</li>
+              
+              <li>Product</li>
+              
+            </b><br>
+                        
+            
+              2 mins
+             read
+
+            <br>
+          </h4>
+        </div>
+        <div class="postDate">
+          <h3><time class="dt-published" datetime="2023-05-07T00:00:00-07:00" itemprop="datePublished">
+              May 7, 2023
+            </time></div>
+        </h3>
+      </div>
+
+    </div>
+
+    <!-- POST BODY -->
+    <div class="studyImage">
+      <img src="/uploads/Thumb-01.png">
+    </div>
+    <div class="hello"></div>
+    <div class="contentBody">
+
+      <!-- PRELUDE -->
+      <h2>⁕ Prélude</h2>
+      <div class="infoModule">
+
+        <!-- MEDIUM -->
+        <div class="medium">
+          <h4>Medium</h4>
+          <p>Illustrator</p>
+        </div>
+
+        <!-- ROLE -->
+        <div class="role">
+          <h4>Role</h4>
+          
+          <li>Brand</li>
+          
+          <li>Product</li>
+          
+        </div>
+
+        <!-- CATEGORY -->
+        <div class="timeframe">
+          <h4>Project timeframe</h4>
+          <p></p>
+        </div>
+
+        <!-- LINKS -->
+        <div class="link">
+          <h4>Relevant links</h4>
+          
+          <p>N/A</p>
+          
+        </div>
+
+      </div>
+
+
+
+
+
+      <div class="sideInfo">
+
+<h3>Prélude</h3>
+
+  <h4>Medium</h4>
+  <p>Illustrator</p>
+
+
+
+  <h4>Role</h4>
+  
+  <li>Brand</li>
+  
+  <li>Product</li>
+  
+
+
+
+  <h4>Project timeframe</h4>
+  <p></p>
+
+<h4>Relevant links</h4>
+  
+</div>
+      <h2 id="the-objective-of-this-project-was-to-create-a-more-user-friendly-and-approachable-homepage-experience-for-craigslist-when-first-doing-my-research-i-found-that-the-categories-being-front-and-center-of-the-homepage-was-refreshing-and-practical-and-wanted-to-retain-that-element">The objective of this project was to create a more user-friendly and approachable homepage experience for Craigslist. When first doing my research, I found that the categories being front and center of the homepage was refreshing and practical, and wanted to retain that element.</h2>
+
+<p>However, the search bar felt a little too tucked into the corner for a site where the search function held a lot of significance. This made it difficult to discern how the elements on either side of the sidebar were being prioritized. I also noticed, when making a new listing, the current UX shuffled through 5 pages — I wanted to narrow this down to 1. I set off with these in mind:</p>
+
+<ul>
+  <li>Bring the search bar into the spotlight; keep this input field active when first entering the site.</li>
+  <li>Make a space for each category so that it is easier for the community to engage with what they are most interested in.</li>
+  <li>Create a more intuitive user flow for listing a new post (try to make it single-page).</li>
+</ul>
+
+<p><img src="https://eunsoolee.co/uploads/WireframeInitial2-01.png" alt="Current (2020) v. Proposal" /></p>
+
+<p>Using these as starting points, I created a homepage that spotlights both the search function as well as the categories/subcategories. There were some liberties taken by putting all the categories into one dropdown menu within the search bar, but having the element be hoverable, I felt, would keep with the ease-of-use while boosting practicality and design.</p>
+
+<h2 id="turning-the-listings-into-a-dropdown-menu-enabled-the-website-to-have-extra-space-and-for-this-i-decided-to-design-a-community-experience-for-the-users-by-selecting-one-of-the-categories-from-the-dropdown-menu-would-open-a-space-for-that-particular-category-all-categories-if-all-is-selected-this-compartmentalization-of-categories-was-inspired-by-subreddits-in-reddit-i-hoped-to-build-a-similar-product-where-community-engagement-is-principle-in-the-design">Turning the listings into a dropdown menu enabled the website to have extra space. And for this, I decided to design a community experience for the users. By selecting one of the categories from the dropdown menu would open a space for that particular category (all categories if “all” is selected). This compartmentalization of categories was inspired by subreddits in Reddit. I hoped to build a similar product where community engagement is principle in the design.</h2>
+
+<p>I was also able to make a “create post” module using a single-page overlay. To do this, I researched the ease and convenience of posting in other popular sites like facebook, twitter, and reddit. However, with all the information needed to create a Craigslist posting (particularly to allow posts from users without accounts), the module had to be larger to fit more fields. To do this, I created a postcard-esque design, keeping metadata fields at the left and making a body field at the right. I also minimized any non-essentials into an “advanced” menu (i.e for phone numbers and addresses).</p>
+
+<p><img src="https://eunsoolee.co/uploads/Untitled-2-01.png" alt="" /></p>
+
+<h3 id="high-fidelity">High Fidelity</h3>
+
+<p><img src="https://eunsoolee.co/uploads/Craigslist%20wireframe-05.png" alt="" /><img src="https://eunsoolee.co/uploads/Craigslist%20wireframe-08.png" alt="" /><img src="https://eunsoolee.co/uploads/Craigslist%20wireframe-06.png" alt="" /><img src="https://eunsoolee.co/uploads/Craigslist%20wireframe-09.png" alt="" /><img src="https://eunsoolee.co/uploads/Craigslist%20wireframe-07.png" alt="" /></p>
+
+<h3 id="branding">Branding</h3>
+
+<p>I decided to go with a sans-serif typeface for the branding in order to keep the aesthetic of the website as unobtrusive as possible (especially with the amount of text that is displayed on the screen at any given time).</p>
+
+<p>For the color palette, I wanted to convey change from the past Craigslist into a newer and refreshed brand. To do this, I opted for a color gradient, flowing from its classic purple to a lighter blue.</p>
+
+<p><img src="https://eunsoolee.co/uploads/Branding-01.png" alt="" /><img src="https://eunsoolee.co/uploads/Branding-02.png" alt="" /></p>
+
+
+    </div>
+
+    <!-- MISC -->
+    <script>
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          var distanceFromTop = $(document).scrollTop();
+          if (distanceFromTop >= $('.hello').offset().top - ($(window).height() / 4)) {
+            $('.sideInfo')
+              .fadeIn(400)
+              .addClass('fixed');
+          } else {
+            $('.sideInfo')
+              .fadeOut(400)
+              .removeClass('fixed');
+          }
+        });
+      });
+    </script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157510729-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-157510729-1');
+    </script>
+    <!-- <script>
+    $(window).scroll(function () {
+        var wScroll = $(this).scrollTop();
+        if (wScroll >= $('.hello').offset().top - ($(window).height() / 1.2)) {
+
+            $("body").css("background-color", "var(--light-text-color)");
+            $("body").css("color", "var(--background-color)");
+            $(".st0").css("stroke", "var(--background-color)");
+            $("svg").css("fill", "var(--background-color)");
+            $("headerTwo").css("background-color", "var(--light-text-color)");
+            $("headerTwo").css("color", "var(--background-color)");
+
+        } else {
+            $("body").css("background-color", "var(--background-color)");
+            $("body").css("color", "var(--light-text-color)");
+            $(".st0").css("stroke", "var(--light-text-color)");
+            $("svg").css("fill", "var(--light-text-color)");
+            $("headerTwo").css("background-color", "var(--background-color)");
+            $("headerTwo").css("color", "var(--light-text-color)");
+
+        }
+    });
+</script>
+
+<script>
+    window.smoothScroll = function (target) {
+        var scrollContainer = target;
+        do { //find scroll container
+            scrollContainer = scrollContainer.parentNode;
+            if (!scrollContainer) 
+                return;
+            scrollContainer.scrollTop += 1;
+        } while (scrollContainer.scrollTop == 0);
+
+        var targetY = 0;
+        do { //find the top of target relatively to the container
+            if (target == scrollContainer) 
+                break;
+            targetY += target.offsetTop;
+        } while (target = target.offsetParent);
+
+        scroll = function (c, a, b, i) {
+            i++;
+            if (i > 10) 
+                return;
+            c.scrollTop = a + (b - a) / 10 * i;
+            setTimeout(function () {
+                scroll(c, a, b, i);
+            }, 20);
+        }
+        // start scrolling
+        scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+    }
+</script> -->
+    <footer>
+  <h4> eunsooware v.2.0.16  ©2023 </h4>
+  <div class="FooterLinks">
+    <h4>
+        <a href="https://www.linkedin.com/in/leeunsu/" target="_blank">Linkedin</a > —
+        <a href="mailto:noteunsoo@gmail.com?subject=Hello, whaddup 😎🆒" target="_blank">Mail</a>
+
+    </h4>
+  </div>
+</footer>
+
+</body>
+
+</html>
