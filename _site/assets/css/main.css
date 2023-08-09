@@ -115,6 +115,16 @@ headerTwo ul { display: flex; justify-content: space-between; list-style-type: n
 
 .ExploreStudies:hover { opacity: 1; }
 
+.text-block { display: grid; grid-template-columns: 1fr 1fr; bottom: 64px; padding: 0 64px 0 64px; left: 0; right: 0; margin-top: 128px; margin-bottom: 32px; }
+
+.text-block a { color: inherit; display: inline; position: relative; overflow: hidden; cursor: pointer; }
+
+.text-block a:after { content: ""; position: absolute; z-index: -1; left: 0; width: 100%; bottom: 0px; background-color: var(--light-text-color); height: 4px; transition-property: width; transition-duration: 0.3s; transition-timing-function: ease-out; border-radius: 25px; }
+
+.text-block a:hover:after, .text-block a:focus:after, .text-block a:active:after { right: 0; left: auto; width: 0%; }
+
+.text-block a:hover svg { transform: rotate(45deg); transition-duration: 0.1s; }
+
 @media only screen and (max-width: 1200px) { .IndexIntro { margin-top: 64px; padding: 0 32px 0 32px; bottom: 32px; } .IndexIntro a { text-decoration: underline !important; } .IndexIntro a:hover { text-decoration: none !important; } .IndexIntro a:after { display: none; } .IndexIntro h1 { font-size: 2.5rem; } .ExploreStudies { margin-top: 32px; } }
 
 @media only screen and (max-width: 800px) { .IndexIntro { margin-top: 64px; padding: 0 16px 0 16px; bottom: 16px; } .IndexIntro a { text-decoration: underline !important; } .IndexIntro a:hover { text-decoration: none !important; } .IndexIntro a:after { display: none; } .IndexIntro h1 { font-size: 2rem; } .ExploreStudies { margin-top: 32px; } }
